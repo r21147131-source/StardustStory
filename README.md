@@ -3,6 +3,10 @@
 "How a Poor Russian Boy Created Timberland" — a narrated documentary-style
 YouTube video built from the user's own script and voiceover recording.
 
+## Channel
+
+This project produces videos for the [Stardust Story](https://youtube.com/@pantheon-r9qpantheon) YouTube channel.
+
 ## Status
 
 Assembly pivoted from a local Remotion render to vidIQ's server-side
