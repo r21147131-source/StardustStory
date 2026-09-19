@@ -37,6 +37,7 @@ class Segment:
     # rather than replacing the segment outright.
     extra_overlays: list = field(default_factory=list)
     end_screen_darken: bool = False
+    pan_variant: str = "center"  # "center" | "left" | "right" — Ken Burns pan direction
 
 
 def _load(name: str) -> dict | list:
@@ -95,6 +96,32 @@ def _split_window(start: float, end: float, words: list[dict], section: Optional
     if cuts[-1] < end:
         cuts.append(end)
     return list(zip(cuts, cuts[1:]))
+
+
+_KEN_BURNS_VARIANTS = ["center", "left", "right", "center"]
+
+
+def _filler_segments(cov_start: float, cov_end: float, words: list[dict],
+                      section: Optional[dict], transition_in: str,
+                      overlay: Optional[dict], entity_name: Optional[str],
+                      source: Optional[str] = None,
+                      overlay_every: bool = False) -> list["Segment"]:
+    """A filler/placeholder stretch (no real footage or photo) still gets
+    cut to rhythm rather than sitting as one static card — subdivided per
+    the section's pacing, with the overlay shown once (on the first beat)
+    and a varied Ken Burns pan on each beat so consecutive cards aren't
+    visually identical."""
+    windows = _split_window(cov_start, cov_end, words, section)
+    out = []
+    for i, (s, e) in enumerate(windows):
+        out.append(Segment(
+            s, e, "filler", source, effect="ken_burns",
+            transition_in=transition_in if i == 0 else "hard_cut",
+            overlay=overlay if (i == 0 or overlay_every) else None,
+            entity_name=entity_name,
+            pan_variant=_KEN_BURNS_VARIANTS[i % len(_KEN_BURNS_VARIANTS)],
+        ))
+    return out
 
 
 def _transition_for(prev_entity: Optional[str], entity_name: Optional[str],
@@ -157,8 +184,10 @@ def build(slug: str, used_shots: Optional[set[str]] = None) -> list[Segment]:
 
     cursor = 0.0
     if windows and windows[0][0] > 0:
-        segments.append(Segment(0.0, windows[0][0], "filler", subject_backdrop,
-                                 effect="ken_burns", transition_in="hard_cut"))
+        segments.extend(_filler_segments(
+            0.0, windows[0][0], words, _section_for_time(sections, 0.0),
+            "hard_cut", None, None, source=subject_backdrop,
+        ))
         cursor = windows[0][0]
 
     for idx, (cov_start, cov_end, e) in enumerate(windows):
@@ -186,14 +215,19 @@ def build(slug: str, used_shots: Optional[set[str]] = None) -> list[Segment]:
             seen_people.add(name)
 
         if e["type"] == "MOVIE":
-            shots = assets.rank_shots_for_movie(e.get("canonical_title") or name,
-                                                 e.get("year"), lead_person, used_shots)
+            title = e.get("canonical_title") or name
+            shots = assets.rank_shots_for_movie(title, e.get("year"), lead_person, used_shots)
+            fallback_still = None
+            if not shots:
+                fallback_still = assets.resolve_title_fallback_backdrop(
+                    title, e.get("year"), is_tv=False,
+                )
             t = cov_start
             first = True
             if not shots:
-                segments.append(Segment(
-                    cov_start, cov_end, "filler", name, effect="ken_burns",
-                    transition_in=transition, overlay=overlay, entity_name=name,
+                segments.extend(_filler_segments(
+                    cov_start, cov_end, words, section, transition, overlay, name,
+                    source=str(fallback_still) if fallback_still else None,
                 ))
             else:
                 for shot in shots:
@@ -214,26 +248,51 @@ def build(slug: str, used_shots: Optional[set[str]] = None) -> list[Segment]:
                     first = False
                     t += dur
                 if t < cov_end:
-                    segments.append(Segment(t, cov_end, "filler", name,
-                                             effect="ken_burns", transition_in="hard_cut",
-                                             entity_name=name))
+                    segments.extend(_filler_segments(
+                        t, cov_end, words, section, "hard_cut", None, name,
+                    ))
         elif e["type"] == "PERSON":
-            segments.append(Segment(
-                cov_start, cov_end, "person", name, effect="parallax",
-                transition_in=transition, overlay=overlay, entity_name=name,
-            ))
+            duration = cov_end - cov_start
+            portrait_assets = assets.resolve_person_portrait(name)
+            clip_path = None
+            if portrait_assets:
+                out = config.DIR_BUILD / "parallax" / f"{name.lower().replace(' ', '_')}_{idx}.mp4"
+                out.parent.mkdir(parents=True, exist_ok=True)
+                try:
+                    clip_path = assets.build_parallax_person_shot(
+                        name, portrait_assets, out, duration,
+                    )
+                except Exception as exc:
+                    decisions.append(f"edl: parallax build failed for '{name}' "
+                                      f"({exc.__class__.__name__}) — used a name "
+                                      f"card instead.")
+            if clip_path:
+                segments.append(Segment(
+                    cov_start, cov_end, "person", str(clip_path), effect="parallax",
+                    transition_in=transition, overlay=overlay, entity_name=name,
+                ))
+            else:
+                # No photo available at all (this run, or ever) — show the
+                # name card on every beat, not just the first, since
+                # there's no other visual to fall back on.
+                placeholder_overlay = {"kind": "person_placeholder", "name": name}
+                segments.extend(_filler_segments(
+                    cov_start, cov_end, words, section, transition,
+                    placeholder_overlay, name, overlay_every=True,
+                ))
         else:
-            segments.append(Segment(
-                cov_start, cov_end, "filler", name, effect="ken_burns",
-                transition_in=transition, overlay=overlay, entity_name=name,
+            segments.extend(_filler_segments(
+                cov_start, cov_end, words, section, transition, overlay, name,
             ))
 
         prev_entity_name = name
         cursor = cov_end
 
     if cursor < total_duration:
-        segments.append(Segment(cursor, total_duration, "filler", subject_backdrop,
-                                 effect="ken_burns", transition_in="hard_cut"))
+        segments.extend(_filler_segments(
+            cursor, total_duration, words, _section_for_time(sections, cursor),
+            "hard_cut", None, None, source=subject_backdrop,
+        ))
 
     # Chapter cards on section boundaries that land on a real narration
     # pause (>= 2.2s gap); otherwise a quick top-of-frame title overlay so
@@ -249,12 +308,28 @@ def build(slug: str, used_shots: Optional[set[str]] = None) -> list[Segment]:
             ))
             segments.sort(key=lambda s: s.start)
         else:
+            flash_start = sec["start_time"]
+            flash_end = flash_start + 1.5
+            hit = False
+            for s in segments:
+                if s.end <= flash_start or s.start >= flash_end:
+                    continue
+                s.extra_overlays.append({
+                    "kind": "chapter_flash", "title": sec["title"],
+                    "window_start": flash_start, "window_end": flash_end,
+                })
+                hit = True
             decisions.append(
                 f"edl: no >=2.2s narration pause at section '{sec['title']}' "
-                "boundary — used a quick top-of-frame chapter title overlay "
+                "boundary — used a quick top-of-frame chapter title flash "
                 "instead of a full black-screen chapter card, to stay in "
                 "sync with the voiceover (timing source of truth)."
             )
+            if not hit:
+                decisions.append(
+                    f"edl: WARNING — section '{sec['title']}' chapter flash "
+                    "found no overlapping segment; title not shown."
+                )
 
     if decisions:
         with (config.DIR_BUILD / "decisions.md").open("a") as f:

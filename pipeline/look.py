@@ -14,6 +14,12 @@ from . import config
 
 _font_cache: dict[str, str] = {}
 
+# fc-match falls back to the system default (a plain sans) for a family it
+# doesn't recognize at all, which is wrong for a display serif like Cinzel —
+# ask for the right *generic* family instead so the substitute at least
+# reads as a serif/display face rather than UI sans.
+_GENERIC_FALLBACK = {"cinzel": "serif"}
+
 
 def _hex_to_ffmpeg(hexcolor: str) -> str:
     return "0x" + hexcolor.lstrip("#")
@@ -33,8 +39,9 @@ def find_font(family: str) -> str:
 
     fc = shutil.which("fc-match")
     if fc:
+        query = _GENERIC_FALLBACK.get(family.lower(), family)
         try:
-            out = subprocess.run([fc, "-f", "%{file}", family],
+            out = subprocess.run([fc, "-f", "%{file}", query],
                                   capture_output=True, text=True, check=True).stdout
             if out.strip():
                 resolved = out.strip()
@@ -96,7 +103,12 @@ def ken_burns_filter(duration: float, w: int = config.WIDTH, h: int = config.HEI
                       zoom_to: float = 1.08, pan: str = "auto") -> str:
     frames = max(1, int(duration * fps))
     zoom_step = (zoom_to - zoom_from) / frames
-    x_expr = "iw/2-(iw/zoom/2)" if pan in ("auto", "center") else "0"
+    x_exprs = {
+        "center": "iw/2-(iw/zoom/2)",
+        "left": "0",
+        "right": "iw-(iw/zoom)",
+    }
+    x_expr = x_exprs.get(pan, x_exprs["center"])
     y_expr = "ih/2-(ih/zoom/2)"
     return (
         f"scale={w*2}:{h*2},"
@@ -165,6 +177,20 @@ def lower_third_filter(name: str, role: str = "") -> str:
     ]
     if role:
         layers.append(_drawtext(role, inter, 20, cream, "100", "h-175", alpha_expr=alpha))
+    return ",".join(layers)
+
+
+def person_placeholder_filter(name: str) -> str:
+    """Centered name card used when no real photo is available — a gold
+    rule above and below the name, clearly a designed placeholder rather
+    than a broken shot."""
+    cinzel = find_font("Cinzel")
+    gold = _hex_to_ffmpeg(config.BRAND_GOLD)
+    layers = [
+        _drawtext(name, cinzel, 46, gold, "(w-text_w)/2", "(h-text_h)/2"),
+        "drawbox=x=(w-240)/2:y=(h/2)-52:w=240:h=2:color=" + gold + "@0.8:t=fill",
+        "drawbox=x=(w-240)/2:y=(h/2)+52:w=240:h=2:color=" + gold + "@0.8:t=fill",
+    ]
     return ",".join(layers)
 
 

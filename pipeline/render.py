@@ -96,7 +96,7 @@ def render_segment_clip(seg: Segment, extend_tail: float, work_dir: Path, idx: i
         filters.append(f"[{vlabel}]{look.letterbox_filter()}[lb]")
         vlabel = "lb"
     elif is_still:
-        filters.append(f"[{vlabel}]{look.ken_burns_filter(dur)}[kb]")
+        filters.append(f"[{vlabel}]{look.ken_burns_filter(dur, pan=seg.pan_variant)}[kb]")
         vlabel = "kb"
     else:
         filters.append(f"[{vlabel}]scale={config.WIDTH}:{config.HEIGHT}[sc]")
@@ -112,6 +112,8 @@ def render_segment_clip(seg: Segment, extend_tail: float, work_dir: Path, idx: i
             overlay_chain.append(look.title_card_filter(seg.overlay["title"], seg.overlay.get("year")))
         elif kind == "lower_third":
             overlay_chain.append(look.lower_third_filter(seg.overlay["name"]))
+        elif kind == "person_placeholder":
+            overlay_chain.append(look.person_placeholder_filter(seg.overlay["name"]))
         elif kind == "chapter_card":
             overlay_chain.append(look.chapter_card_filter(seg.overlay["title"]))
         elif kind == "tagline":
@@ -124,11 +126,29 @@ def render_segment_clip(seg: Segment, extend_tail: float, work_dir: Path, idx: i
 
     extra_inputs: list[str] = []
     pip_filters: list[str] = []
+    next_extra_input_idx = 1
     for i, ov in enumerate(seg.extra_overlays):
+        if ov["kind"] == "chapter_flash":
+            rel_start = max(0.0, ov["window_start"] - seg.start)
+            rel_end = max(rel_start + 0.1, ov["window_end"] - seg.start)
+            fade = 0.25
+            alpha = (
+                f"if(lt(t,{rel_start}),0,"
+                f"if(lt(t,{rel_start + fade}),(t-{rel_start})/{fade},"
+                f"if(lt(t,{rel_end - fade}),1,"
+                f"if(lt(t,{rel_end}),({rel_end}-t)/{fade},0))))"
+            )
+            overlay_chain.append(look._drawtext(
+                ov["title"].title(), look.find_font("Cinzel"), 26,
+                look._hex_to_ffmpeg(config.BRAND_GOLD), "(w-text_w)/2", "70",
+                alpha_expr=alpha,
+            ))
+            continue
         if ov["kind"] != "callback_pip":
             continue
         extra_inputs += ["-i", ov["portrait"]]
-        input_idx = 1 + i
+        input_idx = next_extra_input_idx
+        next_extra_input_idx += 1
         rel_start = max(0.0, ov["window_start"] - seg.start)
         pip_filters.append(
             f"[{input_idx}:v]scale=280:-1,drawbox=w=iw:h=ih:color="
