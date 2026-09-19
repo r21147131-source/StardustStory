@@ -2,3 +2,9 @@ node_modules/
 out/
 .DS_Store
 render/
+
+# Stardust Story edit pipeline: per-run intermediates/caches, not source.
+build/
+__pycache__/
+*.pyc
+.env
