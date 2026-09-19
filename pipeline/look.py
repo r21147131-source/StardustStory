@@ -74,8 +74,12 @@ def _log_decision(msg: str) -> None:
 def cinematic_finish_filters() -> str:
     """Warm highlights / cool shadows via curves, lifted blacks + ~85% sat
     via eq, animated film grain, soft vignette, gentle bloom on highlights."""
+    # Black point pinned to (0,0) on every channel — divergence starts at
+    # the midtone so true black stays true black (a earlier version lifted
+    # R off zero at black, which reads as a flat purple wash on the black
+    # placeholder cards instead of true black).
     curves = (
-        "curves=r='0/0.03 0.5/0.52 1/0.97':"
+        "curves=r='0/0 0.5/0.52 1/0.97':"
         "b='0/0 0.5/0.48 1/0.93'"
     )
     eq = "eq=brightness=0.02:saturation=0.85:gamma=1.0"
