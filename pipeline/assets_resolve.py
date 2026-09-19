@@ -197,11 +197,55 @@ def rank_shots_for_movie(title: str, year: Optional[int], lead_person: str,
     return all_shots
 
 
+def _local_person_dir(person_name: str) -> Path:
+    return config.DIR_PEOPLE / person_name.lower().replace(" ", "_")
+
+
+def _find_local_portrait(person_name: str) -> Optional[Path]:
+    """A locally supplied photo always wins over TMDB — drop it at
+    assets/people/<name>/portrait.(jpg|png) (or any single image in that
+    folder), or assets/people/<name>_portrait.jpg directly."""
+    person_dir = _local_person_dir(person_name)
+    if person_dir.is_dir():
+        named = person_dir / "portrait.jpg"
+        if named.exists():
+            return named
+        named = person_dir / "portrait.png"
+        if named.exists():
+            return named
+        for img in sorted(person_dir.glob("*.jpg")) + sorted(person_dir.glob("*.png")):
+            return img
+    flat = config.DIR_PEOPLE / f"{person_name.lower().replace(' ', '_')}_portrait.jpg"
+    return flat if flat.exists() else None
+
+
+def _find_local_backdrop(person_name: str) -> Optional[Path]:
+    person_dir = _local_person_dir(person_name)
+    if person_dir.is_dir():
+        for name in ("backdrop.jpg", "backdrop.png"):
+            candidate = person_dir / name
+            if candidate.exists():
+                return candidate
+    flat = config.DIR_PEOPLE / f"{person_name.lower().replace(' ', '_')}_backdrop.jpg"
+    return flat if flat.exists() else None
+
+
 def resolve_person_portrait(person_name: str) -> Optional[dict]:
+    local_portrait = _find_local_portrait(person_name)
+    if local_portrait:
+        local_backdrop = _find_local_backdrop(person_name)
+        return {
+            "portrait": str(local_portrait),
+            "backdrop": str(local_backdrop) if local_backdrop else str(local_portrait),
+            "tmdb_id": None,
+        }
+
     person = tmdb.search_person(person_name)
     if not person:
-        _log_missing(person_name, "PERSON", "TMDB search returned no match "
-                     "(or TMDB unreachable) — no portrait available.")
+        _log_missing(person_name, "PERSON", "no local photo in "
+                     f"{_local_person_dir(person_name)}/, and TMDB search "
+                     "returned no match (or TMDB unreachable) — no portrait "
+                     "available.")
         return None
 
     images = tmdb.person_images(person["id"])

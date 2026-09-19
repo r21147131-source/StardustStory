@@ -1,0 +1,21 @@
+[
+  {"name": "Stardust Story", "type": "EXCLUDE"},
+  {"name": "Golden Four", "type": "EXCLUDE"},
+  {"name": "London Academy of Music and Dramatic Art", "type": "EXCLUDE"},
+  {"name": "Small British", "type": "EXCLUDE"},
+  {"name": "Eddie Munson", "type": "EXCLUDE"},
+  {"name": "Johnny Storm", "type": "EXCLUDE"},
+  {"name": "Joseph Quinn's", "type": "EXCLUDE"},
+
+  {"name": "Dickensian", "type": "MOVIE", "year": 2015},
+  {"name": "Howards End", "type": "MOVIE", "year": 2017},
+  {"name": "Catherine the Great", "type": "MOVIE", "year": 2019},
+  {"name": "Stranger Things", "type": "SHOW"},
+  {"name": "A Quiet Place Day One", "type": "MOVIE", "year": 2024,
+   "display": "A Quiet Place: Day One"},
+  {"name": "Gladiator II", "type": "MOVIE", "year": 2024},
+  {"name": "Fantastic Four", "type": "MOVIE", "year": 2025},
+  {"name": "Avengers Doomsday", "type": "MOVIE", "year": 2026,
+   "display": "Avengers: Doomsday"},
+  {"name": "Secret Wars", "type": "MOVIE"}
+]

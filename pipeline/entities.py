@@ -201,13 +201,29 @@ def run(slug: str) -> Path:
 
     manual = _load_manual_overrides(slug)
     entities: list[Entity] = []
-    seen_spans: set[tuple[int, int]] = set()
+    consumed_spans: list[tuple[int, int]] = []
+    excluded_phrases = [m["name"].lower() for m in manual if m.get("type") == "EXCLUDE"]
 
-    def emit(name: str, etype: str, year: Optional[int], span: tuple[int, int], src: str):
+    def overlaps(span: tuple[int, int]) -> bool:
+        s, e = span
+        return any(not (e < cs or s > ce) for cs, ce in consumed_spans)
+
+    def is_excluded(phrase: str) -> bool:
+        # A candidate is excluded if it exactly matches an excluded phrase,
+        # or contains one in full (e.g. excluding "Golden Four" also
+        # catches "the Golden Four"). NOT the reverse: a short legitimate
+        # mention like "Joseph Quinn" must survive excluding the unrelated
+        # "Joseph Quinn's" possessive mangle, even though it's a substring.
+        low = phrase.lower()
+        return any(low == ex or ex in low for ex in excluded_phrases)
+
+    def emit(name: str, etype: str, year: Optional[int], span: tuple[int, int],
+             src: str, display: Optional[str] = None):
         si, ei = span
         ws, we = words[si]["start"], words[ei]["end"]
         sb, se = _word_index_of_sentence(bounds, si)
         ss, se_ = words[sb]["start"], words[se]["end"]
+        canonical = display or name
         splits = _apply_alias_splits(name) if etype == "PERSON" else None
         if splits:
             for person in splits:
@@ -219,29 +235,33 @@ def run(slug: str) -> Path:
             entities.append(Entity(
                 "MOVIE" if etype in ("WORK_OF_ART", "MOVIE", "SHOW") else "PERSON",
                 name,
-                name if etype in ("WORK_OF_ART", "MOVIE", "SHOW") else None,
-                None if etype in ("WORK_OF_ART", "MOVIE", "SHOW") else name,
+                canonical if etype in ("WORK_OF_ART", "MOVIE", "SHOW") else None,
+                None if etype in ("WORK_OF_ART", "MOVIE", "SHOW") else canonical,
                 year, ws, we, ss, se_, src,
             ))
 
     for m in manual:
+        if m.get("type") == "EXCLUDE":
+            continue
         span = _find_span(tokens, m["name"])
         if not span:
             decisions.append(f"entities: manual entry '{m['name']}' not found "
                               f"in spoken text; skipped.")
             continue
-        seen_spans.add(span)
-        emit(m["name"], m["type"], m.get("year"), span, "manual")
+        consumed_spans.append(span)
+        emit(m["name"], m["type"], m.get("year"), span, "manual", m.get("display"))
 
     for name, label in candidates:
         clean = _SEASON_RE.sub("", name).strip()
+        if is_excluded(clean) or is_excluded(name):
+            continue
         span = _find_span(tokens, clean) or _find_span(tokens, name)
-        if not span or span in seen_spans:
+        if not span or overlaps(span):
             continue
         year_m = _YEAR_RE.search(name)
         year = int(year_m.group(0)) if year_m else None
         emit(clean, label, year, span, source)
-        seen_spans.add(span)
+        consumed_spans.append(span)
 
     entities.sort(key=lambda e: e.mention_start)
     out_path = config.DIR_BUILD / "entities.json"

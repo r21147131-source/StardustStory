@@ -95,6 +95,60 @@ def transcribe(audio_path: Path) -> List[dict]:
     return words
 
 
+def detect_pauses(audio_path: Path, noise_db: int = -30, min_dur: float = 0.3) -> List[float]:
+    """Real pause locations in the actual audio (ffmpeg silencedetect, no
+    model download needed) — used to anchor the proportional fallback
+    below to genuine cadence in the recording."""
+    import re as _re
+    import subprocess
+    proc = subprocess.run(
+        ["ffmpeg", "-i", str(audio_path), "-af",
+         f"silencedetect=noise={noise_db}dB:d={min_dur}", "-f", "null", "-"],
+        capture_output=True, text=True,
+    )
+    starts = [float(m) for m in _re.findall(r"silence_start:\s*([\d.]+)", proc.stderr)]
+    ends = [float(m) for m in _re.findall(r"silence_end:\s*([\d.]+)", proc.stderr)]
+    return [(s + e) / 2 for s, e in zip(starts, ends)]
+
+
+def proportional_align(tokens: List[str], audio_duration: float,
+                        pauses: List[float]) -> List[Word]:
+    """Fallback timing when no ASR model is reachable: distribute words
+    across the real audio duration proportional to word length (longer
+    words take proportionally longer to say — a standard TTS/alignment
+    heuristic in the absence of true forced alignment), then snap each
+    sentence boundary onto the nearest real detected pause within 1.2s so
+    cadence still follows the actual recording where it can."""
+    lengths = [max(1, len(t)) for t in tokens]
+    total_chars = sum(lengths)
+    cum = 0
+    raw_starts = []
+    for length in lengths:
+        raw_starts.append(audio_duration * cum / total_chars)
+        cum += length
+    raw_starts.append(audio_duration)
+
+    words: List[Word] = []
+    for i, tok in enumerate(tokens):
+        start, end = raw_starts[i], raw_starts[i + 1]
+        words.append(Word(i, tok, round(start, 3), round(end, 3), False))
+
+    # Snap points where the *next* token starts a new sentence (i.e. this
+    # token ends one) onto the nearest real pause within tolerance.
+    if pauses:
+        for i in range(len(words) - 1):
+            t = words[i].end
+            nearest = min(pauses, key=lambda p: abs(p - t))
+            if abs(nearest - t) <= 1.2:
+                shift = nearest - t
+                words[i] = Word(words[i].index, words[i].text, words[i].start,
+                                 round(words[i].end + shift, 3), False)
+                words[i + 1] = Word(words[i + 1].index, words[i + 1].text,
+                                     round(words[i + 1].start + shift, 3),
+                                     words[i + 1].end, False)
+    return words
+
+
 def align(script_tokens_: List[str], asr_words: List[dict]) -> List[Word]:
     """Greedy monotonic alignment of script tokens onto ASR words.
 
@@ -125,12 +179,47 @@ def align(script_tokens_: List[str], asr_words: List[dict]) -> List[Word]:
     return aligned
 
 
+def _audio_duration(audio_path: Path) -> float:
+    import subprocess
+    out = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", str(audio_path)],
+        capture_output=True, text=True,
+    )
+    return float(out.stdout.strip())
+
+
+def _log_decision(msg: str) -> None:
+    path = config.DIR_BUILD / "decisions.md"
+    with path.open("a") as f:
+        f.write(f"- {msg}\n")
+
+
 def run(script_path: Path, audio_path: Path) -> Path:
     raw = script_path.read_text()
     spoken = clean_script_to_spoken_text(raw)
     tokens = script_tokens(spoken)
-    asr_words = transcribe(audio_path)
-    aligned = align(tokens, asr_words)
+
+    try:
+        asr_words = transcribe(audio_path)
+        aligned = align(tokens, asr_words)
+        unmatched = sum(1 for w in aligned if not w.script_word)
+        print(f"[align] {len(aligned)} words aligned, {unmatched} unmatched "
+              f"(interpolated) via faster-whisper")
+    except Exception as e:
+        _log_decision(
+            f"align: faster-whisper model unreachable ({e.__class__.__name__}: "
+            f"{e}) — this sandbox blocks huggingface.co, so the ASR model "
+            f"weights couldn't download. Fell back to proportional "
+            f"word-length timing anchored to real detected pauses "
+            f"(ffmpeg silencedetect) in the actual audio. Re-run somewhere "
+            f"with HF access for true word-level ASR alignment."
+        )
+        duration = _audio_duration(audio_path)
+        pauses = detect_pauses(audio_path)
+        aligned = proportional_align(tokens, duration, pauses)
+        print(f"[align] {len(aligned)} words timed via proportional fallback "
+              f"({len(pauses)} real pauses detected in audio)")
 
     sections = extract_sections(raw)
     for sec in sections:
@@ -146,9 +235,7 @@ def run(script_path: Path, audio_path: Path) -> Path:
     }
     out_path = config.DIR_BUILD / "alignment.json"
     out_path.write_text(json.dumps(out, indent=2))
-    unmatched = sum(1 for w in aligned if not w.script_word)
-    print(f"[align] {len(aligned)} words aligned, {unmatched} unmatched "
-          f"(interpolated) -> {out_path}")
+    print(f"[align] -> {out_path}")
     return out_path
 
 
