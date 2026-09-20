@@ -14,7 +14,7 @@ objects, 4K, documentary realism, subtle film grain, no visible watermark.*
 
 ---
 
-## AI VIDEO SHOTS (8)
+## AI VIDEO SHOTS (9)
 
 ### Shot 1 — Night sky meteor streak (Cold Open)
 **Prompt:**
@@ -55,6 +55,12 @@ Golden-hour wide shot of an early Neolithic settlement: circular megalithic ston
 **Prompt:**
 A wide shot of a present-day landscape — rolling green hills transitioning into a distant modern city skyline at dusk, lights beginning to glow in windows. Camera holds static, very slow dolly back. The scene gradually desaturates and fades to black over the final seconds. Reflective, time-passing mood, warm-to-cool color transition.
 **Ratio:** 16:9 · **Duration:** 8s · **Model:** Veo 3.1 Lite (simple shot, save credits)
+
+### Shot 9 — Myth-witness reconstruction montage (Part Six)
+*Found in the script body ([VISUAL: Veo 3.1 - cinematic reconstruction montage...] after the myth-text lines) but missing from the original "Veo 3.1 Shots Needed" list in the script's production notes — added here so all 9 AI cues in the actual script have a prompt.*
+**Prompt:**
+A montage of five brief vignettes, each showing people from a different ancient culture — Mesopotamian, Greek, Hindu, Maya, Indigenous American, each in period-accurate dress and setting — looking up in awe and fear at a bright light or fire in the sky, some fleeing rising floodwater, some huddled in darkness. Each vignette rendered in a subtly different palette echoing that culture's visual motifs (terracotta/cuneiform tones, marble/pottery tones, saffron/fire tones, jade/stone tones, ochre/earth tones), tied together by consistent slow push-in camera movement and the same awed, fearful expression across all five. No text overlays.
+**Ratio:** 16:9 · **Duration:** 10s (or split into 5×2s micro-vignettes if the model handles multi-scene cuts) · **Model:** Veo 3.1 Quality
 
 ---
 

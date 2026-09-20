@@ -1,0 +1,276 @@
+[
+  {
+    "id": "S01",
+    "type": "archival",
+    "cue": "Archival footage - modern ice core being extracted from glacier, close-up of layered ice",
+    "vo_words": 18,
+    "est_dur": 7.83,
+    "src": "PENDING"
+  },
+  {
+    "id": "S02",
+    "type": "graphic",
+    "cue": "Graphics - animated timeline axis, year marker 12,800 BCE, clock spinning backward",
+    "vo_words": 24,
+    "est_dur": 10.43,
+    "src": "PENDING"
+  },
+  {
+    "id": "S03",
+    "type": "ai",
+    "cue": "Veo 3.1 - wide shot, night sky with meteor streaking across ancient landscape, silhouetted Ice Age animals watching",
+    "vo_words": 0,
+    "est_dur": 3.0,
+    "src": "PENDING",
+    "shot_ref": "Shot 1",
+    "label": "Night sky meteor streak"
+  },
+  {
+    "id": "S04",
+    "type": "archival",
+    "cue": "Archival - photographs of mammoth tusks, dire wolf skulls, giant ground sloth bones in museum displays",
+    "vo_words": 67,
+    "est_dur": 29.13,
+    "src": "PENDING"
+  },
+  {
+    "id": "S05",
+    "type": "ai",
+    "cue": "Veo 3.1 - cinematic reconstructed scene: small band of Ice Age hunters with spears, watching a mammoth herd move across tundra landscape at dawn, naturalistic and documentary-like",
+    "vo_words": 0,
+    "est_dur": 3.0,
+    "src": "PENDING",
+    "shot_ref": "Shot 2",
+    "label": "Ice Age hunters with mammoth herd"
+  },
+  {
+    "id": "S06",
+    "type": "graphic",
+    "cue": "Graphic - world map with ice sheet extent, green areas showing habitable zones, population concentrations marked",
+    "vo_words": 7,
+    "est_dur": 3.04,
+    "src": "PENDING"
+  },
+  {
+    "id": "S07",
+    "type": "archival",
+    "cue": "Archival - close-up of Younger Dryas Boundary layer in ice core or geological cross-section, showing the distinctive layer",
+    "vo_words": 53,
+    "est_dur": 23.04,
+    "src": "PENDING"
+  },
+  {
+    "id": "S08",
+    "type": "ai",
+    "cue": "Veo 3.1 - cinematic animation of meteor entering atmosphere, breaking apart, multiple impacts across northern landscape, fireballs, shockwaves",
+    "vo_words": 0,
+    "est_dur": 3.0,
+    "src": "PENDING",
+    "shot_ref": "Shot 3",
+    "label": "Impact event sequence"
+  },
+  {
+    "id": "S09",
+    "type": "graphic",
+    "cue": "Animated diagram showing impact hypothesis - meteor/comet cluster entering atmosphere, airburst scenario over North America",
+    "vo_words": 26,
+    "est_dur": 11.3,
+    "src": "PENDING"
+  },
+  {
+    "id": "S10",
+    "type": "archival",
+    "cue": "Archival - aerial photographs of impact craters (Barringer, Wolf Creek), geological formations that tell the story of ancient impacts",
+    "vo_words": 13,
+    "est_dur": 5.65,
+    "src": "PENDING"
+  },
+  {
+    "id": "S11",
+    "type": "graphic",
+    "cue": "Graphic - timeline animation showing species extinction rates before and after 12,800 BCE, species disappearing as the line progresses",
+    "vo_words": 46,
+    "est_dur": 20.0,
+    "src": "PENDING"
+  },
+  {
+    "id": "S12",
+    "type": "ai",
+    "cue": "Veo 3.1 - reconstructed scene: Ice Age landscape with thriving megafauna herds, then impact event, then desolate, burned landscape with dead animals, smoke on horizon",
+    "vo_words": 0,
+    "est_dur": 3.0,
+    "src": "PENDING",
+    "shot_ref": "Shot 4",
+    "label": "Post-impact devastated landscape (thriving->impact->desolate)"
+  },
+  {
+    "id": "S13",
+    "type": "archival",
+    "cue": "Archival - museum displays of extinction-era animal remains, artistic reconstructions of extinct species",
+    "vo_words": 46,
+    "est_dur": 20.0,
+    "src": "PENDING"
+  },
+  {
+    "id": "S14",
+    "type": "graphic",
+    "cue": "Graphic - animated climate data visualization showing temperature plunge, ice core data from Greenland showing the sudden cold anomaly",
+    "vo_words": 51,
+    "est_dur": 22.17,
+    "src": "PENDING"
+  },
+  {
+    "id": "S15",
+    "type": "ai",
+    "cue": "Veo 3.1 - montage of environmental transformation: forests withering, glaciers advancing, herds moving or dying, human settlements becoming smaller and more desperate",
+    "vo_words": 55,
+    "est_dur": 23.91,
+    "src": "PENDING",
+    "shot_ref": "Shot 5",
+    "label": "Environmental transformation montage"
+  },
+  {
+    "id": "S16",
+    "type": "graphic",
+    "cue": "Animated diagram of Atlantic Meridional Overturning Circulation disruption, freshwater input blocking thermohaline conveyor",
+    "vo_words": 0,
+    "est_dur": 3.0,
+    "src": "PENDING"
+  },
+  {
+    "id": "S17",
+    "type": "archival",
+    "cue": "Archival - archaeological excavation footage, artifacts from pre-impact settlement sites, evidence of sudden abandonment",
+    "vo_words": 22,
+    "est_dur": 9.57,
+    "src": "PENDING"
+  },
+  {
+    "id": "S18",
+    "type": "ai",
+    "cue": "Veo 3.1 - reconstructed scene: a group of hunters in landscape that is visibly changing\u2014familiar hunting grounds becoming inhospitable, herds vanishing, a woman looking at a child with fear and hunger in her eyes",
+    "vo_words": 38,
+    "est_dur": 16.52,
+    "src": "PENDING",
+    "shot_ref": "Shot 6",
+    "label": "Desperate hunter group in changing landscape"
+  },
+  {
+    "id": "S19",
+    "type": "graphic",
+    "cue": "Graphic - animated map showing human population density before and after impact, regions of decline highlighted",
+    "vo_words": 12,
+    "est_dur": 5.22,
+    "src": "PENDING"
+  },
+  {
+    "id": "S20",
+    "type": "archival",
+    "cue": "Archival - ancient texts, cuneiform tablets, hieroglyphics, cave paintings from cultures around the world",
+    "vo_words": 29,
+    "est_dur": 12.61,
+    "src": "PENDING"
+  },
+  {
+    "id": "S21",
+    "type": "graphic",
+    "cue": "Graphic - animated text montage of global flood myths and sky-fire myths, appearing on screen:",
+    "vo_words": 70,
+    "est_dur": 30.43,
+    "src": "PENDING"
+  },
+  {
+    "id": "S22",
+    "type": "ai",
+    "cue": "Veo 3.1 - cinematic reconstruction montage: various ancient cultures' peoples witnessing sky fire, floods, darkness, displacement, reimagined through their own cultural lens",
+    "vo_words": 46,
+    "est_dur": 20.0,
+    "src": "PENDING",
+    "shot_ref": "Shot 9",
+    "label": "Myth-witness reconstruction montage (NEW - not in original 8-shot list)"
+  },
+  {
+    "id": "S23",
+    "type": "archival",
+    "cue": "Archival - photographs of G\u00f6bekli Tepe, early Neolithic structures, evidence of human rebuilding and social reorganization",
+    "vo_words": 56,
+    "est_dur": 24.35,
+    "src": "PENDING"
+  },
+  {
+    "id": "S24",
+    "type": "ai",
+    "cue": "Veo 3.1 - reconstructed scene: early Neolithic settlement, people gathering at a ceremonial structure, sense of community and intentional rebuilding",
+    "vo_words": 0,
+    "est_dur": 3.0,
+    "src": "PENDING",
+    "shot_ref": "Shot 7",
+    "label": "Early Neolithic settlement / Gobekli Tepe"
+  },
+  {
+    "id": "S25",
+    "type": "graphic",
+    "cue": "Graphic - timeline showing transition from hunter-gatherer to agricultural societies, coinciding with Younger Dryas recovery period",
+    "vo_words": 27,
+    "est_dur": 11.74,
+    "src": "PENDING"
+  },
+  {
+    "id": "S26",
+    "type": "archival",
+    "cue": "Return to ice core archival footage, the thin line of the Younger Dryas Boundary visible",
+    "vo_words": 36,
+    "est_dur": 15.65,
+    "src": "PENDING"
+  },
+  {
+    "id": "S27",
+    "type": "ai",
+    "cue": "Veo 3.1 - wide shot of modern landscape, human civilization visible in the distance, sense of time passing",
+    "vo_words": 23,
+    "est_dur": 10.0,
+    "src": "PENDING",
+    "shot_ref": "Shot 8",
+    "label": "Modern landscape fade"
+  },
+  {
+    "id": "S28",
+    "type": "graphic",
+    "cue": "Graphic - animated text appears:",
+    "vo_words": 58,
+    "est_dur": 25.22,
+    "src": "PENDING"
+  },
+  {
+    "id": "S29",
+    "type": "transition",
+    "cue": "Fade to black",
+    "vo_words": 0,
+    "est_dur": 2.0,
+    "src": "PENDING"
+  },
+  {
+    "id": "S30",
+    "type": "brand",
+    "cue": "Pantheon logo appears with theme music",
+    "vo_words": 0,
+    "est_dur": 4.0,
+    "src": "PENDING"
+  },
+  {
+    "id": "S31",
+    "type": "graphic",
+    "cue": "Source citations roll:",
+    "vo_words": 41,
+    "est_dur": 17.83,
+    "src": "PENDING"
+  },
+  {
+    "id": "S32",
+    "type": "mixed_montage",
+    "cue": "Credits roll over archival and Veo footage montage of Ice Age, impact, extinction, human survival, early civilization",
+    "vo_words": 0,
+    "est_dur": 30.0,
+    "src": "PENDING"
+  }
+]

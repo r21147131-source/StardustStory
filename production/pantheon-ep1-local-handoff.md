@@ -7,12 +7,13 @@
 
 1. Load the `google-flow-generate` skill (or Higgsfield, if credits are
    available) and follow its setup steps (Chrome launch, `flow_connect`).
-2. Generate the 8 AI video shots below using the prompts as-is — they're
+2. Generate the 9 AI video shots below using the prompts as-is — they're
    already written to the "faithful prompt" structure the skill wants
    (subject + action + setting + lighting + composition + style + mood).
    Apply the **Global style lock** to every shot for visual consistency.
 3. Save outputs into this folder, named `shot-01-meteor-streak.mp4` through
-   `shot-08-modern-fade.mp4` (or similar), matching the shot numbers below.
+   `shot-09-myth-witness-montage.mp4` (or similar), matching the shot
+   numbers below and in `pantheon-ep1-shot-list.json`.
 4. The 9 motion graphics are **not** AI-video prompts — build those
    separately in After Effects / Remotion per their spec, using the same
    color palette.
@@ -35,7 +36,7 @@ grain, no visible watermark.*
 
 ---
 
-## AI VIDEO SHOTS (8)
+## AI VIDEO SHOTS (9)
 
 ### Shot 1 — Night sky meteor streak (Cold Open)
 **Prompt:**
@@ -76,6 +77,12 @@ Golden-hour wide shot of an early Neolithic settlement: circular megalithic ston
 **Prompt:**
 A wide shot of a present-day landscape — rolling green hills transitioning into a distant modern city skyline at dusk, lights beginning to glow in windows. Camera holds static, very slow dolly back. The scene gradually desaturates and fades to black over the final seconds. Reflective, time-passing mood, warm-to-cool color transition.
 **Ratio:** 16:9 · **Duration:** 8s · **Model:** Veo 3.1 Lite (simple shot, save credits)
+
+### Shot 9 — Myth-witness reconstruction montage (Part Six)
+*Found in the script body but missing from the original 8-shot production list — added so all 9 AI cues that actually appear in the script have a prompt.*
+**Prompt:**
+A montage of five brief vignettes, each showing people from a different ancient culture — Mesopotamian, Greek, Hindu, Maya, Indigenous American, each in period-accurate dress and setting — looking up in awe and fear at a bright light or fire in the sky, some fleeing rising floodwater, some huddled in darkness. Each vignette rendered in a subtly different palette echoing that culture's visual motifs (terracotta/cuneiform tones, marble/pottery tones, saffron/fire tones, jade/stone tones, ochre/earth tones), tied together by consistent slow push-in camera movement and the same awed, fearful expression across all five. No text overlays.
+**Ratio:** 16:9 · **Duration:** 10s (or split into 5×2s micro-vignettes if the model handles multi-scene cuts) · **Model:** Veo 3.1 Quality
 
 ---
 
