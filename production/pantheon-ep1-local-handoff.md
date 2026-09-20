@@ -1,7 +1,7 @@
 # Pantheon Ep.1 — Local Generation Handoff
 
 **For a Claude Code session running locally on Windows, in:**
-`C:\Users\roman\youtubeNEw\Sep 20 - 18_38`
+`C:\Users\roman\pantheon\Sep20-18_38`
 
 ## Instructions for that session
 
