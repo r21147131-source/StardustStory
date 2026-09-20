@@ -28,12 +28,17 @@ import sys
 SHOT_LIST = "production/pantheon-ep1-shot-list.json"
 OUT = "production/pantheon-ep1-shot-list-final.json"
 
-# Fill in once the real voiceover is recorded/uploaded and measured with ffprobe.
-TOTAL = None  # e.g. 645.2
+# Measured from public/pantheon-ep1-voiceover.mp3 via mutagen (ffprobe unavailable in this env).
+TOTAL = 639.27
 
 FIXED_TYPES = {"transition", "brand"}
 MIN_SHOT = 2.0
-MAX_SHOT = 35.0
+MAX_SHOT = 60.0  # editorial ceiling, not a generation-length ceiling — see AI_NATIVE_DUR below
+
+# Native single-clip length for AI-generated shots (Veo 3.1 caps around 8-10s per
+# generation). Any "ai" cue whose final_dur exceeds this needs looping, a freeze
+# frame, or supplemental archival/graphic cutaways cut in — flagged in the report.
+AI_NATIVE_DUR = 10.0
 
 
 def main():
@@ -71,6 +76,15 @@ def main():
     final_total = sum(s["final_dur"] for s in out)
     print(f"Final total: {final_total:.2f}s (target {TOTAL:.2f}s, "
           f"diff {TOTAL - final_total:+.2f}s)")
+
+    overruns = [s for s in out if s["type"] == "ai" and s["final_dur"] > AI_NATIVE_DUR]
+    if overruns:
+        print(f"\n{len(overruns)} AI cue(s) need more screen time than one native "
+              f"generation ({AI_NATIVE_DUR:.0f}s) provides — loop the clip, hold on "
+              f"a freeze frame, or cut in archival/graphic B-roll to fill the gap:")
+        for s in overruns:
+            print(f"  {s['id']} {s.get('label', '')}: needs {s['final_dur']:.1f}s "
+                  f"({s['final_dur'] - AI_NATIVE_DUR:+.1f}s over)")
 
     with open(OUT, "w") as f:
         json.dump(out, f, indent=2)
