@@ -23,10 +23,14 @@
     "cue": "Veo 3.1 - wide shot, night sky with meteor streaking across ancient landscape, silhouetted Ice Age animals watching",
     "vo_words": 0,
     "est_dur": 3.0,
-    "src": "PENDING",
+    "src": [
+      "pantheon-ep1-clips/S03a-mammoths-bison-watching-meteors.mp4",
+      "pantheon-ep1-clips/S03b-mammoths-bison-watching-meteors-alt.mp4"
+    ],
     "shot_ref": "Shot 1",
     "label": "Night sky meteor streak",
-    "final_dur": 4.48
+    "final_dur": 4.48,
+    "src_status": "received"
   },
   {
     "id": "S04",
@@ -43,10 +47,16 @@
     "cue": "Veo 3.1 - cinematic reconstructed scene: small band of Ice Age hunters with spears, watching a mammoth herd move across tundra landscape at dawn, naturalistic and documentary-like",
     "vo_words": 0,
     "est_dur": 3.0,
-    "src": "PENDING",
+    "src": [
+      "pantheon-ep1-clips/S05c-hunters-watching-mammoth-herd.mp4",
+      "pantheon-ep1-clips/S05a-megafauna-herd-grassland.mp4",
+      "pantheon-ep1-clips/S05b-megafauna-herd-grassland-alt.mp4",
+      "pantheon-ep1-clips/S05d-mammoth-steppe-herds-dawn.mp4"
+    ],
     "shot_ref": "Shot 2",
     "label": "Ice Age hunters with mammoth herd",
-    "final_dur": 4.48
+    "final_dur": 4.48,
+    "src_status": "received"
   },
   {
     "id": "S06",
@@ -72,10 +82,17 @@
     "cue": "Veo 3.1 - cinematic animation of meteor entering atmosphere, breaking apart, multiple impacts across northern landscape, fireballs, shockwaves",
     "vo_words": 0,
     "est_dur": 3.0,
-    "src": "PENDING",
+    "src": [
+      "pantheon-ep1-clips/S08b-comet-entering-atmosphere.mp4",
+      "pantheon-ep1-clips/S08a-airbursts-over-ice-NEEDS-FIX.mp4",
+      "pantheon-ep1-clips/S08c-shockwave-flattens-forest.mp4",
+      "pantheon-ep1-clips/S08d-shockwave-flattening-forest-alt.mp4"
+    ],
     "shot_ref": "Shot 3",
     "label": "Impact event sequence",
-    "final_dur": 4.48
+    "final_dur": 4.48,
+    "src_status": "received",
+    "flag": "S08a has a fabricated ARCHIVE FOOTAGE timestamp overlay burned in - do not use as-is, see status doc"
   },
   {
     "id": "S09",
@@ -110,10 +127,14 @@
     "cue": "Veo 3.1 - reconstructed scene: Ice Age landscape with thriving megafauna herds, then impact event, then desolate, burned landscape with dead animals, smoke on horizon",
     "vo_words": 0,
     "est_dur": 3.0,
-    "src": "PENDING",
+    "src": [
+      "pantheon-ep1-clips/S12a-burned-ash-landscape.mp4",
+      "pantheon-ep1-clips/S12b-scorched-tundra-mammoth-carcass.mp4"
+    ],
     "shot_ref": "Shot 4",
     "label": "Post-impact devastated landscape (thriving->impact->desolate)",
-    "final_dur": 4.48
+    "final_dur": 4.48,
+    "src_status": "received"
   },
   {
     "id": "S13",
@@ -159,8 +180,12 @@
     "cue": "Archival - archaeological excavation footage, artifacts from pre-impact settlement sites, evidence of sudden abandonment",
     "vo_words": 22,
     "est_dur": 9.57,
-    "src": "PENDING",
-    "final_dur": 14.31
+    "src": [
+      "pantheon-ep1-clips/S17a-abandoned-hunting-camp.mp4",
+      "pantheon-ep1-clips/S17b-empty-hunting-camp-tundra.mp4"
+    ],
+    "final_dur": 14.31,
+    "src_status": "received"
   },
   {
     "id": "S18",
@@ -168,10 +193,13 @@
     "cue": "Veo 3.1 - reconstructed scene: a group of hunters in landscape that is visibly changing\u2014familiar hunting grounds becoming inhospitable, herds vanishing, a woman looking at a child with fear and hunger in her eyes",
     "vo_words": 38,
     "est_dur": 16.52,
-    "src": "PENDING",
+    "src": [
+      "pantheon-ep1-clips/S18a-woman-looking-at-child.mp4"
+    ],
     "shot_ref": "Shot 6",
     "label": "Desperate hunter group in changing landscape",
-    "final_dur": 24.69
+    "final_dur": 24.69,
+    "src_status": "received"
   },
   {
     "id": "S19",
@@ -226,10 +254,14 @@
     "cue": "Veo 3.1 - reconstructed scene: early Neolithic settlement, people gathering at a ceremonial structure, sense of community and intentional rebuilding",
     "vo_words": 0,
     "est_dur": 3.0,
-    "src": "PENDING",
+    "src": [
+      "pantheon-ep1-clips/S24a-neolithic-farmer-crop-rows.mp4",
+      "pantheon-ep1-clips/S24b-neolithic-farmer-grain-field.mp4"
+    ],
     "shot_ref": "Shot 7",
     "label": "Early Neolithic settlement / Gobekli Tepe",
-    "final_dur": 4.48
+    "final_dur": 4.48,
+    "src_status": "received"
   },
   {
     "id": "S25",
@@ -255,10 +287,15 @@
     "cue": "Veo 3.1 - wide shot of modern landscape, human civilization visible in the distance, sense of time passing",
     "vo_words": 23,
     "est_dur": 10.0,
-    "src": "PENDING",
+    "src": [
+      "pantheon-ep1-clips/S27a-aerial-farmland-to-city.mp4",
+      "pantheon-ep1-clips/S27b-aerial-farmland-to-city-alt.mp4",
+      "pantheon-ep1-clips/S27c-landscape-transitioning-to-city.mp4"
+    ],
     "shot_ref": "Shot 8",
     "label": "Modern landscape fade",
-    "final_dur": 14.95
+    "final_dur": 14.95,
+    "src_status": "received"
   },
   {
     "id": "S28",
