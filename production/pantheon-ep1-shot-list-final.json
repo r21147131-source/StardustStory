@@ -179,10 +179,13 @@
     "cue": "Veo 3.1 - montage of environmental transformation: forests withering, glaciers advancing, herds moving or dying, human settlements becoming smaller and more desperate",
     "vo_words": 55,
     "est_dur": 23.91,
-    "src": "PENDING",
+    "src": [
+      "pantheon-ep1-clips/S15b-glacier-advances.mp4"
+    ],
     "shot_ref": "Shot 5",
     "label": "Environmental transformation montage",
-    "final_dur": 35.74
+    "final_dur": 35.74,
+    "src_status": "partial"
   },
   {
     "id": "S16",
