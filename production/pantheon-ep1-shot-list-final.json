@@ -120,8 +120,14 @@
     "cue": "Archival - aerial photographs of impact craters (Barringer, Wolf Creek), geological formations that tell the story of ancient impacts",
     "vo_words": 13,
     "est_dur": 5.65,
-    "src": "PENDING",
-    "final_dur": 8.45
+    "src": [
+      "pantheon-ep1-archival/S10a-wolfe-creek-crater-ground-sign.jpg",
+      "pantheon-ep1-archival/S10b-wolfe-creek-crater-wide.jpg",
+      "pantheon-ep1-archival/S10c-barringer-crater-aerial-bw.jpg",
+      "pantheon-ep1-archival/S10d-barringer-crater-aerial-color.jpg"
+    ],
+    "final_dur": 8.45,
+    "src_status": "received"
   },
   {
     "id": "S11",
@@ -231,8 +237,11 @@
     "cue": "Archival - ancient texts, cuneiform tablets, hieroglyphics, cave paintings from cultures around the world",
     "vo_words": 29,
     "est_dur": 12.61,
-    "src": "PENDING",
-    "final_dur": 18.85
+    "src": [
+      "pantheon-ep1-archival/S20a-lascaux-horse.jpg"
+    ],
+    "final_dur": 18.85,
+    "src_status": "received"
   },
   {
     "id": "S21",
