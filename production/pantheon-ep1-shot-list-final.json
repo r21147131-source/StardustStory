@@ -378,8 +378,9 @@
     "cue": "Pantheon logo appears with theme music",
     "vo_words": 0,
     "est_dur": 4.0,
-    "src": "PENDING",
-    "final_dur": 4.0
+    "src": "pantheon-ep1-motion-graphics/S30-LogoCard.mp4",
+    "final_dur": 4.0,
+    "src_status": "rendered"
   },
   {
     "id": "S31",

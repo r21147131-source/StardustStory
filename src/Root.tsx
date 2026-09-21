@@ -10,6 +10,7 @@ import { S21_MythMontage } from "./graphics/S21_MythMontage";
 import { S25_NeolithicTimeline } from "./graphics/S25_NeolithicTimeline";
 import { S28_StatCards } from "./graphics/S28_StatCards";
 import { S31_CitationCrawl } from "./graphics/S31_CitationCrawl";
+import { S30_LogoCard } from "./graphics/S30_LogoCard";
 
 // Duration in frames = ceil(final_dur_seconds * 30), taken from
 // production/pantheon-ep1-shot-list-final.json (voiceover-reconciled timing).
@@ -25,6 +26,7 @@ const COMPOSITIONS: { id: string; component: React.FC; durationInFrames: number 
   { id: "S25-NeolithicTimeline", component: S25_NeolithicTimeline, durationInFrames: 527 },
   { id: "S28-StatCards", component: S28_StatCards, durationInFrames: 1131 },
   { id: "S31-CitationCrawl", component: S31_CitationCrawl, durationInFrames: 800 },
+  { id: "S30-LogoCard", component: S30_LogoCard, durationInFrames: 120 },
 ];
 
 export const RemotionRoot: React.FC = () => {
