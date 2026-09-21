@@ -43,8 +43,12 @@
     "cue": "Archival - photographs of mammoth tusks, dire wolf skulls, giant ground sloth bones in museum displays",
     "vo_words": 67,
     "est_dur": 29.13,
-    "src": "PENDING",
-    "final_dur": 43.54
+    "src": [
+      "pantheon-ep1-archival/S04a-mammoth-skeleton-diorama.jpg",
+      "pantheon-ep1-archival/S04b-mammoth-tusk-specimen-placard.jpg"
+    ],
+    "final_dur": 43.54,
+    "src_status": "received"
   },
   {
     "id": "S05",
