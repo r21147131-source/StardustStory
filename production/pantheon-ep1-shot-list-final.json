@@ -180,12 +180,15 @@
     "vo_words": 55,
     "est_dur": 23.91,
     "src": [
-      "pantheon-ep1-clips/S15b-glacier-advances.mp4"
+      "pantheon-ep1-clips/S15a-forest-withers.jpeg",
+      "pantheon-ep1-clips/S15b-glacier-advances.mp4",
+      "pantheon-ep1-clips/S15c-mammoth-herd-trudging-snow.mp4",
+      "pantheon-ep1-clips/S15d-camp-shrinks.mp4"
     ],
     "shot_ref": "Shot 5",
     "label": "Environmental transformation montage",
     "final_dur": 35.74,
-    "src_status": "partial"
+    "src_status": "received"
   },
   {
     "id": "S16",
