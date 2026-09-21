@@ -161,10 +161,12 @@
     "vo_words": 46,
     "est_dur": 20.0,
     "src": [
-      "pantheon-ep1-archival/S13a-dire-wolf-skull-jaw-open.jpg"
+      "pantheon-ep1-archival/S13a-dire-wolf-skull-jaw-open.jpg",
+      "pantheon-ep1-clips/S13b-saber-tooth-skull-jaw-open.mp4",
+      "pantheon-ep1-clips/S13c-dire-wolf-skull-angle.mp4"
     ],
     "final_dur": 29.9,
-    "src_status": "partial"
+    "src_status": "received"
   },
   {
     "id": "S14",
