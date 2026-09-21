@@ -2,3 +2,9 @@ node_modules/
 out/
 .DS_Store
 render/
+
+# Full-quality Pantheon Ep.1 renders exceed GitHub's 100MB push limit
+# (final: 574MB, segments: 163-263MB each). Delivered to the user
+# directly instead - see production/pantheon-ep1-status.md.
+output/pantheon-ep1-final.mp4
+output/pantheon-ep1-segment-*.mp4
