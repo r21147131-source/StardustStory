@@ -5,8 +5,12 @@
     "cue": "Archival footage - modern ice core being extracted from glacier, close-up of layered ice",
     "vo_words": 18,
     "est_dur": 7.83,
-    "src": "PENDING",
-    "final_dur": 11.7
+    "src": [
+      "pantheon-ep1-archival/S01a-ice-core-extraction-parka.jpg",
+      "pantheon-ep1-archival/S01b-night-drilling-rig.jpg"
+    ],
+    "final_dur": 11.7,
+    "src_status": "received"
   },
   {
     "id": "S02",
@@ -75,8 +79,12 @@
     "cue": "Archival - close-up of Younger Dryas Boundary layer in ice core or geological cross-section, showing the distinctive layer",
     "vo_words": 53,
     "est_dur": 23.04,
-    "src": "PENDING",
-    "final_dur": 34.44
+    "src": [
+      "pantheon-ep1-archival/S07a-blue-ice-wall-examination.jpg",
+      "pantheon-ep1-archival/S07b-core-barrel-closeup.jpg"
+    ],
+    "final_dur": 34.44,
+    "src_status": "received"
   },
   {
     "id": "S08",
@@ -287,8 +295,12 @@
     "cue": "Return to ice core archival footage, the thin line of the Younger Dryas Boundary visible",
     "vo_words": 36,
     "est_dur": 15.65,
-    "src": "PENDING",
-    "final_dur": 23.39
+    "src": [
+      "pantheon-ep1-archival/S26a-sunny-core-segment-handheld.jpg",
+      "pantheon-ep1-archival/S26b-vintage-tunnel-station.jpg"
+    ],
+    "final_dur": 23.39,
+    "src_status": "received"
   },
   {
     "id": "S27",
