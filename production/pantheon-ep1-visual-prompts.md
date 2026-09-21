@@ -93,14 +93,12 @@ Same awed, fearful expression across all five; no text overlays; consistent slow
 **Ratio:** 16:9 · **Duration:** ~8-10s each · **Model:** Veo 3.1 Quality or a still-image model (gpt_image_2/nano-banana) if video motion isn't needed — these read fine as slow-zoom stills.
 
 ### Shot 11 — Extinction-era displays and reconstructions (S13)
-*Same situation as Shot 10 — reuses/extends the same museum specimen imagery for the second archival beat about extinction-era remains.*
+*A real reference photo landed for this cue — a dire wolf (or similar) skull, jaw open, on a metal stand, studio-lit against a deep blue backdrop, auction-house/museum specimen photography style (Heritage Auctions-style shot). Saved as `S13a-dire-wolf-skull-jaw-open.jpg`. Generate the rest of this cue's runtime matching that exact style:*
 
-**Needs ~30s of screen time — can reuse 10b/10c/10d above plus:**
+**11c — Saber-toothed cat skull, jaw open:** A fossilized Smilodon (saber-toothed cat) skull mounted on a metal stand, jaw open wide exposing long curved canine teeth and full dentition, dramatic studio lighting against a solid deep-blue backdrop, sharp focus, single dramatic key light, no people, no modern clutter. Static shot or extremely slow rotate/push-in.
+**11d — Dire wolf skull, different angle:** Same style — a dire wolf skull (jaw closed, three-quarter angle) on a similar metal display stand, same blue studio backdrop, same dramatic lighting. Static shot.
 
-**11a — Saber-toothed cat skeleton:** A mounted Smilodon (saber-toothed cat) skeleton in a museum display, long canine teeth prominent, spotlit against a dark backdrop. Static shot, slow push-in.
-**11b — Artistic reconstruction painting:** A framed museum wall painting/mural depicting Ice Age megafauna (mammoths, ground sloth, dire wolves) in a living landscape, painted illustration style (not photoreal), displayed beside a skeleton mount for scale. Static shot.
-
-**Ratio:** 16:9 · **Duration:** ~8-10s each · **Model:** same as Shot 10.
+**Ratio:** 16:9 · **Duration:** ~8-10s each · **Model:** Veo 3.1 Quality or a still-image model (this reads fine as a slow push-in on a still, matching the reference photo's own static style).
 
 ---
 

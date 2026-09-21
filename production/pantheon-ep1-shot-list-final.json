@@ -160,8 +160,11 @@
     "cue": "Archival - museum displays of extinction-era animal remains, artistic reconstructions of extinct species",
     "vo_words": 46,
     "est_dur": 20.0,
-    "src": "PENDING",
-    "final_dur": 29.9
+    "src": [
+      "pantheon-ep1-archival/S13a-dire-wolf-skull-jaw-open.jpg"
+    ],
+    "final_dur": 29.9,
+    "src_status": "partial"
   },
   {
     "id": "S14",
