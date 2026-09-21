@@ -238,7 +238,8 @@
     "vo_words": 29,
     "est_dur": 12.61,
     "src": [
-      "pantheon-ep1-archival/S20a-lascaux-horse.jpg"
+      "pantheon-ep1-archival/S20a-lascaux-horse.jpg",
+      "pantheon-ep1-archival/S20b-gilgamesh-flood-tablet.jpg"
     ],
     "final_dur": 18.85,
     "src_status": "received"
@@ -270,8 +271,11 @@
     "cue": "Archival - photographs of G\u00f6bekli Tepe, early Neolithic structures, evidence of human rebuilding and social reorganization",
     "vo_words": 56,
     "est_dur": 24.35,
-    "src": "PENDING",
-    "final_dur": 36.4
+    "src": [
+      "pantheon-ep1-archival/S23a-gobekli-tepe-excavation.jpg"
+    ],
+    "final_dur": 36.4,
+    "src_status": "received"
   },
   {
     "id": "S24",
