@@ -14,8 +14,9 @@
     "cue": "Graphics - animated timeline axis, year marker 12,800 BCE, clock spinning backward",
     "vo_words": 24,
     "est_dur": 10.43,
-    "src": "PENDING",
-    "final_dur": 15.59
+    "src": "pantheon-ep1-motion-graphics/S02-TimelineAxis.mp4",
+    "final_dur": 15.59,
+    "src_status": "rendered"
   },
   {
     "id": "S03",
@@ -64,8 +65,9 @@
     "cue": "Graphic - world map with ice sheet extent, green areas showing habitable zones, population concentrations marked",
     "vo_words": 7,
     "est_dur": 3.04,
-    "src": "PENDING",
-    "final_dur": 4.54
+    "src": "pantheon-ep1-motion-graphics/S06-IceSheetMap.mp4",
+    "final_dur": 4.54,
+    "src_status": "rendered"
   },
   {
     "id": "S07",
@@ -100,8 +102,9 @@
     "cue": "Animated diagram showing impact hypothesis - meteor/comet cluster entering atmosphere, airburst scenario over North America",
     "vo_words": 26,
     "est_dur": 11.3,
-    "src": "PENDING",
-    "final_dur": 16.89
+    "src": "pantheon-ep1-motion-graphics/S09-ImpactDiagram.mp4",
+    "final_dur": 16.89,
+    "src_status": "rendered"
   },
   {
     "id": "S10",
@@ -118,8 +121,9 @@
     "cue": "Graphic - timeline animation showing species extinction rates before and after 12,800 BCE, species disappearing as the line progresses",
     "vo_words": 46,
     "est_dur": 20.0,
-    "src": "PENDING",
-    "final_dur": 29.9
+    "src": "pantheon-ep1-motion-graphics/S11-ExtinctionChart.mp4",
+    "final_dur": 29.9,
+    "src_status": "rendered"
   },
   {
     "id": "S12",
@@ -151,8 +155,9 @@
     "cue": "Graphic - animated climate data visualization showing temperature plunge, ice core data from Greenland showing the sudden cold anomaly",
     "vo_words": 51,
     "est_dur": 22.17,
-    "src": "PENDING",
-    "final_dur": 33.14
+    "src": "pantheon-ep1-motion-graphics/S14-ClimatePlunge.mp4",
+    "final_dur": 33.14,
+    "src_status": "rendered"
   },
   {
     "id": "S15",
@@ -171,8 +176,9 @@
     "cue": "Animated diagram of Atlantic Meridional Overturning Circulation disruption, freshwater input blocking thermohaline conveyor",
     "vo_words": 0,
     "est_dur": 3.0,
-    "src": "PENDING",
-    "final_dur": 4.48
+    "src": "pantheon-ep1-motion-graphics/S16-AMOCDiagram.mp4",
+    "final_dur": 4.48,
+    "src_status": "rendered"
   },
   {
     "id": "S17",
@@ -207,8 +213,9 @@
     "cue": "Graphic - animated map showing human population density before and after impact, regions of decline highlighted",
     "vo_words": 12,
     "est_dur": 5.22,
-    "src": "PENDING",
-    "final_dur": 7.8
+    "src": "pantheon-ep1-motion-graphics/S19-PopulationMap.mp4",
+    "final_dur": 7.8,
+    "src_status": "rendered"
   },
   {
     "id": "S20",
@@ -225,8 +232,9 @@
     "cue": "Graphic - animated text montage of global flood myths and sky-fire myths, appearing on screen:",
     "vo_words": 70,
     "est_dur": 30.43,
-    "src": "PENDING",
-    "final_dur": 45.49
+    "src": "pantheon-ep1-motion-graphics/S21-MythMontage.mp4",
+    "final_dur": 45.49,
+    "src_status": "rendered"
   },
   {
     "id": "S22",
@@ -269,8 +277,9 @@
     "cue": "Graphic - timeline showing transition from hunter-gatherer to agricultural societies, coinciding with Younger Dryas recovery period",
     "vo_words": 27,
     "est_dur": 11.74,
-    "src": "PENDING",
-    "final_dur": 17.55
+    "src": "pantheon-ep1-motion-graphics/S25-NeolithicTimeline.mp4",
+    "final_dur": 17.55,
+    "src_status": "rendered"
   },
   {
     "id": "S26",
@@ -303,8 +312,9 @@
     "cue": "Graphic - animated text appears:",
     "vo_words": 58,
     "est_dur": 25.22,
-    "src": "PENDING",
-    "final_dur": 37.7
+    "src": "pantheon-ep1-motion-graphics/S28-StatCards.mp4",
+    "final_dur": 37.7,
+    "src_status": "rendered"
   },
   {
     "id": "S29",
@@ -330,8 +340,9 @@
     "cue": "Source citations roll:",
     "vo_words": 41,
     "est_dur": 17.83,
-    "src": "PENDING",
-    "final_dur": 26.65
+    "src": "pantheon-ep1-motion-graphics/S31-CitationCrawl.mp4",
+    "final_dur": 26.65,
+    "src_status": "rendered"
   },
   {
     "id": "S32",

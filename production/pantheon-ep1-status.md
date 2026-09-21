@@ -8,11 +8,56 @@
 3. **Voiceover** — **done.** `public/pantheon-ep1-voiceover.mp3` (10:39).
 4. **AI video shots (9)** — **7 of 9 covered**, 20 clips received and
    organized in `public/pantheon-ep1-clips/`. See table below.
-5. **Motion graphics (9)** — **pending.**
-6. **Archival footage (9 cues)** — **pending** (several AI clips are
-   standing in for archival-type cues, see table).
-7. **Assembly/render** — **pending**, blocked on S15, S22, graphics, and
-   a render-path decision.
+5. **Motion graphics (11)** — **done.** Built as real Remotion/React
+   components (`src/graphics/`), rendered to video, and wired into the
+   shot list. See below — this turned out to be 11 cues, not 9 (two extra
+   graphic beats were in the script body but not the production notes list).
+6. **Archival footage (8 cues)** — **pending.** Real source candidates
+   researched in `pantheon-ep1-archival-sources.md`; nothing downloaded yet
+   (this sandbox can't reach any image/archive host — see that file for why).
+7. **Assembly/render** — **pending**, blocked on S15, S22, the 8 archival
+   photos, and a render-path decision.
+
+## Motion graphics — now real, rendered code
+
+Built the whole set as a small Remotion project instead of just specs,
+since Remotion was already a dependency and needs no network access to
+render (registry.npmjs.org is allowed; only the media/asset hosts are
+blocked). Found the pre-installed Playwright Chromium headless shell at
+`/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`
+and pointed Remotion's renderer at it, since Remotion's own Chrome download
+host (`remotion.media`) is blocked like everything else.
+
+| Cue | Graphic | Duration | File |
+|---|---|---|---|
+| S02 | Timeline axis, clock spinning back to 12,800 BCE | 15.6s | `S02-TimelineAxis.mp4` |
+| S06 | Ice sheet extent / habitable zones / population dots | 4.5s | `S06-IceSheetMap.mp4` |
+| S09 | Impact hypothesis diagram (fragments → airbursts) | 16.9s | `S09-ImpactDiagram.mp4` |
+| S11 | Extinction rate chart, species dropping out | 29.9s | `S11-ExtinctionChart.mp4` |
+| S14 | Climate temperature plunge, YD period highlighted | 33.1s | `S14-ClimatePlunge.mp4` |
+| S16 | AMOC disruption diagram | 4.5s | `S16-AMOCDiagram.mp4` |
+| S19 | Population density map, before/after | 7.8s | `S19-PopulationMap.mp4` |
+| S21 | Global myth text montage, 5 cultures | 45.5s | `S21-MythMontage.mp4` |
+| S25 | Neolithic transition timeline | 17.6s | `S25-NeolithicTimeline.mp4` |
+| S28 | Closing stat cards (4 facts) | 37.7s | `S28-StatCards.mp4` |
+| S31 | Source citation crawl | 26.7s | `S31-CitationCrawl.mp4` |
+
+All in `public/pantheon-ep1-motion-graphics/`, 1920×1080, 30fps, durations
+matched exactly to the voiceover-reconciled shot list. Source in
+`src/graphics/*.tsx`, shared palette/type in `src/theme.ts`, registered in
+`src/Root.tsx`. To re-render or tweak:
+```
+npm install
+npx remotion render src/index.ts <CompositionId> out/name.mp4 \
+  --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell
+```
+(the `--browser-executable` flag is only needed in this sandbox; a normal
+dev machine with Remotion's own Chrome download working won't need it.)
+
+Maps are stylized/schematic abstractions (a soft continent-like blob), not
+real cartographic geometry — no geo data was fetchable, and it reads fine
+as a documentary-graphic style choice. Everything else is genuine chart/
+diagram/typography animation, not placeholder.
 
 ## AI shots — coverage table
 
@@ -22,46 +67,39 @@
 | S05 Shot 2 | Hunters with mammoth herd | 4.5s | 4 (hunters+herd, 2× herd-only, dawn steppe) | ✅ covered, well over-provisioned |
 | S08 Shot 3 | Impact event sequence | 4.5s | 4 (comet entering atmosphere, shockwave×2, airburst) | ✅ covered — **use the 3 clean clips, not `S08a`** (see flag below) |
 | S12 Shot 4 | Post-impact devastated landscape | 4.5s | 2 (burned ash landscape, scorched tundra + mammoth carcass) | ✅ covered |
-| S15 Shot 5 | Environmental transformation montage | **35.7s** | 0 | ❌ **missing** |
-| S18 Shot 6 | Desperate hunter group | **24.7s** | 1 (woman + child, 8s) | ⚠️ **short by ~16.7s** — needs a loop/freeze or 2 more clips |
-| S22 Shot 9 | Myth-witness reconstruction montage | **29.9s** | 0 | ❌ **missing** |
+| S15 Shot 5 | Environmental transformation montage | **35.7s** | 0 | ❌ **missing** — prompt split into 4 sub-clips (5a-5d) in `pantheon-ep1-visual-prompts.md` |
+| S18 Shot 6 | Desperate hunter group | **24.7s** | 1 (woman + child, 8s) | ⚠️ **short by ~16.7s** — 3 more sub-clip prompts (6b-6d) written |
+| S22 Shot 9 | Myth-witness reconstruction montage | **29.9s** | 0 | ❌ **missing** — prompt split into 5 sub-clips (9a-9e), one per culture |
 | S24 Shot 7 | Neolithic settlement / Göbekli Tepe | 4.5s | 2 (farmer + village, crop rows / grain field) | ✅ covered |
 | S27 Shot 8 | Modern landscape fade | 14.9s | 3 (farmland→city, two angles) | ✅ covered, comfortably fills the runtime |
 
-S15 and S22 are exactly the two cues flagged earlier as needing the most
-extra screen time (35.7s and 29.9s) — worth prioritizing, and worth
-generating as 3-4 short sub-clips each rather than one long one, same
-approach that worked well for S05/S08/S27 above.
+## ⚠️ Fake archival timestamp on S08a — do not use
 
-## ⚠️ Resolved-ish: fake archival timestamp on S08a
+`S08a-airbursts-over-ice-NEEDS-FIX.mp4` has a fabricated "ARCHIVE FOOTAGE:
+NOV 14, 2023" timestamp burned in. 3 clean replacement clips cover the
+same beat instead (`S08b`, `S08c`, `S08d`), so S08 is fully coverable
+without it. Left in `public/pantheon-ep1-clips/` for reference only.
 
-`S08a-airbursts-over-ice-NEEDS-FIX.mp4` still has the fabricated
-"ARCHIVE FOOTAGE: NOV 14, 2023" timestamp burned in — **do not use it.**
-Good news: 3 clean replacement clips arrived for the same beat
-(`S08b` comet entering atmosphere, `S08c`/`S08d` shockwave flattening
-forest), so S08 is fully coverable without touching `S08a`. Leaving it in
-`public/pantheon-ep1-clips/` for reference only, marked in its filename.
+## Archival footage — still nothing downloaded
 
-## S18 needs more material
-
-Only one 8s clip for a cue that now needs 24.7s of screen time. Options,
-cheapest first: hold on a freeze-frame of the last second for ~17s (weakest
-visually), loop the clip forward/back, or generate 2-3 more short clips of
-the same family/scene from different angles and cut between them (matches
-how S05/S08/S27 got covered).
+Researched real candidates (Wikimedia Commons, USGS, British Museum) in
+`pantheon-ep1-archival-sources.md`, but this sandbox cannot reach any
+image/archive host to actually fetch them (tested extensively — see that
+file and the conversation history). Options: you download and upload here
+(same as the AI clips), or a local Claude Code session with normal network
+access fetches and pushes them to the repo directly.
 
 ## What's still needed
 
-- **S15** (environmental transformation montage) — 0 clips.
-- **S22** (myth-witness montage) — 0 clips.
-- **More material for S18** — currently 8s of 24.7s needed.
-- **9 motion graphics** (After Effects/Remotion).
-- **9 archival clips** — several AI clips are already standing in for
-  archival-type cues (S05, S12, S17, S24), which works fine given the
-  script's own "reconstructed scene" visual language.
+- **S15** (environmental transformation montage) — 0 clips, 4 sub-prompts ready.
+- **S22** (myth-witness montage) — 0 clips, 5 sub-prompts ready.
+- **More material for S18** — currently 8s of 24.7s needed, 3 sub-prompts ready.
+- **8 archival photos** — sources researched, nothing fetched yet.
 - **Render path decision**: `vidiq_compose` (needs hosted URLs — these
   files are currently only local to this session/repo) vs. local Remotion
-  render.
+  render (now proven working in this repo for the graphics layer — the
+  same setup could composite the whole episode if ffmpeg/Remotion handles
+  the AI clips + voiceover too).
 
-Send S15, S22, and more S18 coverage whenever ready — I'll keep wiring
-things in as they land.
+Send S15, S22, S18 coverage, or archival photos whenever ready — I'll keep
+wiring things in as they land.

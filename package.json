@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "remotion studio",
-    "render": "remotion render src/index.ts Timberland out/timberland.mp4"
+    "render": "remotion render src/index.ts",
+    "render:pantheon": "node scripts/render-pantheon-graphics.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

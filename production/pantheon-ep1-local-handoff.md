@@ -59,14 +59,24 @@ The same tundra landscape now scorched and silent. Blackened, fallen trees, smol
 **Ratio:** 16:9 · **Duration:** 8s · **Model:** Veo 3.1 Quality
 
 ### Shot 5 — Environmental transformation montage (Part Four)
-**Prompt:**
-A time-lapse-style montage: a green tundra forest withers and turns brittle and gray; a distant glacier visibly advances and thickens over a valley; a mammoth herd trudges through deepening snow, some animals falling behind; a small cluster of hide tents grows smaller and more huddled against the wind. Cool blue-gray color grade throughout, continuous slow zoom. Mood of accelerating, relentless decline.
-**Ratio:** 16:9 · **Duration:** 10s · **Model:** Veo 3.1 Quality (longer/segmented if platform caps duration)
+**Needs ~36s of screen time — generate as 4 separate sub-clips, not one continuous shot.**
+
+**5a — Forest withers:** Static wide shot of a green tundra forest under overcast sky. Over the shot, needles brown and branches go bare and brittle, frost creeping in from the edges. Cool blue-gray color grade, very slow zoom in.
+**5b — Glacier advances:** Wide shot of a mountain valley with a distant glacier. The ice visibly thickens and pushes forward into the valley floor, swallowing the green at its edges. Same cool color grade, slow zoom in.
+**5c — Herd declines:** A mammoth herd trudging through deepening snow on an open plain, moving slower, several animals falling behind and struggling. Wide tracking shot alongside the herd, overcast light.
+**5d — Camp shrinks:** A small cluster of hide tents on a windswept ridge, first several tents with people moving between them, then fewer tents, more huddled, smoke thin, wind stronger. Static wide shot, slow zoom in.
+
+*Note: an earlier "YEAR 0 / YEAR 50" four-panel split-screen comparison (forest→bare branches, valley→glacier, herd→one mammoth down, tents→storm) was previewed in this session — if that generation finished, it may already cover 5a-5d in one asset. Check before generating fresh.*
+**Ratio:** 16:9 · **Duration:** ~8-9s each · **Model:** Veo 3.1 Quality
 
 ### Shot 6 — Desperate hunter group in changing landscape (Part Five)
-**Prompt:**
-A small group of Ice Age humans — a hunter, an elder, and a woman holding a thin child — stand on a windswept ridge overlooking an empty, frost-covered plain where a herd used to graze. The woman looks down at the child with visible fear and hunger in her expression. Overcast light, harsh wind moving fur cloaks and hair. Slow push-in on the woman and child's faces, ending in a close two-shot. Intimate, quietly devastating mood.
-**Ratio:** 16:9 · **Duration:** 8s · **Model:** Veo 3.1 Quality
+**Needs ~25s of screen time. One clip already received** (woman crouched with child, three hunters walking away in the background, empty snowy plain). **Generate 2-3 more sub-clips** of the same family/group to cut together with it:
+
+**6b — Establishing wide:** The same small group of Ice Age humans — a hunter, an elder, the woman and child — walking single-file across an empty, frost-covered plain where a herd used to graze. Overcast light, harsh wind moving fur cloaks and hair. Wide shot, slow tracking alongside them.
+**6c — Elder looks back:** Close-up on the elder hunter, stopping and turning to look back at the empty horizon behind the group — where the herd should be. His breath visible in the cold. Static shot, slow push-in.
+**6d — Child's face:** Close-up on the wrapped child's face, looking up at the mother, cold and quiet. Slow, still, minimal movement.
+
+**Ratio:** 16:9 · **Duration:** ~6-8s each · **Model:** Veo 3.1 Quality
 
 ### Shot 7 — Early Neolithic settlement at Göbekli Tepe-style structure (Part Seven)
 **Prompt:**
@@ -80,9 +90,17 @@ A wide shot of a present-day landscape — rolling green hills transitioning int
 
 ### Shot 9 — Myth-witness reconstruction montage (Part Six)
 *Found in the script body but missing from the original 8-shot production list — added so all 9 AI cues that actually appear in the script have a prompt.*
-**Prompt:**
-A montage of five brief vignettes, each showing people from a different ancient culture — Mesopotamian, Greek, Hindu, Maya, Indigenous American, each in period-accurate dress and setting — looking up in awe and fear at a bright light or fire in the sky, some fleeing rising floodwater, some huddled in darkness. Each vignette rendered in a subtly different palette echoing that culture's visual motifs (terracotta/cuneiform tones, marble/pottery tones, saffron/fire tones, jade/stone tones, ochre/earth tones), tied together by consistent slow push-in camera movement and the same awed, fearful expression across all five. No text overlays.
-**Ratio:** 16:9 · **Duration:** 10s (or split into 5×2s micro-vignettes if the model handles multi-scene cuts) · **Model:** Veo 3.1 Quality
+
+**Needs ~30s of screen time — generate as 5 separate ~6s vignettes**, one per culture the narration names in order (Sumerian, Greek, Hindu, Maya, Indigenous American):
+
+**9a — Sumerian:** A Mesopotamian man in period dress (linen wrap, close-cropped beard) standing on a rooftop at night, looking up in awe and fear at a bright light streaking across the sky, floodwater visible rising in the streets below. Warm terracotta/torchlight palette. Slow push-in.
+**9b — Greek:** A Greek man and woman in draped chitons on a hillside, watching a distant deluge sweep across a valley below, water reflecting a strange light in the sky. Marble-white and sea-blue palette. Slow push-in.
+**9c — Hindu:** A figure in simple dhoti-style dress on a riverbank at dusk, watching both fire in the sky and rising water simultaneously, hands raised. Saffron and firelight palette. Slow push-in.
+**9d — Maya:** A Maya figure in woven textile and jade ornament, standing before a stone structure, looking up as the sky darkens unnaturally. Jade-green and stone-gray palette. Slow push-in.
+**9e — Indigenous American:** A figure in hide and fur clothing on an open plain, looking up as ice/snow begins falling from a darkening sky, sheltering a child. Ochre and frost-blue palette. Slow push-in.
+
+Same awed, fearful expression across all five; no text overlays.
+**Ratio:** 16:9 · **Duration:** ~6s each · **Model:** Veo 3.1 Quality
 
 ---
 
