@@ -260,10 +260,17 @@
     "cue": "Veo 3.1 - cinematic reconstruction montage: various ancient cultures' peoples witnessing sky fire, floods, darkness, displacement, reimagined through their own cultural lens",
     "vo_words": 46,
     "est_dur": 20.0,
-    "src": "PENDING",
+    "src": [
+      "pantheon-ep1-clips/S22a-sumerian-man-watching-sky.mp4",
+      "pantheon-ep1-clips/S22b-greek-couple-watching-deluge.mp4",
+      "pantheon-ep1-clips/S22c-hindu-figure-riverbank-fire.mp4",
+      "pantheon-ep1-clips/S22d-maya-figure-looking-up.mp4",
+      "pantheon-ep1-clips/S22e-indigenous-sheltering-child-snow.mp4"
+    ],
     "shot_ref": "Shot 9",
     "label": "Myth-witness reconstruction montage (NEW - not in original 8-shot list)",
-    "final_dur": 29.9
+    "final_dur": 29.9,
+    "src_status": "received"
   },
   {
     "id": "S23",
