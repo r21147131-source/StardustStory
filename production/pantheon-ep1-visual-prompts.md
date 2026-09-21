@@ -14,7 +14,7 @@ objects, 4K, documentary realism, subtle film grain, no visible watermark.*
 
 ---
 
-## AI VIDEO SHOTS (9)
+## AI VIDEO SHOTS (9 script shots + 2 archival-fallback shots for S04/S13)
 
 ### Shot 1 — Night sky meteor streak (Cold Open)
 **Prompt:**
@@ -79,6 +79,28 @@ A wide shot of a present-day landscape — rolling green hills transitioning int
 
 Same awed, fearful expression across all five; no text overlays; consistent slow push-in camera movement ties the montage together.
 **Ratio:** 16:9 · **Duration:** ~6s each · **Model:** Veo 3.1 Quality
+
+### Shot 10 — Museum specimen displays: mammoth, dire wolf, ground sloth (S04)
+*Originally an "archival" cue expecting real museum photos — 6 real ones landed (Gilgamesh tablet, Lascaux, craters, ice core) but the mammoth/dire-wolf specimen photos couldn't be transferred (arrived without a file path). Generating these as AI stills/short clips instead, styled to match the real museum photography already in hand (single specimen + placard, orange-backlit specimen wall).*
+
+**Needs ~43.5s of screen time — generate as 4-5 sub-clips/stills:**
+
+**10a — Mammoth tusk specimen:** A single large curved mammoth tusk mounted on a museum wall bracket, small identification placard beside it (blank/illegible text, no real museum name), neutral gallery wall, soft even museum lighting. Static shot or extremely slow push-in. Documentary museum-photography style, not cinematic drama.
+**10b — Dire wolf skull wall:** A large glass display case backlit in warm amber light, containing dozens of dark fossilized dire wolf skulls arranged in a grid pattern. Wide shot, static or very slow lateral pan.
+**10c — Dire wolf skulls close-up:** Closer shot on a section of the same skull grid, individual skull details visible, same amber backlight. Static, slight parallax.
+**10d — Ground sloth / mammoth skeleton mount:** A full mammoth (or giant ground sloth) skeleton mounted head-on in a museum diorama, smaller skeletons (wolf-sized) flanking it on plinths, painted habitat backdrop behind. Static wide shot, slow zoom in.
+
+**Ratio:** 16:9 · **Duration:** ~8-10s each · **Model:** Veo 3.1 Quality or a still-image model (gpt_image_2/nano-banana) if video motion isn't needed — these read fine as slow-zoom stills.
+
+### Shot 11 — Extinction-era displays and reconstructions (S13)
+*Same situation as Shot 10 — reuses/extends the same museum specimen imagery for the second archival beat about extinction-era remains.*
+
+**Needs ~30s of screen time — can reuse 10b/10c/10d above plus:**
+
+**11a — Saber-toothed cat skeleton:** A mounted Smilodon (saber-toothed cat) skeleton in a museum display, long canine teeth prominent, spotlit against a dark backdrop. Static shot, slow push-in.
+**11b — Artistic reconstruction painting:** A framed museum wall painting/mural depicting Ice Age megafauna (mammoths, ground sloth, dire wolves) in a living landscape, painted illustration style (not photoreal), displayed beside a skeleton mount for scale. Static shot.
+
+**Ratio:** 16:9 · **Duration:** ~8-10s each · **Model:** same as Shot 10.
 
 ---
 

@@ -142,6 +142,26 @@ For sourcing stock/archival clips (NSIDC, Getty, Pond5, museum archives, etc.):
 - "Younger Dryas boundary layer geological cross section"
 - "last glacial maximum ice sheet extent map archival"
 
+### Shot 10 — Museum specimen displays: mammoth, dire wolf, ground sloth (S04)
+*Originally an "archival" cue — real photos couldn't transfer, generating as AI instead, styled to match the real museum photography already in the repo.*
+
+**Needs ~43.5s of screen time — generate as 4-5 sub-clips/stills:**
+
+**10a — Mammoth tusk specimen:** A single large curved mammoth tusk mounted on a museum wall bracket, small identification placard beside it (blank/illegible text), neutral gallery wall, soft even museum lighting. Static shot or extremely slow push-in.
+**10b — Dire wolf skull wall:** A large glass display case backlit in warm amber light, containing dozens of dark fossilized dire wolf skulls arranged in a grid pattern. Wide shot, static or very slow lateral pan.
+**10c — Dire wolf skulls close-up:** Closer shot on a section of the same skull grid, individual skull details visible, same amber backlight.
+**10d — Ground sloth / mammoth skeleton mount:** A full mammoth (or giant ground sloth) skeleton mounted head-on in a museum diorama, smaller skeletons flanking it on plinths, painted habitat backdrop. Static wide shot, slow zoom in.
+
+**Ratio:** 16:9 · **Duration:** ~8-10s each · **Model:** Veo 3.1 Quality or a still-image model if video motion isn't needed.
+
+### Shot 11 — Extinction-era displays and reconstructions (S13)
+**Needs ~30s — can reuse 10b/10c/10d above plus:**
+
+**11a — Saber-toothed cat skeleton:** A mounted Smilodon skeleton in a museum display, long canine teeth prominent, spotlit against a dark backdrop. Static shot, slow push-in.
+**11b — Artistic reconstruction painting:** A framed museum wall painting depicting Ice Age megafauna in a living landscape, illustration style, displayed beside a skeleton mount for scale. Static shot.
+
+**Ratio:** 16:9 · **Duration:** ~8-10s each · **Model:** same as Shot 10.
+
 ---
 
 ## Notes
