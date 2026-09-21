@@ -86,10 +86,15 @@ def cinematic_finish_filters() -> str:
     blacks = "curves=all='0/0.05 0.5/0.5 1/1'"
     grain = "noise=alls=6:allf=t+u"
     vignette = "vignette=PI/5"
-    # cheap bloom: blur highlights and screen-blend back over the original
+    # cheap bloom: blur highlights and screen-blend back over the original.
+    # `blend` (and the split/merge around it) silently negotiated a YUV
+    # pixel format here instead of RGB, so `curves=all=...` on the "hi"
+    # branch was mangling chroma planes rather than luma — invisible on
+    # real footage but a strong purple cast on flat/near-black cards.
+    # Forcing planar RGB around the whole split/blend fixes it.
     bloom = (
-        "split=2[base][hi];"
-        "[hi]curves=all='0/0 0.7/0 1/1',gblur=sigma=8[hib];"
+        "format=gbrp,split=2[base][hi];"
+        "[hi]curves=all='0/0 0.7/0 1/1',gblur=sigma=8,format=gbrp[hib];"
         "[base][hib]blend=all_mode=screen:all_opacity=0.25"
     )
     return f"{curves},{eq},{blacks},{grain},{vignette},{bloom}"

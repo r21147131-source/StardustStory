@@ -29,6 +29,16 @@ XFADE_TYPES = {
     "whip_pan": "wiperight",
 }
 
+# Without an explicit colorspace tag, decoders guess the YUV matrix (often
+# by resolution), and a guess that doesn't match the encoder's assumption
+# distorts chroma badly on near-black/near-gray content — the grade's
+# subtle per-channel offsets came back as a strong purple cast instead of
+# neutral dark gray until every encode carried the same explicit tag.
+COLOR_TAG_ARGS = [
+    "-colorspace", "bt709", "-color_primaries", "bt709",
+    "-color_trc", "bt709", "-color_range", "tv",
+]
+
 
 def _run(cmd: list[str]) -> None:
     proc = subprocess.run(cmd, capture_output=True, text=True)
@@ -176,8 +186,7 @@ def render_segment_clip(seg: Segment, extend_tail: float, work_dir: Path, idx: i
         "-filter_complex", filter_complex, "-map", f"[{vlabel}]",
         "-an", "-t", str(dur), "-r", str(config.FPS),
         "-c:v", "libx264", "-crf", str(config.CRF), "-pix_fmt", "yuv420p",
-        str(out_path),
-    ]
+    ] + COLOR_TAG_ARGS + [str(out_path)]
     _run(cmd)
     seg._rendered_path = out_path  # type: ignore[attr-defined]
     seg._rendered_extend = actual_extend  # type: ignore[attr-defined]
@@ -236,8 +245,8 @@ def concat_with_transitions(segments: list[Segment], work_dir: Path) -> Path:
             "-filter_complex",
             f"[0:v][1:v]xfade=transition={xtype}:duration={d}:offset={offset}[v]",
             "-map", "[v]", "-c:v", "libx264", "-crf", str(config.CRF),
-            "-pix_fmt", "yuv420p", str(out_path),
-        ])
+            "-pix_fmt", "yuv420p",
+        ] + COLOR_TAG_ARGS + [str(out_path)])
         current = out_path
     return current
 
@@ -328,8 +337,8 @@ def prepend_intro(episode_video: Path, master_audio: Path, work_dir: Path,
     )
     final_video = work_dir / "with_intro.mp4"
     _run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(video_list),
-          "-c:v", "libx264", "-crf", str(config.CRF), "-pix_fmt", "yuv420p",
-          str(final_video)])
+          "-c:v", "libx264", "-crf", str(config.CRF), "-pix_fmt", "yuv420p"]
+         + COLOR_TAG_ARGS + [str(final_video)])
     video_total = _duration_of(final_video)
 
     # The video track is a hard cut (intro used unchanged), but the audio
