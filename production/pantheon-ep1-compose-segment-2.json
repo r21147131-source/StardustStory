@@ -1,0 +1,146 @@
+{
+  "scenes": [
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S14-ClimatePlunge.mp4",
+      "duration": 33.14,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S15a-forest-withers.jpeg",
+      "duration": 8.94,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S15b-glacier-advances.mp4",
+      "duration": 8.94,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S15c-mammoth-herd-trudging-snow.mp4",
+      "duration": 8.94,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S15d-camp-shrinks.mp4",
+      "duration": 8.94,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S16-AMOCDiagram.mp4",
+      "duration": 4.48,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S17a-abandoned-hunting-camp.mp4",
+      "duration": 7.16,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S17b-empty-hunting-camp-tundra.mp4",
+      "duration": 7.16,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S18a-woman-looking-at-child.mp4",
+      "duration": 8.23,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S18a-woman-looking-at-child.mp4",
+      "duration": 8.23,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S18a-woman-looking-at-child.mp4",
+      "duration": 8.23,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S19-PopulationMap.mp4",
+      "duration": 7.8,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S20a-lascaux-horse.jpg",
+      "duration": 9.43,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S20b-gilgamesh-flood-tablet.jpg",
+      "duration": 9.43,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S21-MythMontage.mp4",
+      "duration": 45.49,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S22a-sumerian-man-watching-sky.mp4",
+      "duration": 5.98,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S22b-greek-couple-watching-deluge.mp4",
+      "duration": 5.98,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S22c-hindu-figure-riverbank-fire.mp4",
+      "duration": 5.98,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S22d-maya-figure-looking-up.mp4",
+      "duration": 5.98,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S22e-indigenous-sheltering-child-snow.mp4",
+      "duration": 5.98,
+      "type": "video"
+    }
+  ],
+  "format": "landscape",
+  "voiceover": {
+    "audioUrl": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-voiceover.mp3",
+    "trimStartSeconds": 212.87,
+    "durationSeconds": 214.44
+  }
+}

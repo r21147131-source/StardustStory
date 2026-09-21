@@ -1,0 +1,152 @@
+{
+  "scenes": [
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S23a-gobekli-tepe-excavation.jpg",
+      "duration": 36.4,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S24a-neolithic-farmer-crop-rows.mp4",
+      "duration": 4.48,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S25-NeolithicTimeline.mp4",
+      "duration": 17.55,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S26a-sunny-core-segment-handheld.jpg",
+      "duration": 11.7,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S26b-vintage-tunnel-station.jpg",
+      "duration": 11.7,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S27a-aerial-farmland-to-city.mp4",
+      "duration": 7.47,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S27c-landscape-transitioning-to-city.mp4",
+      "duration": 7.47,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S28-StatCards.mp4",
+      "duration": 37.7,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S30-LogoCard.mp4",
+      "duration": 6.0,
+      "type": "video",
+      "transitionIn": {
+        "kind": "dip_to_black",
+        "duration": 1.0
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S31-CitationCrawl.mp4",
+      "duration": 26.65,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S03a-mammoths-bison-watching-meteors.mp4",
+      "duration": 5.61,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S08b-comet-entering-atmosphere.mp4",
+      "duration": 5.61,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S12a-burned-ash-landscape.mp4",
+      "duration": 5.61,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S15b-glacier-advances.mp4",
+      "duration": 5.61,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S22a-sumerian-man-watching-sky.mp4",
+      "duration": 5.61,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S23a-gobekli-tepe-excavation.jpg",
+      "duration": 5.61,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S27a-aerial-farmland-to-city.mp4",
+      "duration": 5.61,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S13b-saber-tooth-skull-jaw-open.mp4",
+      "duration": 5.61,
+      "type": "video"
+    }
+  ],
+  "format": "landscape",
+  "voiceover": {
+    "audioUrl": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-voiceover.mp3",
+    "trimStartSeconds": 427.31,
+    "durationSeconds": 212.0
+  }
+}

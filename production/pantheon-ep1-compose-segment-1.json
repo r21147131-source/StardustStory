@@ -1,0 +1,213 @@
+{
+  "scenes": [
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S01a-ice-core-extraction-parka.jpg",
+      "duration": 5.85,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S01b-night-drilling-rig.jpg",
+      "duration": 5.85,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S02-TimelineAxis.mp4",
+      "duration": 15.59,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S03a-mammoths-bison-watching-meteors.mp4",
+      "duration": 4.48,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S04a-mammoth-skeleton-diorama.jpg",
+      "duration": 21.77,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S04b-mammoth-tusk-specimen-placard.jpg",
+      "duration": 21.77,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S05c-hunters-watching-mammoth-herd.mp4",
+      "duration": 4.48,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S06-IceSheetMap.mp4",
+      "duration": 4.54,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S07a-blue-ice-wall-examination.jpg",
+      "duration": 17.22,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S07b-core-barrel-closeup.jpg",
+      "duration": 17.22,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S08b-comet-entering-atmosphere.mp4",
+      "duration": 4.48,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S09-ImpactDiagram.mp4",
+      "duration": 16.89,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S10b-wolfe-creek-crater-wide.jpg",
+      "duration": 4.22,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S10d-barringer-crater-aerial-color.jpg",
+      "duration": 4.22,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-motion-graphics/S11-ExtinctionChart.mp4",
+      "duration": 29.9,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S12a-burned-ash-landscape.mp4",
+      "duration": 4.48,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-archival/S13a-dire-wolf-skull-jaw-open.jpg",
+      "duration": 9.97,
+      "type": "image",
+      "kenBurns": {
+        "from": {
+          "scale": 1.0,
+          "x": 0.5,
+          "y": 0.5
+        },
+        "to": {
+          "scale": 1.15,
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S13b-saber-tooth-skull-jaw-open.mp4",
+      "duration": 9.97,
+      "type": "video"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-clips/S13c-dire-wolf-skull-angle.mp4",
+      "duration": 9.97,
+      "type": "video"
+    }
+  ],
+  "format": "landscape",
+  "voiceover": {
+    "audioUrl": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep1-voiceover.mp3",
+    "trimStartSeconds": 0.0,
+    "durationSeconds": 212.87
+  }
+}
