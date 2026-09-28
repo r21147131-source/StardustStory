@@ -6,8 +6,12 @@ Audio: `public/golden-four-ep5-voiceover.mp3`, about 1007.2s (16:47), recorded f
 Beat timecodes below are **estimates** based on each beat's word count. They
 still need checking against a transcript before the cuts are locked.
 
-Rights rules (same as Ep2): symbolic stock B-roll and original graphics only. No
-film clips, trailers, press photos, convention footage or actor likenesses.
+Sources: symbolic stock B-roll (Pexels) plus official stills, backdrops and
+posters from TMDB (The Movie Database), which the user asked to add. TMDB images
+are copyrighted by the studios. Use them as commentary: show each one only while
+the narration is discussing that film or role, keep it on screen briefly
+(3–6s, with a Ken Burns move), and never use one as a full-frame backdrop behind
+unrelated narration. Still no film clips, trailers or convention footage.
 
 ## Beats
 
@@ -22,6 +26,21 @@ film clips, trailers, press photos, convention footage or actor likenesses.
 | 6 Variant theory | 12:40–14:25 | A mirror maze / infinite reflections; a desert cave mouth; an empty workshop; a split-screen light graphic, gold left and green right. |
 | 7 Why casting matters | 14:25–15:30 | Five light points taking positions (motion graphic), each lighting up as its actor's name is spoken. |
 | 8 Close | 15:30–16:47 | Stardust drift returns; four gold points and a green point collide in a bloom of light; end card "Avengers: Doomsday · Dec 18" + subscribe. |
+
+## TMDB pulls (by beat)
+
+Look up the TMDB IDs through the API when it's reachable; don't hardcode them from memory.
+
+| Beat | Title (TMDB type) | Image use |
+|---|---|---|
+| 1 | The Fantastic Four: First Steps (movie) | backdrop of the team; individual character stills for each actor's chapter |
+| 2 | Iron Man (movie), Avengers: Endgame (movie) | one backdrop each for "Tony chose his limits" |
+| 2, 8 | Avengers: Doomsday (movie) | official poster/backdrop, if TMDB has one |
+| 3 | Game of Thrones, Narcos, The Last of Us (tv) | one still each for Oberyn / Peña / Joel |
+| 3 | Stranger Things (tv), A Quiet Place: Day One, Gladiator II (movie) | one still each for Eddie / Day One / Geta |
+| 4 | The Crown (tv), Mission: Impossible – Fallout, Pieces of a Woman (movie) | one still each |
+| 5 | The Punisher, Andor, The Bear (tv) | one still each; The Bear gets the most screen time |
+| 6 | Iron Man (movie) | cave/workshop backdrop for the "cave in Afghanistan" line |
 
 ## vidiq_compose segments (≤240s each)
 
@@ -39,4 +58,6 @@ the audio is transcribed:
 - Transcribe the voiceover to lock the timecodes (a local transcription model can't be
   downloaded because this session's network is restricted).
 - Source the B-roll URLs (Pexels, or vidIQ B-roll generation).
+- TMDB: needs `api.themoviedb.org` and `image.tmdb.org` allowed in the environment's
+  network settings, plus a TMDB API key stored as an environment secret (for example `TMDB_API_KEY`).
 - Thumbnail: graphic only (four gold quadrants + a green mask silhouette); no faces.
