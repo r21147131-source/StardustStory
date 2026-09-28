@@ -32,3 +32,7 @@ script (`golden-four-ep5-script.md`), not v1.1. The audio contains these lines, 
   interview insets, lower-thirds, title and end card). `clips.json` maps
   imax/rdj/pascal to freshly signed trim URLs. They're not committed because they expire.
 - Blocked: vidiq_compose costs **56 credits per segment** (about 280 for the whole video). The account had 38.
+- Local render (costs no credits): `pip install imageio-ffmpeg pillow`, then
+  `python production/ep5/render_local.py WORKDIR output/golden-four-ep5/the-collision.mp4`
+  (WORKDIR holds `compose-seg*.json`). Needs `image.tmdb.org` and `videos.pexels.com`
+  reachable. `--placeholders --preview --only N` gives a quick pipeline test.
