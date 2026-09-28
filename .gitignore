@@ -2,3 +2,6 @@ node_modules/
 out/
 .DS_Store
 render/
+
+# 1080p master exceeds GitHub 100MB limit; delivered directly
+output/golden-four-ep5/the-collision-1080p.mp4
