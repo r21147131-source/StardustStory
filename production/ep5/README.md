@@ -23,3 +23,12 @@ script (`golden-four-ep5-script.md`), not v1.1. The audio contains these lines, 
 - s184 "...play the thing he escaped in real life, the man who chose power over people."
 - s74–s77, s124–s128, s146–s152: the Doomsday plot and dialogue, stated as fact
 - s156 "a twist that Marvel Studios has been hinting at" (this is a fan theory)
+
+## Render status (2026-09-28)
+- `sent_times.json`: the start time of each script sentence in the voiceover. Built from
+  pause detection plus anchors from the Scribe transcript; accurate to about ±2s.
+- `build_compose.py sent_times.json clips.json OUTDIR` writes `compose-seg{1..5}.json`, one
+  vidiq_compose payload per segment (32–39 scenes each, TMDB stills plus Pexels B-roll,
+  interview insets, lower-thirds, title and end card). `clips.json` maps
+  imax/rdj/pascal to freshly signed trim URLs. They're not committed because they expire.
+- Blocked: vidiq_compose costs **56 credits per segment** (about 280 for the whole video). The account had 38.
