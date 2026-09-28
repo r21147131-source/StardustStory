@@ -7,12 +7,13 @@ Output: compose-seg{1..5}.json
 import json, itertools, sys, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 sents = json.load(open(sys.argv[1]))
-clips = json.load(open(sys.argv[2]))
+clips = json.load(open(sys.argv[2])) if sys.argv[2] != "-" else {}
 tm = json.load(open(os.path.join(HERE, "tmdb-images.json")))
-T = 1007.18
-CUTS = [0, 222.23, 412.12, 608.98, 794.20, T]
+# re-recorded voiceover (v1.1 script); cuts sit on section-break pauses
+T = 873.639
+CUTS = [0, 202.03, 342.01, 568.14, 804.03, T]
 VO = ("https://raw.githubusercontent.com/r21147131-source/StardustStory/"
-      "claude/loving-brahmagupta-7ayh5b/public/golden-four-ep5-voiceover.mp3")
+      "claude/eager-lamport-84svgu/public/golden-four-ep5-voiceover.mp3")
 
 def img(key, i=0, poster=False):
     e = tm[key]
@@ -70,62 +71,71 @@ P = lambda who, i=0: img("p_" + who, i)
 B = lambda key, i=0: img(key, i)
 DD = img("doomsday"); DDP = img("doomsday", poster=True)
 
-# (sentence prefix, assets, optional lower-third label)
+# (sentence prefix, assets, optional lower-third label) — prefixes from golden-four-ep5-recording-script.txt
 CUES = [
  ("Welcome back", [V["star"], V["nebula"]], None),
  ("You watched Pedro", [P("pascal", 0), B("last_of_us")], None),
  ("You traced Joseph", [B("stranger_things"), P("quinn", 0)], None),
  ("You followed Vanessa", [P("kirby", 0), B("the_crown")], None),
  ("And last week", [B("iron_man", 0), P("rdj", 0), DD], None),
+ ("And standing beside them", [P("ebon", 0), B("the_bear")], None),
  ("This is Episode Five", [V["gold"], DDP, V["glitter"]], None),
+ ("One note before", [V["books"], DDP, V["candle"]], None),
  ("Before Doom arrives", [FS(0), FS(1), FS(2), FS(3)], None),
  ("Pedro Pascal spent", [P("pascal", 1), B("narcos", 0), B("got", 0), B("last_of_us"), FS(4), P("pascal", 2)], None),
  ("Joseph Quinn came", [V["runner"], B("stranger_things"), B("quiet_place_day_one"), B("gladiator_ii"), P("quinn", 1), FS(5)], None),
- ("Vanessa Kirby was not", [V["door"], B("the_crown"), B("mi_fallout"), P("kirby", 1), FS(6), P("kirby", 2)], None),
- ("And Ebon", [V["sculpt"], B("the_bear"), P("ebon", 0), FS(7)], None),
+ ("Vanessa Kirby was never", [V["door"], B("the_crown"), B("mi_fallout"), P("kirby", 1), FS(6), P("kirby", 2)], None),
+ ("And Ebon Moss-Bachrach", [V["sculpt"], B("the_bear"), P("ebon", 1), FS(7)], None),
  ("Together, they built", [FS(8), V["dinner"], FS(9)], None),
  ("But every family", [V["gsmoke"]], None),
- ("Doctor Doom has been", [V["books"], V["forge"], V["smoke"], V["chess"]], None),
- ("Victor Von Doom believes", [DD, V["gsmoke"], V["forge2"]], None),
- ("When Marvel Studios cast", [P("rdj", 1), DDP], None),
+ ("Doctor Doom has haunted", [V["books"], V["forge"], V["smoke"], V["chess"]], None),
+ ("Victor von Doom believes", [DD, V["gsmoke"], V["forge2"]], None),
+ ("When Marvel revealed", [P("rdj", 1), DDP], None),
  ("Villainy is not", [V["smoke"], V["chess2"]], None),
- ("Tony Stark and Victor", [B("iron_man", 1), B("iron_man", 2), B("endgame", 0), P("rdj", 2)], None),
- ("In the comics", [FS(10), FS(11), FS(12), FS(13), V["chess"]], None),
+ ("That is why the casting lands", [B("iron_man", 1), B("iron_man", 2), B("endgame", 0), P("rdj", 2)], None),
+ ("In the comics, Doom", [FS(10), FS(11), FS(12), FS(13), V["chess"]], None),
  ("To Doom, the Fantastic Four", [FS(14), V["forge"]], None),
- ("This is what makes", [P("rdj", 3), B("iron_man", 3), B("endgame", 1)], None),
- ("Tony Stark chose those", [B("endgame", 2), V["tools"]], None),
+ ("Tony Stark's story", [P("rdj", 3), B("iron_man", 3), B("endgame", 1)], None),
+ ("Tony Stark chose his", [B("endgame", 2), V["tools"]], None),
  ("Doctor Doom rejected", [V["gsmoke"]], None),
- ("Avengers Doomsday does not open", [V["chairs"], DD, V["chalk"], FS(15)], None),
- ("Pedro Pascal's entire", [P("pascal", 3), B("last_of_us"), B("narcos", 1), B("got", 1), FS(16), P("pascal", 4)], None),
- ("Johnny Storm's role", [V["match"], V["bonfire"]], None),
+ ("We do not know how", [V["chairs"], DD, V["chalk"], FS(15)], None),
+ ("And it is exactly the kind", [P("pascal", 3), B("last_of_us"), B("narcos", 1), B("got", 1), FS(16), P("pascal", 4)], None),
+ ("Johnny Storm's collision", [V["match"], V["bonfire"]], None),
  ("Joseph Quinn has spent", [P("quinn", 2)], None),
- ("In Stranger Things", [B("stranger_things")], "STRANGER THINGS (2022)"),
+ ("Eddie Munson was not", [B("stranger_things")], "STRANGER THINGS (2022)"),
  ("In A Quiet Place", [B("quiet_place_day_one")], "A QUIET PLACE: DAY ONE (2024)"),
  ("In Gladiator II", [B("gladiator_ii")], "GLADIATOR II (2024)"),
- ("When Doom meets Johnny", [V["bonfire2"], FS(17), V["candle"]], None),
- ("This is what Joseph Quinn brings", [P("quinn", 3), FS(18)], None),
- ("Sue Storm is pregnant", [V["mother"], V["crib"], FS(19)], None),
+ ("On paper, Johnny", [V["bonfire2"], FS(17), V["candle"]], None),
+ ("That is what Joseph Quinn brings", [P("quinn", 3), FS(18)], None),
+ ("At the heart of The Fantastic Four", [V["mother"], V["crib"], FS(19)], None),
  ("Vanessa Kirby's career", [P("kirby", 3)], None),
- ("In The Crown", [B("the_crown")], "THE CROWN (2016)"),
- ("In Mission Impossible", [B("mi_fallout")], "MISSION: IMPOSSIBLE – FALLOUT (2018)"),
- ("Sue Storm is the leader", [FS(20), V["prism"], FS(21), V["hospital"], V["prism2"], FS(22), P("kirby", 0)], None),
- ("Ben Grimm is the heart", [V["quarry"], V["statue"], V["sculpt2"], FS(23), FS(24)], None),
- ("Ebon Moss-Bachrach is an Emmy", [P("ebon", 1), B("the_bear"), V["kitchen"], P("ebon", 2)], "THE BEAR (2022)"),
- ("When Doom meets the Thing", [V["bag"], FS(25), V["statue"], FS(26), V["quarry"]], None),
- ("But there is a twist", [P("rdj", 0), DD, V["mirror"], V["cave"], B("iron_man", 4), B("endgame", 3), V["reflect"], DDP], None),
- ("Pedro Pascal looks", [P("pascal", 0)], None),
- ("Joseph Quinn faces", [P("quinn", 0)], None),
- ("Vanessa Kirby confronts", [P("kirby", 1)], None),
- ("And Ebon Moss-Bachrach faces", [P("ebon", 3)], None),
- ("This is why the casting", [FS(27), FS(28)], None),
- ("When Avengers Doomsday arrives", [DD, P("rdj", 1), P("pascal", 1), P("quinn", 2), P("kirby", 2), P("ebon", 0), FS(29), FS(30), FS(31)], None),
+ ("The Crown made her", [B("the_crown")], "THE CROWN (2016)"),
+ ("Instead, she played", [B("mi_fallout"), P("kirby", 1)], "MISSION: IMPOSSIBLE – FALLOUT (2018)"),
+ ("In the comics, Sue Storm", [FS(20), V["prism"], FS(21), V["hospital"], V["prism2"], FS(22), P("kirby", 0)], None),
+ ("Ben Grimm may be", [V["quarry"], V["statue"], V["sculpt2"], FS(23), FS(24)], None),
+ ("Ebon Moss-Bachrach knows", [P("ebon", 2), B("punisher"), B("andor"), B("the_bear"), V["kitchen"], P("ebon", 3)], None),
+ ("Imagine Doom meeting", [V["bag"], FS(25), V["statue"], FS(26), V["quarry"]], None),
+ ("And then there is the theory", [P("rdj", 0), DD, V["mirror"], V["cave"], B("iron_man", 4), B("endgame", 3), V["reflect"], DDP], None),
+ ("Reed, the genius", [P("pascal", 0)], None),
+ ("Johnny, the fire", [P("quinn", 0)], None),
+ ("Sue, the mother", [P("kirby", 1)], None),
+ ("Ben, the man", [P("ebon", 3)], None),
+ ("To that Doom", [V["mirror"], DD], None),
+ ("Whatever Doomsday turns out", [FS(27), FS(28)], None),
+ ("Robert Downey Jr. gets", [P("rdj", 1), DD], None),
+ ("Pedro Pascal gets", [P("pascal", 1)], None),
+ ("Joseph Quinn gets", [P("quinn", 2)], None),
+ ("Vanessa Kirby gets", [P("kirby", 2)], None),
+ ("And Ebon Moss-Bachrach gets", [P("ebon", 0)], None),
+ ("The Fantastic Four are not heroes", [FS(29), FS(30), FS(31)], None),
  ("The Golden Four is complete", [V["nebula"], FS(32)], None),
  ("Pedro Pascal taught", [P("pascal", 2)], None),
  ("Joseph Quinn showed", [P("quinn", 1)], None),
- ("Vanessa Kirby proved", [P("kirby", 3)], None),
- ("Robert Downey Jr reminded", [P("rdj", 2)], None),
- ("And now, when Avengers", [DDP, V["burst"]], None),
- ("Subscribe now", [V["burst2"], V["star"]], None),
+ ("Vanessa Kirby showed", [P("kirby", 3)], None),
+ ("Ebon Moss-Bachrach reminded", [P("ebon", 1)], None),
+ ("And Robert Downey Jr. reminded", [P("rdj", 2)], None),
+ ("On December eighteenth, we find", [DDP, V["burst"]], None),
+ ("Subscribe, share", [V["burst2"], V["star"]], None),
 ]
 
 norm = lambda s: s.replace("’", "'")
@@ -215,12 +225,14 @@ add_overlay(at("This is Episode Five") + 0.2, {"kind": "text", "text": "THE GOLD
             "style": {"color": "#FFFFFF", "fontSize": 40, "textAlign": "center"}})
 for pre, clip, st, d, cap in [
         ("Together, they built", "imax", 104, 12, "THE CAST · IMAX INTERVIEW (2025)"),
-        ("When Marvel Studios cast", "rdj", 26, 14, "SAN DIEGO COMIC-CON · HALL H (2024)"),
-        ("Pedro Pascal's entire", "pascal", 10, 12, "FIRST STEPS WORLD PREMIERE (2025)")]:
+        ("When Marvel revealed", "rdj", 26, 14, "SAN DIEGO COMIC-CON · HALL H (2024)"),
+        ("And it is exactly the kind", "pascal", 10, 12, "FIRST STEPS WORLD PREMIERE (2025)")]:
+    if clip not in clips:
+        continue
     t = at(pre) + 0.5
     add_overlay(t, {"kind": "video", "src": clips[clip], "startFromSeconds": st, "duration": d, "position": INSET})
     add_overlay(t, {"kind": "text", "text": cap, "duration": d, "position": CAP, "style": capstyle})
-t = at("Subscribe now")
+t = at("On December eighteenth, we find")
 add_overlay(t, {"kind": "text", "text": "AVENGERS: DOOMSDAY · DEC 18, 2026", "duration": 12,
                 "position": {"x": 0.1, "y": 0.36, "width": 0.8, "height": 0.1}, "style": title})
 add_overlay(t + 0.5, {"kind": "text", "text": "SUBSCRIBE · STARDUST STORY", "duration": 12,

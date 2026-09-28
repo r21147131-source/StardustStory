@@ -12,27 +12,18 @@
   - IMAX four-cast interview (Z4CxHxYbYnA, 20–200s)
   Their signed URLs expire, so trim again before rendering.
 
-## Voiceover check (ElevenLabs Scribe transcript, 2026-09-28)
-`public/golden-four-ep5-voiceover.mp3` is a recording of the **original**
-script (`golden-four-ep5-script.md`), not v1.1. The audio contains these lines, which need fixing:
-- s109 "Sue Storm is pregnant during Avengers: Doomsday." (in the film, Franklin is born in First Steps)
-- s113 "In The Crown, she was typecast as a young royal." (the role won her a BAFTA)
-- s142 "Richard Jewell in Chernobyl." (he wasn't in either)
-- s159 "...where Susan Levin never existed..." (Levin is Downey's real wife)
-- s169 "He chose Susan." (Tony chose Pepper)
-- s184 "...play the thing he escaped in real life, the man who chose power over people."
-- s74–s77, s124–s128, s146–s152: the Doomsday plot and dialogue, stated as fact
-- s156 "a twist that Marvel Studios has been hinting at" (this is a fan theory)
+## Voiceover (re-recorded 2026-09-28)
+`public/golden-four-ep5-voiceover.mp3` is now the user's re-recording of the fact-checked
+script (`production/golden-four-ep5-recording-script.txt`, = v1.1 without headings), 14:34.
+The original recording (which read the unrevised draft) is in git history only.
 
-## Render status (2026-09-28)
-- `sent_times.json`: the start time of each script sentence in the voiceover. Built from
-  pause detection plus anchors from the Scribe transcript; accurate to about ±2s.
-- `build_compose.py sent_times.json clips.json OUTDIR` writes `compose-seg{1..5}.json`, one
-  vidiq_compose payload per segment (32–39 scenes each, TMDB stills plus Pexels B-roll,
-  interview insets, lower-thirds, title and end card). `clips.json` maps
-  imax/rdj/pascal to freshly signed trim URLs. They're not committed because they expire.
-- Blocked: vidiq_compose costs **56 credits per segment** (about 280 for the whole video). The account had 38.
-- Local render (costs no credits): `pip install imageio-ffmpeg pillow`, then
-  `python production/ep5/render_local.py WORKDIR output/golden-four-ep5/the-collision.mp4`
-  (WORKDIR holds `compose-seg*.json`). Needs `image.tmdb.org` and `videos.pexels.com`
-  reachable. `--placeholders --preview --only N` gives a quick pipeline test.
+## Render
+- `align_vo.py` → `sent_times.json`: sentence start times, found by snapping each sentence
+  break to a detected pause (ffmpeg silencedetect -35dB/0.18s) with a DP on sentence length.
+  No transcript needed; section breaks all land on 0.8–2.6s pauses.
+- `build_compose.py sent_times.json - OUTDIR` writes `compose-seg{1..5}.json` (cuts at
+  0, 202.03, 342.01, 568.14, 804.03, 873.64). Pass a clips.json instead of `-` to add the
+  interview insets (freshly signed vidIQ trim URLs; skipped otherwise).
+- `render_local.py WORKDIR OUT.mp4` renders with ffmpeg only (no Python packages).
+  Set `FFMPEG=` to a build with libx264 + libfreetype (BtbN's linux64-gpl static build works).
+  Needs `image.tmdb.org` and `videos.pexels.com`. `--preview --only N` for a quick test.
