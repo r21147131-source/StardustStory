@@ -48,10 +48,10 @@ Stock footage: Pexels.
 #DanielDayLewis #MethodActing #StardustStory
 ```
 
-## Tags (≈460 characters; paste into the Tags box)
+## Tags (under YouTube's 500-character limit; paste into the Tags box)
 
 ```
-daniel day lewis, daniel day-lewis, daniel day lewis method acting, method acting, method acting explained, daniel day lewis documentary, daniel day lewis movies, best daniel day lewis movies, why is daniel day lewis so good, is daniel day lewis the greatest actor ever, daniel day lewis hamlet, daniel day lewis shoemaker, daniel day lewis retirement, anemone, ronan day lewis, there will be blood, daniel plainview, my left foot, lincoln, phantom thread, gangs of new york, the last of the mohicans, stardust story, consumed
+daniel day lewis, daniel day-lewis, daniel day lewis method acting, method acting, method acting explained, daniel day lewis documentary, daniel day lewis movies, best daniel day lewis movies, why is daniel day lewis so good, daniel day lewis hamlet, daniel day lewis shoemaker, daniel day lewis retirement, anemone, ronan day lewis, there will be blood, daniel plainview, my left foot, lincoln, phantom thread, gangs of new york, the last of the mohicans, stardust story, consumed
 ```
 
 ## Why these keywords (vidIQ data, 29 Sep 2026)
