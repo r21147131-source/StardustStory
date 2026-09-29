@@ -40,4 +40,4 @@ separately, then stitched into one final file.
 - `production/consumed-ep1-build.py`: the earlier B-roll-only cut. It also downloads the Pexels
   clips the edit uses (`render/consumed-ep1/src/`).
 - `production/consumed-ep1-credits.md`: sources and attribution for the YouTube description.
-- `output/consumed-ep1/daniel-day-lewis-consumed-720p.mp4`: the final render at 720p. The 1080p master is 181MB, over GitHub's file limit, so it stays out of the repo.
+- `output/consumed-ep1/daniel-day-lewis-consumed-720p.mp4`: the final render at 720p. The 1080p master (`daniel-day-lewis-consumed.mp4`, about 196MB) is over GitHub's file limit, so it is gitignored.

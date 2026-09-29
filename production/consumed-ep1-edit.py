@@ -288,8 +288,8 @@ def band_crop(path, t):
         return None
     a = np.frombuffer(raw, np.uint8).reshape(480, 270).astype(float)
     sharp = np.abs(np.diff(a, axis=1)).mean(1) > np.percentile(np.abs(np.diff(a, axis=1)).mean(1), 90) * 0.5
-    best, cur, start, gap = (0, 0), 0, 0, 0
-    for y, v in enumerate(sharp):  # longest sharp run, tolerating 6-row gaps
+    runs, cur, start, gap = [], 0, 0, 0
+    for y, v in enumerate(list(sharp) + [False] * 7):  # sharp runs, tolerating 6-row gaps
         if v:
             if cur == 0:
                 start = y
@@ -297,12 +297,13 @@ def band_crop(path, t):
         elif cur:
             gap += 1
             if gap > 6:
-                best, cur = max(best, (cur, start)), 0
-    best = max(best, (cur, start))
-    run, y0 = best
-    outside = sharp.sum() - sharp[y0:y0 + run].sum()
-    if not (110 <= run <= 190 and outside < 40):  # a ~152-row band (608 of 1920), little else sharp
+                runs.append((start, cur)); cur = 0
+    # a ~152-row band (608 of 1920); a stacked layout has two, take the first. A run longer
+    # than a band means the frame is a real vertical crop, so keep the full 9:16 frame.
+    bands = [r for r in runs if 110 <= r[1] <= 190]
+    if not bands or any(r[1] > 200 for r in runs):
         return None
+    y0, run = bands[0]
     mid = (y0 + run / 2) * 4  # back to 1920-row units
     top = int(min(max(mid - 304, 0), 1920 - 608))
     return f"1080:608:0:{top}"
