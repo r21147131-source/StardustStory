@@ -1,0 +1,44 @@
+# Stock footage credits — "The $20 Storage Unit"
+
+All B-roll from Pexels (free license; attribution appreciated). Paste into the YouTube description.
+
+- Storage units aerial — ARK FILMS — https://www.pexels.com/video/12260947/
+- Rusty padlock — José Lizardo — https://www.pexels.com/video/4889026/
+- Highway drive — K — https://www.pexels.com/video/5531385/
+- Columbia Gorge aerial — Ruvim M — https://www.pexels.com/video/38630005/ , https://www.pexels.com/video/9028591/
+- Storage containers — Tima Miroshnichenko — https://www.pexels.com/video/4941466/
+- Garage door at night — Rec Everywhere — https://www.pexels.com/video/32078346/
+- Police lights — K — https://www.pexels.com/video/32538553/ ; Police line — K — https://www.pexels.com/video/6581271/
+- Candles — Miguel Á. Padriñán — https://www.pexels.com/video/5555355/ , 5555358, 5555354, 5555356
+- Montana range — EJ Merl — https://www.pexels.com/video/30490553/
+- Wedding invitations — Mikhail Nilov — https://www.pexels.com/video/8246470/
+- Calendar — Boris Pavlikovsky — https://www.pexels.com/video/5368229/
+- Rain on window — Taryn Elliott (8549580), Zuzanna Musial (5366344), Joey D. (13619802), Brett Sayles (5930874)
+- Fishing rods — Pavel Danilyuk — https://www.pexels.com/video/5237057/
+- Rural road — Atif Dar — https://www.pexels.com/video/11115114/
+- Corkboard — Monstera Production — https://www.pexels.com/video/9306134/
+- Chained gate — K — https://www.pexels.com/video/3999371/
+- Signing documents — ArtHouse Studio — https://www.pexels.com/video/7685212/
+- Night road — Tom Fisk — https://www.pexels.com/video/3908915/
+- Locked door — Анатолий — https://www.pexels.com/video/8846989/
+- Laptops — ArtHouse Studio (8480228), olia danilevich (8523640)
+- Counting money — olia danilevich (5466769), kaboompics (6326929)
+- Plastic container — Julia M Cameron — https://www.pexels.com/video/6893879/
+- Police / crime scene / evidence / fingerprints — cottonbro studio (10476430, 10466486, 10482308, 8382677)
+- Criminologist — TREEDEO.ST — https://www.pexels.com/video/11195129/
+- Charcoal — Alessandro Nofi (5500355), Samer Daboul (8316467)
+- Pen & paper — Mikhail Nilov (8731441, 8731580)
+- Scales of justice — Sora Shimazaki (5636967, 5636977)
+- Excavator — Val А — https://www.pexels.com/video/35647503/
+- Bridge over river — Marc Espejo — https://www.pexels.com/video/31890003/
+- Prison cells — Teela Hudak — https://www.pexels.com/video/5211616/
+- Mobile home park — Altaf Shah — https://www.pexels.com/video/35305253/
+- Wet road — K — https://www.pexels.com/video/3999394/
+- Parking lot at night — ARK FILMS — https://www.pexels.com/video/12374854/
+- Colorado town — Jay Loecken — https://www.pexels.com/video/2055336/
+- Handcuffs — Kindel Media — https://www.pexels.com/video/7773340/
+- Lady Justice — Pavel Danilyuk — https://www.pexels.com/video/8061659/
+- Gavel — KATRIN BOLOVTSOVA — https://www.pexels.com/video/6101367/
+- Barn door lock — Matthias Groeneveld — https://www.pexels.com/video/2618443/
+- Phone ringing — Ron Lach — https://www.pexels.com/video/8060389/
+- River canyon — Alex Moliski — https://www.pexels.com/video/36447967/
