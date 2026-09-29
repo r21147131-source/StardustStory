@@ -171,12 +171,31 @@ TITLES = [(9, "CONSUMED\\N{\\fs44}Episode One  ·  Daniel Day-Lewis"), (14, "ACT
           (123, "ACT VI\\N{\\fs44}The Last Thread"), (144, "ACT VII\\N{\\fs44}The Return")]
 
 
+# Sharper 9:16 clips from vidiq_generate_clips (1080x1920), listed by fetch_vclips.py.
+# When a clip name has a pool here, its C() cues use the pool instead of the 256x144 trim,
+# taking the next unused stretch of footage in order.
+VCLIPS_JSON = os.path.join(ROOT, "production/consumed-ep1-vclips.json")
+VCLIPS = json.load(open(VCLIPS_JSON)) if os.path.exists(VCLIPS_JSON) else {}
+
+
 def build_shots():
     cues = sorted(((SENT[i] + off, v) for i, off, v in CUES), key=lambda c: c[0])
-    shots = []
+    shots, cursor = [], {}
     for n, (t, v) in enumerate(cues):
         end = cues[n + 1][0] if n + 1 < len(cues) else TOTAL
-        shots.append(dict(v, t=round(t, 3), dur=round(end - t, 3)))
+        shot = dict(v, t=round(t, 3), dur=round(end - t, 3))
+        name = os.path.basename(shot["src"])[:-4] if shot["k"] == "clip" else None
+        pool = VCLIPS.get(name)
+        if pool:
+            k, off = cursor.get(name, (0, 0.0))
+            for _ in range(len(pool) + 1):  # next clip with enough footage left
+                if pool[k]["dur"] - off >= shot["dur"] + 0.2:
+                    break
+                k, off = (k + 1) % len(pool), 0.0
+            c = pool[k]
+            shot.update(k="vclip", src=os.path.join(ROOT, c["file"]), start=round(off, 2), crop=c["crop"])
+            cursor[name] = (k, off + shot["dur"] + 0.3)
+        shots.append(shot)
     return shots
 
 
@@ -244,6 +263,12 @@ def shot_cmd(i, s, out):
               f"[b]scale=1216:684:force_original_aspect_ratio=decrease:flags=lanczos,unsharp=5:5:0.7,"
               f"pad=iw+8:ih+8:4:4:color=0xD8D8D8[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,{LOOK},{fade}")
         return [FF, "-y", "-ss", str(s["start"]), "-stream_loop", "-1", "-i", s["src"], "-t", f"{d:.3f}",
+                "-filter_complex", fc] + enc
+    if s["k"] == "vclip":  # sharp 9:16 clip, letterbox cropped, over its own blurred copy
+        fc = (f"[0]fps=30,crop={s['crop']},split[a][b];[a]{BLUR_BG}[bg];"
+              f"[b]scale=1904:1040:force_original_aspect_ratio=decrease:flags=lanczos,"
+              f"pad=iw+8:ih+8:4:4:color=0xD8D8D8[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,{LOOK},{fade}")
+        return [FF, "-y", "-ss", str(s["start"]), "-i", s["src"], "-t", f"{d:.3f}",
                 "-filter_complex", fc] + enc
     raise ValueError(s["k"])
 
