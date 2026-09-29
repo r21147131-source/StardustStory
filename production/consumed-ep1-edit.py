@@ -264,13 +264,48 @@ def shot_cmd(i, s, out):
               f"pad=iw+8:ih+8:4:4:color=0xD8D8D8[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,{LOOK},{fade}")
         return [FF, "-y", "-ss", str(s["start"]), "-stream_loop", "-1", "-i", s["src"], "-t", f"{d:.3f}",
                 "-filter_complex", fc] + enc
-    if s["k"] == "vclip":  # sharp 9:16 clip, letterbox cropped, over its own blurred copy
-        fc = (f"[0]fps=30,crop={s['crop']},split[a][b];[a]{BLUR_BG}[bg];"
+    if s["k"] == "vclip":  # sharp 9:16 clip over its own blurred copy
+        crop = band_crop(s["src"], s["start"] + d / 2) or s["crop"]
+        fc = (f"[0]fps=30,crop={crop},split[a][b];[a]{BLUR_BG}[bg];"
               f"[b]scale=1904:1040:force_original_aspect_ratio=decrease:flags=lanczos,"
               f"pad=iw+8:ih+8:4:4:color=0xD8D8D8[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,{LOOK},{fade}")
         return [FF, "-y", "-ss", str(s["start"]), "-i", s["src"], "-t", f"{d:.3f}",
                 "-filter_complex", fc] + enc
     raise ValueError(s["k"])
+
+
+def band_crop(path, t):
+    """vidIQ's 9:16 reframes often show the whole 16:9 frame as a sharp 1080x608 band with a
+    blurred copy above and below. Find that band from per-row sharpness and return a crop
+    for it, so the footage can play large and wide. None means use the full 9:16 frame."""
+    try:
+        import numpy as np
+    except ImportError:
+        return None
+    raw = subprocess.run([FF, "-loglevel", "error", "-ss", f"{t:.2f}", "-i", path, "-frames:v", "1",
+                          "-vf", "scale=270:480,format=gray", "-f", "rawvideo", "-"], capture_output=True).stdout
+    if len(raw) != 270 * 480:
+        return None
+    a = np.frombuffer(raw, np.uint8).reshape(480, 270).astype(float)
+    sharp = np.abs(np.diff(a, axis=1)).mean(1) > np.percentile(np.abs(np.diff(a, axis=1)).mean(1), 90) * 0.5
+    best, cur, start, gap = (0, 0), 0, 0, 0
+    for y, v in enumerate(sharp):  # longest sharp run, tolerating 6-row gaps
+        if v:
+            if cur == 0:
+                start = y
+            cur, gap = y - start + 1, 0
+        elif cur:
+            gap += 1
+            if gap > 6:
+                best, cur = max(best, (cur, start)), 0
+    best = max(best, (cur, start))
+    run, y0 = best
+    outside = sharp.sum() - sharp[y0:y0 + run].sum()
+    if not (110 <= run <= 190 and outside < 40):  # a ~152-row band (608 of 1920), little else sharp
+        return None
+    mid = (y0 + run / 2) * 4  # back to 1920-row units
+    top = int(min(max(mid - 304, 0), 1920 - 608))
+    return f"1080:608:0:{top}"
 
 
 def run(cmd):

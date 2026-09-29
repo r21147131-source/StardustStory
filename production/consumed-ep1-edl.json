@@ -193,20 +193,22 @@
   "dur": 4.3
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/leftfoot.mp4",
-  "start": 15,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/leftfoot_0.mp4",
+  "start": 0.0,
   "label": null,
   "t": 123.0,
-  "dur": 2.19
+  "dur": 2.19,
+  "crop": "1080:1920:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/leftfoot.mp4",
-  "start": 20,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/leftfoot_0.mp4",
+  "start": 2.49,
   "label": null,
   "t": 125.19,
-  "dur": 2.34
+  "dur": 2.34,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "still",
@@ -215,12 +217,13 @@
   "dur": 2.8
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/leftfoot.mp4",
-  "start": 25,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/leftfoot_0.mp4",
+  "start": 5.13,
   "label": null,
   "t": 130.33,
-  "dur": 3.92
+  "dur": 3.92,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "still",
@@ -242,12 +245,13 @@
   "dur": 2.07
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/leftfoot.mp4",
-  "start": 40,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/leftfoot_0.mp4",
+  "start": 9.35,
   "label": null,
   "t": 140.9,
-  "dur": 3.81
+  "dur": 3.81,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "broll",
@@ -264,20 +268,22 @@
   "dur": 3.5
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/mohicans.mp4",
-  "start": 5,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/mohicans_0.mp4",
+  "start": 0.0,
   "label": null,
   "t": 150.46,
-  "dur": 3.0
+  "dur": 3.0,
+  "crop": "1080:1920:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/mohicans.mp4",
-  "start": 30,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/mohicans_0.mp4",
+  "start": 3.3,
   "label": null,
   "t": 153.46,
-  "dur": 3.98
+  "dur": 3.98,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "poster",
@@ -287,20 +293,22 @@
   "dur": 3.6
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/father.mp4",
-  "start": 30,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/father_0.mp4",
+  "start": 0.0,
   "label": null,
   "t": 161.04,
-  "dur": 5.2
+  "dur": 5.2,
+  "crop": "1080:1920:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/father.mp4",
-  "start": 35,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/father_0.mp4",
+  "start": 5.5,
   "label": null,
   "t": 166.24,
-  "dur": 4.0
+  "dur": 4.0,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "still",
@@ -434,12 +442,13 @@
   "dur": 3.17
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/int_cbs.mp4",
-  "start": 30,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/int_cbs_0.mp4",
+  "start": 0.0,
   "label": "CBS Sunday Morning, 2025",
   "t": 238.59,
-  "dur": 9.12
+  "dur": 9.12,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "broll",
@@ -491,12 +500,13 @@
   "dur": 5.09
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/boxer.mp4",
-  "start": 20,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/boxer_0.mp4",
+  "start": 0.0,
   "label": null,
   "t": 280.6,
-  "dur": 3.84
+  "dur": 3.84,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "poster",
@@ -513,12 +523,13 @@
   "dur": 2.74
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/boxer.mp4",
-  "start": 45,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/boxer_0.mp4",
+  "start": 4.14,
   "label": null,
   "t": 290.18,
-  "dur": 2.39
+  "dur": 2.39,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "broll",
@@ -639,12 +650,13 @@
   "dur": 2.71
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/gangs.mp4",
-  "start": 10,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/gangs_0.mp4",
+  "start": 0.0,
   "label": null,
   "t": 364.14,
-  "dur": 2.04
+  "dur": 2.04,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "portrait",
@@ -661,12 +673,13 @@
   "dur": 2.79
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/gangs.mp4",
-  "start": 70,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/gangs_0.mp4",
+  "start": 2.34,
   "label": null,
   "t": 371.87,
-  "dur": 2.89
+  "dur": 2.89,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "clip",
@@ -677,12 +690,13 @@
   "dur": 4.41
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/gangs.mp4",
-  "start": 60,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/gangs_0.mp4",
+  "start": 5.53,
   "label": null,
   "t": 379.17,
-  "dur": 3.86
+  "dur": 3.86,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "broll",
@@ -692,12 +706,13 @@
   "dur": 1.6
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/gangs.mp4",
-  "start": 75,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/gangs_0.mp4",
+  "start": 9.69,
   "label": null,
   "t": 384.63,
-  "dur": 2.37
+  "dur": 2.37,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "broll",
@@ -713,12 +728,13 @@
   "dur": 4.16
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/gangs.mp4",
-  "start": 30,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/gangs_0.mp4",
+  "start": 12.36,
   "label": null,
   "t": 395.66,
-  "dur": 3.27
+  "dur": 3.27,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "still",
@@ -734,12 +750,13 @@
   "dur": 2.3
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/blood.mp4",
-  "start": 0,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/blood_0.mp4",
+  "start": 0.0,
   "label": null,
   "t": 402.72,
-  "dur": 2.31
+  "dur": 2.31,
+  "crop": "1080:1612:0:158"
  },
  {
   "k": "poster",
@@ -756,20 +773,22 @@
   "dur": 3.38
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/lincoln.mp4",
-  "start": 45,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/lincoln_0.mp4",
+  "start": 0.0,
   "label": null,
   "t": 410.91,
-  "dur": 2.6
+  "dur": 2.6,
+  "crop": "1080:1556:0:168"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/int_oscar.mp4",
-  "start": 75,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/int_oscar_0.mp4",
+  "start": 0.0,
   "label": "85th Academy Awards, 2013",
   "t": 413.51,
-  "dur": 2.56
+  "dur": 2.56,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "portrait",
@@ -786,12 +805,13 @@
   "dur": 4.29
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/blood.mp4",
-  "start": 60,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/blood_0.mp4",
+  "start": 2.61,
   "label": null,
   "t": 423.09,
-  "dur": 3.4
+  "dur": 3.4,
+  "crop": "1080:1612:0:158"
  },
  {
   "k": "broll",
@@ -801,12 +821,13 @@
   "dur": 2.38
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/lincoln.mp4",
-  "start": 50,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/lincoln_0.mp4",
+  "start": 2.9,
   "label": null,
   "t": 428.87,
-  "dur": 4.24
+  "dur": 4.24,
+  "crop": "1080:1556:0:168"
  },
  {
   "k": "portrait",
@@ -844,12 +865,13 @@
   "dur": 2.28
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/thread.mp4",
-  "start": 25,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/thread_0.mp4",
+  "start": 0.0,
   "label": null,
   "t": 452.74,
-  "dur": 4.04
+  "dur": 4.04,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "broll",
@@ -859,12 +881,13 @@
   "dur": 4.39
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/thread.mp4",
-  "start": 65,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/thread_0.mp4",
+  "start": 4.34,
   "label": null,
   "t": 461.17,
-  "dur": 3.4
+  "dur": 3.4,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "broll",
@@ -880,12 +903,13 @@
   "dur": 3.14
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/thread.mp4",
-  "start": 70,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/thread_0.mp4",
+  "start": 8.04,
   "label": null,
   "t": 471.53,
-  "dur": 4.47
+  "dur": 4.47,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "broll",
@@ -895,36 +919,40 @@
   "dur": 4.62
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/thread.mp4",
-  "start": 40,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/thread_0.mp4",
+  "start": 12.81,
   "label": null,
   "t": 480.62,
-  "dur": 4.6
+  "dur": 4.6,
+  "crop": "1080:1920:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/thread.mp4",
-  "start": 5,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/thread_1.mp4",
+  "start": 0.0,
   "label": null,
   "t": 485.22,
-  "dur": 2.61
+  "dur": 2.61,
+  "crop": "1080:1920:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/thread.mp4",
-  "start": 85,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/thread_1.mp4",
+  "start": 2.91,
   "label": null,
   "t": 487.83,
-  "dur": 3.17
+  "dur": 3.17,
+  "crop": "1080:1920:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/thread.mp4",
-  "start": 50,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/thread_1.mp4",
+  "start": 6.38,
   "label": null,
   "t": 491.0,
-  "dur": 5.67
+  "dur": 5.67,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "still",
@@ -940,20 +968,22 @@
   "dur": 3.94
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/thread.mp4",
-  "start": 30,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/thread_1.mp4",
+  "start": 12.35,
   "label": null,
   "t": 503.56,
-  "dur": 3.4
+  "dur": 3.4,
+  "crop": "1080:1920:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/thread.mp4",
-  "start": 60,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/thread_2.mp4",
+  "start": 0.0,
   "label": null,
   "t": 506.96,
-  "dur": 4.31
+  "dur": 4.31,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "still",
@@ -989,12 +1019,13 @@
   "dur": 2.35
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/anemone.mp4",
-  "start": 0,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/anemone_0.mp4",
+  "start": 0.0,
   "label": null,
   "t": 523.72,
-  "dur": 3.61
+  "dur": 3.61,
+  "crop": "1080:1500:0:246"
  },
  {
   "k": "portrait",
@@ -1025,12 +1056,13 @@
   "dur": 3.5
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/int_cbs.mp4",
-  "start": 5,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/int_cbs_0.mp4",
+  "start": 9.42,
   "label": null,
   "t": 536.51,
-  "dur": 2.77
+  "dur": 2.77,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "poster",
@@ -1047,76 +1079,85 @@
   "dur": 2.28
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/int_cbs.mp4",
-  "start": 35,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/int_cbs_1.mp4",
+  "start": 0.0,
   "label": "CBS Sunday Morning, 2025",
   "t": 543.86,
-  "dur": 2.99
+  "dur": 2.99,
+  "crop": "1080:1920:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/anemone.mp4",
-  "start": 10,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/anemone_1.mp4",
+  "start": 0.0,
   "label": null,
   "t": 546.85,
-  "dur": 4.39
+  "dur": 4.39,
+  "crop": "1080:1598:0:162"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/int_nyff.mp4",
-  "start": 0,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/int_nyff_0.mp4",
+  "start": 0.0,
   "label": "New York Film Festival, 2025",
   "t": 551.24,
-  "dur": 4.58
+  "dur": 4.58,
+  "crop": "1080:1480:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/int_nyff.mp4",
-  "start": 10,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/int_nyff_0.mp4",
+  "start": 4.88,
   "label": null,
   "t": 555.82,
-  "dur": 7.33
+  "dur": 7.33,
+  "crop": "1080:1480:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/int_nyff.mp4",
-  "start": 40,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/int_nyff_0.mp4",
+  "start": 12.51,
   "label": null,
   "t": 563.15,
-  "dur": 2.77
+  "dur": 2.77,
+  "crop": "1080:1480:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/anemone.mp4",
-  "start": 15,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/anemone_2.mp4",
+  "start": 0.0,
   "label": null,
   "t": 565.92,
-  "dur": 3.94
+  "dur": 3.94,
+  "crop": "1080:1598:0:162"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/int_cbs.mp4",
-  "start": 60,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/int_cbs_1.mp4",
+  "start": 3.29,
   "label": null,
   "t": 569.86,
-  "dur": 2.45
+  "dur": 2.45,
+  "crop": "1080:1920:0:0"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/anemone.mp4",
-  "start": 20,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/anemone_2.mp4",
+  "start": 4.24,
   "label": null,
   "t": 572.31,
-  "dur": 4.67
+  "dur": 4.67,
+  "crop": "1080:1598:0:162"
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/int_cbs.mp4",
-  "start": 70,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/int_cbs_1.mp4",
+  "start": 6.04,
   "label": null,
   "t": 576.98,
-  "dur": 6.46
+  "dur": 6.46,
+  "crop": "1080:1920:0:0"
  },
  {
   "k": "broll",
@@ -1160,12 +1201,13 @@
   "dur": 3.2
  },
  {
-  "k": "clip",
-  "src": "/home/user/StardustStory/render/clips/anemone.mp4",
-  "start": 5,
+  "k": "vclip",
+  "src": "/home/user/StardustStory/render/vclips/anemone_2.mp4",
+  "start": 9.21,
   "label": null,
   "t": 603.19,
-  "dur": 2.06
+  "dur": 2.06,
+  "crop": "1080:1598:0:162"
  },
  {
   "k": "still",

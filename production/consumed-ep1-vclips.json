@@ -1,0 +1,171 @@
+{
+ "leftfoot": [
+  {
+   "file": "render/vclips/leftfoot_0.mp4",
+   "dur": 19.52,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/leftfoot_1.mp4",
+   "dur": 16.06,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/leftfoot_2.mp4",
+   "dur": 17.02,
+   "crop": "1080:1920:0:0"
+  }
+ ],
+ "mohicans": [
+  {
+   "file": "render/vclips/mohicans_0.mp4",
+   "dur": 30.06,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/mohicans_1.mp4",
+   "dur": 15.42,
+   "crop": "1080:1920:0:0"
+  }
+ ],
+ "father": [
+  {
+   "file": "render/vclips/father_0.mp4",
+   "dur": 16.92,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/father_1.mp4",
+   "dur": 16.62,
+   "crop": "1080:1920:0:0"
+  }
+ ],
+ "boxer": [
+  {
+   "file": "render/vclips/boxer_0.mp4",
+   "dur": 17.02,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/boxer_1.mp4",
+   "dur": 17.34,
+   "crop": "1080:1920:0:0"
+  }
+ ],
+ "gangs": [
+  {
+   "file": "render/vclips/gangs_0.mp4",
+   "dur": 17.28,
+   "crop": "1080:1920:0:0"
+  }
+ ],
+ "blood": [
+  {
+   "file": "render/vclips/blood_0.mp4",
+   "dur": 16.38,
+   "crop": "1080:1612:0:158"
+  },
+  {
+   "file": "render/vclips/blood_1.mp4",
+   "dur": 49.85,
+   "crop": "1080:1920:0:0"
+  }
+ ],
+ "lincoln": [
+  {
+   "file": "render/vclips/lincoln_0.mp4",
+   "dur": 17.15,
+   "crop": "1080:1556:0:168"
+  }
+ ],
+ "thread": [
+  {
+   "file": "render/vclips/thread_0.mp4",
+   "dur": 19.95,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/thread_1.mp4",
+   "dur": 18.39,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/thread_2.mp4",
+   "dur": 16.49,
+   "crop": "1080:1920:0:0"
+  }
+ ],
+ "anemone": [
+  {
+   "file": "render/vclips/anemone_0.mp4",
+   "dur": 8.36,
+   "crop": "1080:1500:0:246"
+  },
+  {
+   "file": "render/vclips/anemone_1.mp4",
+   "dur": 5.72,
+   "crop": "1080:1598:0:162"
+  },
+  {
+   "file": "render/vclips/anemone_2.mp4",
+   "dur": 19.18,
+   "crop": "1080:1598:0:162"
+  }
+ ],
+ "int_cbs": [
+  {
+   "file": "render/vclips/int_cbs_0.mp4",
+   "dur": 15.44,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/int_cbs_1.mp4",
+   "dur": 16.92,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/int_cbs_2.mp4",
+   "dur": 17.28,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/int_cbs_3.mp4",
+   "dur": 16.02,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/int_cbs_4.mp4",
+   "dur": 15.83,
+   "crop": "1080:1920:0:0"
+  }
+ ],
+ "int_nyff": [
+  {
+   "file": "render/vclips/int_nyff_0.mp4",
+   "dur": 20.82,
+   "crop": "1080:1480:0:0"
+  },
+  {
+   "file": "render/vclips/int_nyff_1.mp4",
+   "dur": 17.92,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/int_nyff_2.mp4",
+   "dur": 15.15,
+   "crop": "1080:1920:0:0"
+  }
+ ],
+ "int_oscar": [
+  {
+   "file": "render/vclips/int_oscar_0.mp4",
+   "dur": 17.75,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "file": "render/vclips/int_oscar_1.mp4",
+   "dur": 27.52,
+   "crop": "1080:1920:0:0"
+  }
+ ]
+}
