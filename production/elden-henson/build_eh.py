@@ -4,8 +4,8 @@ Usage: python build_eh.py OUTDIR [clips.json]
 
 TMDB stills carry the episode: a film's stills when it is named, a person's photo
 when they are named, Pexels B-roll only as filler. clips.json (optional) maps a
-cue prefix to a list of local video files, e.g. {"In 1992, when he was": ["/x/ducks.mp4"]},
-which are used in place of that cue's stills once real footage is available.
+cue prefix to footage ranges, e.g. {"In 1992, when he was fourteen": [["/x/ducks.mp4", 31.0, 4.0]]},
+played in order in place of that cue's stills (file, start s, length s).
 """
 import itertools, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -161,6 +161,9 @@ def at(pre):
     return m[0]
 
 cue_t = sorted(((at(pre), pre, assets, label) for pre, assets, label in CUES), key=lambda c: c[0])
+if clips and not all(any(c[1] == k for c in cue_t) for k in clips):
+    sys.exit("clips.json has a key that matches no cue prefix: "
+             + ", ".join(k for k in clips if not any(c[1] == k for c in cue_t)))
 cue_t[0] = (0.0,) + cue_t[0][1:]
 # snap cues to section starts so cuts land on section boundaries
 for k, c in enumerate(cue_t):
@@ -174,8 +177,18 @@ for k, (t0, pre, assets, label) in enumerate(cue_t):
     span = t1 - t0
     if span <= 0:
         continue
-    if pre in clips:  # real footage overrides stills
-        assets = [("vid", c, 600) for c in clips[pre]]
+    if pre in clips:
+        # real footage: [[file, start, length], ...] played in order; stills fill any remainder
+        t, j = t0, 0
+        for f, st, ln in clips[pre]:
+            if t >= t1 - 0.05:
+                break
+            d = min(ln, t1 - t)
+            shots.append((t, d, ("clip", f, st), label if j == 0 else None))
+            t += d; j += 1
+        if t1 - t > 0.05:
+            shots.append((t, t1 - t, assets[0], None))
+        continue
     n = max(1, round(span / 5.0))
     n = min(n, max(1, int(span // 2.5)))
     d = span / n
@@ -200,6 +213,9 @@ for si in range(len(CUTS) - 1):
             f, t = next(kb)
             sc = {"type": "image", "source": asset[1], "duration": dur, "layout": asset[2],
                   "kenBurns": {"from": f, "to": t}}
+        elif asset[0] == "clip":
+            sc = {"type": "video", "source": asset[1], "duration": dur,
+                  "startFromSeconds": round(asset[2] + (lo - s), 2)}
         else:
             src, avail = asset[1], asset[2]
             st = vstart.get(src, 0.5)
