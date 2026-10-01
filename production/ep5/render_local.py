@@ -9,7 +9,7 @@ otherwise `ffmpeg` on PATH is used. No Python packages required.
 WORKDIR must contain compose-seg{1..5}.json (from build_compose.py).
 Assets are downloaded into WORKDIR/cache. With --placeholders, assets that
 can't be fetched are replaced by a labelled grey card (for pipeline tests).
-The voiceover is read from public/golden-four-ep5-voiceover.mp3.
+The voiceover is read from $VO (default public/golden-four-ep5-voiceover.mp3).
 """
 import hashlib, json, os, subprocess, sys, urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -17,7 +17,7 @@ import shutil
 
 FF = os.environ.get("FFMPEG") or shutil.which("ffmpeg")
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-VO = os.path.join(REPO, "public", "golden-four-ep5-voiceover.mp3")
+VO = os.environ.get("VO") or os.path.join(REPO, "public", "golden-four-ep5-voiceover.mp3")
 W, H, FPS = 1920, 1080, 30
 FONT_B = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
@@ -40,6 +40,8 @@ def run(cmd):
 
 
 def fetch(url):
+    if url.startswith("/"):  # local file (e.g. a user-supplied clip)
+        return (url, True) if os.path.exists(url) else ("missing local file", False)
     ext = ".mp4" if ".mp4" in url.split("?")[0] else ".jpg"
     path = os.path.join(CACHE, hashlib.sha1(url.encode()).hexdigest()[:16] + ext)
     if os.path.exists(path) and os.path.getsize(path) > 0:
@@ -121,12 +123,13 @@ def text_filters(ov, a, b, k):
 
 
 def main():
-    segs = [json.load(open(os.path.join(WORK, f"compose-seg{i}.json"))) for i in range(1, 6)]
+    nseg = len([f for f in os.listdir(WORK) if f.startswith("compose-seg") and f.endswith(".json")])
+    segs = [json.load(open(os.path.join(WORK, f"compose-seg{i}.json"))) for i in range(1, nseg + 1)]
     offsets, t = [], 0.0
     for sg in segs:
         offsets.append(t); t += sum(s["duration"] for s in sg["scenes"])
     total = t
-    idx = [ONLY - 1] if ONLY else range(5)
+    idx = [ONLY - 1] if ONLY else range(nseg)
 
     # download
     urls = set()
