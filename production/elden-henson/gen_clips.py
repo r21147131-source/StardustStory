@@ -21,6 +21,18 @@ for k in picks:
             files[k] = os.path.join(clipdir, k + ext)
             break
 SHOT = 3.5
+# drop picks that would run past the end of their file (needs ffprobe next to $FFMPEG or on PATH)
+import shutil, subprocess
+ffprobe = (os.path.join(os.path.dirname(os.environ["FFMPEG"]), "ffprobe") if os.environ.get("FFMPEG") else None) or shutil.which("ffprobe")
+if ffprobe:
+    for k, f in files.items():
+        d = float(subprocess.check_output([ffprobe, "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]))
+        bad = [t for t in picks[k] if t + SHOT > d - 0.2]
+        if bad:
+            print(f"dropping {k} picks past end ({d:.0f}s): {bad}")
+        picks[k] = [t for t in picks[k] if t + SHOT <= d - 0.2]
+else:
+    print("warning: ffprobe not found, pick lengths not checked")
 # cue prefix -> (films to draw from in rotation, seconds of the cue's own still to show first)
 PLAN = {
  "The show had been gone": (["daredevil", "daredevil3", "daredevil2"], 0), "When Netflix cancelled": (["daredevil", "daredevil3", "daredevil2"], 0),
