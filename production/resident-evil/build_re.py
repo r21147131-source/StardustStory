@@ -21,7 +21,7 @@ SHOT, STILL = 3.2, 5.0
 PX = "https://videos.pexels.com/video-files/"
 V = dict(cinema1=(PX + "7986777/7986777-hd_1366_720_25fps.mp4", 17.8),
          cinema2=(PX + "7986770/7986770-hd_1366_720_25fps.mp4", 18.6))
-FALLBACK = {"film": "re2026", "feat": "re2026", "cregger": "re2026", "old": "re2002",
+FALLBACK = {"film": "re2026", "feat": "re2026", "cregger": "re2026", "old": "re2002", "raccoon": "re2002",
             "barb": "barbarian", "weap": "weapons"}  # game pools fall back to re2026 too
 
 CUES = [
@@ -29,10 +29,10 @@ CUES = [
  ("For more than twenty years", ["old"], None),
  ("Hollywood has been trying", ["old"], None),
  ("How do you turn a video game", ["games"], None),
- ("And for more than twenty years", ["S:re2002", "old"], None),
+ ("And for more than twenty years", ["old"], None),
  ("\"Apparently, not like that.\"", ["old"], None),
  ("But something very strange", ["film"], None),
- ("A new Resident Evil movie came out", ["PO:re2026"], "RESIDENT EVIL (2026)"),
+ ("A new Resident Evil movie came out", ["film"], "RESIDENT EVIL (2026)"),
  ("And instead of simply adapting", ["games"], None),
  ("director Zach Cregger did", ["P:cregger"], "ZACH CREGGER · DIRECTOR"),
  ("He tried to make the audience", ["film"], None),
@@ -53,13 +53,13 @@ CUES = [
  ("Umbrella.", ["req"], None),
  ("Secret laboratories", ["re2"], None),
  ("And some of the most recognizable", ["games"], None),
- ("So when Hollywood adapted", ["old", "S:re2002"], None),
+ ("So when Hollywood adapted", ["old"], "RESIDENT EVIL (2002)"),
  ("Take the recognizable", ["old"], None),
- ("But there's a problem", ["S:re2002"], None),
+ ("But there's a problem", ["old"], None),
  ("That can give you a movie", ["old"], None),
  # 3 — Cregger
  ("That's where Zach Cregger comes in", ["cregger"], None),
- ("Cregger became known", ["PO:barbarian", "barb", "PO:weapons", "weap"], None),
+ ("Cregger became known", ["barb", "weap"], "BARBARIAN (2022) · WEAPONS (2025)"),
  ("And instead of simply asking", ["cregger"], None),
  ("he seems to have asked", ["feat"], None),
  ("\"What does it actually feel like", ["games"], None),
@@ -86,7 +86,7 @@ CUES = [
  ("Because some fans", ["games"], None),
  ("Where are Leon and Claire", ["re2"], None),
  ("Why create a new character", ["film"], None),
- ("Those are legitimate", ["S:re2026"], None),
+ ("Those are legitimate", ["film"], None),
  ("What if the goal isn't", ["games"], None),
  ("That's a completely different", ["film"], None),
  # 6 — games vs movies
@@ -117,7 +117,7 @@ CUES = [
  ("That's probably why", ["film"], None),
  ("Because the biggest challenge", ["old"], None),
  ("If you make the movie too faithful", ["film"], None),
- ("If you make it too different", ["S:re2002"], None),
+ ("If you make it too different", ["old"], None),
  ("Cregger appears to have found", ["cregger"], None),
  ("Keep the DNA", ["film"], None),
  # 9 — the DNA
@@ -131,17 +131,17 @@ CUES = [
  ("These aren't random", ["games"], None),
  # 10 — reception
  ("And that's why the movie's reception", ["film"], None),
- ("Critics and audiences", ["S:re2026"], None),
+ ("Critics and audiences", ["film"], None),
  ("Rotten Tomatoes currently", ["film"], None),
  ("the movie opened to around", ["film"], None),
  ("That's particularly notable", ["old"], None),
- ("It's another reboot", ["S:re2002", "old"], None),
+ ("It's another reboot", ["raccoon", "old"], "WELCOME TO RACCOON CITY (2021)"),
  ("And yet audiences showed up", ["V:cinema1"], None),
  # 11 — cursed projects
  ("But here's the really interesting", ["film"], None),
  ("The movie's success could", ["V:cinema2"], None),
  ("For years, video game adaptations", ["old"], None),
- ("Studios would buy", ["S:re2002"], None),
+ ("Studios would buy", ["old"], None),
  ("And then wonder why fans", ["old"], None),
  ("But the industry has slowly", ["games"], None),
  ("A video game isn't just", ["re4"], None),
@@ -189,7 +189,7 @@ CUES = [
  ("You can take the world", ["games"], None),
  ("and tell a new story", ["film"], None),
  # 20 — the experiment
- ("That's what makes Resident Evil 2026", ["PO:re2026", "film"], None),
+ ("That's what makes Resident Evil 2026", ["film"], None),
  ("It's an experiment", ["film"], None),
  ("It makes the audience feel vulnerable", ["film"], None),
  # 21 — the core
@@ -199,10 +199,10 @@ CUES = [
  # 22 — close
  ("For twenty years, Hollywood kept", ["old"], None),
  ("Maybe they were asking", ["film"], None),
- ("And in 2026", ["P:cregger", "cregger"], None),
+ ("And in 2026", ["cregger"], None),
  ("Not by making another movie", ["film"], None),
  ("The next era of video game movies", ["film"], None),
- ("Resident Evil may have just opened", ["PO:re2026"], None),
+ ("Resident Evil may have just opened", ["film"], None),
 ]
 
 norm = lambda s: s.replace("’", "'").replace("“", '"').replace("”", '"')
@@ -213,14 +213,14 @@ def at(pre, after=-1.0):
         sys.exit(f"cue not found: {pre}")
     return m[0]
 
+GAME_POOLS = ("re1", "re2", "re3", "re4", "re7", "village", "req")
 # pools: footage picks, combined "games" pool interleaves the game trailers
 pool = {k: [(os.path.join(clipdir, f), t) for f, t in v] for k, v in picks.items()} if clipdir else {}
-games = [p for k in ("re2", "re4", "re1", "req") for p in pool.get(k, [])]
+games = [p for k in GAME_POOLS for p in pool.get(k, [])]
 games.sort(key=lambda x: (x[1] % 23, x[0]))
 if games:
     pool["games"] = games
 pos = {}
-GAME_POOLS = ("re1", "re2", "re4", "req")
 def take(k):
     p = pool[k]
     i = pos.get(k, 0)
@@ -250,11 +250,6 @@ def resolve(tok):
         return still(tok[3:], poster=True), STILL
     if tok.startswith("V:"):
         return ("vid",) + V[tok[2:]], SHOT
-    if tok == "film" and "film" in pool:
-        n = stillpos.setdefault("_film", 0)
-        stillpos["_film"] = n + 1
-        if n % 3 == 2:  # every third film shot is a TMDB still, so trailer shots repeat less
-            return still("re2026"), STILL
     if tok in pool:
         return take(tok), SHOT
     return still(FALLBACK.get(tok, "re2026")), STILL
