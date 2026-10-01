@@ -1,0 +1,21 @@
+Footage for the Resident Evil (2026) episode (downloaded with yt-dlp, video streams only;
+files live outside the repo). Pass the folder holding them to build_re.py as CLIPDIR.
+
+re_trailer.mp4    mNd1gb19A-c  RESIDENT EVIL – Official Trailer (4K) (Sony Pictures Entertainment)
+re_feat.mp4       N_KDtokTO1c  RESIDENT EVIL – Zach Cregger on Survival Horror (Sony Pictures Entertainment)
+re_cregger.mp4    MfQDXKndd5w  "Survival Horror NOT Survival Action" | Zach Cregger Interview (Reel Talk with Ben O'Shea)
+re2_remake.mp4    jdlvKQjTuLo  Resident Evil 2 - Launch Trailer | PS4 (PlayStation)
+re4_remake.mp4    j5Xv2lM9wes  Resident Evil 4 - Launch Trailer (Resident Evil)
+re_requiem.mp4    9lrThxCoznw  Resident Evil Requiem - Launch Trailer (Resident Evil)
+re1_1996.mp4      -DrbFn_oV0g  Resident Evil PlayStation - Intro Comparison (NightTrapLongplays)
+re1_crop.mp4      (derived)    US panel of re1_1996.mp4:
+                  ffmpeg -i re1_1996.mp4 -vf "crop=616:462:652:308,scale=1280:960:flags=lanczos,setsar=1" -an re1_crop.mp4
+barbarian.mp4     Dr89pmKrqkI  BARBARIAN | Official Trailer (20th Century Studios)
+weapons.mp4       OpThntO9ixc  Weapons | Official Trailer (Warner Bros.)
+re2002.mp4        HhBAIDHvRTc  RESIDENT EVIL [2002] - Official Trailer (HD) (Sony Pictures Entertainment)
+
+Also downloaded but unused: T3KydRZgda0 (IGN "Trailer #2", same cut as the Sony trailer)
+and cAv0_XY9-rg (IGN copy of the first trailer).
+
+picks.json lists hand-checked start times per pool; every pick was viewed at 0.4s steps
+across its 3.2s window to keep out title cards, logos, timers and white flashes.

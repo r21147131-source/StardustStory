@@ -220,12 +220,15 @@ games.sort(key=lambda x: (x[1] % 23, x[0]))
 if games:
     pool["games"] = games
 pos = {}
+GAME_POOLS = ("re1", "re2", "re4", "req")
 def take(k):
     p = pool[k]
     i = pos.get(k, 0)
+    if k in GAME_POOLS and i >= len(p) and "games" in pool:
+        return take("games")  # a used-up game pool borrows from the other games
     pos[k] = i + 1
     f, t = p[i % len(p)]
-    return ("clip", f, t + 0.8 * (i // len(p)))  # later passes start a little later
+    return ("clip", f, t)
 
 stillpos = {}
 def still(key, poster=False, person=False):
@@ -247,6 +250,11 @@ def resolve(tok):
         return still(tok[3:], poster=True), STILL
     if tok.startswith("V:"):
         return ("vid",) + V[tok[2:]], SHOT
+    if tok == "film" and "film" in pool:
+        n = stillpos.setdefault("_film", 0)
+        stillpos["_film"] = n + 1
+        if n % 3 == 2:  # every third film shot is a TMDB still, so trailer shots repeat less
+            return still("re2026"), STILL
     if tok in pool:
         return take(tok), SHOT
     return still(FALLBACK.get(tok, "re2026")), STILL
@@ -262,8 +270,10 @@ for k, (t0, pre, toks, label) in enumerate(cue_t):
     t, j, cyc = t0, 0, itertools.cycle(toks)
     while t1 - t > 0.05:
         a, d = resolve(next(cyc))
-        if t1 - t - d < 1.2:  # fold a short tail into this shot
-            d = t1 - t
+        left = t1 - t
+        if left < d + 1.2:  # last shot(s): split what is left so no clip runs past SHOT
+            n = 1 if a[0] == "img" or left <= SHOT else 2
+            d = left / n
         shots.append((t, d, a, label if j == 0 else None))
         t += d; j += 1
 
