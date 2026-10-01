@@ -23,8 +23,8 @@ for k in picks:
 SHOT = 3.5
 # cue prefix -> (films to draw from in rotation, seconds of the cue's own still to show first)
 PLAN = {
- "The show had been gone": (["daredevil"], 0), "When Netflix cancelled": (["daredevil"], 0),
- "And the characters inside": (["daredevil"], 0),
+ "The show had been gone": (["daredevil", "daredevil3", "daredevil2"], 0), "When Netflix cancelled": (["daredevil", "daredevil3", "daredevil2"], 0),
+ "And the characters inside": (["daredevil", "daredevil3", "daredevil2"], 0),
  "Then Disney Plus answered": (["born_again"], 0), "Daredevil: Born Again launched": (["born_again"], 0),
  "And Elden Henson stepped back": (["born_again"], 3.5),
  "The wait was over": (["born_again"], 0), "Foggy Nelson did not survive": (["born_again"], 0),
@@ -47,11 +47,11 @@ PLAN = {
  "In 2014, a second franchise": (["mockingjay1"], 0), "The Hunger Games had become": (["mockingjay1"], 0),
  "It was a supporting role": (["mockingjay1"], 0), "Henson appeared in Mockingjay": (["mockingjay2"], 0),
  "His face was on the screen": (["mockingjay2"], 0), "He took the job": (["mockingjay1", "mockingjay2"], 0),
- "In 2015, Netflix launched": (["daredevil"], 0), "Franklin Foggy Nelson": (["daredevil"], 0),
- "He was also funny": (["daredevil"], 0), "He built it": (["daredevil"], 0),
+ "In 2015, Netflix launched": (["daredevil", "daredevil3", "daredevil2"], 0), "Franklin Foggy Nelson": (["daredevil", "daredevil3", "daredevil2"], 0),
+ "He was also funny": (["daredevil", "daredevil3", "daredevil2"], 0), "He built it": (["daredevil", "daredevil3", "daredevil2"], 0),
  "He reprised the role": (["defenders"], 0), "He became, quietly": (["defenders", "daredevil"], 0),
- "For three years": (["daredevil"], 0), "On November 29, 2018": (["daredevil"], 0),
- "The show, along with": (["defenders"], 0), "For years, nobody knew": (["daredevil"], 0),
+ "For three years": (["daredevil", "daredevil3", "daredevil2"], 0), "On November 29, 2018": (["daredevil", "daredevil3", "daredevil2"], 0),
+ "The show, along with": (["defenders"], 0), "For years, nobody knew": (["daredevil", "daredevil3", "daredevil2"], 0),
  "Then in 2023, Martin Scorsese": (["killers"], 3.0), "The film was one of": (["killers"], 0),
  "Henson played Duke Burkhart": (["killers"], 0), "In a film three and a half": (["killers"], 0),
  "The gap between": (["killers"], 0), "Then came the reversal": (["born_again"], 0),
