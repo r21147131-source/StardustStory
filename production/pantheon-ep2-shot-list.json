@@ -1,0 +1,41 @@
+[
+  {"id": "S01", "part": "COLD OPEN", "type": "archival", "cue": "Dissolve from Ep.1 ice core imagery into golden Anatolian hillside at dawn", "narration_words": 29, "est_dur": 11.9},
+  {"id": "S02", "part": "COLD OPEN", "type": "graphic", "cue": "Animated timeline axis sliding 10,800 BCE -> 9600 BCE", "narration_words": 62, "est_dur": 25.5},
+  {"id": "S03", "part": "COLD OPEN", "type": "ai", "cue": "Wide aerial-style golden-hour shot of circular stone enclosure, T-pillars, small figures working, dust and light", "narration_words": 20, "est_dur": 8.2},
+
+  {"id": "S04", "part": "PART ONE", "type": "archival", "cue": "Fertile Crescent landscape, Tas Tepeler region, wild wheat fields", "narration_words": 42, "est_dur": 17.3},
+  {"id": "S05", "part": "PART ONE", "type": "ai", "cue": "Hunter-gatherer band moving through golden grassland at dusk, gazelle herd distant", "narration_words": 46, "est_dur": 18.9},
+  {"id": "S06", "part": "PART ONE", "type": "graphic", "cue": "Map of Fertile Crescent with Tas Tepeler cluster sites marked (Gobekli Tepe, Karahan Tepe, Nevali Cori)", "narration_words": 37, "est_dur": 15.2},
+
+  {"id": "S07", "part": "PART TWO", "type": "archival", "cue": "1994 excavation photographs, Klaus Schmidt at the site, early trench work", "narration_words": 36, "est_dur": 14.8},
+  {"id": "S08", "part": "PART TWO", "type": "ai", "cue": "Reconstructed documentary-style scene: figure on sunbaked hillside kneeling to examine a stone fragment, recognition dawning", "narration_words": 56, "est_dur": 23.0},
+  {"id": "S09", "part": "PART TWO", "type": "archival", "cue": "Excavation progress over years, pillars emerging from soil, enclosure circles revealed", "narration_words": 26, "est_dur": 10.7},
+
+  {"id": "S10", "part": "PART THREE", "type": "graphic", "cue": "Animated comparative timeline: Gobekli Tepe vs Stonehenge vs Great Pyramid vs writing vs wheel vs pottery", "narration_words": 48, "est_dur": 19.8},
+  {"id": "S11", "part": "PART THREE", "type": "graphic", "cue": "Stacked timeline bars: Gobekli Tepe far left, long empty span, then agriculture/cities/writing - visualizing the inverted sequence", "narration_words": 95, "est_dur": 39.1},
+
+  {"id": "S12", "part": "PART FOUR", "type": "archival", "cue": "Close-up T-pillar photography: animal reliefs (fox, boar, snake, vulture, scorpion, crane)", "narration_words": 65, "est_dur": 26.7},
+  {"id": "S13", "part": "PART FOUR", "type": "ai", "cue": "Dozens of hunter-gatherers hauling a massive stone pillar with ropes and wooden sledges, coordinated effort, dust rising", "narration_words": 63, "est_dur": 25.9},
+  {"id": "S14", "part": "PART FOUR", "type": "archival", "cue": "Close-up of central pillar arm-and-belt carving (Pillar 18 / Pillar 31)", "narration_words": 26, "est_dur": 10.7},
+
+  {"id": "S15", "part": "PART FIVE", "type": "graphic", "cue": "Animated diagram: scattered hunter-gatherer bands converging on a central point for labor/ritual", "narration_words": 70, "est_dur": 28.8},
+  {"id": "S16", "part": "PART FIVE", "type": "archival", "cue": "Massive stone basins/troughs found at the site; feast-residue context", "narration_words": 47, "est_dur": 19.3},
+  {"id": "S17", "part": "PART FIVE", "type": "ai", "cue": "Night feast scene: fires, drumming, large gathering near pillars, firelight on carved reliefs", "narration_words": 54, "est_dur": 22.2},
+
+  {"id": "S18", "part": "PART SIX", "type": "archival", "cue": "Close-up photograph of Pillar 43, the Vulture Stone, full relief panel", "narration_words": 41, "est_dur": 16.9},
+  {"id": "S19", "part": "PART SIX", "type": "graphic", "cue": "Annotated diagram overlaying the Vulture Stone carving with proposed (contested) constellation mapping", "narration_words": 73, "est_dur": 30.0},
+  {"id": "S20", "part": "PART SIX", "type": "ai", "cue": "Slow push-in on reconstructed Vulture Stone carving, carved disc glowing faintly, firelight flicker", "narration_words": 79, "est_dur": 32.5},
+
+  {"id": "S21", "part": "PART SEVEN", "type": "archival", "cue": "Excavation cross-section showing deliberate backfill layers, rubble packed around pillars", "narration_words": 65, "est_dur": 26.7},
+  {"id": "S22", "part": "PART SEVEN", "type": "ai", "cue": "Figures carrying baskets of rubble/earth, pouring into stone enclosure around standing pillar, methodical/ceremonial (long cue - needs 2 sub-clips)", "narration_words": 128, "est_dur": 52.7},
+
+  {"id": "S23", "part": "PART EIGHT", "type": "graphic", "cue": "Animated map: agriculture spreading outward from Tas Tepeler region across the Fertile Crescent", "narration_words": 64, "est_dur": 26.3},
+  {"id": "S24", "part": "PART EIGHT", "type": "archival", "cue": "Wild vs domesticated einkorn wheat specimens, archaeobotanical comparison", "narration_words": 68, "est_dur": 28.0},
+  {"id": "S25", "part": "PART EIGHT", "type": "ai", "cue": "Time-lapse-style sequence: hunter-gatherer camp near the hill transforming across generations into mudbrick settlement with fields", "narration_words": 22, "est_dur": 9.1},
+
+  {"id": "S26", "part": "CLOSING", "type": "archival", "cue": "Wide shot of excavated enclosures, modern tourists/archaeologists small against the pillars", "narration_words": 58, "est_dur": 23.9},
+  {"id": "S27", "part": "CLOSING", "type": "ai", "cue": "Wide modern-day sunset shot over the excavated hill, pillars catching the last light", "narration_words": 65, "est_dur": 26.7},
+  {"id": "S28", "part": "CLOSING", "type": "graphic", "cue": "Closing stat-card graphic (dates, enclosure count, einkorn domestication note) with final VO over it", "narration_words": 32, "est_dur": 13.2},
+  {"id": "S29", "part": "CLOSING", "type": "graphic", "cue": "Pantheon logo card (reuse Ep.1 S30_LogoCard, swap 'EPISODE TWO')", "narration_words": 0, "est_dur": 5.0},
+  {"id": "S30", "part": "CLOSING", "type": "graphic", "cue": "Source/citation crawl", "narration_words": 0, "est_dur": 10.0}
+]
