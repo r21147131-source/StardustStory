@@ -326,8 +326,9 @@ t = at("And now the question is")
 add_overlay(t, {"kind": "text", "text": "WHAT'S THE NEXT ANCIENT EPIC?", "duration": 6, "position": {"x": 0.1, "y": 0.38, "width": 0.8, "height": 0.12}, "style": {**title, "fontSize": 72}})
 add_overlay(t + 0.5, {"kind": "text", "text": "TELL US IN THE COMMENTS · SUBSCRIBE", "duration": 6,
                       "position": {"x": 0.2, "y": 0.52, "width": 0.6, "height": 0.07}, "style": sub})
-add_overlay(1.0, {"kind": "text", "text": "Stills: TMDB · Stock: Pexels", "duration": 5,
-                  "position": {"x": 0.70, "y": 0.93, "width": 0.28, "height": 0.05},
+credit = "Footage: Universal Pictures, IMAX, The Daily Show · Stills: TMDB · Stock: Pexels" if clips else "Stills: TMDB · Stock: Pexels"
+add_overlay(1.0, {"kind": "text", "text": credit, "duration": 5,
+                  "position": {"x": 0.40 if clips else 0.70, "y": 0.93, "width": 0.58 if clips else 0.28, "height": 0.05},
                   "style": {"color": "#DDDDDD", "fontSize": 22, "textAlign": "right"}})
 
 out = sys.argv[1]
