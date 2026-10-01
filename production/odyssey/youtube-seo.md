@@ -51,7 +51,7 @@ Film clips are used for commentary and criticism. Footage: official trailers (Un
 #TheOdyssey #ChristopherNolan #Odysseus
 ```
 
-## Tags (≈480 characters)
+## Tags (434 characters, under the 500 limit)
 ```
 the odyssey, the odyssey movie, the odyssey nolan, christopher nolan the odyssey, the odyssey explained, the odyssey review, the odyssey ending, odysseus, homer odyssey, greek mythology, trojan war, christopher nolan, matt damon odysseus, tom holland telemachus, anne hathaway penelope, zendaya athena, charlize theron calypso, robert pattinson, imax, shot on imax, the odyssey box office, nolan imax, ancient greece, the odyssey 2026
 ```
