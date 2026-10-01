@@ -117,7 +117,7 @@ def text_filters(ov, a, b, k):
     align = st.get("textAlign", "center")
     x = f"{bx+12}" if align == "left" else (f"{bx+bw-12}-text_w" if align == "right" else f"{bx}+({bw}-text_w)/2")
     col = st.get("color", "#FFFFFF").replace("#", "0x")
-    out.append(f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:fontcolor={col}:"
+    out.append(f"drawtext=fontfile={font}:textfile={tf}:expansion=none:fontsize={size}:fontcolor={col}:"
                f"borderw={max(2, size // 18)}:bordercolor=black@0.85:x={x}:y={by}+({bh}-text_h)/2:{en}")
     return out
 
