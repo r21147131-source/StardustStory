@@ -1,0 +1,10 @@
+Footage for The Odyssey episode (downloaded with yt-dlp; files live outside the repo).
+Pass the folder holding them to gen_clips.py.
+
+ody_trailer.mp4      Mzw2ttJD2qQ  The Odyssey | Official Trailer (Universal Pictures)
+ody_trailer2.mp4     BUC_jDY6tEI  THE ODYSSEY Official Trailer 2 (ONE Media re-upload)
+ody_imax.mkv         pHE9kcQOfQE  The Odyssey | Completely in IMAX Featurette (IMAX)
+ody_nolan_int.mp4    DWABbDtyfeA  Christopher Nolan - "The Odyssey" | The Daily Show
+oppenheimer.mp4      bK6ldnjE3Y0  Oppenheimer | Official Trailer (Universal Pictures)
+
+Rebuild: python3 gen_clips.py CLIPDIR clips.json && python3 build_ody.py OUTDIR clips.json
