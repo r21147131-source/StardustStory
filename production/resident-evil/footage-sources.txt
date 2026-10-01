@@ -14,7 +14,13 @@ barbarian.mp4     Dr89pmKrqkI  BARBARIAN | Official Trailer (20th Century Studio
 weapons.mp4       OpThntO9ixc  Weapons | Official Trailer (Warner Bros.)
 re2002.mp4        HhBAIDHvRTc  RESIDENT EVIL [2002] - Official Trailer (HD) (Sony Pictures Entertainment)
 
-Also downloaded but unused: T3KydRZgda0 (IGN "Trailer #2", same cut as the Sony trailer)
+re3_remake.mp4    xNjGFUaorYc  Resident Evil 3 Remake - Official Announcement Trailer (IGN)
+re_requiem2.mp4   POz1-EmLsTY  Resident Evil Requiem - Reveal Trailer (Resident Evil)
+re_village.mp4    QKocYiRHYlI  Resident Evil Village - Launch Trailer (Resident Evil)
+re_raccoon.mp4    4q6UGCyHZCI  RESIDENT EVIL: WELCOME TO RACCOON CITY - Official Trailer (HD) (Sony Pictures Entertainment)
+
+Also downloaded but unused: 9Aiv1cqmH4w (Sony UK trailer, same cut), ro2AussKF4w (RE7/2/3 next-gen
+trailer, logo watermark throughout), T3KydRZgda0 (IGN "Trailer #2", same cut as the Sony trailer)
 and cAv0_XY9-rg (IGN copy of the first trailer).
 
 picks.json lists hand-checked start times per pool; every pick was viewed at 0.4s steps
