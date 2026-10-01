@@ -5,7 +5,7 @@ Usage: python build_eh.py OUTDIR [clips.json]
 TMDB stills carry the episode: a film's stills when it is named, a person's photo
 when they are named, Pexels B-roll only as filler. clips.json (optional) maps a
 cue prefix to footage ranges, e.g. {"In 1992, when he was fourteen": [["/x/ducks.mp4", 31.0, 4.0]]},
-played in order in place of that cue's stills (file, start s, length s).
+played in order in place of that cue's stills (file, start s, length s); ["STILL", i, len] keeps the cue's i-th still (e.g. a person photo).
 """
 import itertools, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -184,7 +184,8 @@ for k, (t0, pre, assets, label) in enumerate(cue_t):
             if t >= t1 - 0.05:
                 break
             d = min(ln, t1 - t)
-            shots.append((t, d, ("clip", f, st), label if j == 0 else None))
+            a_ = assets[int(st)] if f == "STILL" else ("clip", f, st)  # ["STILL", i, len] = this cue's i-th still
+            shots.append((t, d, a_, label if j == 0 else None))
             t += d; j += 1
         if t1 - t > 0.05:
             shots.append((t, t1 - t, assets[0], None))
