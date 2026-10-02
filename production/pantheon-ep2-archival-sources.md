@@ -36,17 +36,18 @@ below.
 | S09 | `worldhistory.org/uploads/images/13199.jpg` | Good — Layer III, Enclosure A, Pillar 2 |
 | S12 | **user-supplied** `S12a-animal-relief-closeup.jpg` (primary), `worldhistory.org/uploads/images/12475.jpg` (alternate) | Strong — extreme close-up carving, closer to the cue's "close-up" framing than the alternate |
 | S14 | **user-supplied** `S14a-central-pillar-animal-relief.jpg` | Substitute — genuine central-pillar close-up, but the relief is a crouching animal, not Pillar 18's arm/belt motif specifically |
-| S16 | `worldhistory.org/uploads/images/3847.jpg` | Weak substitute — general temple image, not stone-basin specific |
+| S16 | **user-supplied** `S16a-stone-trough-excavation.jpg` | Strong — carved stone trough with archaeological scale bar and north arrow, direct match |
 | S18 | `worldhistory.org/uploads/images/13200.jpg` | Strong — Vulture Stone (Pillar 43), photo by Sue Fleckney |
 | S21 | **user-supplied** `S21a-deep-excavation-stratigraphy.jpg` | Substitute — deep excavated enclosure, strong sense of stratigraphy/depth, but not backfill actively being packed in |
 | S26 | `worldhistory.org/uploads/images/3830.jpg` | Good — site under the modern protective covering |
 
-Still flagged as substitutes, open to a better source: **S14** (closer
-now, but still not the specific arm/belt motif), **S16** (the one
-cue with no real-photo upgrade at all yet), **S21** (closer now, but
-not literally backfill in progress). (3 earlier user-supplied
-candidates for this batch had visible iStock/Adobe Stock watermarks
-baked into the preview — not usable without a licensed version.)
+Still flagged as substitutes, open to a better source if one turns up:
+**S14** (closer now, but still not the specific arm/belt motif) and
+**S21** (closer now, but not literally backfill in progress). Every
+archival cue now has at least a real photo — none are left on a
+weak/generic placeholder. (3 earlier user-supplied candidates for this
+batch had visible iStock/Adobe Stock watermarks baked into the
+preview — not usable without a licensed version.)
 
 ## Extra, unassigned
 
