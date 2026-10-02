@@ -30,7 +30,7 @@ below.
 
 | Shot | Source | Match quality |
 |---|---|---|
-| S01 | `worldhistory.org/uploads/images/12476.jpg` | Strong — aerial view of Göbekli Tepe and surroundings |
+| S01 | **user-supplied** `S01a-anatolian-hillside-view.jpg` | Strong — real hilltop view over the surrounding Anatolian landscape |
 | S04 | **user-supplied** `S04a-einkorn-wheat-field.jpg` | Strong — real wheat-field photograph (upgraded from a map substitute) |
 | S07 | **user-supplied** `S07a-klaus-schmidt-excavation.jpg` | Strong — Klaus Schmidt himself at the site (upgraded from a generic pillar photo) |
 | S09 | `worldhistory.org/uploads/images/13199.jpg` | Good — Layer III, Enclosure A, Pillar 2 |
@@ -52,11 +52,13 @@ weak/generic placeholder.
 `vidiq_compose` needs more credits than are currently available (60/call,
 180 for all 3 segments, balance 33), so assembly is moving to a local
 ffmpeg path instead, which needs every asset as a local file rather than
-a hotlinked URL. 7 of 10 real-photo cues (S04, S07, S12, S14, S16, S21,
-S26) are now local; **S01, S09, S18 remain hotlinked** and still need
-local copies (or close equivalents) before local assembly can run. (One
-user-supplied candidate for this round was a repeat of an earlier
-watermarked Adobe Stock image — not usable.)
+a hotlinked URL. 8 of 10 real-photo cues (S01, S04, S07, S12, S14, S16,
+S21, S26) are now local; **S09, S18 remain hotlinked** and still need
+local copies (or close equivalents) before local assembly can run. (A
+reproduction/plaster-cast of the Vulture Stone was offered for S18 but
+declined — it's a museum replica, not the genuine in-situ artifact, and
+this project is specifically trying to avoid presenting non-genuine
+material as real archival footage.)
 
 ## Extra, unassigned
 

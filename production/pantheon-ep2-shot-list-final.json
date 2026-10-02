@@ -7,8 +7,8 @@
     "narration_words": 29,
     "est_dur": 11.9,
     "final_dur": 11.73,
-    "src": "https://www.worldhistory.org/uploads/images/12476.jpg",
-    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - aerial view of Gobekli Tepe and surroundings - strong match"
+    "src": "pantheon-ep2-archival/S01a-anatolian-hillside-view.jpg",
+    "src_status": "user-supplied, real hilltop view over the surrounding Anatolian landscape - strong match, now local (needed for the credit-free local ffmpeg assembly path)"
   },
   {
     "id": "S02",
