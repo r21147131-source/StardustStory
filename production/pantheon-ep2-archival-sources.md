@@ -22,7 +22,7 @@ share-alike, attribution required) unless the image's own page states
 otherwise — the Vulture Stone photo is individually credited to Sue
 Fleckney under CC BY-SA 2.0. Credit both in the closing citation crawl.
 
-## Resolved (10 of 11)
+## Resolved as real photos (10 of 11 archival cues)
 
 | Shot | URL | Match quality |
 |---|---|---|
@@ -37,17 +37,16 @@ Fleckney under CC BY-SA 2.0. Credit both in the closing citation crawl.
 | S21 | `worldhistory.org/uploads/images/204.jpg` | Substitute — Enclosure F, not a backfill cross-section specifically |
 | S26 | `worldhistory.org/uploads/images/3830.jpg` | Good — site under the modern protective covering |
 
-## Unresolved (1 of 11)
+## Resolved as a graphic (1 of 11)
 
-**S24** — wild vs. domesticated einkorn wheat specimens. A Wikimedia
-Commons file exists (`Usdaeinkorn1.jpg`, USDA/public domain, shows
-*Triticum monococcum* spikelets) but `upload.wikimedia.org` is blocked
-from this sandbox and a mirror-site fetch attempt failed. Options:
-- you supply a photo directly (same as Ep.1's workflow), or
-- I keep searching for an alternate reachable source, or
-- this cue becomes a graphic instead (a simple side-by-side
-  illustration of brittle vs. non-brittle rachis, built in Remotion
-  alongside the other motion graphics)
+**S24** — wild vs. domesticated einkorn wheat specimens. No fetchable
+photo was found (a Wikimedia Commons file exists but that host is
+blocked from this sandbox, and a mirror-site fallback failed), so by
+request this cue was converted to the 10th motion graphic instead of an
+archival photo: a two-panel wild-vs-domesticated rachis comparison. See
+`pantheon-ep2-visual-prompts.md`'s graphics section (item 8) for the
+full spec, and `pantheon-ep2-shot-list-final.json` (S24, now
+`"type": "graphic"`).
 
 ## Reproducing / updating
 

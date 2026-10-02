@@ -256,13 +256,12 @@
   {
     "id": "S24",
     "part": "PART EIGHT",
-    "type": "archival",
-    "cue": "Wild vs domesticated einkorn wheat specimens, archaeobotanical comparison",
+    "type": "graphic",
+    "cue": "Wild vs domesticated einkorn wheat comparison diagram: brittle/shattering rachis (wild, seed dispersal) vs non-brittle rachis (domesticated, ear stays intact), Karacadağ region label",
     "narration_words": 68,
     "est_dur": 28.0,
     "final_dur": 27.59,
-    "src": null,
-    "src_status": "UNRESOLVED - no fetchable einkorn wheat specimen photo found. A Wikimedia Commons file (Usdaeinkorn1.jpg, USDA public domain) exists but upload.wikimedia.org is blocked from this sandbox and a mirror-site attempt failed. Needs a user-supplied image or further sourcing."
+    "src_status": "converted from archival to graphic (no fetchable photo found) - build as 10th Remotion motion graphic, see visual-prompts.md"
   },
   {
     "id": "S25",

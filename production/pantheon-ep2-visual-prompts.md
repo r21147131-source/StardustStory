@@ -95,7 +95,7 @@ without it dominating the frame).
 
 ---
 
-## Motion Graphics — 9 graphics (build in Remotion, reuse `src/theme.ts`)
+## Motion Graphics — 10 graphics (build in Remotion, reuse `src/theme.ts`)
 
 Same component pattern as Ep.1 (`src/graphics/S02_TimelineAxis.tsx`
 etc.) — new components live in `src/graphics/` prefixed `EP2_`, new
@@ -123,10 +123,21 @@ etc.) — new components live in `src/graphics/` prefixed `EP2_`, new
 7. **S23 — Agriculture spread map** (26.3s): radiating gradient/arrows
    expanding outward from the Taş Tepeler region across the Fertile
    Crescent.
-8. **S28 — Closing stat card** (13.2s): same stat-card format as Ep.1's
+8. **S24 — Einkorn domestication comparison** (27.59s): converted from
+   an archival photo cue (no fetchable specimen photo found). Two-panel
+   side-by-side comparison: left panel "WILD EINKORN" with an
+   illustrated seed head and a highlighted, animated breakpoint on the
+   stem labeled "brittle rachis — shatters, scatters seed"; right panel
+   "DOMESTICATED EINKORN" with an intact seed head labeled "non-brittle
+   rachis — ear stays intact." A small locator label reads "Karacadağ
+   Mountains, SE Turkey." Keep it simple and diagrammatic (closer to
+   S11's bar-chart register than a literal illustration) — the point is
+   the mechanism (why non-shattering grain is harvestable), not botanical
+   realism.
+9. **S28 — Closing stat card** (13.2s): same stat-card format as Ep.1's
    closing graphic — four lines (dates, enclosure count, predates-list,
    einkorn note).
-9. **S30 — Citation crawl** (10.0s): reuse Ep.1's `S31_CitationCrawl`
+10. **S30 — Citation crawl** (10.0s): reuse Ep.1's `S31_CitationCrawl`
    component with Ep.2's source list.
 
 Plus **S29 — Logo card** (5.0s): reuse `S30_LogoCard.tsx` verbatim,
@@ -152,8 +163,9 @@ image files the same way as Ep.1 (paste/upload into chat).
 | S16 | "Göbekli Tepe stone vessel trough", "Göbekli Tepe fermentation residue vessel" |
 | S18 | "Göbekli Tepe Pillar 43 Vulture Stone photograph" |
 | S21 | "Göbekli Tepe backfill cross-section excavation", "Göbekli Tepe enclosure D C B A stratigraphy" |
-| S24 | "wild einkorn wheat vs domesticated einkorn Karacadağ", "einkorn wheat archaeobotany specimen" |
 | S26 | "Göbekli Tepe modern site photograph tourists canopy" |
+
+(S24 was converted to a motion graphic — see the graphics section above — after no fetchable einkorn specimen photo could be sourced; see `pantheon-ep2-archival-sources.md`.)
 
 ---
 

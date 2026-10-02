@@ -7,7 +7,9 @@
    direct narrative bridge from Ep.1's closing.
 2. **Draft shot list** — done, word-count estimated (~639s target,
    matching Ep.1's runtime almost exactly). `pantheon-ep2-shot-list.json`.
-   30 cues: 11 archival, 10 graphics, 9 AI (Veo-style).
+   30 cues: originally 11 archival / 9 graphics / 9 AI (Veo-style);
+   after S22's split and S24's conversion, now 10 archival / 10
+   graphics / 10 AI.
 3. **Visual production brief** — done. `pantheon-ep2-visual-prompts.md` —
    full AI shot prompts, motion graphics spec, archival search terms.
 4. **Voiceover** — done. `public/pantheon-ep2-voiceover.mp3`, 614.87s
@@ -51,33 +53,32 @@
    (the first `-c copy` attempt silently dropped the video stream on
    one half, caught it via a frame-extraction check and fixed it).
 
-7. **Archival photos — 10 of 11 cues covered.** Different approach from
-   Ep.1: found real, working image URLs via web search (World History
-   Encyclopedia's photo archive) and verified each one resolves to an
-   actual `image/jpeg` via a server-side fetch (`vidiq_compose` fetches
-   scene sources server-side too, so these hotlinked URLs work directly
-   without needing to download/commit files, unlike Ep.1). Full list
-   and match-quality notes in `pantheon-ep2-archival-sources.md`. 4 of
-   the 10 are flagged as substitutes (not an exact match to the cue,
-   but the best real photo found) rather than presented as perfect.
-
-## WAITING ON YOU
-
-8. **1 archival photo still unresolved: S24** (wild vs. domesticated
-   einkorn wheat). A Wikimedia Commons file exists but that host is
-   blocked from this sandbox and a mirror-site attempt failed. Options
-   in the archival-sources doc: supply a photo yourself, or let it
-   become a graphic instead.
+7. **Archival photos — 10 of 10 archival cues covered.** Different
+   approach from Ep.1: found real, working image URLs via web search
+   (World History Encyclopedia's photo archive) and verified each one
+   resolves to an actual `image/jpeg` via a server-side fetch
+   (`vidiq_compose` fetches scene sources server-side too, so these
+   hotlinked URLs work directly without needing to download/commit
+   files, unlike Ep.1). Full list and match-quality notes in
+   `pantheon-ep2-archival-sources.md`. 4 of the 10 are flagged as
+   substitutes (not an exact match to the cue, but the best real photo
+   found) rather than presented as perfect.
+8. **S24 (einkorn wheat) converted to a graphic.** No fetchable photo
+   existed (the one Commons file found is on a blocked host). Now the
+   10th motion graphic — a wild-vs-domesticated rachis comparison, spec
+   in `pantheon-ep2-visual-prompts.md`. Shot list and docs updated.
+   **All 30 cues in the shot list now have a resolved source or spec —
+   nothing left waiting on external sourcing.**
 
 ## NOT STARTED YET
 
-9. **Motion graphics** — 9 Remotion components to build in
+9. **Motion graphics** — 10 Remotion components to build in
    `src/graphics/` (prefix `EP2_`), reusing `src/theme.ts` and the Ep.1
    `S30_LogoCard`/`S31_CitationCrawl` patterns. Durations locked, ready
    to build.
 10. **Assembly** — via `vidiq_compose`, same 3-segment pattern as Ep.1
-   (629.88s total / 240s cap per call = 3 segments). Can run once S24
-   is settled (or run now with S24 using a graphic fallback).
+   (629.88s total / 240s cap per call = 3 segments). Ready to run once
+   the graphics are built.
 
 ## Credit budget note
 
