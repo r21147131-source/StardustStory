@@ -10,7 +10,13 @@ output/pantheon-ep1-final.mp4
 output/pantheon-ep1-segment-*.mp4
 
 # Pantheon Ep.2 local-assembly intermediates (50 normalized per-shot
-# clips, concat list) - not final output, not meant to be committed.
+# clips, concat list, full-res 386MB final, uncompressed video-only pass)
+# - not final deliverables, not meant to be committed. Preview is
+# delivered via chat, not committed. The full-quality compressed
+# version (output/pantheon-ep2-full-compressed.mp4, under 100MB) IS
+# meant to be committed, same pattern as Ep.1.
 # See production/pantheon-ep2-status.md.
 output/ep2-segments/
 output/pantheon-ep2-final.mp4
+output/pantheon-ep2-video-only.mp4
+output/pantheon-ep2-preview.mp4
