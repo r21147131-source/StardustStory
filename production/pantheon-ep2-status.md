@@ -19,7 +19,7 @@
    over the 45s single-shot ceiling) split into S22a/S22b sub-clips,
    ~25.97s each, same pattern as Ep.1's long cues.
 
-6. **AI clips — 9 of 10 cues covered.** You supplied 11 user-generated
+6. **AI clips — all 10 of 10 cues covered.** You supplied 12 user-generated
    clips (Grok), sorted into `public/pantheon-ep2-clips/` (1 duplicate
    discarded — byte-identical to an already-saved S13 take):
    - **S03** (cold open aerial enclosure) — 1 clip, 4.54s (short of the
@@ -41,6 +41,10 @@
      26.31s — will repeat/loop). Excellent match — real aerial of the
      actual site at sunset, protective canopy visible, exactly as
      specced.
+   - **S20** (Vulture Stone push-in) — 1 clip, 10.04s (short of
+     32.02s — will repeat/loop). Excellent match — vulture, glowing
+     disc, scorpions, bird row along the top edge, slow push-in exactly
+     as specced.
 
    Note: S03 and S05 came from a single 10s source clip that had two
    distinct scenes back to back — I split it in two and re-encoded
@@ -53,16 +57,15 @@
    images directly (network policy, same as Ep.1). I'll research and
    list candidate sources; you'll need to paste/upload the actual files,
    same as Ep.1's workflow. Search terms are in the visual-prompts doc.
-8. **1 AI clip still needed: S20** (Vulture Stone push-in, 32.02s).
-   Prompt's in the visual-prompts doc.
+   This is the only thing left before assembly can run.
 
 ## NOT STARTED YET
 
-9. **Motion graphics** — 9 Remotion components to build in
+8. **Motion graphics** — 9 Remotion components to build in
    `src/graphics/` (prefix `EP2_`), reusing `src/theme.ts` and the Ep.1
    `S30_LogoCard`/`S31_CitationCrawl` patterns. Durations locked, ready
    to build.
-10. **Assembly** — via `vidiq_compose`, same 3-segment pattern as Ep.1
+9. **Assembly** — via `vidiq_compose`, same 3-segment pattern as Ep.1
    (629.88s total / 240s cap per call = 3 segments).
 
 ## Credit budget note
