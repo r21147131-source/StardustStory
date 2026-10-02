@@ -19,8 +19,9 @@
    over the 45s single-shot ceiling) split into S22a/S22b sub-clips,
    ~25.97s each, same pattern as Ep.1's long cues.
 
-6. **AI clips — 4 of 10 cues covered.** You supplied 5 user-generated
-   clips (Grok), sorted into `public/pantheon-ep2-clips/`:
+6. **AI clips — 7 of 10 cues covered.** You supplied 9 user-generated
+   clips (Grok), sorted into `public/pantheon-ep2-clips/` (1 duplicate
+   discarded — byte-identical to an already-saved S13 take):
    - **S03** (cold open aerial enclosure) — 1 clip, 4.54s (short of the
      8.08s needed — will repeat/loop at assembly)
    - **S05** (hunter band at dusk) — 1 clip, 5.5s (short of 18.62s —
@@ -29,6 +30,10 @@
      will repeat/loop)
    - **S13** (stone-pillar hauling) — 3 alternate takes, 10.04s each —
      full coverage, will split the 25.52s across all 3 (~8.5s each)
+   - **S22a / S22b** (deliberate burial, 2 sub-clips) — 1 clip each,
+     10.04s — short of 25.97s each, will repeat/loop
+   - **S25** (time-lapse camp-to-settlement) — 1 clip, 10.04s — full
+     coverage, will trim to 8.97s
 
    Note: S03 and S05 came from a single 10s source clip that had two
    distinct scenes back to back — I split it in two and re-encoded
@@ -41,12 +46,11 @@
    images directly (network policy, same as Ep.1). I'll research and
    list candidate sources; you'll need to paste/upload the actual files,
    same as Ep.1's workflow. Search terms are in the visual-prompts doc.
-8. **Remaining AI clips** — 6 cues still need footage: S17 (night
-   feast), S20 (Vulture Stone push-in), S22a/S22b (deliberate burial,
-   2 sub-clips), S25 (time-lapse transformation), S27 (modern sunset
-   closing). Prompts for all of these are in the visual-prompts doc —
-   generate them yourself the same way, or tell me to generate via
-   vidIQ (credits).
+8. **Remaining AI clips** — 3 cues still need footage: S17 (night
+   feast), S20 (Vulture Stone push-in), S27 (modern sunset closing).
+   Prompts for all of these are in the visual-prompts doc — generate
+   them yourself the same way, or tell me to generate via vidIQ
+   (credits).
 
 ## NOT STARTED YET
 

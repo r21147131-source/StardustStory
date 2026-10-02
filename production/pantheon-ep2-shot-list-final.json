@@ -207,7 +207,9 @@
     "cue": "Sub-clip 1/2: people carrying woven baskets of rubble, pouring fill methodically into the base of a stone enclosure around a standing pillar",
     "narration_words": 64,
     "est_dur": 26.35,
-    "final_dur": 25.97
+    "final_dur": 25.97,
+    "src": "pantheon-ep2-clips/S22a-burial-pouring-rubble-twopillars.mp4",
+    "src_status": "user-supplied, 10.04s clip - shorter than final_dur (25.97s), will repeat/loop at assembly"
   },
   {
     "id": "S22b",
@@ -216,7 +218,9 @@
     "cue": "Sub-clip 2/2: fill rising higher around several pillars, only carved upper shoulders/heads exposed, figures pressing last soil into place by hand",
     "narration_words": 64,
     "est_dur": 26.35,
-    "final_dur": 25.97
+    "final_dur": 25.97,
+    "src": "pantheon-ep2-clips/S22b-burial-dense-fill-carved-pillar.mp4",
+    "src_status": "user-supplied, 10.04s clip - shorter than final_dur (25.97s), will repeat/loop at assembly"
   },
   {
     "id": "S23",
@@ -243,7 +247,9 @@
     "cue": "Time-lapse-style sequence: hunter-gatherer camp near the hill transforming across generations into mudbrick settlement with fields",
     "narration_words": 22,
     "est_dur": 9.1,
-    "final_dur": 8.97
+    "final_dur": 8.97,
+    "src": "pantheon-ep2-clips/S25a-camp-to-settlement-timelapse.mp4",
+    "src_status": "user-supplied, 10.04s clip - full coverage, trim to final_dur (8.97s) at assembly"
   },
   {
     "id": "S26",
