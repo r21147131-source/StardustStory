@@ -149,8 +149,8 @@
     "narration_words": 26,
     "est_dur": 10.7,
     "final_dur": 10.54,
-    "src": "https://www.worldhistory.org/uploads/images/12474.jpg",
-    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Gobekli Tepe, Pillar 27, Enclosure C, Layer III. SUBSTITUTE: not Pillar 18 specifically - no direct-fetchable photo of P18's arm/belt carving was found (DAI/dainst.blog has one but isn't reachable from this sandbox)."
+    "src": "pantheon-ep2-archival/S14a-central-pillar-animal-relief.jpg",
+    "src_status": "user-supplied, genuine central-pillar close-up excavation photo. SUBSTITUTE: the relief shown is a crouching animal, not the arm-bent-at-elbow/belt-and-loincloth motif specifically described for Pillar 18 - still an upgrade over the previous wrong-pillar substitute, but not a literal match to the cue."
   },
   {
     "id": "S15",
