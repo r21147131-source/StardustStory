@@ -11,6 +11,17 @@ import { S25_NeolithicTimeline } from "./graphics/S25_NeolithicTimeline";
 import { S28_StatCards } from "./graphics/S28_StatCards";
 import { S31_CitationCrawl } from "./graphics/S31_CitationCrawl";
 import { S30_LogoCard } from "./graphics/S30_LogoCard";
+import { EP2_S02_BridgeTimeline } from "./graphics/EP2_S02_BridgeTimeline";
+import { EP2_S06_TasTepelerMap } from "./graphics/EP2_S06_TasTepelerMap";
+import { EP2_S10_ComparativeTimeline } from "./graphics/EP2_S10_ComparativeTimeline";
+import { EP2_S11_InvertedSequenceBars } from "./graphics/EP2_S11_InvertedSequenceBars";
+import { EP2_S15_LaborConvergence } from "./graphics/EP2_S15_LaborConvergence";
+import { EP2_S19_VultureStoneOverlay } from "./graphics/EP2_S19_VultureStoneOverlay";
+import { EP2_S23_AgricultureSpreadMap } from "./graphics/EP2_S23_AgricultureSpreadMap";
+import { EP2_S24_EinkornComparison } from "./graphics/EP2_S24_EinkornComparison";
+import { EP2_S28_ClosingStatCard } from "./graphics/EP2_S28_ClosingStatCard";
+import { EP2_S29_LogoCard } from "./graphics/EP2_S29_LogoCard";
+import { EP2_S30_CitationCrawl } from "./graphics/EP2_S30_CitationCrawl";
 
 // Duration in frames = ceil(final_dur_seconds * 30), taken from
 // production/pantheon-ep1-shot-list-final.json (voiceover-reconciled timing).
@@ -27,6 +38,20 @@ const COMPOSITIONS: { id: string; component: React.FC; durationInFrames: number 
   { id: "S28-StatCards", component: S28_StatCards, durationInFrames: 1131 },
   { id: "S31-CitationCrawl", component: S31_CitationCrawl, durationInFrames: 800 },
   { id: "S30-LogoCard", component: S30_LogoCard, durationInFrames: 120 },
+
+  // Pantheon Ep.2 — Göbekli Tepe. Frames taken from
+  // production/pantheon-ep2-shot-list-final.json (voiceover-reconciled timing).
+  { id: "EP2-S02-BridgeTimeline", component: EP2_S02_BridgeTimeline, durationInFrames: 754 },
+  { id: "EP2-S06-TasTepelerMap", component: EP2_S06_TasTepelerMap, durationInFrames: 449 },
+  { id: "EP2-S10-ComparativeTimeline", component: EP2_S10_ComparativeTimeline, durationInFrames: 585 },
+  { id: "EP2-S11-InvertedSequenceBars", component: EP2_S11_InvertedSequenceBars, durationInFrames: 1156 },
+  { id: "EP2-S15-LaborConvergence", component: EP2_S15_LaborConvergence, durationInFrames: 851 },
+  { id: "EP2-S19-VultureStoneOverlay", component: EP2_S19_VultureStoneOverlay, durationInFrames: 887 },
+  { id: "EP2-S23-AgricultureSpreadMap", component: EP2_S23_AgricultureSpreadMap, durationInFrames: 778 },
+  { id: "EP2-S24-EinkornComparison", component: EP2_S24_EinkornComparison, durationInFrames: 828 },
+  { id: "EP2-S28-ClosingStatCard", component: EP2_S28_ClosingStatCard, durationInFrames: 390 },
+  { id: "EP2-S29-LogoCard", component: EP2_S29_LogoCard, durationInFrames: 150 },
+  { id: "EP2-S30-CitationCrawl", component: EP2_S30_CitationCrawl, durationInFrames: 300 },
 ];
 
 export const RemotionRoot: React.FC = () => {
