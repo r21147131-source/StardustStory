@@ -1,4 +1,4 @@
-import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, interpolate, OffthreadVideo, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { theme } from "../theme";
 
 // Two tracks over the same 12,000-years-ago -> present axis: the "old model"
@@ -100,6 +100,12 @@ export const EP2_S11_InvertedSequenceBars: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: theme.colors.bg }}>
+      <OffthreadVideo
+        src={staticFile("pantheon-ep2-ai-backgrounds/S11-tracks-bg.mp4")}
+        loop
+        muted
+        style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", opacity: 0.45 }}
+      />
       <div
         style={{
           position: "absolute",

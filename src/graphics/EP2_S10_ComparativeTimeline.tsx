@@ -1,4 +1,4 @@
-import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, interpolate, OffthreadVideo, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { theme } from "../theme";
 
 // Approximate years-before-present, rounded for a clean illustrative bar chart
@@ -27,6 +27,12 @@ export const EP2_S10_ComparativeTimeline: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: theme.colors.bg }}>
+      <OffthreadVideo
+        src={staticFile("pantheon-ep2-ai-backgrounds/S10-bars-bg.mp4")}
+        loop
+        muted
+        style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", opacity: 0.4 }}
+      />
       {ITEMS.map((item, i) => {
         const t = frame - i * fps * 0.35;
         const barFrac = interpolate(t, [0, fps * 1.1], [0, item.years / MAX_YEARS], {
