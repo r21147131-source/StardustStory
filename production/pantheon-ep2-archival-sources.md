@@ -37,7 +37,7 @@ below.
 | S12 | **user-supplied** `S12a-animal-relief-closeup.jpg` (primary), `worldhistory.org/uploads/images/12475.jpg` (alternate) | Strong — extreme close-up carving, closer to the cue's "close-up" framing than the alternate |
 | S14 | **user-supplied** `S14a-central-pillar-animal-relief.jpg` | Substitute — genuine central-pillar close-up, but the relief is a crouching animal, not Pillar 18's arm/belt motif specifically |
 | S16 | **user-supplied** `S16a-stone-trough-excavation.jpg` | Strong — carved stone trough with archaeological scale bar and north arrow, direct match |
-| S18 | `worldhistory.org/uploads/images/13200.jpg` | Strong — Vulture Stone (Pillar 43), photo by Sue Fleckney |
+| S18 | **user-supplied** `S18a-vulture-stone-insitu.jpg` | Strong — genuine in-situ photo of the Vulture Stone (Pillar 43), photo credit Fazli Karabacak |
 | S21 | **user-supplied** `S21a-deep-excavation-stratigraphy.jpg` | Substitute — deep excavated enclosure, strong sense of stratigraphy/depth, but not backfill actively being packed in |
 | S26 | **user-supplied** `S26a-modern-site-wide-aerial.jpg` | Strong — wide aerial of the full modern site (excavation squares, shelter, surrounding groves) |
 
@@ -52,13 +52,14 @@ weak/generic placeholder.
 `vidiq_compose` needs more credits than are currently available (60/call,
 180 for all 3 segments, balance 33), so assembly is moving to a local
 ffmpeg path instead, which needs every asset as a local file rather than
-a hotlinked URL. 8 of 10 real-photo cues (S01, S04, S07, S12, S14, S16,
-S21, S26) are now local; **S09, S18 remain hotlinked** and still need
-local copies (or close equivalents) before local assembly can run. (A
-reproduction/plaster-cast of the Vulture Stone was offered for S18 but
-declined — it's a museum replica, not the genuine in-situ artifact, and
-this project is specifically trying to avoid presenting non-genuine
-material as real archival footage.)
+a hotlinked URL. 9 of 10 real-photo cues (S01, S04, S07, S12, S14, S16,
+S18, S21, S26) are now local; **only S09 remains hotlinked** and still
+needs a local copy (or close equivalent) before local assembly can run.
+(A reproduction/plaster-cast of the Vulture Stone was offered for S18
+earlier but declined — it's a museum replica, not the genuine in-situ
+artifact, and this project is specifically trying to avoid presenting
+non-genuine material as real archival footage. The photo that replaced
+it is credited to Fazli Karabacak in the closing citation crawl.)
 
 ## Extra, unassigned
 

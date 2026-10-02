@@ -191,8 +191,8 @@
     "narration_words": 41,
     "est_dur": 16.9,
     "final_dur": 16.65,
-    "src": "https://www.worldhistory.org/uploads/images/13200.jpg",
-    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Vulture Stone, Gobekli Tepe (Pillar 43), photo by Sue Fleckney, CC BY-SA 2.0 per source page - strong match"
+    "src": "pantheon-ep2-archival/S18a-vulture-stone-insitu.jpg",
+    "src_status": "user-supplied, genuine in-situ photograph of the Vulture Stone (Pillar 43), photo credit Fazli Karabacak visible in-frame - strong match, now local (needed for the credit-free local ffmpeg assembly path). Credit Karabacak in the closing citation crawl."
   },
   {
     "id": "S19",

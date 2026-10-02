@@ -7,6 +7,7 @@ const CITATIONS = [
   "Sweatman & Tsikritsis — Pillar 43 astronomical interpretation (2017, contested)",
   "Taş Tepeler Project survey data",
   "Heun et al. — domesticated einkorn origin, Karacadağ region (1997)",
+  "Vulture Stone photograph — Fazli Karabacak",
 ];
 
 export const EP2_S30_CitationCrawl: React.FC = () => {
