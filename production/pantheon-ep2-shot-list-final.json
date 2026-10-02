@@ -162,7 +162,9 @@
     "cue": "Night feast scene: fires, drumming, large gathering near pillars, firelight on carved reliefs",
     "narration_words": 54,
     "est_dur": 22.2,
-    "final_dur": 21.88
+    "final_dur": 21.88,
+    "src": "pantheon-ep2-clips/S17a-night-feast-firelight-pillars.mp4",
+    "src_status": "user-supplied, 10.04s clip - shorter than final_dur (21.88s), will repeat/loop at assembly"
   },
   {
     "id": "S18",
@@ -267,7 +269,9 @@
     "cue": "Wide modern-day sunset shot over the excavated hill, pillars catching the last light",
     "narration_words": 65,
     "est_dur": 26.7,
-    "final_dur": 26.31
+    "final_dur": 26.31,
+    "src": "pantheon-ep2-clips/S27a-modern-site-sunset-aerial.mp4",
+    "src_status": "user-supplied, 10.04s clip - shorter than final_dur (26.31s), will repeat/loop at assembly"
   },
   {
     "id": "S28",
