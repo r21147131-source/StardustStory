@@ -33,7 +33,7 @@ below.
 | S01 | **user-supplied** `S01a-anatolian-hillside-view.jpg` | Strong — real hilltop view over the surrounding Anatolian landscape |
 | S04 | **user-supplied** `S04a-einkorn-wheat-field.jpg` | Strong — real wheat-field photograph (upgraded from a map substitute) |
 | S07 | **user-supplied** `S07a-klaus-schmidt-excavation.jpg` | Strong — Klaus Schmidt himself at the site (upgraded from a generic pillar photo) |
-| S09 | `worldhistory.org/uploads/images/13199.jpg` | Good — Layer III, Enclosure A, Pillar 2 |
+| S09 | **user-supplied** `S09a-excavation-enclosure-walkway.jpg` | Strong — excavated enclosure circles with pillars, modern viewing walkway above |
 | S12 | **user-supplied** `S12a-animal-relief-closeup.jpg` (primary), `worldhistory.org/uploads/images/12475.jpg` (alternate) | Strong — extreme close-up carving, closer to the cue's "close-up" framing than the alternate |
 | S14 | **user-supplied** `S14a-central-pillar-animal-relief.jpg` | Substitute — genuine central-pillar close-up, but the relief is a crouching animal, not Pillar 18's arm/belt motif specifically |
 | S16 | **user-supplied** `S16a-stone-trough-excavation.jpg` | Strong — carved stone trough with archaeological scale bar and north arrow, direct match |
@@ -50,11 +50,11 @@ weak/generic placeholder.
 ### Credit-free local assembly
 
 `vidiq_compose` needs more credits than are currently available (60/call,
-180 for all 3 segments, balance 33), so assembly is moving to a local
-ffmpeg path instead, which needs every asset as a local file rather than
-a hotlinked URL. 9 of 10 real-photo cues (S01, S04, S07, S12, S14, S16,
-S18, S21, S26) are now local; **only S09 remains hotlinked** and still
-needs a local copy (or close equivalent) before local assembly can run.
+180 for all 3 segments, balance 33), so assembly moved to a local ffmpeg
+path instead, which needs every asset as a local file rather than a
+hotlinked URL. **All 10 real-photo cues are now local files** — nothing
+left hotlinked. Local assembly is unblocked.
+
 (A reproduction/plaster-cast of the Vulture Stone was offered for S18
 earlier but declined — it's a museum replica, not the genuine in-situ
 artifact, and this project is specifically trying to avoid presenting
