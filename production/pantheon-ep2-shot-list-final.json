@@ -6,7 +6,9 @@
     "cue": "Dissolve from Ep.1 ice core imagery into golden Anatolian hillside at dawn",
     "narration_words": 29,
     "est_dur": 11.9,
-    "final_dur": 11.73
+    "final_dur": 11.73,
+    "src": "https://www.worldhistory.org/uploads/images/12476.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - aerial view of Gobekli Tepe and surroundings - strong match"
   },
   {
     "id": "S02",
@@ -35,7 +37,9 @@
     "cue": "Fertile Crescent landscape, Tas Tepeler region, wild wheat fields",
     "narration_words": 42,
     "est_dur": 17.3,
-    "final_dur": 17.05
+    "final_dur": 17.05,
+    "src": "https://www.worldhistory.org/uploads/images/12521.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Map of the Fertile Crescent. SUBSTITUTE: this is a map/illustration, not a landscape photo - no actual wheat-field landscape photo was found. Best available real reference for the geographic context."
   },
   {
     "id": "S05",
@@ -64,7 +68,9 @@
     "cue": "1994 excavation photographs, Klaus Schmidt at the site, early trench work",
     "narration_words": 36,
     "est_dur": 14.8,
-    "final_dur": 14.58
+    "final_dur": 14.58,
+    "src": "https://www.worldhistory.org/uploads/images/13198.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - T-shaped pillars at Gobekli Tepe. SUBSTITUTE: general excavation/pillar documentation photo, not specifically dated 1994 or showing Schmidt himself."
   },
   {
     "id": "S08",
@@ -84,7 +90,9 @@
     "cue": "Excavation progress over years, pillars emerging from soil, enclosure circles revealed",
     "narration_words": 26,
     "est_dur": 10.7,
-    "final_dur": 10.54
+    "final_dur": 10.54,
+    "src": "https://www.worldhistory.org/uploads/images/13199.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Gobekli Tepe, Layer III, Enclosure A, Pillar 2 - good match"
   },
   {
     "id": "S10",
@@ -111,7 +119,9 @@
     "cue": "Close-up T-pillar photography: animal reliefs (fox, boar, snake, vulture, scorpion, crane)",
     "narration_words": 65,
     "est_dur": 26.7,
-    "final_dur": 26.31
+    "final_dur": 26.31,
+    "src": "https://www.worldhistory.org/uploads/images/12475.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Gobekli Tepe, Pillar with Sculpture of a Fox - strong match"
   },
   {
     "id": "S13",
@@ -135,7 +145,9 @@
     "cue": "Close-up of central pillar arm-and-belt carving (Pillar 18 / Pillar 31)",
     "narration_words": 26,
     "est_dur": 10.7,
-    "final_dur": 10.54
+    "final_dur": 10.54,
+    "src": "https://www.worldhistory.org/uploads/images/12474.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Gobekli Tepe, Pillar 27, Enclosure C, Layer III. SUBSTITUTE: not Pillar 18 specifically - no direct-fetchable photo of P18's arm/belt carving was found (DAI/dainst.blog has one but isn't reachable from this sandbox)."
   },
   {
     "id": "S15",
@@ -153,7 +165,9 @@
     "cue": "Massive stone basins/troughs found at the site; feast-residue context",
     "narration_words": 47,
     "est_dur": 19.3,
-    "final_dur": 19.02
+    "final_dur": 19.02,
+    "src": "https://www.worldhistory.org/uploads/images/3847.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - general Gobekli Tepe temple image. WEAK SUBSTITUTE: no stone-basin/trough-specific photo was found - flagging for replacement if a better source turns up."
   },
   {
     "id": "S17",
@@ -173,7 +187,9 @@
     "cue": "Close-up photograph of Pillar 43, the Vulture Stone, full relief panel",
     "narration_words": 41,
     "est_dur": 16.9,
-    "final_dur": 16.65
+    "final_dur": 16.65,
+    "src": "https://www.worldhistory.org/uploads/images/13200.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Vulture Stone, Gobekli Tepe (Pillar 43), photo by Sue Fleckney, CC BY-SA 2.0 per source page - strong match"
   },
   {
     "id": "S19",
@@ -202,7 +218,9 @@
     "cue": "Excavation cross-section showing deliberate backfill layers, rubble packed around pillars",
     "narration_words": 65,
     "est_dur": 26.7,
-    "final_dur": 26.31
+    "final_dur": 26.31,
+    "src": "https://www.worldhistory.org/uploads/images/204.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Gobekli Tepe, Enclosure F. SUBSTITUTE: general enclosure view, not a backfill/stratigraphy cross-section specifically - no better match found."
   },
   {
     "id": "S22a",
@@ -242,7 +260,9 @@
     "cue": "Wild vs domesticated einkorn wheat specimens, archaeobotanical comparison",
     "narration_words": 68,
     "est_dur": 28.0,
-    "final_dur": 27.59
+    "final_dur": 27.59,
+    "src": null,
+    "src_status": "UNRESOLVED - no fetchable einkorn wheat specimen photo found. A Wikimedia Commons file (Usdaeinkorn1.jpg, USDA public domain) exists but upload.wikimedia.org is blocked from this sandbox and a mirror-site attempt failed. Needs a user-supplied image or further sourcing."
   },
   {
     "id": "S25",
@@ -262,7 +282,9 @@
     "cue": "Wide shot of excavated enclosures, modern tourists/archaeologists small against the pillars",
     "narration_words": 58,
     "est_dur": 23.9,
-    "final_dur": 23.55
+    "final_dur": 23.55,
+    "src": "https://www.worldhistory.org/uploads/images/3830.jpg",
+    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Gobekli Tepe: Site, temple under the modern protective covering - good match"
   },
   {
     "id": "S27",
