@@ -19,23 +19,42 @@
    over the 45s single-shot ceiling) split into S22a/S22b sub-clips,
    ~25.97s each, same pattern as Ep.1's long cues.
 
+6. **AI clips — 4 of 10 cues covered.** You supplied 5 user-generated
+   clips (Grok), sorted into `public/pantheon-ep2-clips/`:
+   - **S03** (cold open aerial enclosure) — 1 clip, 4.54s (short of the
+     8.08s needed — will repeat/loop at assembly)
+   - **S05** (hunter band at dusk) — 1 clip, 5.5s (short of 18.62s —
+     will repeat/loop)
+   - **S08** (Schmidt recognition) — 1 clip, 10.04s (short of 22.66s —
+     will repeat/loop)
+   - **S13** (stone-pillar hauling) — 3 alternate takes, 10.04s each —
+     full coverage, will split the 25.52s across all 3 (~8.5s each)
+
+   Note: S03 and S05 came from a single 10s source clip that had two
+   distinct scenes back to back — I split it in two and re-encoded
+   (the first `-c copy` attempt silently dropped the video stream on
+   one half, caught it via a frame-extraction check and fixed it).
+
 ## WAITING ON YOU
 
-6. **Archival photos** — this sandbox can't fetch Wikimedia/press-archive
+7. **Archival photos** — this sandbox can't fetch Wikimedia/press-archive
    images directly (network policy, same as Ep.1). I'll research and
    list candidate sources; you'll need to paste/upload the actual files,
    same as Ep.1's workflow. Search terms are in the visual-prompts doc.
+8. **Remaining AI clips** — 6 cues still need footage: S17 (night
+   feast), S20 (Vulture Stone push-in), S22a/S22b (deliberate burial,
+   2 sub-clips), S25 (time-lapse transformation), S27 (modern sunset
+   closing). Prompts for all of these are in the visual-prompts doc —
+   generate them yourself the same way, or tell me to generate via
+   vidIQ (credits).
 
 ## NOT STARTED YET
 
-7. **AI (Veo-style) clip generation** — 9 shots (now 10 cues with the
-   S22 split), prompts ready, durations locked. Next step once we
-   decide how to spend the credit budget.
-8. **Motion graphics** — 9 Remotion components to build in
+9. **Motion graphics** — 9 Remotion components to build in
    `src/graphics/` (prefix `EP2_`), reusing `src/theme.ts` and the Ep.1
    `S30_LogoCard`/`S31_CitationCrawl` patterns. Durations locked, ready
    to build.
-9. **Assembly** — via `vidiq_compose`, same 3-segment pattern as Ep.1
+10. **Assembly** — via `vidiq_compose`, same 3-segment pattern as Ep.1
    (629.88s total / 240s cap per call = 3 segments).
 
 ## Credit budget note

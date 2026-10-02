@@ -24,7 +24,9 @@
     "cue": "Wide aerial-style golden-hour shot of circular stone enclosure, T-pillars, small figures working, dust and light",
     "narration_words": 20,
     "est_dur": 8.2,
-    "final_dur": 8.08
+    "final_dur": 8.08,
+    "src": "pantheon-ep2-clips/S03a-aerial-enclosure-construction.mp4",
+    "src_status": "user-supplied, 4.54s clip - shorter than final_dur (8.08s), will repeat/loop at assembly"
   },
   {
     "id": "S04",
@@ -42,7 +44,9 @@
     "cue": "Hunter-gatherer band moving through golden grassland at dusk, gazelle herd distant",
     "narration_words": 46,
     "est_dur": 18.9,
-    "final_dur": 18.62
+    "final_dur": 18.62,
+    "src": "pantheon-ep2-clips/S05a-hunter-band-dusk-gazelle-herd.mp4",
+    "src_status": "user-supplied, 5.5s clip - shorter than final_dur (18.62s), will repeat/loop at assembly"
   },
   {
     "id": "S06",
@@ -69,7 +73,9 @@
     "cue": "Reconstructed documentary-style scene: figure on sunbaked hillside kneeling to examine a stone fragment, recognition dawning",
     "narration_words": 56,
     "est_dur": 23.0,
-    "final_dur": 22.66
+    "final_dur": 22.66,
+    "src": "pantheon-ep2-clips/S08a-archaeologist-recognition-hillside.mp4",
+    "src_status": "user-supplied, 10.04s clip - shorter than final_dur (22.66s), will repeat/loop at assembly"
   },
   {
     "id": "S09",
@@ -114,7 +120,13 @@
     "cue": "Dozens of hunter-gatherers hauling a massive stone pillar with ropes and wooden sledges, coordinated effort, dust rising",
     "narration_words": 63,
     "est_dur": 25.9,
-    "final_dur": 25.52
+    "final_dur": 25.52,
+    "src": [
+      "pantheon-ep2-clips/S13a-stone-pillar-hauling-canyon-angle1.mp4",
+      "pantheon-ep2-clips/S13b-stone-pillar-hauling-canyon-angle2.mp4",
+      "pantheon-ep2-clips/S13c-stone-pillar-hauling-quarry-wide.mp4"
+    ],
+    "src_status": "user-supplied, 3 alternate 10.04s takes - full coverage, split final_dur evenly across the 3 (~8.5s each) at assembly"
   },
   {
     "id": "S14",
