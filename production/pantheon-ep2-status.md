@@ -70,15 +70,22 @@
    **All 30 cues in the shot list now have a resolved source or spec —
    nothing left waiting on external sourcing.**
 
+9. **Motion graphics — all 10 built and rendered.** New components in
+   `src/graphics/` (`EP2_` prefix), registered in `src/Root.tsx`,
+   rendered via the local Playwright headless shell (same pipeline as
+   Ep.1) to `public/pantheon-ep2-motion-graphics/`. Spot-checked every
+   one via frame extraction — clean, consistent with Ep.1's visual
+   language (bridge timeline continues Ep.1's clock device; Vulture
+   Stone overlay is deliberately simplified line-art, not the real
+   photo, since local Remotion renders can't reach the hotlinked
+   archival URLs the way `vidiq_compose` can).
+
 ## NOT STARTED YET
 
-9. **Motion graphics** — 10 Remotion components to build in
-   `src/graphics/` (prefix `EP2_`), reusing `src/theme.ts` and the Ep.1
-   `S30_LogoCard`/`S31_CitationCrawl` patterns. Durations locked, ready
-   to build.
 10. **Assembly** — via `vidiq_compose`, same 3-segment pattern as Ep.1
-   (629.88s total / 240s cap per call = 3 segments). Ready to run once
-   the graphics are built.
+   (629.88s total / 240s cap per call = 3 segments). Everything needed
+   is in place: voiceover, all AI clips, all archival sources, all
+   motion graphics. Ready to run.
 
 ## Credit budget note
 
