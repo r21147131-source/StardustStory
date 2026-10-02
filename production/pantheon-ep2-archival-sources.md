@@ -38,23 +38,27 @@ below.
 | S14 | **user-supplied** `S14a-central-pillar-animal-relief.jpg` | Substitute — genuine central-pillar close-up, but the relief is a crouching animal, not Pillar 18's arm/belt motif specifically |
 | S16 | `worldhistory.org/uploads/images/3847.jpg` | Weak substitute — general temple image, not stone-basin specific |
 | S18 | `worldhistory.org/uploads/images/13200.jpg` | Strong — Vulture Stone (Pillar 43), photo by Sue Fleckney |
-| S21 | `worldhistory.org/uploads/images/204.jpg` | Substitute — Enclosure F, not a backfill cross-section specifically |
+| S21 | **user-supplied** `S21a-deep-excavation-stratigraphy.jpg` | Substitute — deep excavated enclosure, strong sense of stratigraphy/depth, but not backfill actively being packed in |
 | S26 | `worldhistory.org/uploads/images/3830.jpg` | Good — site under the modern protective covering |
 
 Still flagged as substitutes, open to a better source: **S14** (closer
-now, but still not the specific arm/belt motif), **S16**, **S21**. (3
-earlier user-supplied candidates for this batch had visible
-iStock/Adobe Stock watermarks baked into the preview — not usable
-without a licensed version.)
+now, but still not the specific arm/belt motif), **S16** (the one
+cue with no real-photo upgrade at all yet), **S21** (closer now, but
+not literally backfill in progress). (3 earlier user-supplied
+candidates for this batch had visible iStock/Adobe Stock watermarks
+baked into the preview — not usable without a licensed version.)
 
 ## Extra, unassigned
 
-Two more user-supplied photos didn't match any open cue (a pillar-base
-relief with a row of carved birds; a dramatic blue-hour wide shot of a
-boar-relief pillar) but are good material — saved as
-`EXTRA-pillar-base-bird-relief-unassigned.jpg` and
-`EXTRA-blue-hour-boar-pillar-unassigned.webp` for possible use in the
-end-credits montage, same pattern as Ep.1's unassigned extras.
+Three more user-supplied photos didn't match any open cue but are good
+material for the end-credits montage, same pattern as Ep.1's
+unassigned extras:
+- `EXTRA-pillar-base-bird-relief-unassigned.jpg` — a pillar base with a
+  row of carved birds
+- `EXTRA-blue-hour-boar-pillar-unassigned.webp` — a dramatic blue-hour
+  wide shot of a boar-relief pillar
+- `EXTRA-shelter-construction-unassigned.jpg` — the protective canopy
+  shelter under construction
 
 ## Resolved as a graphic (1 of 11)
 
