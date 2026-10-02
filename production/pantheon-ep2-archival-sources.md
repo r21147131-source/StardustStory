@@ -39,15 +39,24 @@ below.
 | S16 | **user-supplied** `S16a-stone-trough-excavation.jpg` | Strong — carved stone trough with archaeological scale bar and north arrow, direct match |
 | S18 | `worldhistory.org/uploads/images/13200.jpg` | Strong — Vulture Stone (Pillar 43), photo by Sue Fleckney |
 | S21 | **user-supplied** `S21a-deep-excavation-stratigraphy.jpg` | Substitute — deep excavated enclosure, strong sense of stratigraphy/depth, but not backfill actively being packed in |
-| S26 | `worldhistory.org/uploads/images/3830.jpg` | Good — site under the modern protective covering |
+| S26 | **user-supplied** `S26a-modern-site-wide-aerial.jpg` | Strong — wide aerial of the full modern site (excavation squares, shelter, surrounding groves) |
 
 Still flagged as substitutes, open to a better source if one turns up:
 **S14** (closer now, but still not the specific arm/belt motif) and
 **S21** (closer now, but not literally backfill in progress). Every
 archival cue now has at least a real photo — none are left on a
-weak/generic placeholder. (3 earlier user-supplied candidates for this
-batch had visible iStock/Adobe Stock watermarks baked into the
-preview — not usable without a licensed version.)
+weak/generic placeholder.
+
+### Credit-free local assembly
+
+`vidiq_compose` needs more credits than are currently available (60/call,
+180 for all 3 segments, balance 33), so assembly is moving to a local
+ffmpeg path instead, which needs every asset as a local file rather than
+a hotlinked URL. 7 of 10 real-photo cues (S04, S07, S12, S14, S16, S21,
+S26) are now local; **S01, S09, S18 remain hotlinked** and still need
+local copies (or close equivalents) before local assembly can run. (One
+user-supplied candidate for this round was a repeat of an earlier
+watermarked Adobe Stock image — not usable.)
 
 ## Extra, unassigned
 
