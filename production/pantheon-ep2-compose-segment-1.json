@@ -1,0 +1,105 @@
+{
+  "scenes": [
+    {
+      "type": "image",
+      "source": "https://www.worldhistory.org/uploads/images/12476.jpg",
+      "duration": 11.73
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S02-BridgeTimeline.mp4",
+      "duration": 25.13
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S03a-aerial-enclosure-construction.mp4",
+      "duration": 4.04
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S03a-aerial-enclosure-construction.mp4",
+      "duration": 4.04
+    },
+    {
+      "type": "image",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-archival/S04a-einkorn-wheat-field.jpg",
+      "duration": 17.05
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S05a-hunter-band-dusk-gazelle-herd.mp4",
+      "duration": 4.66
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S05a-hunter-band-dusk-gazelle-herd.mp4",
+      "duration": 4.66
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S05a-hunter-band-dusk-gazelle-herd.mp4",
+      "duration": 4.66
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S05a-hunter-band-dusk-gazelle-herd.mp4",
+      "duration": 4.66
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S06-TasTepelerMap.mp4",
+      "duration": 14.98
+    },
+    {
+      "type": "image",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-archival/S07a-klaus-schmidt-excavation.jpg",
+      "duration": 14.58
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S08a-archaeologist-recognition-hillside.mp4",
+      "duration": 7.55
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S08a-archaeologist-recognition-hillside.mp4",
+      "duration": 7.55
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S08a-archaeologist-recognition-hillside.mp4",
+      "duration": 7.55
+    },
+    {
+      "type": "image",
+      "source": "https://www.worldhistory.org/uploads/images/13199.jpg",
+      "duration": 10.54
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S10-ComparativeTimeline.mp4",
+      "duration": 19.51
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S11-InvertedSequenceBars.mp4",
+      "duration": 38.53
+    },
+    {
+      "type": "image",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-archival/S12a-animal-relief-closeup.jpg",
+      "duration": 26.31
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S13a-stone-pillar-hauling-canyon-angle1.mp4",
+      "duration": 8.51
+    }
+  ],
+  "format": "landscape",
+  "voiceover": {
+    "audioUrl": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-voiceover.mp3",
+    "trimStartSeconds": 0.0,
+    "durationSeconds": 236.24
+  }
+}

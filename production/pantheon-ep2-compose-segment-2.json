@@ -1,0 +1,105 @@
+{
+  "scenes": [
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S13b-stone-pillar-hauling-canyon-angle2.mp4",
+      "duration": 8.51
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S13c-stone-pillar-hauling-quarry-wide.mp4",
+      "duration": 8.51
+    },
+    {
+      "type": "image",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-archival/S14a-central-pillar-animal-relief.jpg",
+      "duration": 10.54
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S15-LaborConvergence.mp4",
+      "duration": 28.38
+    },
+    {
+      "type": "image",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-archival/S16a-stone-trough-excavation.jpg",
+      "duration": 19.02
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S17a-night-feast-firelight-pillars.mp4",
+      "duration": 7.29
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S17a-night-feast-firelight-pillars.mp4",
+      "duration": 7.29
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S17a-night-feast-firelight-pillars.mp4",
+      "duration": 7.29
+    },
+    {
+      "type": "image",
+      "source": "https://www.worldhistory.org/uploads/images/13200.jpg",
+      "duration": 16.65
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S19-VultureStoneOverlay.mp4",
+      "duration": 29.56
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S20a-vulture-stone-pushin.mp4",
+      "duration": 8.01
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S20a-vulture-stone-pushin.mp4",
+      "duration": 8.01
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S20a-vulture-stone-pushin.mp4",
+      "duration": 8.01
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S20a-vulture-stone-pushin.mp4",
+      "duration": 8.01
+    },
+    {
+      "type": "image",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-archival/S21a-deep-excavation-stratigraphy.jpg",
+      "duration": 26.31
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S22a-burial-pouring-rubble-twopillars.mp4",
+      "duration": 8.66
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S22a-burial-pouring-rubble-twopillars.mp4",
+      "duration": 8.66
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S22a-burial-pouring-rubble-twopillars.mp4",
+      "duration": 8.66
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S22b-burial-dense-fill-carved-pillar.mp4",
+      "duration": 8.66
+    }
+  ],
+  "format": "landscape",
+  "voiceover": {
+    "audioUrl": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-voiceover.mp3",
+    "trimStartSeconds": 236.24,
+    "durationSeconds": 236.03
+  }
+}

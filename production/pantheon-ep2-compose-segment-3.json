@@ -1,0 +1,70 @@
+{
+  "scenes": [
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S22b-burial-dense-fill-carved-pillar.mp4",
+      "duration": 8.66
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S22b-burial-dense-fill-carved-pillar.mp4",
+      "duration": 8.66
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S23-AgricultureSpreadMap.mp4",
+      "duration": 25.92
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S24-EinkornComparison.mp4",
+      "duration": 27.59
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S25a-camp-to-settlement-timelapse.mp4",
+      "duration": 8.97
+    },
+    {
+      "type": "image",
+      "source": "https://www.worldhistory.org/uploads/images/3830.jpg",
+      "duration": 23.55
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S27a-modern-site-sunset-aerial.mp4",
+      "duration": 8.77
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S27a-modern-site-sunset-aerial.mp4",
+      "duration": 8.77
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-clips/S27a-modern-site-sunset-aerial.mp4",
+      "duration": 8.77
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S28-ClosingStatCard.mp4",
+      "duration": 13.01
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S29-LogoCard.mp4",
+      "duration": 5.0
+    },
+    {
+      "type": "video",
+      "source": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-motion-graphics/EP2-S30-CitationCrawl.mp4",
+      "duration": 10.0
+    }
+  ],
+  "format": "landscape",
+  "voiceover": {
+    "audioUrl": "https://raw.githubusercontent.com/r21147131-source/StardustStory/claude/younger-dryas-impact-doc-yoy0v3/public/pantheon-ep2-voiceover.mp3",
+    "trimStartSeconds": 472.27,
+    "durationSeconds": 157.67
+  }
+}
