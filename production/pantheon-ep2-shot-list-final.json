@@ -38,8 +38,8 @@
     "narration_words": 42,
     "est_dur": 17.3,
     "final_dur": 17.05,
-    "src": "https://www.worldhistory.org/uploads/images/12521.jpg",
-    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Map of the Fertile Crescent. SUBSTITUTE: this is a map/illustration, not a landscape photo - no actual wheat-field landscape photo was found. Best available real reference for the geographic context."
+    "src": "pantheon-ep2-archival/S04a-einkorn-wheat-field.jpg",
+    "src_status": "user-supplied, real wheat-field photograph - strong match, replaces the earlier map substitute"
   },
   {
     "id": "S05",
@@ -69,8 +69,8 @@
     "narration_words": 36,
     "est_dur": 14.8,
     "final_dur": 14.58,
-    "src": "https://www.worldhistory.org/uploads/images/13198.jpg",
-    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - T-shaped pillars at Gobekli Tepe. SUBSTITUTE: general excavation/pillar documentation photo, not specifically dated 1994 or showing Schmidt himself."
+    "src": "pantheon-ep2-archival/S07a-klaus-schmidt-excavation.jpg",
+    "src_status": "user-supplied, shows Klaus Schmidt himself kneeling beside a carved relief at the site - strong match, replaces the earlier generic-pillar substitute"
   },
   {
     "id": "S08",
@@ -120,8 +120,11 @@
     "narration_words": 65,
     "est_dur": 26.7,
     "final_dur": 26.31,
-    "src": "https://www.worldhistory.org/uploads/images/12475.jpg",
-    "src_status": "web-sourced (World History Encyclopedia), verified resolves as image/jpeg - Gobekli Tepe, Pillar with Sculpture of a Fox - strong match"
+    "src": [
+      "pantheon-ep2-archival/S12a-animal-relief-closeup.jpg",
+      "https://www.worldhistory.org/uploads/images/12475.jpg"
+    ],
+    "src_status": "primary: user-supplied extreme close-up animal relief carving (strong match for the 'close-up' framing); alternate: web-sourced Pillar with Sculpture of a Fox (World History Encyclopedia)"
   },
   {
     "id": "S13",

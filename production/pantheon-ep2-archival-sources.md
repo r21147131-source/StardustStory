@@ -24,18 +24,27 @@ Fleckney under CC BY-SA 2.0. Credit both in the closing citation crawl.
 
 ## Resolved as real photos (10 of 11 archival cues)
 
-| Shot | URL | Match quality |
+3 of these were later upgraded with photos the user supplied directly
+(committed to `public/pantheon-ep2-archival/`, not hotlinked) — marked
+below.
+
+| Shot | Source | Match quality |
 |---|---|---|
 | S01 | `worldhistory.org/uploads/images/12476.jpg` | Strong — aerial view of Göbekli Tepe and surroundings |
-| S04 | `worldhistory.org/uploads/images/12521.jpg` | Substitute — Map of the Fertile Crescent (no landscape/wheat-field photo found) |
-| S07 | `worldhistory.org/uploads/images/13198.jpg` | Substitute — general T-pillar/excavation photo, not dated 1994 or showing Schmidt |
+| S04 | **user-supplied** `S04a-einkorn-wheat-field.jpg` | Strong — real wheat-field photograph (upgraded from a map substitute) |
+| S07 | **user-supplied** `S07a-klaus-schmidt-excavation.jpg` | Strong — Klaus Schmidt himself at the site (upgraded from a generic pillar photo) |
 | S09 | `worldhistory.org/uploads/images/13199.jpg` | Good — Layer III, Enclosure A, Pillar 2 |
-| S12 | `worldhistory.org/uploads/images/12475.jpg` | Strong — Pillar with Sculpture of a Fox |
+| S12 | **user-supplied** `S12a-animal-relief-closeup.jpg` (primary), `worldhistory.org/uploads/images/12475.jpg` (alternate) | Strong — extreme close-up carving, closer to the cue's "close-up" framing than the alternate |
 | S14 | `worldhistory.org/uploads/images/12474.jpg` | Substitute — Pillar 27, Enclosure C (not Pillar 18 specifically) |
 | S16 | `worldhistory.org/uploads/images/3847.jpg` | Weak substitute — general temple image, not stone-basin specific |
 | S18 | `worldhistory.org/uploads/images/13200.jpg` | Strong — Vulture Stone (Pillar 43), photo by Sue Fleckney |
 | S21 | `worldhistory.org/uploads/images/204.jpg` | Substitute — Enclosure F, not a backfill cross-section specifically |
 | S26 | `worldhistory.org/uploads/images/3830.jpg` | Good — site under the modern protective covering |
+
+Still flagged as substitutes, open to a better source: **S14**, **S16**,
+**S21**. (3 other user-supplied candidates were offered for this batch
+but had visible iStock/Adobe Stock watermarks baked into the preview —
+not usable without a licensed version.)
 
 ## Resolved as a graphic (1 of 11)
 
