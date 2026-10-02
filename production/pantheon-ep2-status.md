@@ -53,16 +53,16 @@
    (the first `-c copy` attempt silently dropped the video stream on
    one half, caught it via a frame-extraction check and fixed it).
 
-7. **Archival photos — 10 of 10 archival cues covered.** Different
-   approach from Ep.1: found real, working image URLs via web search
-   (World History Encyclopedia's photo archive) and verified each one
-   resolves to an actual `image/jpeg` via a server-side fetch
-   (`vidiq_compose` fetches scene sources server-side too, so these
-   hotlinked URLs work directly without needing to download/commit
-   files, unlike Ep.1). Full list and match-quality notes in
-   `pantheon-ep2-archival-sources.md`. 4 of the 10 are flagged as
-   substitutes (not an exact match to the cue, but the best real photo
-   found) rather than presented as perfect.
+7. **Archival photos — 10 of 10 archival cues covered, all local.**
+   Started by hotlinking real images found via web search (World
+   History Encyclopedia's photo archive, verified resolvable
+   server-side), then upgraded every single one to a user-supplied
+   local photo over several rounds — including swapping out a Vulture
+   Stone candidate that turned out to be a museum replica, not the
+   genuine in-situ artifact. Full list and match-quality notes in
+   `pantheon-ep2-archival-sources.md`. 2 (S14, S21) are still flagged
+   as close-but-imperfect substitutes; the rest are strong matches.
+   All files live in `public/pantheon-ep2-archival/`.
 8. **S24 (einkorn wheat) converted to a graphic.** No fetchable photo
    existed (the one Commons file found is on a blocked host). Now the
    10th motion graphic — a wild-vs-domesticated rachis comparison, spec
@@ -80,18 +80,37 @@
    photo, since local Remotion renders can't reach the hotlinked
    archival URLs the way `vidiq_compose` can).
 
-## NOT STARTED YET
+10. **Assembly — done, via local ffmpeg instead of `vidiq_compose`.**
+    `vidiq_compose` needed 180 credits (60/call × 3 segments) but the
+    account balance had dropped to 33 by the time assembly started, so
+    this episode was assembled entirely locally instead (free, no
+    credits spent):
+    - `production/pantheon-ep2-build-scenes.py` derives the full
+      50-entry scene plan from the shot list (handles the same
+      split/repeat logic the vidiq_compose segment planner used:
+      S13's 3 alternates split evenly, short AI clips repeated to
+      fill their `final_dur`, etc.)
+    - each entry rendered to a normalized 1920x1080/30fps clip via
+      ffmpeg (images held static for their duration, videos
+      scaled/cropped/trimmed), all in `output/ep2-segments/`
+      (gitignored — intermediate only)
+    - concatenated with `ffmpeg -f concat -c copy`, then the full
+      voiceover muxed on as the audio track (shorter than the video by
+      design — the last ~15s, logo card + citation crawl, plays under
+      silence, matching Ep.1's structure)
+    - **Result:** `output/pantheon-ep2-final.mp4` — 630.00s (10:30),
+      1920×1080, verified at 7 timestamps spanning the full runtime
+      (cold open, wheat field, comparative timeline, stone trough,
+      burial sequence, sunset closing, citation crawl) — all land on
+      the correct content, audio healthy (-20.5dB mean, not silent).
 
-10. **Assembly** — via `vidiq_compose`, same 3-segment pattern as Ep.1
-   (629.88s total / 240s cap per call = 3 segments). Everything needed
-   is in place: voiceover, all AI clips, all archival sources, all
-   motion graphics. Ready to run.
+11. **Delivery — done.**
+    - A compressed 360p preview (~20MB) sent directly via chat.
+    - A full-quality, full-resolution version committed to the repo:
+      `output/pantheon-ep2-full-compressed.mp4` — two-pass H.264
+      (1100k/1300k maxrate/2600k bufsize, preset slow, 128k AAC audio),
+      77.8MB, 1920×1080, 630.00s. Same compression recipe as Ep.1's
+      committed deliverable, same reason (GitHub's ~100MB push limit).
 
-## Credit budget note
-
-Current vidIQ balance (as of this status): 120 credits (69 renewable +
-51 add-on, renewable resets 2026-10-29). AI clip generation and
-`vidiq_compose` renders will draw on this — worth checking balance again
-before the generation pass once the shot list is locked, since 9 AI
-clips + multi-segment composes is a meaningful chunk of a 120-credit
-budget depending on model/resolution choices.
+**Episode complete end to end:** script → voiceover → shot list →
+AI clips → archival photos → motion graphics → assembly → delivery.
