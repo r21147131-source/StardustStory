@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 17 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 20 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -34,7 +34,15 @@ New since the last update:
 | B040 | B040a-ships-arriving-riverside-city-tentative.mp4 | Tentative — ornate warships docking at a lit riverside city, stormy dusk; shows arrival, not the storming-the-quay action specced |
 | B092 (1/3) | B092a-roman-army-marching-nile-tentative.mp4 | **Mismatch, not a confirmed match** — shows Roman legionaries marching, but sub-prompt 1 calls for the Kushite army. Kept as a placeholder only; still need a real Kushite-army clip for this slot, and sub-prompt 2 (Romans burning Napata) separately |
 
-**54 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+More new matches (duplicates of this batch were re-sent once — skipped, not re-copied):
+
+| Beat | File | Match |
+|---|---|---|
+| B013 | B013a-nubian-gold-mine.mp4 | Strong — ore-basket laborers in a rocky canyon, overseer and scribe at an inscribed doorway |
+| B016 | B016a-egyptian-fortress-nile-sunset.mp4 | Strong — fortress on a Nile promontory at sunset, torches lit, aerial framing |
+| B018 (2/2 — both covered) | B018a-priests-karnak-colonnade.mp4, B018b-delta-chiefs-council-table.mp4 | Strong — priests in a sunbeam colonnade; Delta chiefs arguing around a table under rival banners. Exact matches both |
+
+**51 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 

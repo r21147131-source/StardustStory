@@ -114,7 +114,9 @@
     "type": "ai",
     "narration": "For hundreds of years, Egypt owned Kush. Egyptian governors ran the gold mines of Nubia.",
     "narration_words": 15,
-    "veo_prompt": "A Nubian gold mine in blazing heat, laborers hauling ore baskets while an Egyptian overseer in white linen supervises with a scribe, dust and glare, wide establishing shot then slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A Nubian gold mine in blazing heat, laborers hauling ore baskets while an Egyptian overseer in white linen supervises with a scribe, dust and glare, wide establishing shot then slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B013a-nubian-gold-mine.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: laborers hauling ore baskets in a rocky canyon, dust and glare, an overseer and scribe at an inscribed doorway."
   },
   {
     "id": "B014",
@@ -138,7 +140,9 @@
     "type": "ai",
     "narration": "I watched that arrangement last longer than most empires do.",
     "narration_words": 10,
-    "veo_prompt": "A great Egyptian fortress on the Nile at sunset, mud-brick walls glowing amber, soldiers on the ramparts, camera rising in a slow God's-eye arc above the river. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A great Egyptian fortress on the Nile at sunset, mud-brick walls glowing amber, soldiers on the ramparts, camera rising in a slow God's-eye arc above the river. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B016a-egyptian-fortress-nile-sunset.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: a great fortress on a promontory above the Nile at sunset, torches lit, figures on the ramparts, aerial God's-eye framing."
   },
   {
     "id": "B017",
@@ -157,7 +161,12 @@
     "veo_prompt": [
       "Priests of Amun in white linen at Karnak between enormous columns, incense smoke in shafts of light, slow tracking shot, calm authority. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "A marshy Delta hall where chiefs with tall feathers in their hair argue around a table, rival crowns and standards behind them, shifting torchlight, slow handheld push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": [
+      "pantheon-ep4-clips/B018a-priests-karnak-colonnade.mp4",
+      "pantheon-ep4-clips/B018b-delta-chiefs-council-table.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: white-robed priests walking a colonnade, sunbeams through incense smoke, matches exactly. Take B: Delta chiefs with tall feathers arguing around a table, rival banners (bull/sun/falcon) behind them, marsh visible through the doorway - matches exactly."
   },
   {
     "id": "B019",

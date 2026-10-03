@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(55 prompts remaining across 45 beats, out of 71 total AI clips needed)
+(51 prompts remaining across 42 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -19,23 +19,6 @@ they're marked 'covered' below.
 Narration: "Egypt answered, in time. Not only with armies. With chisels."
   Prompt:
   Egyptian masons at night chiseling a king's cartouche from a temple wall, torches in iron brackets, chips of limestone falling, close tracking shot along the wall, tense and methodical. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B013] — 2. The Land Between
-Narration: "For hundreds of years, Egypt owned Kush. Egyptian governors ran the gold mines of Nubia."
-  Prompt:
-  A Nubian gold mine in blazing heat, laborers hauling ore baskets while an Egyptian overseer in white linen supervises with a scribe, dust and glare, wide establishing shot then slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B016] — 2. The Land Between
-Narration: "I watched that arrangement last longer than most empires do."
-  Prompt:
-  A great Egyptian fortress on the Nile at sunset, mud-brick walls glowing amber, soldiers on the ramparts, camera rising in a slow God's-eye arc above the river. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B018] — 2. The Land Between
-Narration: "Priests ruled in Thebes. Chiefs of Libyan descent carved the north into small kingdoms, and several of them took the title of king. There were many kings, and none of them was strong."
-  Take A:
-  Priests of Amun in white linen at Karnak between enormous columns, incense smoke in shafts of light, slow tracking shot, calm authority. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Take B:
-  A marshy Delta hall where chiefs with tall feathers in their hair argue around a table, rival crowns and standards behind them, shifting torchlight, slow handheld push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B021] — 2. The Land Between
 Narration: "Egyptians had always said the god Amun lived inside that mountain. The Kushites believed it too. They did not see themselves as outsiders storming a sacred land. They saw themselves as the people who had kept the old faith while Egypt let it fray."
