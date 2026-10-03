@@ -13,7 +13,9 @@
     "type": "archival",
     "narration": "A tall slab of dark stone, covered in hieroglyphs from top to bottom. It tells how a king conquered Egypt.",
     "narration_words": 20,
-    "archival_guidance": "Source: Victory Stele of Piye, Egyptian Museum, Cairo (JE 48862). Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye | Direct link: https://commons.wikimedia.org/wiki/Category:Victory%20stele%20in%20the%2021st%20year%20of%20the%20reign%20of%20Pharaoh%20Piankhy. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Victory Stele of Piye, Egyptian Museum, Cairo (JE 48862). Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye | Direct link: https://commons.wikimedia.org/wiki/Category:Victory%20stele%20in%20the%2021st%20year%20of%20the%20reign%20of%20Pharaoh%20Piankhy. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "pantheon-ep4-archival/B002a-piye-victory-stele-full.jpg",
+    "src_status": "user-supplied black granite stela photo, full view, museum studio shot. Tentative ID as the Victory Stele of Piye (dark stone matches narration) - confirm exact object/provenance before publishing."
   },
   {
     "id": "B003",
@@ -21,7 +23,9 @@
     "type": "archival",
     "narration": "And on that stone, someone went back and cut the king out.",
     "narration_words": 12,
-    "archival_guidance": "Source: Detail drawing of the Victory Stele: Piye, partly erased, receiving four Delta rulers. Commons search: https://commons.wikimedia.org/w/index.php?search=Victory+stele+Piye+detail+drawing+erased&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Piye. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page (19th century drawing)"
+    "archival_guidance": "Source: Detail drawing of the Victory Stele: Piye, partly erased, receiving four Delta rulers. Commons search: https://commons.wikimedia.org/w/index.php?search=Victory+stele+Piye+detail+drawing+erased&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Piye. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page (19th century drawing)",
+    "src": "pantheon-ep4-archival/B003a-19thc-stele-lithograph-dujardin.jpg",
+    "src_status": "user-supplied 19th-century engraving/lithograph (Photogravure Dujardin) of a royal stela, matches the brief's PD-2D 19th-century-drawing guidance for this beat. Exact source publication not confirmed."
   },
   {
     "id": "B004",
@@ -29,7 +33,9 @@
     "type": "ai",
     "narration": "His name was chiseled away. His figure was scraped from the carving.",
     "narration_words": 12,
-    "veo_prompt": "Extreme close-up of a bronze chisel striking a carved cartouche on a dark granite wall, stone dust drifting through torchlight, the hieroglyphs being gouged away, shallow depth of field, locked-off camera with a tiny push-in. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Extreme close-up of a bronze chisel striking a carved cartouche on a dark granite wall, stone dust drifting through torchlight, the hieroglyphs being gouged away, shallow depth of field, locked-off camera with a tiny push-in. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B004a-chisel-cartouche-closeup.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: extreme close-up bronze chisel gouging a carved cartouche, stone dust drifting, matches the prompt almost exactly."
   },
   {
     "id": "B005",
@@ -45,7 +51,9 @@
     "type": "ai",
     "narration": "I know who he was. I watched him come north.",
     "narration_words": 10,
-    "veo_prompt": "A fleet of Nile ships with square sails and Kushite soldiers advancing north at dawn on a mirror-calm river, drifting mist, long silhouettes, camera glides low over the water beside the lead ship, a lone tall figure at the prow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A fleet of Nile ships with square sails and Kushite soldiers advancing north at dawn on a mirror-calm river, drifting mist, long silhouettes, camera glides low over the water beside the lead ship, a lone tall figure at the prow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B006a-nile-fleet-dawn-advance.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: fleet of square-sailed Nile ships with soldiers advancing at misty dawn, lone figure at the lead prow."
   },
   {
     "id": "B007",
@@ -54,7 +62,9 @@
     "narration": "His name was Piye. He did not come from Egypt.",
     "narration_words": 10,
     "veo_prompt": "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze, shown in profile, then turning slowly toward the camera, torchlit throne hall, dust motes in the air, absolute stillness. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "notes": "Character anchor shot; save the best frame as the PIYE reference image for Ingredients to Video."
+    "notes": "Character anchor shot; save the best frame as the PIYE reference image for Ingredients to Video.",
+    "src": "pantheon-ep4-clips/B007a-piye-character-anchor-portrait.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: Piye portrait, double-cobra cap crown, leopard cloak, torchlit temple. USE AS THE PIYE CHARACTER-ANCHOR REFERENCE FRAME per the beat's own note."
   },
   {
     "id": "B008",
@@ -94,7 +104,9 @@
     "type": "ai",
     "narration": "But to understand the king, you first have to understand the mountain, and the very long humiliation that came before it.",
     "narration_words": 21,
-    "veo_prompt": "Jebel Barkal at dusk, a processional way lined with torches leading to the foot of the flat-topped mountain, small figures walking, camera rises slowly from ground level to a wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Jebel Barkal at dusk, a processional way lined with torches leading to the foot of the flat-topped mountain, small figures walking, camera rises slowly from ground level to a wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B012a-jebel-barkal-torch-procession.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: torch-lit procession toward the flat-topped mountain at dusk, camera rising from ground level."
   },
   {
     "id": "B013",
@@ -161,7 +173,12 @@
     "type": "archival",
     "narration": "Its rulers made their home at Napata, beneath a flat-topped mountain called Jebel Barkal.",
     "narration_words": 14,
-    "archival_guidance": "Source: Jebel Barkal pinnacle and temple ruins at Napata. Commons search: https://commons.wikimedia.org/w/index.php?search=Jebel+Barkal+pinnacle+temple&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Jebel_Barkal. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Jebel Barkal pinnacle and temple ruins at Napata. Commons search: https://commons.wikimedia.org/w/index.php?search=Jebel+Barkal+pinnacle+temple&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Jebel_Barkal. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": [
+      "pantheon-ep4-archival/B020a-jebel-barkal-temple-ruins.jpg",
+      "pantheon-ep4-archival/B020b-jebel-barkal-mesa-alternate.jpg"
+    ],
+    "src_status": "primary: user-supplied photo of temple ruins (columns, mudbrick wall) directly at the base of a sandstone cliff - strong match for 'Jebel Barkal pinnacle and temple ruins'. alternate: user-supplied flat-topped desert mesa, no structures visible - plausible same site, unconfirmed."
   },
   {
     "id": "B021",
@@ -196,7 +213,9 @@
     "type": "ai",
     "narration": "Meanwhile the north was tearing itself apart. And in the Delta city of Sais, one chief had decided to end that, by conquering everything himself.",
     "narration_words": 25,
-    "veo_prompt": "Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes stands on a rooftop in the Delta city of Sais at night, looking over torch-lit streets and the river, a map-like sprawl of rival towns below, slow push toward his face. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes stands on a rooftop in the Delta city of Sais at night, looking over torch-lit streets and the river, a map-like sprawl of rival towns below, slow push toward his face. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B024a-tefnakht-sais-rooftop-night.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: feathered figure overlooking a torch-lit Nile city at night, matches Tefnakht's rooftop-at-Sais description."
   },
   {
     "id": "B025",
@@ -287,7 +306,9 @@
     "veo_prompt": [
       "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze walking slowly down a torch-lit royal stable, thin starved horses in the stalls, his shadow long on the straw, grave and silent. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Close-up of the hand of Piye, king of Kush, resting on the muzzle of a gaunt horse, his jaw tightening in soft focus behind it, shallow depth of field. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": "pantheon-ep4-clips/B035a-piye-stables-starved-horses.mp4",
+    "src_status": "user-supplied, 10.04s - covers sub-prompt 1 of 2 (king walking the stable among horses, one visibly gaunt). Second sub-prompt (close-up hand on a horse's muzzle) still needed."
   },
   {
     "id": "B036",
@@ -361,7 +382,9 @@
     "type": "archival",
     "narration": "They are carved on the stele, kneeling.",
     "narration_words": 7,
-    "archival_guidance": "Source: Victory Stele of Piye, upper register: Piye enthroned, Delta princes kissing the ground. Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye+complete&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye | Direct link: https://commons.wikimedia.org/wiki/Category:Victory%20stele%20in%20the%2021st%20year%20of%20the%20reign%20of%20Pharaoh%20Piankhy. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Victory Stele of Piye, upper register: Piye enthroned, Delta princes kissing the ground. Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye+complete&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye | Direct link: https://commons.wikimedia.org/wiki/Category:Victory%20stele%20in%20the%2021st%20year%20of%20the%20reign%20of%20Pharaoh%20Piankhy. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "pantheon-ep4-archival/B043a-stele-relief-homage-scene.jpg",
+    "src_status": "user-supplied stela photo, upper register shows two crowned figures clasping hands with a crowd of smaller figures alongside, hieroglyphic columns and a lower procession register below. Plausible match for a Victory-Stele homage/reception scene - exact register/identification not confirmed, flag for verification before publishing."
   },
   {
     "id": "B044",
@@ -377,7 +400,9 @@
     "type": "ai",
     "narration": "Then Piye did the strangest thing of all. He loaded his ships with silver, gold, and copper, and sailed home.",
     "narration_words": 20,
-    "veo_prompt": "Kushite ships laden with silver, gold and copper sailing south on the Nile at sunset, sails glowing, a God's-eye wide shot, slow drift. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Kushite ships laden with silver, gold and copper sailing south on the Nile at sunset, sails glowing, a God's-eye wide shot, slow drift. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B045a-ships-sailing-home-tentative.mp4",
+    "src_status": "user-supplied, 10.04s - TENTATIVE: Nile ship fleet under sail at warm dawn/dusk light passing a riverside temple. Assigned here (ships sailing home with tribute) by elimination since it doesn't match the misty northward-advance framing of B006; could also suit B078 (Tantamani's retreat south) - confirm before locking in."
   },
   {
     "id": "B046",
@@ -419,7 +444,9 @@
     "type": "ai",
     "narration": "His successors built on what he had won. And one of them would build as no king had in generations.",
     "narration_words": 20,
-    "veo_prompt": "Kushite workers raising stone blocks on a steep pyramid at golden hour, ropes and ramps, dust in the light, camera rising slowly to reveal a row of finished pyramids. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Kushite workers raising stone blocks on a steep pyramid at golden hour, ropes and ramps, dust in the light, camera rising slowly to reveal a row of finished pyramids. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B050a-pyramid-construction-golden-hour.mp4",
+    "src_status": "user-supplied, 10.04s - excellent match: workers hauling blocks up a steep pyramid at golden hour, camera reveals a row of finished pyramids behind, exactly as specced."
   },
   {
     "id": "B051",
@@ -513,7 +540,9 @@
     "type": "ai",
     "narration": "He had reason to march. For the first time, Egypt faced a rival it could not absorb or outlast.",
     "narration_words": 19,
-    "veo_prompt": "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe leading a Kushite army out at dawn in a chariot, spears and standards rising behind him, mist, camera tracking at chariot height. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe leading a Kushite army out at dawn in a chariot, spears and standards rising behind him, mist, camera tracking at chariot height. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B061a-taharqa-leading-army-dawn-tentative.mp4",
+    "src_status": "user-supplied, 10.04s - TENTATIVE: crowned king in a chariot leading massed spearmen at golden dawn, strong thematic match to 'leading a Kushite army out at dawn in a chariot, spears and standards rising, mist' - crown style not fully confirmed as Taharqa's double-cobra, worth a second look."
   },
   {
     "id": "B062",
@@ -636,7 +665,9 @@
     "veo_prompt": [
       "Thebes burning at night, Karnak's pylons in silhouette against orange flames, Assyrian soldiers carrying out gold and statues, smoke, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Wide God's-eye view of burning Thebes as the smoke drifts across the Nile, temples dark against the glow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": "pantheon-ep4-clips/B076a-assyrians-sacking-thebes.mp4",
+    "src_status": "user-supplied, 10.04s - covers sub-prompt 1 of 2 (Assyrian soldiers carrying off gold and statuary from a burning temple precinct, pylons visible). Second sub-prompt (wide God's-eye view of burning Thebes) still needed."
   },
   {
     "id": "B077",
@@ -772,7 +803,9 @@
       "Kushite army sweeping north past a Nile temple island into Roman Egypt, archers, banners, dust, wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Roman legionaries burning the city of Napata, flames against the mountain, shields and smoke, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Amanirenas, kandake of Kush: dark brown skin, regal bearing, fringed Meroitic robe, heavy gold jewelry and amulets, jeweled diadem standing defiant before her court, firelight on her face, not backing down, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": "pantheon-ep4-clips/B092c-amanirenas-defiant-firelight.mp4",
+    "src_status": "user-supplied, 10.04s - covers sub-prompt 3 of 3 (Amanirenas standing defiant before her court, firelight, heavy gold jewelry). Sub-prompts 1-2 (army sweeping north; Romans burning Napata) still needed."
   },
   {
     "id": "B093",
@@ -840,7 +873,9 @@
     "type": "ai",
     "narration": "So why do you not know their names? That, at last, is the question worth asking.",
     "narration_words": 16,
-    "veo_prompt": "A single torch moving along a long stone wall of carved cartouches, many hollowed and chiseled blank, camera following the torch and its light. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A single torch moving along a long stone wall of carved cartouches, many hollowed and chiseled blank, camera following the torch and its light. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B100a-torch-cartouche-wall.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: single torch moving along a long wall of carved oval recesses/cartouches, camera following the torchlight."
   },
   {
     "id": "B101",
