@@ -4,11 +4,14 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(59 prompts remaining across 48 beats, out of 71 total AI clips needed)
+(55 prompts remaining across 45 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
-production/pantheon-ep4-sources.md for what's already matched.
+production/pantheon-ep4-sources.md for what's already matched —
+note B023, B040, and B092's first sub-prompt are flagged tentative/
+mismatched there, so you may want to regenerate those even though
+they're marked 'covered' below.
 
 ============================================================
 
@@ -38,23 +41,11 @@ Narration: "Priests ruled in Thebes. Chiefs of Libyan descent carved the north i
 Narration: "Egyptians had always said the god Amun lived inside that mountain. The Kushites believed it too. They did not see themselves as outsiders storming a sacred land. They saw themselves as the people who had kept the old faith while Egypt let it fray."
   Take A:
   Kushite priests in leopard skins carrying a golden bark shrine of Amun in procession at the foot of the mountain, torchlight, reverent slow dolly. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Take B:
-  A Kushite king kneeling alone before the mountain at dawn, offering at a stone altar, long shadows, camera slowly circling. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B023] — 2. The Land Between
-Narration: "And Kashta's son Piye inherited a kingdom with a great army, a deep faith, and the finest horses of the age."
-  Prompt:
-  Kushite cavalry and war horses galloping across a pale plain at dawn, dust trailing, fine muscled horses, camera tracking alongside at low height. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B028] — 3. The Storm from the South
 Narration: "If Tefnakht had won, there would have been no Kushite pharaohs. There would have been a Delta king, and a footnote."
   Prompt:
   A column of Delta soldiers with tall feathers and banners marching south along the Nile under a red dawn, long shadows, camera low and tracking backward in front of them. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B029] — 3. The Storm from the South
-Narration: "Piye was at Napata, in the twentieth year of his reign, when the news reached him."
-  Prompt:
-  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze receiving a messenger at Napata, the flat-topped mountain behind him, the messenger breathless and kneeling, Piye's face unreadable, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B032] — 3. The Storm from the South
 Narration: "His forces won on the river and won again on land."
@@ -91,11 +82,6 @@ Narration: "Then came Memphis. Tefnakht slipped back inside the city and brought
 Narration: "Piye's commanders urged a long siege."
   Prompt:
   Kushite commanders in a council tent arguing around a clay map table, Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stands apart, then leans in and sets his hand firmly on the harbor. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B040] — 3. The Storm from the South
-Narration: "His ships and soldiers seized every vessel moored along the quay, and Memphis was stormed from the water."
-  Prompt:
-  Kushite soldiers leaping from ship decks onto the quay of a walled city at dawn, grappling and storming up onto the walls, ships crowded against the harbor, handheld energy, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B041] — 3. The Storm from the South
 Narration: "When the city fell, Piye did something the Delta lords did not expect. He went to the temple of Ptah, the god of the city, and gave thanks. He presented himself not as a raider but as a restorer, the pharaoh Egypt had been missing."

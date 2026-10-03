@@ -189,7 +189,11 @@
     "veo_prompt": [
       "Kushite priests in leopard skins carrying a golden bark shrine of Amun in procession at the foot of the mountain, torchlight, reverent slow dolly. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "A Kushite king kneeling alone before the mountain at dawn, offering at a stone altar, long shadows, camera slowly circling. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": [
+      "pantheon-ep4-clips/B021b-king-kneeling-altar-jebel-barkal.mp4"
+    ],
+    "src_status": "covers sub-prompt 2 of 2 (king kneeling alone before the mountain at dawn, offering at a stone altar) - strong match. Sub-prompt 1 (priests carrying the golden bark shrine in procession) still needed."
   },
   {
     "id": "B022",
@@ -205,7 +209,9 @@
     "type": "ai",
     "narration": "And Kashta's son Piye inherited a kingdom with a great army, a deep faith, and the finest horses of the age.",
     "narration_words": 21,
-    "veo_prompt": "Kushite cavalry and war horses galloping across a pale plain at dawn, dust trailing, fine muscled horses, camera tracking alongside at low height. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Kushite cavalry and war horses galloping across a pale plain at dawn, dust trailing, fine muscled horses, camera tracking alongside at low height. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B023a-kushite-cavalry-galloping-tentative.mp4",
+    "src_status": "user-supplied, 10.04s - TENTATIVE: crowned rider leading cavalry at a gallop past a massive carved stone wall at dusk. Good energy match for 'cavalry and war horses galloping' but the prompt calls for an open pale plain, not a temple-wall backdrop - judgment call, worth a second look."
   },
   {
     "id": "B024",
@@ -255,7 +261,9 @@
     "type": "ai",
     "narration": "Piye was at Napata, in the twentieth year of his reign, when the news reached him.",
     "narration_words": 16,
-    "veo_prompt": "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze receiving a messenger at Napata, the flat-topped mountain behind him, the messenger breathless and kneeling, Piye's face unreadable, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze receiving a messenger at Napata, the flat-topped mountain behind him, the messenger breathless and kneeling, Piye's face unreadable, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B029a-piye-receives-messenger-napata.mp4",
+    "src_status": "user-supplied, 10.04s - excellent match: king in temple doorway with Jebel Barkal visible behind him, a messenger kneeling before him, almost exactly as specced."
   },
   {
     "id": "B030",
@@ -355,7 +363,9 @@
     "type": "ai",
     "narration": "His ships and soldiers seized every vessel moored along the quay, and Memphis was stormed from the water.",
     "narration_words": 18,
-    "veo_prompt": "Kushite soldiers leaping from ship decks onto the quay of a walled city at dawn, grappling and storming up onto the walls, ships crowded against the harbor, handheld energy, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Kushite soldiers leaping from ship decks onto the quay of a walled city at dawn, grappling and storming up onto the walls, ships crowded against the harbor, handheld energy, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B040a-ships-arriving-riverside-city-tentative.mp4",
+    "src_status": "user-supplied, 10.04s - TENTATIVE: two ornate-prowed warships pulling in toward a lit riverside city under a dramatic stormy dusk sky. Assigned here (Memphis stormed from the water) by thematic proximity, but it shows ships arriving/docking rather than soldiers storming the quay - confirm before locking in."
   },
   {
     "id": "B041",
@@ -804,8 +814,11 @@
       "Roman legionaries burning the city of Napata, flames against the mountain, shields and smoke, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Amanirenas, kandake of Kush: dark brown skin, regal bearing, fringed Meroitic robe, heavy gold jewelry and amulets, jeweled diadem standing defiant before her court, firelight on her face, not backing down, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ],
-    "src": "pantheon-ep4-clips/B092c-amanirenas-defiant-firelight.mp4",
-    "src_status": "user-supplied, 10.04s - covers sub-prompt 3 of 3 (Amanirenas standing defiant before her court, firelight, heavy gold jewelry). Sub-prompts 1-2 (army sweeping north; Romans burning Napata) still needed."
+    "src": [
+      "pantheon-ep4-clips/B092a-roman-army-marching-nile-tentative.mp4",
+      "pantheon-ep4-clips/B092c-amanirenas-defiant-firelight.mp4"
+    ],
+    "src_status": "covers sub-prompt 3 of 3 (Amanirenas defiant, strong match). For sub-prompt 1 (Kushite army sweeping north), the closest clip received shows ROMAN legionaries marching along the Nile at sunset, not Kushite troops - flagged as a mismatch, not a confirmed match; keep looking for a Kushite-army clip, or repurpose this one elsewhere (e.g. as Roman reinforcements) if it fits better by eye. Sub-prompt 2 (Romans burning Napata) still needed."
   },
   {
     "id": "B093",

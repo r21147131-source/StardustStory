@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 12 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 17 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -24,7 +24,17 @@ All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 | B100 | B100a-torch-cartouche-wall.mp4 | Strong — torch moving along a wall of carved/hollowed cartouches |
 | *(unassigned)* | EXTRA-stela-jebel-barkal-river-unassigned.mp4 | A stela with Jebel Barkal in the background, Nile in frame — thematically perfect for B001/B002 but those are archival-type beats; kept as a bonus/alternate, e.g. for a montage |
 
-**59 more AI clips still needed** (57 beats minus the 1 fully covered single-clip beats listed above, plus the second/third takes noted for B035, B076, B092, across every other AI beat in the shot list).
+New since the last update:
+
+| Beat | File | Match |
+|---|---|---|
+| B021 (2/2) | B021b-king-kneeling-altar-jebel-barkal.mp4 | Strong — king kneeling alone before the mountain at dawn, offering at a stone altar. Sub-prompt 1 (priests carrying the bark shrine) still needed |
+| B023 | B023a-kushite-cavalry-galloping-tentative.mp4 | Tentative — crowned rider leading cavalry at a gallop; backdrop is a carved temple wall, not the specced open plain |
+| B029 | B029a-piye-receives-messenger-napata.mp4 | Excellent — king in temple doorway with Jebel Barkal behind, messenger kneeling before him |
+| B040 | B040a-ships-arriving-riverside-city-tentative.mp4 | Tentative — ornate warships docking at a lit riverside city, stormy dusk; shows arrival, not the storming-the-quay action specced |
+| B092 (1/3) | B092a-roman-army-marching-nile-tentative.mp4 | **Mismatch, not a confirmed match** — shows Roman legionaries marching, but sub-prompt 1 calls for the Kushite army. Kept as a placeholder only; still need a real Kushite-army clip for this slot, and sub-prompt 2 (Romans burning Napata) separately |
+
+**54 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 
