@@ -1,0 +1,279 @@
+PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
+============================================================
+
+Shared style suffix (already included at the end of every prompt below):
+Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+(59 prompts remaining across 48 beats, out of 71 total AI clips needed)
+
+Beats already fully or partially covered by clips you've sent are
+skipped or trimmed to just the missing take(s). See
+production/pantheon-ep4-sources.md for what's already matched.
+
+============================================================
+
+[B010] — 1. Cold Open
+Narration: "Egypt answered, in time. Not only with armies. With chisels."
+  Prompt:
+  Egyptian masons at night chiseling a king's cartouche from a temple wall, torches in iron brackets, chips of limestone falling, close tracking shot along the wall, tense and methodical. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B013] — 2. The Land Between
+Narration: "For hundreds of years, Egypt owned Kush. Egyptian governors ran the gold mines of Nubia."
+  Prompt:
+  A Nubian gold mine in blazing heat, laborers hauling ore baskets while an Egyptian overseer in white linen supervises with a scribe, dust and glare, wide establishing shot then slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B016] — 2. The Land Between
+Narration: "I watched that arrangement last longer than most empires do."
+  Prompt:
+  A great Egyptian fortress on the Nile at sunset, mud-brick walls glowing amber, soldiers on the ramparts, camera rising in a slow God's-eye arc above the river. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B018] — 2. The Land Between
+Narration: "Priests ruled in Thebes. Chiefs of Libyan descent carved the north into small kingdoms, and several of them took the title of king. There were many kings, and none of them was strong."
+  Take A:
+  Priests of Amun in white linen at Karnak between enormous columns, incense smoke in shafts of light, slow tracking shot, calm authority. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  A marshy Delta hall where chiefs with tall feathers in their hair argue around a table, rival crowns and standards behind them, shifting torchlight, slow handheld push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B021] — 2. The Land Between
+Narration: "Egyptians had always said the god Amun lived inside that mountain. The Kushites believed it too. They did not see themselves as outsiders storming a sacred land. They saw themselves as the people who had kept the old faith while Egypt let it fray."
+  Take A:
+  Kushite priests in leopard skins carrying a golden bark shrine of Amun in procession at the foot of the mountain, torchlight, reverent slow dolly. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  A Kushite king kneeling alone before the mountain at dawn, offering at a stone altar, long shadows, camera slowly circling. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B023] — 2. The Land Between
+Narration: "And Kashta's son Piye inherited a kingdom with a great army, a deep faith, and the finest horses of the age."
+  Prompt:
+  Kushite cavalry and war horses galloping across a pale plain at dawn, dust trailing, fine muscled horses, camera tracking alongside at low height. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B028] — 3. The Storm from the South
+Narration: "If Tefnakht had won, there would have been no Kushite pharaohs. There would have been a Delta king, and a footnote."
+  Prompt:
+  A column of Delta soldiers with tall feathers and banners marching south along the Nile under a red dawn, long shadows, camera low and tracking backward in front of them. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B029] — 3. The Storm from the South
+Narration: "Piye was at Napata, in the twentieth year of his reign, when the news reached him."
+  Prompt:
+  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze receiving a messenger at Napata, the flat-topped mountain behind him, the messenger breathless and kneeling, Piye's face unreadable, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B032] — 3. The Storm from the South
+Narration: "His forces won on the river and won again on land."
+  Prompt:
+  Nile river battle at first light, wooden warships ramming, spears flashing, spray and smoke, wide then tight, chaotic but readable, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B034] — 3. The Storm from the South
+Narration: "Piye besieged Hermopolis until it surrendered. Nimlot came out with gifts: gold, a sistrum, and a horse."
+  Prompt:
+  The gate of a besieged Egyptian city opening at dawn, King Nimlot walking out leading a fine horse and carrying a gold sistrum, kneeling in the dust before an unseen conqueror, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B035] — 3. The Storm from the South
+Narration: "Then Piye walked into the royal stables. His horses had been starved. Of everything Nimlot had done, it was this that Piye could not forgive. He said so, and the stone records it."
+  Take B:
+  Close-up of the hand of Piye, king of Kush, resting on the muzzle of a gaunt horse, his jaw tightening in soft focus behind it, shallow depth of field. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B036] — 3. The Storm from the South
+Narration: "That tells you who Piye was. Devout toward his gods. Tender toward his horses. Hard when he had to be. His own inscription calls him all of these things. And he was a very good general."
+  Take A:
+  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze praying before a statue of Amun, incense rising, eyes closed. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stroking the neck of a fine horse, tender and quiet. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take C:
+  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing in a war chariot, hard-eyed, spear raised, dust behind him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B037] — 3. The Storm from the South
+Narration: "Then came Memphis. Tefnakht slipped back inside the city and brought the garrison to eight thousand men. The walls were high. The river guarded one side."
+  Take A:
+  Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes slipping into the gates of Memphis at night with a column of reinforcements, torches, tense whispers. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  Wide God's-eye view of the high walls of Memphis above the Nile at dusk, the river curling along one side. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B038] — 3. The Storm from the South
+Narration: "Piye's commanders urged a long siege."
+  Prompt:
+  Kushite commanders in a council tent arguing around a clay map table, Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stands apart, then leans in and sets his hand firmly on the harbor. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B040] — 3. The Storm from the South
+Narration: "His ships and soldiers seized every vessel moored along the quay, and Memphis was stormed from the water."
+  Prompt:
+  Kushite soldiers leaping from ship decks onto the quay of a walled city at dawn, grappling and storming up onto the walls, ships crowded against the harbor, handheld energy, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B041] — 3. The Storm from the South
+Narration: "When the city fell, Piye did something the Delta lords did not expect. He went to the temple of Ptah, the god of the city, and gave thanks. He presented himself not as a raider but as a restorer, the pharaoh Egypt had been missing."
+  Take A:
+  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze entering the temple of Ptah at Memphis, kneeling before the god's statue to give thanks, incense, priests bowing. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing before the priests of Memphis as they offer him homage, calm and royal, golden light. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B042] — 3. The Storm from the South
+Narration: "One by one, the princes of the Delta came to him with tribute."
+  Prompt:
+  Princes of the Delta in feathered headdresses presenting tribute of gold, horses and linen to an unseen king, kneeling in a sunlit courtyard, slow lateral track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B044] — 3. The Storm from the South
+Narration: "Only Tefnakht stayed away. He sent a messenger with an oath of loyalty, and he never stood before Piye himself."
+  Prompt:
+  Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes alone on a distant quay at dusk, watching a small boat carry a messenger toward Memphis, refusing to follow, the river wide and empty. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B047] — 3. The Storm from the South
+Narration: "But he went back to Kush, and so far as we know, he never ruled Egypt from within it."
+  Prompt:
+  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing on the deck of a ship looking back at Egypt receding on the horizon, the wind in his cape, silent, then turning south. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B049] — 3. The Storm from the South
+Narration: "(no new narration - cutaway insert)"
+  Prompt:
+  Eight horses standing in a line in pre-dawn mist before a small steep pyramid, handlers in leopard skins leading them gently toward the tomb, solemn and quiet, no harm shown. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Note: Cutaway insert during the same line as the previous beat (B048); no new narration added, adds no runtime.
+
+[B051] — 4. The Golden Age
+Narration: "Piye's successors ruled from Memphis, and the dynasty settled in."
+  Prompt:
+  A Kushite pharaoh in a double-cobra cap crown seated in a palace at Memphis, Egyptian columns and Kushite guards, warm shafts of light, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B053] — 4. The Golden Age
+Narration: "Taharqa was a young prince when he first came north. His mother, Queen Abar, stayed behind in Kush for years while he rose in Egypt."
+  Take A:
+  Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe as a young prince on a ship sailing north, watching the Egyptian shore appear, eager and watchful. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  Queen Abar, Kushite queen mother: dark brown skin, dignified, gold diadem and broad collar, linen gown waiting alone at Napata on a stair above the river, watching the southern bend of the Nile, patient. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B054] — 4. The Golden Age
+Narration: "When he became pharaoh and they were finally reunited, a stone in her homeland recorded the rejoicing."
+  Prompt:
+  Queen Abar, Kushite queen mother: dark brown skin, dignified, gold diadem and broad collar, linen gown and Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe embracing in a torchlit temple court as courtiers look on, warm light, tender and restrained, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B058] — 4. The Golden Age
+Narration: "He revived the old sculptural styles and the old religious forms with great care. The people Egypt had called foreigners were rebuilding Egypt's own past, stone by stone."
+  Take A:
+  Kushite sculptors and painters carving a relief in the classic Egyptian style, crushed pigments, lamplight, close and patient. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  Masons raising a great column at Karnak with ropes and levers, aerial view slowly turning, sunlight on stone. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B064] — 4. The Golden Age
+Narration: "But Assyria was not like the others. It did not want a share. It wanted everything."
+  Prompt:
+  An Assyrian king in scale armor sweeping his hand across a table map of the Nile, clay tokens for cities, flickering lamps, cold eyes, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B065] — 4. The Golden Age
+Narration: "Taharqa held the line. For a while."
+  Prompt:
+  Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe, older now, standing alone on a city wall at dusk looking east, banners snapping, long shadow, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B066] — 5. The Spear of Assyria
+Narration: "In six hundred seventy-one before the common era, the Assyrian king Esarhaddon marched on Memphis, and Memphis fell."
+  Prompt:
+  Assyrian siege towers and battering rams assaulting the walls of Memphis at dawn, fire arrows, scaling ladders, smoke, wide then tight, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B068] — 5. The Spear of Assyria
+Narration: "Taharqa fled south."
+  Prompt:
+  Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe riding south at night, a burning city glowing behind him on the horizon, grim, camera tracking beside him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B071] — 5. The Spear of Assyria
+Narration: "Taharqa died at Napata, in six hundred sixty-four."
+  Prompt:
+  An aged Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe on a bed in a chamber at Napata, courtiers kneeling around him, the flat-topped mountain visible through a window, low warm light, dignified. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B073] — 5. The Spear of Assyria
+Narration: "Tantamani wrote of a dream, in which two serpents appeared, one at each side of him. He understood it to mean that both Upper and Lower Egypt were his."
+  Prompt:
+  Tantamani, young Kushite king: dark brown skin, Kushite cap crown with a double cobra, gold collar asleep on a low bed, two glowing cobras rising dreamlike on either side of him, soft golden light, slow rise, then his eyes open. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B074] — 5. The Spear of Assyria
+Narration: "He marched north. He took Memphis. For a brief moment, the double kingdom lived again."
+  Prompt:
+  The Kushite army of Tantamani, a young king in a double-cobra cap crown at its head, entering the streets of Memphis under banners, crowds watching from rooftops, triumphant dust, camera rising over the procession. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B075] — 5. The Spear of Assyria
+Narration: "Ashurbanipal came back."
+  Prompt:
+  A vast Assyrian army massed on the bank of the Nile at dawn, chariots and spearmen, banners, hazy gold light, wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B076] — 5. The Spear of Assyria
+Narration: "Thebes fell, and was sacked, in six hundred sixty-three, its temples stripped of their gold and its treasures carried to Nineveh. The ancient world remembered that day for centuries."
+  Take B:
+  Wide God's-eye view of burning Thebes as the smoke drifts across the Nile, temples dark against the glow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B078] — 5. The Spear of Assyria
+Narration: "Tantamani withdrew to Kush."
+  Prompt:
+  Kushite ships sailing south down the Nile, a defeated king silent on deck, evening light, quiet and grave. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B080] — 5. The Spear of Assyria
+Narration: "The Egyptians who ruled next did not forget who had held their throne."
+  Prompt:
+  A new Egyptian king in a Saite court handing a rolled order to a master mason, torchlit palace, hard shadows, quiet menace. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B081] — 5. The Spear of Assyria
+Narration: "Later kings of that line, Psamtik's descendants, sent masons through the monuments with chisels. Names were cut from walls at Karnak."
+  Prompt:
+  Egyptian masons chiseling a Kushite king's cartouche off a Karnak wall, torches, limestone chips, wall of carved names behind them, close tracking shot. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B085] — 5. The Spear of Assyria
+Narration: "Slowly, the Kushite court moved its center further up the river, to a city called Meroe."
+  Prompt:
+  A Kushite royal caravan moving south through dry savanna at dawn, a shrine carried between them, pack animals, long shadows, slow lateral track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B086] — 5. The Spear of Assyria
+Narration: "They believed that was the end of Kush. They were wrong by nearly a thousand years."
+  Prompt:
+  The pyramids of Meroe emerging from dawn mist, steep and elegant, a lone camel in the foreground, camera rising slowly, hero shot. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B087] — 6. The Kingdom That Kept Going
+Narration: "At Meroe, far up the Nile, where the summer rains came and iron ore lay near the surface, Kush built a different kind of world. There were furnaces, and heaps of iron slag that still stand today, some of the largest iron-working remains in all of ancient Africa."
+  Take A:
+  Meroe far up the Nile after the summer rains, green savanna, the river, a thriving city, camera high and gliding. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  Iron furnaces glowing in the dark at Meroe, smiths tapping molten metal, sparks rising, dark skinned smiths in leather aprons, intense close shots. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B090] — 6. The Kingdom That Kept Going
+Narration: "And Kush was ruled, again and again, by queens. The title was kandake."
+  Prompt:
+  A kandake of Kush enthroned in a Meroitic hall, ornate robes and gold, attendants fanning her, slow push toward her face. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Note: Use a generic queen here, not the Amanirenas reference.
+
+[B092] — 6. The Kingdom That Kept Going
+Narration: "In the year twenty-five before the common era, her armies swept north into Roman Egypt. The Romans struck back, and burned Napata. Amanirenas did not surrender."
+  Take A:
+  Kushite army sweeping north past a Nile temple island into Roman Egypt, archers, banners, dust, wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  Roman legionaries burning the city of Napata, flames against the mountain, shields and smoke, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B095] — 6. The Kingdom That Kept Going
+Narration: "The emperor of Rome made peace with her anyway."
+  Prompt:
+  Emperor Augustus on a marble terrace at Samos receiving Kushite envoys, the sea behind them, Roman guards, his face weighing the moment, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B097] — 6. The Kingdom That Kept Going
+Narration: "They carried it south, and they buried it beneath the steps of a temple at Meroe. Many scholars believe it was placed there so that worshippers would tread over it."
+  Take A:
+  Kushite warriors carrying a bronze head wrapped in cloth on a litter through savanna, dawn, determined and weary. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Take B:
+  Looking up from the base of a temple stair at Meroe, worshippers' feet and robes passing over the steps, a faint bronze glint between the stones. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B099] — 6. The Kingdom That Kept Going
+Narration: "The peace held for nearly three hundred years. Kush outlasted every native dynasty of Egypt."
+  Prompt:
+  Meroe's pyramids at golden hour as the camera pulls slowly away, wind in the sand, a quiet peace, dissolving into long shadow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B101] — 7. The God's Reflection
+Narration: "Egypt had reasons to forget them. A kingdom that has been ruled by people it called foreigners does not tell that story kindly."
+  Prompt:
+  Egyptian scribes in lamplight copying lists of kings onto papyrus, ink and reed pens, a priest dictating, quiet and orderly, close then wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B107] — 7. The God's Reflection
+Narration: "I watched them speak it for more than a thousand years. I can tell you what they did. I cannot tell you what they said."
+  Prompt:
+  The God's stone throne room at night, a vast television screen showing flickering Meroitic script, stars through a tall window, absolute silence, camera slowly pulling back. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Note: The God is heard, not seen.
+
+[B108] — 7. The God's Reflection
+Narration: "History belongs to those who hold the chisel. But every chisel leaves a mark."
+  Prompt:
+  A hand with a chisel carving a cartouche into stone, then the chisel stopping and lifting, firelight on the blade. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+[B111] — 7. The God's Reflection
+Narration: "I have watched many empires try to forget their enemies. I have rarely watched one fail so completely."
+  Prompt:
+  The God's throne room, television dark, stars through the window, a faint gold glow on the empty throne, slow push, then fade to black. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  Note: Final plate.
