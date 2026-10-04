@@ -43,7 +43,7 @@ export const EP4_B102_KingListScroll: React.FC = () => {
                 color: isBlank ? "transparent" : themeEp4.colors.goldLight,
                 border: isBlank ? `2px dashed ${themeEp4.colors.textFaint}` : "none",
                 padding: isBlank ? "6px 30px" : 0,
-                display: "inline-block",
+                display: "block",
               }}
             >
               {isBlank ? "PIYE?" : name}
