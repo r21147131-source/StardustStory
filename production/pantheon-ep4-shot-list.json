@@ -331,8 +331,11 @@
       "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze walking slowly down a torch-lit royal stable, thin starved horses in the stalls, his shadow long on the straw, grave and silent. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Close-up of the hand of Piye, king of Kush, resting on the muzzle of a gaunt horse, his jaw tightening in soft focus behind it, shallow depth of field. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ],
-    "src": "pantheon-ep4-clips/B035a-piye-stables-starved-horses.mp4",
-    "src_status": "user-supplied, 10.04s - covers sub-prompt 1 of 2 (king walking the stable among horses, one visibly gaunt). Second sub-prompt (close-up hand on a horse's muzzle) still needed."
+    "src": [
+      "pantheon-ep4-clips/B035a-piye-stables-starved-horses.mp4",
+      "pantheon-ep4-clips/B035b-piye-hand-horse-muzzle-closeup.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: king walking the stable among horses. Take B: close-up hand resting on a horse's muzzle, shallow depth of field - exact match. Beat complete."
   },
   {
     "id": "B036",
@@ -374,7 +377,9 @@
     "type": "ai",
     "narration": "Piye's commanders urged a long siege.",
     "narration_words": 6,
-    "veo_prompt": "Kushite commanders in a council tent arguing around a clay map table, Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stands apart, then leans in and sets his hand firmly on the harbor. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Kushite commanders in a council tent arguing around a clay map table, Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stands apart, then leans in and sets his hand firmly on the harbor. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B038a-piye-commanders-council-map-table.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: king leaning over a clay relief map table with commanders around him, lamp overhead."
   },
   {
     "id": "B039",

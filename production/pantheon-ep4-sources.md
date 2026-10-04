@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 65 of 71 needed clips covered, 4 bonus
+## AI (Veo-style) clips — 67 of 71 needed clips covered, 5 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -166,7 +166,16 @@ Two more matches:
 | B073 | B073a-tantamani-dream-cobras.mp4 | Exact — sleeping king with two glowing golden cobras rising on either side |
 | B074 | B074a-tantamani-enters-memphis-triumphant.mp4 | Strong — crowned king on horseback leading his army into a city street, crowds on rooftops, banners |
 
-**7 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Two more matches — B035 is now fully covered (both takes):
+
+| Beat | File | Match |
+|---|---|---|
+| B035 (2/2 — complete) | B035b-piye-hand-horse-muzzle-closeup.mp4 | Exact — close-up hand resting on a gaunt horse's muzzle, shallow depth of field |
+| B038 | B038a-piye-commanders-council-map-table.mp4 | Strong — king leaning over a clay relief map with commanders, lamp overhead |
+
+A third clip set aside, not assigned: `EXTRA-soldiers-marching-nile-wall-sunset-2-unassigned.mp4` — yet another instance of the recurring "Roman-style soldiers" mismatch that's also affecting B092's first sub-prompt and B028. Still none of these marching-army clips show period-appropriate Delta/Kushite/Assyrian troops as specced.
+
+**5 more AI clips still needed** (down to B028, B075, B092 sub-prompt 1, B097 sub-prompt 2, and B107).
 
 ## Archival photos — 4 of 34 beats covered
 

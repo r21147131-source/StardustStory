@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(7 prompts remaining across 7 beats, out of 71 total AI clips needed)
+(5 prompts remaining across 5 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -18,16 +18,6 @@ so it's worth regenerating even though it's marked 'covered' below.
 Narration: "If Tefnakht had won, there would have been no Kushite pharaohs. There would have been a Delta king, and a footnote."
   Prompt:
   A column of Delta soldiers with tall feathers and banners marching south along the Nile under a red dawn, long shadows, camera low and tracking backward in front of them. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B035] — 3. The Storm from the South
-Narration: "Then Piye walked into the royal stables. His horses had been starved. Of everything Nimlot had done, it was this that Piye could not forgive. He said so, and the stone records it."
-  Take B:
-  Close-up of the hand of Piye, king of Kush, resting on the muzzle of a gaunt horse, his jaw tightening in soft focus behind it, shallow depth of field. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B038] — 3. The Storm from the South
-Narration: "Piye's commanders urged a long siege."
-  Prompt:
-  Kushite commanders in a council tent arguing around a clay map table, Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stands apart, then leans in and sets his hand firmly on the harbor. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B075] — 5. The Spear of Assyria
 Narration: "Ashurbanipal came back."
