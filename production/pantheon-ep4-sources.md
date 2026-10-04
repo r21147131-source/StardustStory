@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 20 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 26 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -42,7 +42,17 @@ More new matches (duplicates of this batch were re-sent once — skipped, not re
 | B016 | B016a-egyptian-fortress-nile-sunset.mp4 | Strong — fortress on a Nile promontory at sunset, torches lit, aerial framing |
 | B018 (2/2 — both covered) | B018a-priests-karnak-colonnade.mp4, B018b-delta-chiefs-council-table.mp4 | Strong — priests in a sunbeam colonnade; Delta chiefs arguing around a table under rival banners. Exact matches both |
 
-**51 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+More new matches:
+
+| Beat | File | Match |
+|---|---|---|
+| B047 | B047a-piye-ship-deck-looking-back.mp4 | Strong — king on ship deck looking back at a receding city (pyramid visible) at dusk |
+| B049 | B049a-eight-horses-pyramid-mist.mp4 | Excellent — line of horses led by leopard-skin-wrapped handlers toward a small pyramid at night |
+| B051 | B051a-pharaoh-enthroned-memphis-palace.mp4 | Strong — pharaoh enthroned in a grand columned hall, guards flanking, warm light |
+| B053 (2/2 — both covered) | B053a-taharqa-young-prince-sailing-north.mp4, B053b-queen-abar-waiting-napata.mp4 | Strong — young prince on a ship watching the riverside city glow at night; a queen figure on temple steps over a river bend at dusk. Both match well |
+| B058 (1/2) | B058a-sculptors-carving-relief-lamplight.mp4 | Strong — hand carving a relief by lamplight with pigment pots. Sub-prompt 2 (masons raising a column, aerial) still needed |
+
+**45 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 

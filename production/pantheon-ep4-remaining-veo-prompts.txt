@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(51 prompts remaining across 42 beats, out of 71 total AI clips needed)
+(45 prompts remaining across 38 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -83,29 +83,6 @@ Narration: "Only Tefnakht stayed away. He sent a messenger with an oath of loyal
   Prompt:
   Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes alone on a distant quay at dusk, watching a small boat carry a messenger toward Memphis, refusing to follow, the river wide and empty. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-[B047] — 3. The Storm from the South
-Narration: "But he went back to Kush, and so far as we know, he never ruled Egypt from within it."
-  Prompt:
-  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing on the deck of a ship looking back at Egypt receding on the horizon, the wind in his cape, silent, then turning south. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B049] — 3. The Storm from the South
-Narration: "(no new narration - cutaway insert)"
-  Prompt:
-  Eight horses standing in a line in pre-dawn mist before a small steep pyramid, handlers in leopard skins leading them gently toward the tomb, solemn and quiet, no harm shown. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Note: Cutaway insert during the same line as the previous beat (B048); no new narration added, adds no runtime.
-
-[B051] — 4. The Golden Age
-Narration: "Piye's successors ruled from Memphis, and the dynasty settled in."
-  Prompt:
-  A Kushite pharaoh in a double-cobra cap crown seated in a palace at Memphis, Egyptian columns and Kushite guards, warm shafts of light, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B053] — 4. The Golden Age
-Narration: "Taharqa was a young prince when he first came north. His mother, Queen Abar, stayed behind in Kush for years while he rose in Egypt."
-  Take A:
-  Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe as a young prince on a ship sailing north, watching the Egyptian shore appear, eager and watchful. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Take B:
-  Queen Abar, Kushite queen mother: dark brown skin, dignified, gold diadem and broad collar, linen gown waiting alone at Napata on a stair above the river, watching the southern bend of the Nile, patient. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 [B054] — 4. The Golden Age
 Narration: "When he became pharaoh and they were finally reunited, a stone in her homeland recorded the rejoicing."
   Prompt:
@@ -113,8 +90,6 @@ Narration: "When he became pharaoh and they were finally reunited, a stone in he
 
 [B058] — 4. The Golden Age
 Narration: "He revived the old sculptural styles and the old religious forms with great care. The people Egypt had called foreigners were rebuilding Egypt's own past, stone by stone."
-  Take A:
-  Kushite sculptors and painters carving a relief in the classic Egyptian style, crushed pigments, lamplight, close and patient. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
   Take B:
   Masons raising a great column at Karnak with ropes and levers, aerial view slowly turning, sunlight on stone. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 

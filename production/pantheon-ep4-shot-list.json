@@ -437,7 +437,9 @@
     "type": "ai",
     "narration": "But he went back to Kush, and so far as we know, he never ruled Egypt from within it.",
     "narration_words": 19,
-    "veo_prompt": "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing on the deck of a ship looking back at Egypt receding on the horizon, the wind in his cape, silent, then turning south. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing on the deck of a ship looking back at Egypt receding on the horizon, the wind in his cape, silent, then turning south. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B047a-piye-ship-deck-looking-back.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: king on a ship deck looking back at a receding city skyline (pyramid visible) at dusk, matches the prompt closely."
   },
   {
     "id": "B048",
@@ -455,7 +457,9 @@
     "narration": null,
     "narration_words": 0,
     "veo_prompt": "Eight horses standing in a line in pre-dawn mist before a small steep pyramid, handlers in leopard skins leading them gently toward the tomb, solemn and quiet, no harm shown. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "notes": "Cutaway insert during the same line as the previous beat (B048); no new narration added, adds no runtime."
+    "notes": "Cutaway insert during the same line as the previous beat (B048); no new narration added, adds no runtime.",
+    "src": "pantheon-ep4-clips/B049a-eight-horses-pyramid-mist.mp4",
+    "src_status": "user-supplied, 10.04s - excellent match: a line of horses led by handlers in leopard-skin wraps toward a small steep pyramid at night, near-exact."
   },
   {
     "id": "B050",
@@ -473,7 +477,9 @@
     "type": "ai",
     "narration": "Piye's successors ruled from Memphis, and the dynasty settled in.",
     "narration_words": 10,
-    "veo_prompt": "A Kushite pharaoh in a double-cobra cap crown seated in a palace at Memphis, Egyptian columns and Kushite guards, warm shafts of light, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A Kushite pharaoh in a double-cobra cap crown seated in a palace at Memphis, Egyptian columns and Kushite guards, warm shafts of light, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B051a-pharaoh-enthroned-memphis-palace.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: pharaoh enthroned in a grand columned hall flanked by guards, warm shafts of light."
   },
   {
     "id": "B052",
@@ -492,7 +498,12 @@
     "veo_prompt": [
       "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe as a young prince on a ship sailing north, watching the Egyptian shore appear, eager and watchful. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Queen Abar, Kushite queen mother: dark brown skin, dignified, gold diadem and broad collar, linen gown waiting alone at Napata on a stair above the river, watching the southern bend of the Nile, patient. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": [
+      "pantheon-ep4-clips/B053a-taharqa-young-prince-sailing-north.mp4",
+      "pantheon-ep4-clips/B053b-queen-abar-waiting-napata.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: young prince close-up on a ship, Egyptian riverside temple complex glowing at night in the background, eager and watchful - strong match. Take B: dignified queen figure on temple steps overlooking a river bend at dusk - strong match for Queen Abar waiting at Napata."
   },
   {
     "id": "B054",
@@ -535,7 +546,9 @@
     "veo_prompt": [
       "Kushite sculptors and painters carving a relief in the classic Egyptian style, crushed pigments, lamplight, close and patient. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Masons raising a great column at Karnak with ropes and levers, aerial view slowly turning, sunlight on stone. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": "pantheon-ep4-clips/B058a-sculptors-carving-relief-lamplight.mp4",
+    "src_status": "covers sub-prompt 1 of 2 (close-up hand carving a relief by lamplight, pigment pots) - strong match. Sub-prompt 2 (masons raising a column at Karnak, aerial) still needed."
   },
   {
     "id": "B059",
