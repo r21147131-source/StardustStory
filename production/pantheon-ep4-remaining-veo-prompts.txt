@@ -4,13 +4,11 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(5 prompts remaining across 5 beats, out of 71 total AI clips needed)
+(3 prompts remaining across 3 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
-production/pantheon-ep4-sources.md for what's already matched —
-note B092's first sub-prompt is still flagged as not a real match,
-so it's worth regenerating even though it's marked 'covered' below.
+production/pantheon-ep4-sources.md for what's already matched.
 
 ============================================================
 
@@ -18,16 +16,6 @@ so it's worth regenerating even though it's marked 'covered' below.
 Narration: "If Tefnakht had won, there would have been no Kushite pharaohs. There would have been a Delta king, and a footnote."
   Prompt:
   A column of Delta soldiers with tall feathers and banners marching south along the Nile under a red dawn, long shadows, camera low and tracking backward in front of them. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B075] — 5. The Spear of Assyria
-Narration: "Ashurbanipal came back."
-  Prompt:
-  A vast Assyrian army massed on the bank of the Nile at dawn, chariots and spearmen, banners, hazy gold light, wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B092] — 6. The Kingdom That Kept Going
-Narration: "In the year twenty-five before the common era, her armies swept north into Roman Egypt. The Romans struck back, and burned Napata. Amanirenas did not surrender."
-  Take A:
-  Kushite army sweeping north past a Nile temple island into Roman Egypt, archers, banners, dust, wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B097] — 6. The Kingdom That Kept Going
 Narration: "They carried it south, and they buried it beneath the steps of a temple at Meroe. Many scholars believe it was placed there so that worshippers would tread over it."

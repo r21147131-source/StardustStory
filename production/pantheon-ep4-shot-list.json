@@ -740,7 +740,9 @@
     "type": "ai",
     "narration": "Ashurbanipal came back.",
     "narration_words": 3,
-    "veo_prompt": "A vast Assyrian army massed on the bank of the Nile at dawn, chariots and spearmen, banners, hazy gold light, wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A vast Assyrian army massed on the bank of the Nile at dawn, chariots and spearmen, banners, hazy gold light, wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B075a-assyrian-army-massed-nile-dawn.mp4",
+    "src_status": "user-supplied, 6.04s - exact match: a vast army with chariots and spearmen massed on the Nile bank at dawn, hazy gold light, wide aerial."
   },
   {
     "id": "B076",
@@ -911,11 +913,11 @@
       "Amanirenas, kandake of Kush: dark brown skin, regal bearing, fringed Meroitic robe, heavy gold jewelry and amulets, jeweled diadem standing defiant before her court, firelight on her face, not backing down, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ],
     "src": [
-      "pantheon-ep4-clips/B092a-roman-army-marching-nile-tentative.mp4",
+      "pantheon-ep4-clips/B092e-kushite-army-sweeping-north-city.mp4",
       "pantheon-ep4-clips/B092d-romans-burning-temple-island.mp4",
       "pantheon-ep4-clips/B092c-amanirenas-defiant-firelight.mp4"
     ],
-    "src_status": "UPGRADED sub-prompt 2: B092d shows Roman soldiers with banners advancing on a temple island already showing fire inside it - a much closer match to 'Romans burning the city' than the earlier marching-only clips (B092b kept as a secondary alternate, not deleted). Sub-prompt 3 (Amanirenas defiant) strong match, unchanged. Sub-prompt 1 (Kushite army sweeping north) STILL not a real match - the only clip available shows Roman troops, not Kushite - still worth regenerating."
+    "src_status": "ALL 3 sub-prompts now have real matches. Sub-prompt 1 UPGRADED: a crowned Kushite king leading his army down a torchlit city street past crowds on the rooftops, finally a genuine Kushite-styled army shot (replaces the earlier Roman-soldier mismatches, which are kept as unassigned bonus clips). Sub-prompt 2: Romans advancing on a burning temple island. Sub-prompt 3: Amanirenas defiant. Beat complete."
   },
   {
     "id": "B093",

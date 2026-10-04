@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 67 of 71 needed clips covered, 5 bonus
+## AI (Veo-style) clips — 69 of 71 needed clips covered, 5 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -175,7 +175,16 @@ Two more matches — B035 is now fully covered (both takes):
 
 A third clip set aside, not assigned: `EXTRA-soldiers-marching-nile-wall-sunset-2-unassigned.mp4` — yet another instance of the recurring "Roman-style soldiers" mismatch that's also affecting B092's first sub-prompt and B028. Still none of these marching-army clips show period-appropriate Delta/Kushite/Assyrian troops as specced.
 
-**5 more AI clips still needed** (down to B028, B075, B092 sub-prompt 1, B097 sub-prompt 2, and B107).
+Two more matches — B092 is finally fully covered (all 3 sub-prompts, all real matches):
+
+| Beat | File | Match |
+|---|---|---|
+| B092 (sub-prompt 1) | **Upgraded** to B092e-kushite-army-sweeping-north-city.mp4 | A genuine Kushite-styled army at last — a crowned king leading his column down a torchlit city street, crowds on the rooftops. Replaces the Roman-soldier mismatches (kept as unassigned bonus clips, not deleted). **B092 beat complete.** |
+| B075 | B075a-assyrian-army-massed-nile-dawn.mp4 | Exact — vast army with chariots and spearmen massed on the Nile bank at dawn, hazy gold light |
+
+(3 of the 5 clips in this batch were duplicates of earlier sends, skipped.)
+
+**3 more AI clips still needed: B028, B097 sub-prompt 2, and B107** — the very last ones.
 
 ## Archival photos — 4 of 34 beats covered
 
