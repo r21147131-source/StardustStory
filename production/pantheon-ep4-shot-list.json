@@ -479,7 +479,9 @@
     "type": "archival",
     "narration": "He made his sister Amenirdis the God's Wife of Amun at Thebes, which tied the great temples of the south to his family.",
     "narration_words": 23,
-    "archival_guidance": "Source: Alabaster statue of Amenirdis I, Egyptian Museum, Cairo. Commons search: https://commons.wikimedia.org/w/index.php?search=Amenirdis+I+statue+Cairo&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Alabaster statue of Amenirdis I, Egyptian Museum, Cairo. Commons search: https://commons.wikimedia.org/w/index.php?search=Amenirdis+I+statue+Cairo&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B046a-amenirdis-i-medinet-habu-chapel-relief.jpg",
+    "src_status": "MATCHED: user-confirmed depiction of Amenirdis I (cartouche + figure relief) from her chapel at Medinet Habu. Differs from the brief's suggested alabaster-statue guidance but is a legitimate, better-sourced depiction of the same person."
   },
   {
     "id": "B047",

@@ -1,7 +1,7 @@
 PANTHEON EP.4 (KUSH) — ARCHIVAL PHOTOS TO DOWNLOAD
 ============================================================
 
-(21 verified direct image URLs, researched via Wikimedia
+(20 verified direct image URLs, researched via Wikimedia
 Commons and museum sites. Each one was confirmed to actually load
 (server-side) before being listed here. Download each and send it
 back as a file attachment, same as the AI clips.)
@@ -28,13 +28,6 @@ Source: Stele of Piye, complete (plate from Auguste Mariette, 1872)
 URL: https://upload.wikimedia.org/wikipedia/commons/a/a5/Stele_of_Piye_%28complete%29.jpg
 License: Public Domain (PD-old-100-expired)
 Quality: Good — shows the full inscribed stele (all the lines of text) rather than a tight single-line crop, but it is the real inscription and is a different plate from B002/B005/B043's other Piye-stele crops already in the list.
-
-[B046] Amenirdis I (Medinet Habu)
-Narration: "He made his sister Amenirdis the God's Wife of Amun at Thebes, which tied the great temples of the south to his family."
-Source: Depiction of Amenirdis I from her chapel at Medinet Habu
-URL: https://upload.wikimedia.org/wikipedia/commons/5/59/Ch_Am_I_Med_Habou_082005.jpg
-License: CHECK — unclear (this is the `og:image` on Wikipedia's "Amenirdis I" article and resolves fine; the Commons file-page credit line was not separately pulled)
-Quality: SUBSTITUTE — a genuine period depiction of Amenirdis I, but from her chapel at Medinet Habu, not the alabaster statue in a Cairo museum case named in the guidance. No Commons file specifically labeled as that Cairo alabaster statue turned up in this search.
 
 [B057] Kiosk of Taharqa, Karnak
 Narration: "He restored temples at Karnak, and built new ones at Kawa and at Jebel Barkal."
