@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 51 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 54 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -121,7 +121,15 @@ Two more matches — the Meroe section opens:
 | B086 | B086a-meroe-pyramids-camel-dawn-mist.mp4 | Near-exact — lone camel silhouette before steep Meroe pyramids in dawn mist |
 | B087 (1/2) | B087a-meroe-aerial-savanna-river.mp4 | Strong — aerial of Meroe's pyramid city beside the Nile, green savanna. Sub-prompt 2 (iron furnaces/smiths) still needed |
 
-**20 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Three more matches — B087 now fully covered, and B092 upgraded:
+
+| Beat | File | Match |
+|---|---|---|
+| B087 (2/2 — both covered) | B087b-iron-furnace-smith-meroe.mp4 | Strong — smith pouring molten iron at a furnace, sparks flying |
+| B090 | B090a-kandake-enthroned-generic.mp4 | Strong — a generic kandake enthroned, attendants with feather fans, correctly not styled as Amanirenas |
+| B092 (sub-prompt 2) | **Upgraded** to B092d-romans-burning-temple-island.mp4 | Roman soldiers advancing on a temple island with visible fire inside it — much closer to "Romans burning the city" than the earlier marching-only clip (kept as a secondary alternate). **Sub-prompt 1 is still not a real match** — still shows Roman troops where the Kushite army is called for |
+
+**18 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 

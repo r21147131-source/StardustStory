@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(20 prompts remaining across 19 beats, out of 71 total AI clips needed)
+(18 prompts remaining across 17 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -59,17 +59,6 @@ Narration: "He marched north. He took Memphis. For a brief moment, the double ki
 Narration: "Ashurbanipal came back."
   Prompt:
   A vast Assyrian army massed on the bank of the Nile at dawn, chariots and spearmen, banners, hazy gold light, wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B087] — 6. The Kingdom That Kept Going
-Narration: "At Meroe, far up the Nile, where the summer rains came and iron ore lay near the surface, Kush built a different kind of world. There were furnaces, and heaps of iron slag that still stand today, some of the largest iron-working remains in all of ancient Africa."
-  Take B:
-  Iron furnaces glowing in the dark at Meroe, smiths tapping molten metal, sparks rising, dark skinned smiths in leather aprons, intense close shots. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B090] — 6. The Kingdom That Kept Going
-Narration: "And Kush was ruled, again and again, by queens. The title was kandake."
-  Prompt:
-  A kandake of Kush enthroned in a Meroitic hall, ornate robes and gold, attendants fanning her, slow push toward her face. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Note: Use a generic queen here, not the Amanirenas reference.
 
 [B092] — 6. The Kingdom That Kept Going
 Narration: "In the year twenty-five before the common era, her armies swept north into Roman Egypt. The Romans struck back, and burned Napata. Amanirenas did not surrender."

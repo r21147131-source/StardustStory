@@ -844,8 +844,11 @@
       "Meroe far up the Nile after the summer rains, green savanna, the river, a thriving city, camera high and gliding. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Iron furnaces glowing in the dark at Meroe, smiths tapping molten metal, sparks rising, dark skinned smiths in leather aprons, intense close shots. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ],
-    "src": "pantheon-ep4-clips/B087a-meroe-aerial-savanna-river.mp4",
-    "src_status": "covers sub-prompt 1 of 2 (aerial of Meroe's pyramid city beside the Nile, green savanna after the rains) - strong match. Sub-prompt 2 (iron furnaces glowing, smiths at work) still needed."
+    "src": [
+      "pantheon-ep4-clips/B087a-meroe-aerial-savanna-river.mp4",
+      "pantheon-ep4-clips/B087b-iron-furnace-smith-meroe.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: aerial of Meroe's pyramid city beside the Nile - strong match. Take B: smith pouring molten iron at a furnace, sparks flying - strong match (smith's skin tone doesn't exactly match the prompt's description, otherwise a good match)."
   },
   {
     "id": "B088",
@@ -870,7 +873,9 @@
     "narration": "And Kush was ruled, again and again, by queens. The title was kandake.",
     "narration_words": 13,
     "veo_prompt": "A kandake of Kush enthroned in a Meroitic hall, ornate robes and gold, attendants fanning her, slow push toward her face. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "notes": "Use a generic queen here, not the Amanirenas reference."
+    "notes": "Use a generic queen here, not the Amanirenas reference.",
+    "src": "pantheon-ep4-clips/B090a-kandake-enthroned-generic.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: a generic kandake enthroned in a Meroitic hall, attendants with feather fans - correctly NOT styled as Amanirenas, per the beat's own note."
   },
   {
     "id": "B091",
@@ -893,10 +898,10 @@
     ],
     "src": [
       "pantheon-ep4-clips/B092a-roman-army-marching-nile-tentative.mp4",
-      "pantheon-ep4-clips/B092b-romans-marching-toward-napata-tentative.mp4",
+      "pantheon-ep4-clips/B092d-romans-burning-temple-island.mp4",
       "pantheon-ep4-clips/B092c-amanirenas-defiant-firelight.mp4"
     ],
-    "src_status": "sub-prompt 3 (Amanirenas defiant) strong match. Sub-prompts 1-2 are still NOT confirmed matches: both available clips show Roman legionaries marching along the Nile at sunset (two different takes, not duplicates of each other), not the Kushite army sweeping north (sub-prompt 1) nor Romans actively burning Napata (sub-prompt 2). Kept as placeholders - B092b assigned to sub-prompt 2 as an 'approaching to burn' stand-in. Still worth generating real matches for sub-prompts 1-2 if a better take turns up."
+    "src_status": "UPGRADED sub-prompt 2: B092d shows Roman soldiers with banners advancing on a temple island already showing fire inside it - a much closer match to 'Romans burning the city' than the earlier marching-only clips (B092b kept as a secondary alternate, not deleted). Sub-prompt 3 (Amanirenas defiant) strong match, unchanged. Sub-prompt 1 (Kushite army sweeping north) STILL not a real match - the only clip available shows Roman troops, not Kushite - still worth regenerating."
   },
   {
     "id": "B093",
