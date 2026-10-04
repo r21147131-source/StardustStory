@@ -1,6 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { themeEp4 } from "../theme-ep4";
 import { RIVER_PATH, CITY_POS } from "./ep4-map-data";
+import { Ep4RealMapBackground } from "./Ep4RealMapBackground";
 
 // MG2 Phase 3: the army arrow runs from Napata north; Piye's own arrow follows.
 export const EP4_B030_MapArmyFollowsPiye: React.FC = () => {
@@ -14,6 +15,7 @@ export const EP4_B030_MapArmyFollowsPiye: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: themeEp4.colors.bg }}>
+      <Ep4RealMapBackground />
       <svg width={width} height={height} style={{ position: "absolute" }}>
         <defs>
           <marker id="arrowB030a" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">

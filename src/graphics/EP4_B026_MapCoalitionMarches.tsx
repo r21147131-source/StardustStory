@@ -1,12 +1,15 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { themeEp4 } from "../theme-ep4";
 import { RIVER_PATH, CITY_POS } from "./ep4-map-data";
+import { Ep4RealMapBackground } from "./Ep4RealMapBackground";
 
 // MG2 Phase 1: Delta lords' markers join Sais; a coalition arrow runs south.
-const DELTA_LORDS = [
-  { x: 640, y: 120 },
-  { x: 700, y: 90 },
-  { x: 800, y: 110 },
+// Positions are relative offsets from Sais (real-map-calibrated), not fixed
+// canvas coordinates, so they stay anchored to it after any recalibration.
+const DELTA_LORD_OFFSETS = [
+  { dx: -60, dy: -50 },
+  { dx: 0, dy: -75 },
+  { dx: 70, dy: -55 },
 ];
 
 export const EP4_B026_MapCoalitionMarches: React.FC = () => {
@@ -20,6 +23,7 @@ export const EP4_B026_MapCoalitionMarches: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: themeEp4.colors.bg }}>
+      <Ep4RealMapBackground />
       <svg width={width} height={height} style={{ position: "absolute" }}>
         <defs>
           <marker id="arrowB026" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
@@ -28,8 +32,8 @@ export const EP4_B026_MapCoalitionMarches: React.FC = () => {
         </defs>
         <path d={RIVER_PATH} fill="none" stroke={themeEp4.colors.goldDim} strokeWidth={4} strokeLinecap="round" opacity={0.6} />
 
-        {DELTA_LORDS.map((p, i) => (
-          <circle key={i} cx={p.x} cy={p.y} r={7} fill={themeEp4.colors.ember} opacity={lordsIn} />
+        {DELTA_LORD_OFFSETS.map((o, i) => (
+          <circle key={i} cx={sais.x + o.dx} cy={sais.y + o.dy} r={7} fill={themeEp4.colors.ember} opacity={lordsIn} />
         ))}
         <circle cx={sais.x} cy={sais.y} r={10} fill={themeEp4.colors.ember} />
         <text x={sais.x + 18} y={sais.y + 5} fill={themeEp4.colors.text} fontFamily={themeEp4.font.body} fontSize={20}>

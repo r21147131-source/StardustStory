@@ -1,6 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { themeEp4 } from "../theme-ep4";
-import { RIVER_PATH, EGYPT_BAND_Y, KUSH_BAND_Y } from "./ep4-map-data";
+import { RIVER_PATH, EGYPT_BAND_Y, KUSH_BAND_Y, MAP_BOX } from "./ep4-map-data";
+import { Ep4RealMapBackground } from "./Ep4RealMapBackground";
 
 // MG1 Phase 1: Egypt in the north (gold-filled), Kush in the south (outlined only).
 export const EP4_B008_MapEgyptKush: React.FC = () => {
@@ -26,6 +27,7 @@ export const EP4_B008_MapEgyptKush: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: themeEp4.colors.bg }}>
+      <Ep4RealMapBackground />
       <svg width={width} height={height} style={{ position: "absolute" }}>
         <defs>
           <clipPath id="egyptBand">
@@ -37,17 +39,17 @@ export const EP4_B008_MapEgyptKush: React.FC = () => {
         </defs>
 
         <rect
-          x={600}
+          x={MAP_BOX.x}
           y={EGYPT_BAND_Y[0]}
-          width={500}
+          width={MAP_BOX.width}
           height={EGYPT_BAND_Y[1] - EGYPT_BAND_Y[0]}
           fill={themeEp4.colors.gold}
           opacity={egyptFill}
         />
         <rect
-          x={600}
+          x={MAP_BOX.x}
           y={KUSH_BAND_Y[0]}
-          width={500}
+          width={MAP_BOX.width}
           height={KUSH_BAND_Y[1] - KUSH_BAND_Y[0]}
           fill="none"
           stroke={themeEp4.colors.ember}

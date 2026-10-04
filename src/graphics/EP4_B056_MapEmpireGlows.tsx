@@ -1,6 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { themeEp4 } from "../theme-ep4";
 import { RIVER_PATH } from "./ep4-map-data";
+import { Ep4RealMapBackground } from "./Ep4RealMapBackground";
 
 // MG4 expansion: the Nile glows gold from the Delta to deep in Kush.
 export const EP4_B056_MapEmpireGlows: React.FC = () => {
@@ -12,6 +13,7 @@ export const EP4_B056_MapEmpireGlows: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: themeEp4.colors.bg }}>
+      <Ep4RealMapBackground />
       <svg width={width} height={height} style={{ position: "absolute" }}>
         <path
           d={RIVER_PATH}

@@ -1,6 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { themeEp4 } from "../theme-ep4";
-import { RIVER_PATH, EGYPT_BAND_Y, KUSH_BAND_Y, CITY_POS } from "./ep4-map-data";
+import { RIVER_PATH, EGYPT_BAND_Y, KUSH_BAND_Y, CITY_POS, MAP_BOX, BORDER_Y } from "./ep4-map-data";
+import { Ep4RealMapBackground } from "./Ep4RealMapBackground";
 
 // MG1 Phase 4: ALARA, then KASHTA carve in; an arrow reaches from Napata to Upper Egypt.
 export const EP4_B022_MapAlaraKashta: React.FC = () => {
@@ -24,6 +25,7 @@ export const EP4_B022_MapAlaraKashta: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: themeEp4.colors.bg }}>
+      <Ep4RealMapBackground />
       <svg width={width} height={height} style={{ position: "absolute" }}>
         <defs>
           <marker id="arrowheadB022" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
@@ -31,8 +33,8 @@ export const EP4_B022_MapAlaraKashta: React.FC = () => {
           </marker>
         </defs>
 
-        <rect x={600} y={EGYPT_BAND_Y[0]} width={500} height={EGYPT_BAND_Y[1] - EGYPT_BAND_Y[0]} fill={themeEp4.colors.goldDim} opacity={0.25} />
-        <rect x={600} y={560} width={500} height={KUSH_BAND_Y[1] - 560} fill={themeEp4.colors.ember} opacity={0.4} />
+        <rect x={MAP_BOX.x} y={EGYPT_BAND_Y[0]} width={MAP_BOX.width} height={EGYPT_BAND_Y[1] - EGYPT_BAND_Y[0]} fill={themeEp4.colors.goldDim} opacity={0.25} />
+        <rect x={MAP_BOX.x} y={BORDER_Y - 56} width={MAP_BOX.width} height={KUSH_BAND_Y[1] - (BORDER_Y - 56)} fill={themeEp4.colors.ember} opacity={0.4} />
 
         <path d={RIVER_PATH} fill="none" stroke={themeEp4.colors.goldLight} strokeWidth={5} strokeLinecap="round" />
 

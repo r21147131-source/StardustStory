@@ -1,6 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { themeEp4 } from "../theme-ep4";
 import { RIVER_PATH, CITY_POS } from "./ep4-map-data";
+import { Ep4RealMapBackground } from "./Ep4RealMapBackground";
 
 // MG4 contraction: an army arrow runs south to Napata, which dims.
 export const EP4_B084_MapNapataDims: React.FC = () => {
@@ -15,6 +16,7 @@ export const EP4_B084_MapNapataDims: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: themeEp4.colors.bg }}>
+      <Ep4RealMapBackground />
       <svg width={width} height={height} style={{ position: "absolute" }}>
         <defs>
           <marker id="arrowB084" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">

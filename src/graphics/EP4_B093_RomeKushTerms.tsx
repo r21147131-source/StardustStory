@@ -1,6 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { themeEp4 } from "../theme-ep4";
-import { RIVER_PATH, BORDER_Y, CITY_POS } from "./ep4-map-data";
+import { RIVER_PATH, BORDER_Y, CITY_POS, MAP_BOX } from "./ep4-map-data";
+import { Ep4RealMapBackground } from "./Ep4RealMapBackground";
 
 // MG8: map of Roman Egypt and Kush; envoy ships cross to Samos; terms appear as
 // a Kush-independent border line and a struck-out tribute mark.
@@ -18,9 +19,10 @@ export const EP4_B093_RomeKushTerms: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: themeEp4.colors.bg }}>
+      <Ep4RealMapBackground />
       <svg width={width} height={height} style={{ position: "absolute" }}>
-        <rect x={600} y={40} width={500} height={BORDER_Y - 40} fill={themeEp4.colors.romeRegion} opacity={0.3} />
-        <rect x={600} y={BORDER_Y} width={500} height={1040 - BORDER_Y} fill={themeEp4.colors.ember} opacity={0.35} />
+        <rect x={MAP_BOX.x} y={MAP_BOX.y} width={MAP_BOX.width} height={BORDER_Y - MAP_BOX.y} fill={themeEp4.colors.romeRegion} opacity={0.3} />
+        <rect x={MAP_BOX.x} y={BORDER_Y} width={MAP_BOX.width} height={MAP_BOX.y + MAP_BOX.height - BORDER_Y} fill={themeEp4.colors.ember} opacity={0.35} />
         <path d={RIVER_PATH} fill="none" stroke={themeEp4.colors.goldLight} strokeWidth={4} strokeLinecap="round" opacity={0.7} />
 
         <circle cx={shipX} cy={shipY} r={6} fill={themeEp4.colors.cream} opacity={shipProgress > 0 ? 1 : 0} />
@@ -36,9 +38,9 @@ export const EP4_B093_RomeKushTerms: React.FC = () => {
         />
 
         <line
-          x1={600}
+          x1={MAP_BOX.x}
           y1={BORDER_Y}
-          x2={600 + 500 * borderDraw}
+          x2={MAP_BOX.x + MAP_BOX.width * borderDraw}
           y2={BORDER_Y}
           stroke={themeEp4.colors.goldLight}
           strokeWidth={4}

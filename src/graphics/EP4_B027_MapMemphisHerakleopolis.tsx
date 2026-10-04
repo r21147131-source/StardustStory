@@ -1,6 +1,7 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { themeEp4 } from "../theme-ep4";
 import { RIVER_PATH, CITY_POS } from "./ep4-map-data";
+import { Ep4RealMapBackground } from "./Ep4RealMapBackground";
 
 // MG2 Phase 2: Memphis flips to Tefnakht's color; Herakleopolis is ringed by besiegers.
 export const EP4_B027_MapMemphisHerakleopolis: React.FC = () => {
@@ -14,6 +15,7 @@ export const EP4_B027_MapMemphisHerakleopolis: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: themeEp4.colors.bg }}>
+      <Ep4RealMapBackground />
       <svg width={width} height={height} style={{ position: "absolute" }}>
         <path d={RIVER_PATH} fill="none" stroke={themeEp4.colors.goldDim} strokeWidth={4} strokeLinecap="round" opacity={0.6} />
 

@@ -31,9 +31,23 @@ for i, sc in enumerate(scenes):
     out_path = f"{out_dir}/{i:04d}_{sc['shot']}.mp4"
 
     if sc["type"] == "image":
+        # Full image content visible (blurred fill instead of a hard crop
+        # that chopped off most of any non-16:9 photo) plus a slow Ken Burns
+        # zoom for motion. zoompan needs d = total output frames, not d=1 —
+        # with d=1 the filter silently produces zero motion (static output).
+        nframes = max(1, round(dur * 30))
+        img_filter = (
+            "[0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,"
+            "gblur=sigma=40,eq=brightness=-0.08:saturation=0.75[bg];"
+            "[0:v]scale=1920:1080:force_original_aspect_ratio=decrease,format=yuva420p[fg];"
+            "[bg][fg]overlay=(W-w)/2:(H-h)/2:format=auto,scale=2400:1350,setsar=1[comp];"
+            f"[comp]zoompan=z='min(zoom+0.0012,1.15)':d={nframes}:"
+            "x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30[vout]"
+        )
         cmd = (
             ["ffmpeg", "-y", "-loop", "1", "-i", src_path] + SILENT_AUDIO +
-            ["-t", str(dur), "-vf", VF,
+            ["-filter_complex", img_filter, "-map", "[vout]", "-map", "1:a",
+             "-frames:v", str(nframes),
              "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "veryfast",
              "-c:a", "aac", "-shortest", out_path]
         )
