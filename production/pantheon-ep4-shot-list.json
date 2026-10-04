@@ -5,7 +5,9 @@
     "type": "archival",
     "narration": "There is a monument beside the Nile, at the foot of a sacred mountain.",
     "narration_words": 14,
-    "archival_guidance": "Source: Jebel Barkal, the sacred mountain at Napata, northern Sudan. Commons search: https://commons.wikimedia.org/w/index.php?search=Jebel+Barkal&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Jebel_Barkal. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Jebel Barkal, the sacred mountain at Napata, northern Sudan. Commons search: https://commons.wikimedia.org/w/index.php?search=Jebel+Barkal&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Jebel_Barkal. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B001a-jebel-barkal-mountain.jpg",
+    "src_status": "MATCHED: direct Wikimedia download (og:image of the Jebel Barkal article). Sacred mountain at Napata, strong match."
   },
   {
     "id": "B002",
@@ -43,7 +45,9 @@
     "type": "archival",
     "narration": "The story was left standing, as though the stone itself refused to forget what the living had decided to.",
     "narration_words": 19,
-    "archival_guidance": "Source: Victory Stele of Piye, inscription register (crop). Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Victory Stele of Piye, inscription register (crop). Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B005a-piye-stele-first-line-translation.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. \"Stele du roi Piankhi-Meriamen,\" first line with 19th-c. French translation."
   },
   {
     "id": "B006",
@@ -304,7 +308,9 @@
     "type": "archival",
     "narration": "His orders to his commanders survive on the stone, and they read like the orders of a man who cared how a war was won.",
     "narration_words": 25,
-    "archival_guidance": "Source: Victory Stele of Piye, lines of inscription (crop). Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Victory Stele of Piye, lines of inscription (crop). Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B031a-piye-stele-complete-inscription.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Full engraving of the complete Victory Stele inscription, all columns."
   },
   {
     "id": "B032",
@@ -595,7 +601,9 @@
     "type": "archival",
     "narration": "He restored temples at Karnak, and built new ones at Kawa and at Jebel Barkal.",
     "narration_words": 15,
-    "archival_guidance": "Source: Kiosk of Taharqa, Karnak. Commons search: https://commons.wikimedia.org/w/index.php?search=Taharqa+kiosk+Karnak&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Kiosk of Taharqa, Karnak. Commons search: https://commons.wikimedia.org/w/index.php?search=Taharqa+kiosk+Karnak&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B057a-taharqa-kiosk-karnak.jpg",
+    "src_status": "MATCHED: direct Wikimedia download, user-confirmed label \"Kiosk of Taharqa, Karnak.\" Karnak ruins with the kiosk's single tall column."
   },
   {
     "id": "B058",
@@ -619,7 +627,9 @@
     "type": "archival",
     "narration": "He built a pyramid at Nuri, the largest in all of Nubia.",
     "narration_words": 12,
-    "archival_guidance": "Source: Pyramids of Nuri, Taharqa's pyramid. Commons search: https://commons.wikimedia.org/w/index.php?search=Nuri+pyramids+Taharqa&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Nubian_pyramids. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Pyramids of Nuri, Taharqa's pyramid. Commons search: https://commons.wikimedia.org/w/index.php?search=Nuri+pyramids+Taharqa&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Nubian_pyramids. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B059a-pyramid-of-taharqa-nuri.jpg",
+    "src_status": "MATCHED: direct Wikimedia download, filename-confirmed \"Pyramid of Taharqa at Nuri.\" Eroded mudbrick/stone pyramid, person for scale."
   },
   {
     "id": "B060",
@@ -655,7 +665,9 @@
     "type": "archival",
     "narration": "I had watched Egypt survive the Hyksos. I had watched it survive the Libyans, and the Sea Peoples.",
     "narration_words": 18,
-    "archival_guidance": "Source: Medinet Habu reliefs: Sea Peoples and Libyans (reuse from Episode 1). Commons search: https://commons.wikimedia.org/w/index.php?search=Medinet+Habu+Sea+Peoples+relief&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Medinet Habu reliefs: Sea Peoples and Libyans (reuse from Episode 1). Commons search: https://commons.wikimedia.org/w/index.php?search=Medinet+Habu+Sea+Peoples+relief&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B063a-medinet-habu-sea-peoples-relief.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Sea Peoples relief at Medinet Habu, sourced fresh (not a real Ep.1 reuse, since Ep.1 never sourced this asset)."
   },
   {
     "id": "B064",
@@ -693,7 +705,9 @@
     "type": "archival",
     "narration": "Members of the royal family were taken captive.",
     "narration_words": 8,
-    "archival_guidance": "Source: Esarhaddon's victory stele from Sam'al: a prince of Egypt kneeling captive. Commons search: https://commons.wikimedia.org/w/index.php?search=Esarhaddon+Sam%27al+victory+stele+Berlin&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Esarhaddon's victory stele from Sam'al: a prince of Egypt kneeling captive. Commons search: https://commons.wikimedia.org/w/index.php?search=Esarhaddon+Sam%27al+victory+stele+Berlin&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B067a-esarhaddon-samal-stele-detail.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Detail of Esarhaddon's victory stele from Sam'al, Pergamon Museum."
   },
   {
     "id": "B068",
@@ -719,7 +733,9 @@
     "type": "archival",
     "narration": "His son Ashurbanipal finished the work, and drove Taharqa out of Egypt for good.",
     "narration_words": 14,
-    "archival_guidance": "Source: Ashurbanipal on an Assyrian palace relief, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Ashurbanipal+relief+British+Museum&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Ashurbanipal on an Assyrian palace relief, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Ashurbanipal+relief+British+Museum&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B070a-ashurbanipal-wall-relief-nineveh.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Ashurbanipal-era wall relief from Nineveh, British Museum."
   },
   {
     "id": "B071",
@@ -737,7 +753,9 @@
     "type": "archival",
     "narration": "His nephew Tantamani took the crown.",
     "narration_words": 6,
-    "archival_guidance": "Source: Statue of Tantamani, Louvre (colour reconstruction). Commons search: https://commons.wikimedia.org/w/index.php?search=Tantamani+statue+Louvre&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Tantamani. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Statue of Tantamani, Louvre (colour reconstruction). Commons search: https://commons.wikimedia.org/w/index.php?search=Tantamani+statue+Louvre&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Tantamani. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B072a-tantamani-statue-louvre-colour.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Statue of Tantamani, Louvre, with the colour reconstruction (gilt crown/collar/sandals) exactly as the brief specified."
   },
   {
     "id": "B073",
@@ -791,7 +809,9 @@
     "type": "archival",
     "narration": "An Assyrian inscription boasts that the king lifted his spear against Egypt and Kush and showed his power.",
     "narration_words": 18,
-    "archival_guidance": "Source: Assyrian clay prism of Ashurbanipal recording the capture of Thebes, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Rassam+cylinder+Ashurbanipal+British+Museum&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Assyrian clay prism of Ashurbanipal recording the capture of Thebes, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Rassam+cylinder+Ashurbanipal+British+Museum&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B077a-rassam-cylinder-ashurbanipal-egypt.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Translated text plate, \"Assurbanipal: The Second Egyptian War\" (Rassam cylinder), capture of Thebes."
   },
   {
     "id": "B078",
@@ -809,7 +829,9 @@
     "type": "archival",
     "narration": "In Egypt, an Assyrian ally from Sais named Psamtik founded a new dynasty. The twenty-fifth dynasty was over.",
     "narration_words": 18,
-    "archival_guidance": "Source: Psamtik I, founder of the 26th Dynasty (statue or relief). Commons search: https://commons.wikimedia.org/w/index.php?search=Psamtik+I+statue&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Psamtik I, founder of the 26th Dynasty (statue or relief). Commons search: https://commons.wikimedia.org/w/index.php?search=Psamtik+I+statue&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B079a-psamtik-i-bust-statue.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Granite bust of a king (MET, attributed Psamtik I), founder of the 26th Dynasty."
   },
   {
     "id": "B080",
@@ -837,7 +859,9 @@
     "type": "archival",
     "narration": "Figures were scraped from temple carvings.",
     "narration_words": 6,
-    "archival_guidance": "Source: A real monument with an erased Kushite cartouche (find a clear example). Commons search: https://commons.wikimedia.org/w/index.php?search=erased+cartouche+Kushite+Egypt&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: A real monument with an erased Kushite cartouche (find a clear example). Commons search: https://commons.wikimedia.org/w/index.php?search=erased+cartouche+Kushite+Egypt&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B082a-hatshepsut-erased-cartouche-substitute.jpg",
+    "src_status": "MATCHED (substitute, as flagged in research): painted relief of Horus and Thoth purifying Hatshepsut, her figure chiseled away by Thutmose III. A real damnatio memoriae example, not Kushite-specific, standing in per the original guidance."
   },
   {
     "id": "B083",
@@ -897,7 +921,9 @@
     "type": "archival",
     "narration": "There were pyramids, small and steep and graceful, hundreds of them across the kingdom.",
     "narration_words": 14,
-    "archival_guidance": "Source: Pyramids of Meroe, aerial view. Commons search: https://commons.wikimedia.org/w/index.php?search=Meroe+pyramids+aerial&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Nubian_pyramids. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Pyramids of Meroe, aerial view. Commons search: https://commons.wikimedia.org/w/index.php?search=Meroe+pyramids+aerial&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Nubian_pyramids. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B088a-meroe-pyramids-aerial.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Aerial view of the Meroe pyramid field, exactly as specified."
   },
   {
     "id": "B089",
@@ -905,7 +931,9 @@
     "type": "archival",
     "narration": "There were temples to Apedemak, a lion-headed war god you will not find in Egypt.",
     "narration_words": 15,
-    "archival_guidance": "Source: Lion Temple of Apedemak, Naqa. Commons search: https://commons.wikimedia.org/w/index.php?search=Apedemak+Naqa+lion+temple&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Lion Temple of Apedemak, Naqa. Commons search: https://commons.wikimedia.org/w/index.php?search=Apedemak+Naqa+lion+temple&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B089a-apedemak-lion-temple-naqa.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Lepsius-style line drawing of the triple-lion-headed Apedemak flanked by royal figures, Naqa lion temple."
   },
   {
     "id": "B090",
@@ -959,7 +987,9 @@
     "narration": "The Greek geographer Strabo sneered that she was mannish and blind in one eye.",
     "narration_words": 14,
     "archival_guidance": "Source: Strabo, Geography (manuscript page). Commons search: https://commons.wikimedia.org/w/index.php?search=Strabo+Geographica+manuscript&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
-    "notes": "Check-before-rendering caution: do not show Amanirenas with a blinded eye; Strabo's description is hostile and the script only reports it."
+    "notes": "Check-before-rendering caution: do not show Amanirenas with a blinded eye; Strabo's description is hostile and the script only reports it.",
+    "src": "public/pantheon-ep4-archival/B094a-strabo-geographica-manuscript.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Handwritten Greek manuscript page of Strabo's Geographica."
   },
   {
     "id": "B095",
@@ -977,7 +1007,9 @@
     "type": "archival",
     "narration": "Her warriors had also taken the bronze head of a statue of Augustus.",
     "narration_words": 13,
-    "archival_guidance": "Source: Bronze head of Augustus from Meroe, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Head+of+Augustus+Meroe+British+Museum&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Roman_relations_with_Nubia. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Bronze head of Augustus from Meroe, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Head+of+Augustus+Meroe+British+Museum&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Roman_relations_with_Nubia. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B096a-bronze-head-augustus-meroe.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. The \"Meroe Head\" bronze bust of Augustus, British Museum."
   },
   {
     "id": "B097",
@@ -1001,7 +1033,9 @@
     "type": "archival",
     "narration": "It lay there until nineteen ten, when archaeologists found it.",
     "narration_words": 10,
-    "archival_guidance": "Source: Excavations at Meroe, 1910 (Garstang). Commons search: https://commons.wikimedia.org/w/index.php?search=Garstang+Meroe+excavation&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Excavations at Meroe, 1910 (Garstang). Commons search: https://commons.wikimedia.org/w/index.php?search=Garstang+Meroe+excavation&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B098a-garstang-meroe-excavation-1910.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Plate from \"Meroe, the City of the Ethiopians\" (Garstang's 1909-1910 excavation report)."
   },
   {
     "id": "B099",
@@ -1055,7 +1089,9 @@
     "type": "archival",
     "narration": "And the Greeks and Romans who came after knew Kush only as a distant land at the edge of the world.",
     "narration_words": 21,
-    "archival_guidance": "Source: Ancient Greek world map showing Aethiopia at the edge. Commons search: https://commons.wikimedia.org/w/index.php?search=Herodotus+world+map+Aethiopia&ns6=1. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page"
+    "archival_guidance": "Source: Ancient Greek world map showing Aethiopia at the edge. Commons search: https://commons.wikimedia.org/w/index.php?search=Herodotus+world+map+Aethiopia&ns6=1. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page",
+    "src": "public/pantheon-ep4-archival/B104a-herodotus-world-map-aethiopia.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Modern reconstruction map, \"The World according to Herodotus,\" showing Aethiopes at the southern edge."
   },
   {
     "id": "B105",
@@ -1063,7 +1099,9 @@
     "type": "archival",
     "narration": "But Kush wrote itself, too. In a script that has never been fully deciphered.",
     "narration_words": 14,
-    "archival_guidance": "Source: Meroitic inscription on a stele or temple wall. Commons search: https://commons.wikimedia.org/w/index.php?search=Meroitic+inscription&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Meroitic inscription on a stele or temple wall. Commons search: https://commons.wikimedia.org/w/index.php?search=Meroitic+inscription&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B105a-meroitic-inscription-petrie-museum.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Macro of carved Meroitic hieroglyphic characters, Petrie Museum."
   },
   {
     "id": "B106",
@@ -1100,7 +1138,9 @@
     "type": "archival",
     "narration": "Where Egypt cut away a king's name, it left a hole in the exact shape of the king. Scholars have been reading those holes for generations.",
     "narration_words": 26,
-    "archival_guidance": "Source: Macro of a hollow, erased cartouche in an Egyptian wall. Commons search: https://commons.wikimedia.org/w/index.php?search=erased+cartouche+Egypt&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Macro of a hollow, erased cartouche in an Egyptian wall. Commons search: https://commons.wikimedia.org/w/index.php?search=erased+cartouche+Egypt&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B109a-erased-cartouche-situla-substitute.jpg",
+    "src_status": "MATCHED (substitute, as flagged in research): blue faience situla with a hollowed-out, erased cartouche of Akhenaten, Walters Art Museum. Real erasure example, object type (vessel vs. wall) differs from the literal guidance."
   },
   {
     "id": "B110",

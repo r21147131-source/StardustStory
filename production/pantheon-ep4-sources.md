@@ -197,34 +197,52 @@ Two more matches — B097 now fully covered:
 
 Every one of the 57 AI beats (71 individual clip slots, including all multi-take beats) now has a user-supplied source. Remaining tentative/flagged items worth a second look before final cut: B023 (cavalry against a temple wall rather than open plain) and B040 (B040a kept as a secondary alternate to the primary B040b). Everything else is a strong or exact match.
 
-## Archival photos — 14 of 34 beats covered
+## Archival photos — 34 of 34 beats covered (ALL DONE)
 
-All in `public/pantheon-ep4-archival/`.
+All in `public/pantheon-ep4-archival/`. The network block on Wikimedia was lifted mid-session (environment network access updated), after which the remaining 20 beats were downloaded directly in one batch and visually verified against their guidance before filing.
 
 | Beat | File | Match | Confidence |
 |---|---|---|---|
+| B001 | B001a-jebel-barkal-mountain.jpg | Jebel Barkal, the sacred mountain at Napata | Strong |
 | B002 | B002a-piye-victory-stele-full.jpg | Full black granite stela, museum studio shot — dark stone matches the narration | Tentative — exact object/provenance not confirmed |
 | B003 | B003a-19thc-stele-lithograph-dujardin.jpg | 19th-century engraving (Photogravure Dujardin) — matches the brief's PD-2D drawing guidance for this beat | Tentative — source publication not confirmed |
+| B005 | B005a-piye-stele-first-line-translation.jpg | "Stele du roi Piankhi-Meriamen," first line with 19th-c. French translation | Strong |
 | B009 | B009a-sphinx-of-taharqo.jpg | Sphinx of Taharqo, user-labeled and confirmed | Strong |
 | B014 (primary) | B014a-thutmose-iii-victory-stele.webp | Thutmose III victory stele, user-labeled and confirmed | Strong |
 | B014 (alternate) | B014b-thutmose-iii-stela-alternate-museum.jpg | A second museum installation photo of a Thutmose III stela | Plausible, unconfirmed same stela |
 | B015 | B015a-tomb-of-huy-nubian-tribute.jpg | Tomb of Huy, Nubian tribute-bearers painting — exact match | Strong |
 | B020 (primary) | B020a-jebel-barkal-temple-ruins.jpg | Temple ruins (columns, mudbrick) at a cliff base, user-confirmed as Jebel Barkal | Strong |
 | B020 (alternate) | B020b-jebel-barkal-mesa-alternate.jpg | Flat-topped desert mesa, user-confirmed as Jebel Barkal | Strong |
+| B025 | B025a-tefnakht-stela-detail.jpg | Stela of Tefnakht, National Archaeological Museum, Athens — user-confirmed | Strong |
+| B031 | B031a-piye-stele-complete-inscription.jpg | Full engraving of the complete Victory Stele inscription, all columns | Strong |
 | B033 | B033a-nimlot-horse-sistrum-drawing.jpg | Engraving of Nimlot submitting a horse and sistrum to Piye — exact match | Strong |
 | B043 | B043a-stele-relief-homage-scene.jpg | Victory Stele of Piye relief, user-labeled and confirmed | Strong |
+| B046 | B046a-amenirdis-i-medinet-habu-chapel-relief.jpg | Depiction of Amenirdis I from her chapel at Medinet Habu (cartouche + figure relief) — user-confirmed | Strong |
 | B048 | B048a-el-kurru-pyramid-excavated-tentative.jpg | Excavated royal pyramid with staircase-trench entrance | **Tentative — could be El-Kurru or Nuri, both fit the visual (badly eroded Napatan royal pyramids excavated by Reisner); please confirm the site if you know it** |
 | B052 | B052a-taharqa-statue-dark-stone-tentative.jpg | Dark granodiorite standing royal statue, crown apex missing, no added colour | **Tentative — plausibly Taharqa but not confirmed against this specific statue; could be another 25th-Dynasty king. Please confirm if known** |
 | B055 | B055a-taharqa-abar-offering-scene-lepsius.jpg | 19th-c. line-drawing offering scene, Lepsius-style engraving — king presenting offering to two enthroned deities with an attendant behind, matches the brief's Taharqa/Queen Abar relief | Strong |
+| B057 | B057a-taharqa-kiosk-karnak.jpg | Kiosk of Taharqa, Karnak — user-confirmed label | Strong |
+| B059 | B059a-pyramid-of-taharqa-nuri.jpg | Pyramid of Taharqa at Nuri — filename-confirmed | Strong |
 | B060 | B060a-lachish-relief-assyrian-captives-tentative.jpg | Large Assyrian palace relief, museum corner display — procession of captives with raised hands, chariot, hunted animals; matches the visual convention of the Lachish deportation reliefs | **Tentative — not confirmed as this specific relief; please confirm source if known** |
-| B025 | B025a-tefnakht-stela-detail.jpg | Stela of Tefnakht, National Archaeological Museum, Athens — user-confirmed | Strong |
-| B046 | B046a-amenirdis-i-medinet-habu-chapel-relief.jpg | Depiction of Amenirdis I from her chapel at Medinet Habu (cartouche + figure relief) — user-confirmed | Strong |
+| B063 | B063a-medinet-habu-sea-peoples-relief.jpg | Sea Peoples relief at Medinet Habu, sourced fresh (Ep.1 never actually sourced this asset, so no real reuse was possible) | Strong |
+| B067 | B067a-esarhaddon-samal-stele-detail.jpg | Detail of Esarhaddon's victory stele from Sam'al, Pergamon Museum | Strong |
+| B070 | B070a-ashurbanipal-wall-relief-nineveh.jpg | Ashurbanipal-era wall relief from Nineveh, British Museum | Strong |
+| B072 | B072a-tantamani-statue-louvre-colour.jpg | Statue of Tantamani, Louvre, with the colour reconstruction (gilt crown/collar/sandals) | Strong |
+| B077 | B077a-rassam-cylinder-ashurbanipal-egypt.jpg | Translated text plate, "Assurbanipal: The Second Egyptian War" (Rassam cylinder), capture of Thebes | Strong |
+| B079 | B079a-psamtik-i-bust-statue.jpg | Granite bust of a king (MET, attributed Psamtik I) | Strong |
+| B082 | B082a-hatshepsut-erased-cartouche-substitute.jpg | Horus and Thoth purifying Hatshepsut, her figure chiseled away by Thutmose III | Good — real damnatio memoriae example, not Kushite-specific, substituting per the original guidance's own note ("find a clear example") |
+| B088 | B088a-meroe-pyramids-aerial.jpg | Aerial view of the Meroe pyramid field | Strong |
+| B089 | B089a-apedemak-lion-temple-naqa.jpg | Lepsius-style line drawing of the triple-lion-headed Apedemak flanked by royal figures, Naqa lion temple | Strong |
+| B094 | B094a-strabo-geographica-manuscript.jpg | Handwritten Greek manuscript page of Strabo's Geographica | Strong |
+| B096 | B096a-bronze-head-augustus-meroe.jpg | The "Meroe Head" bronze bust of Augustus, British Museum | Strong |
+| B098 | B098a-garstang-meroe-excavation-1910.jpg | Plate from "Meroe, the City of the Ethiopians" (Garstang's 1909-1910 excavation report) | Strong |
+| B104 | B104a-herodotus-world-map-aethiopia.jpg | Modern reconstruction map, "The World according to Herodotus," Aethiopes at the southern edge | Strong |
+| B105 | B105a-meroitic-inscription-petrie-museum.jpg | Macro of carved Meroitic hieroglyphic characters, Petrie Museum | Strong |
+| B109 | B109a-erased-cartouche-situla-substitute.jpg | Blue faience situla with a hollowed-out, erased cartouche of Akhenaten, Walters Art Museum | Good — real erasure example; object type (vessel vs. wall) differs from the literal guidance |
 
-**Flag before publishing:** B002, B003, B014 (alternate), B048, B052, and B060 are best-guess matches, not confirmed identifications. B048, B052, and B060 especially need your confirmation — I can't fully distinguish them from close alternatives (El-Kurru vs Nuri; which Kushite king's statue; which Assyrian relief) without more to go on.
+**Flag before publishing:** B002, B003, B014 (alternate), B048, B052, and B060 are best-guess matches, not confirmed identifications. B048, B052, and B060 especially still need your confirmation — I can't fully distinguish them from close alternatives (El-Kurru vs Nuri; which Kushite king's statue; which Assyrian relief) without more to go on. B082 and B109 are deliberate substitutes for damnatio-memoriae beats where no Kushite-specific example was found — real objects, same concept, different subject.
 
-**No more unassigned EXTRA files** — both outstanding unidentified photos from earlier batches are now matched (B025, B046).
-
-**20 more archival beats still need photos:** B001, B005, B031, B057, B059, B063, B067, B070, B072, B077, B079, B082, B088, B089, B094, B096, B098, B104, B105, B109.
+**All 34 archival beats are covered.** Nothing left to source for this category.
 
 ## Motion graphics — 20 of 20 beats built and rendered
 
