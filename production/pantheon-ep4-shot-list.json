@@ -511,7 +511,9 @@
     "type": "ai",
     "narration": "When he became pharaoh and they were finally reunited, a stone in her homeland recorded the rejoicing.",
     "narration_words": 17,
-    "veo_prompt": "Queen Abar, Kushite queen mother: dark brown skin, dignified, gold diadem and broad collar, linen gown and Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe embracing in a torchlit temple court as courtiers look on, warm light, tender and restrained, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Queen Abar, Kushite queen mother: dark brown skin, dignified, gold diadem and broad collar, linen gown and Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe embracing in a torchlit temple court as courtiers look on, warm light, tender and restrained, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B054a-taharqa-abar-reunion-embrace.mp4",
+    "src_status": "user-supplied, 10.04s - excellent match: queen and crowned king embracing tenderly in a torchlit temple court, courtiers looking on, near-exact."
   },
   {
     "id": "B055",

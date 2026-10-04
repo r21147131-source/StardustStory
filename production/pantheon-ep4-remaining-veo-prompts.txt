@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(45 prompts remaining across 38 beats, out of 71 total AI clips needed)
+(44 prompts remaining across 37 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -82,11 +82,6 @@ Narration: "One by one, the princes of the Delta came to him with tribute."
 Narration: "Only Tefnakht stayed away. He sent a messenger with an oath of loyalty, and he never stood before Piye himself."
   Prompt:
   Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes alone on a distant quay at dusk, watching a small boat carry a messenger toward Memphis, refusing to follow, the river wide and empty. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B054] — 4. The Golden Age
-Narration: "When he became pharaoh and they were finally reunited, a stone in her homeland recorded the rejoicing."
-  Prompt:
-  Queen Abar, Kushite queen mother: dark brown skin, dignified, gold diadem and broad collar, linen gown and Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe embracing in a torchlit temple court as courtiers look on, warm light, tender and restrained, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B058] — 4. The Golden Age
 Narration: "He revived the old sculptural styles and the old religious forms with great care. The people Egypt had called foreigners were rebuilding Egypt's own past, stone by stone."

@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 26 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 27 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -52,7 +52,15 @@ More new matches:
 | B053 (2/2 — both covered) | B053a-taharqa-young-prince-sailing-north.mp4, B053b-queen-abar-waiting-napata.mp4 | Strong — young prince on a ship watching the riverside city glow at night; a queen figure on temple steps over a river bend at dusk. Both match well |
 | B058 (1/2) | B058a-sculptors-carving-relief-lamplight.mp4 | Strong — hand carving a relief by lamplight with pigment pots. Sub-prompt 2 (masons raising a column, aerial) still needed |
 
-**45 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+One more new match:
+
+| Beat | File | Match |
+|---|---|---|
+| B054 | B054a-taharqa-abar-reunion-embrace.mp4 | Excellent — queen and crowned king embracing tenderly in a torchlit temple court, courtiers watching |
+
+(A re-send of the B053a clip arrived in the same batch, byte-identical — skipped.)
+
+**44 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 
