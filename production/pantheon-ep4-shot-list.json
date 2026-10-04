@@ -88,7 +88,9 @@
     "type": "ai",
     "narration": "Egypt answered, in time. Not only with armies. With chisels.",
     "narration_words": 10,
-    "veo_prompt": "Egyptian masons at night chiseling a king's cartouche from a temple wall, torches in iron brackets, chips of limestone falling, close tracking shot along the wall, tense and methodical. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Egyptian masons at night chiseling a king's cartouche from a temple wall, torches in iron brackets, chips of limestone falling, close tracking shot along the wall, tense and methodical. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B010a-masons-chiseling-cartouche-night.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: masons chiseling a cartouche relief (king and winged goddess) by torchlight at night, close tracking."
   },
   {
     "id": "B011",
@@ -297,7 +299,9 @@
     "type": "ai",
     "narration": "His forces won on the river and won again on land.",
     "narration_words": 11,
-    "veo_prompt": "Nile river battle at first light, wooden warships ramming, spears flashing, spray and smoke, wide then tight, chaotic but readable, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Nile river battle at first light, wooden warships ramming, spears flashing, spray and smoke, wide then tight, chaotic but readable, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B032a-nile-river-battle-ramming.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: ornate warships ramming and crashing into a walled harbor city, soldiers with spears visible, battle energy."
   },
   {
     "id": "B033",
@@ -343,9 +347,10 @@
     ],
     "src": [
       "pantheon-ep4-clips/B036a-piye-praying-before-amun.mp4",
-      "pantheon-ep4-clips/B036b-piye-stroking-horse-tender.mp4"
+      "pantheon-ep4-clips/B036b-piye-stroking-horse-tender.mp4",
+      "pantheon-ep4-clips/B036c-piye-chariot-spear-raised.mp4"
     ],
-    "src_status": "covers sub-prompts 1-2 of 3. Take A: king praying hands-clasped before a statue of Amun, incense smoke - strong match. Take B: close-up of a bejeweled hand stroking a horse's neck, tender - strong match. Take C (standing in a war chariot, spear raised) still needed."
+    "src_status": "ALL 3 sub-prompts covered. Take A: praying before Amun. Take B: stroking a horse's neck. Take C: standing in a war chariot, spear raised, dust behind - exact match. Beat complete."
   },
   {
     "id": "B037",
