@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 40 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 44 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -93,7 +93,18 @@ Six more matches — B041 and B058 now fully covered:
 | B058 (2/2 — both covered) | B058b-masons-raising-column-karnak-aerial.mp4 | Near-exact — aerial of workers raising a great column with ropes at a temple complex |
 | B064 | B064a-assyrian-king-map-table.mp4 | Excellent — Assyrian king in scale armor over a clay relief map with city tokens, near-exact |
 
-**31 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Four more matches (Part Five, Taharqa's decline/Assyrian wars arc):
+
+| Beat | File | Match |
+|---|---|---|
+| B065 | B065a-taharqa-older-city-wall-dusk.mp4 | Strong — older, gray-bearded king on a city wall at dusk, banner behind him |
+| B066 | B066a-assyrian-siege-towers-memphis.mp4 | Strong — siege towers and fire arrows assaulting a fortified wall, smoke |
+| B068 | B068a-taharqa-burning-city-behind.mp4 | Strong — crowned king portrait with a burning city glowing behind him |
+| B071 | B071a-aged-taharqa-deathbed-napata.mp4 | Excellent — aged king reclining, looking out at the mountain through a window, attendants near |
+
+(One duplicate of B064a in this batch, caught by hash and skipped.)
+
+**27 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 

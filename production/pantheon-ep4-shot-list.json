@@ -638,7 +638,9 @@
     "type": "ai",
     "narration": "Taharqa held the line. For a while.",
     "narration_words": 7,
-    "veo_prompt": "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe, older now, standing alone on a city wall at dusk looking east, banners snapping, long shadow, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe, older now, standing alone on a city wall at dusk looking east, banners snapping, long shadow, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B065a-taharqa-older-city-wall-dusk.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: older gray-bearded king standing on a city wall at dusk, banner behind him, river city visible."
   },
   {
     "id": "B066",
@@ -646,7 +648,9 @@
     "type": "ai",
     "narration": "In six hundred seventy-one before the common era, the Assyrian king Esarhaddon marched on Memphis, and Memphis fell.",
     "narration_words": 18,
-    "veo_prompt": "Assyrian siege towers and battering rams assaulting the walls of Memphis at dawn, fire arrows, scaling ladders, smoke, wide then tight, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Assyrian siege towers and battering rams assaulting the walls of Memphis at dawn, fire arrows, scaling ladders, smoke, wide then tight, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B066a-assyrian-siege-towers-memphis.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: siege towers and fire arrows assaulting a fortified wall at dusk, smoke."
   },
   {
     "id": "B067",
@@ -662,7 +666,9 @@
     "type": "ai",
     "narration": "Taharqa fled south.",
     "narration_words": 3,
-    "veo_prompt": "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe riding south at night, a burning city glowing behind him on the horizon, grim, camera tracking beside him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe riding south at night, a burning city glowing behind him on the horizon, grim, camera tracking beside him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B068a-taharqa-burning-city-behind.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: crowned king portrait with a burning city glowing on the horizon behind him."
   },
   {
     "id": "B069",
@@ -686,7 +692,9 @@
     "type": "ai",
     "narration": "Taharqa died at Napata, in six hundred sixty-four.",
     "narration_words": 8,
-    "veo_prompt": "An aged Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe on a bed in a chamber at Napata, courtiers kneeling around him, the flat-topped mountain visible through a window, low warm light, dignified. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "An aged Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe on a bed in a chamber at Napata, courtiers kneeling around him, the flat-topped mountain visible through a window, low warm light, dignified. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B071a-aged-taharqa-deathbed-napata.mp4",
+    "src_status": "user-supplied, 6.04s - excellent match: aged, gray-bearded king reclining, looking out a window at the flat-topped mountain, attendants seated nearby, torchlit."
   },
   {
     "id": "B072",

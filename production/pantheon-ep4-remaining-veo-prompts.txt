@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(31 prompts remaining across 29 beats, out of 71 total AI clips needed)
+(27 prompts remaining across 25 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -44,26 +44,6 @@ Narration: "That tells you who Piye was. Devout toward his gods. Tender toward h
 Narration: "Piye's commanders urged a long siege."
   Prompt:
   Kushite commanders in a council tent arguing around a clay map table, Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stands apart, then leans in and sets his hand firmly on the harbor. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B065] — 4. The Golden Age
-Narration: "Taharqa held the line. For a while."
-  Prompt:
-  Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe, older now, standing alone on a city wall at dusk looking east, banners snapping, long shadow, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B066] — 5. The Spear of Assyria
-Narration: "In six hundred seventy-one before the common era, the Assyrian king Esarhaddon marched on Memphis, and Memphis fell."
-  Prompt:
-  Assyrian siege towers and battering rams assaulting the walls of Memphis at dawn, fire arrows, scaling ladders, smoke, wide then tight, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B068] — 5. The Spear of Assyria
-Narration: "Taharqa fled south."
-  Prompt:
-  Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe riding south at night, a burning city glowing behind him on the horizon, grim, camera tracking beside him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B071] — 5. The Spear of Assyria
-Narration: "Taharqa died at Napata, in six hundred sixty-four."
-  Prompt:
-  An aged Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe on a bed in a chamber at Napata, courtiers kneeling around him, the flat-topped mountain visible through a window, low warm light, dignified. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B073] — 5. The Spear of Assyria
 Narration: "Tantamani wrote of a dream, in which two serpents appeared, one at each side of him. He understood it to mean that both Upper and Lower Egypt were his."
