@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(22 prompts remaining across 20 beats, out of 71 total AI clips needed)
+(20 prompts remaining across 19 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -60,15 +60,8 @@ Narration: "Ashurbanipal came back."
   Prompt:
   A vast Assyrian army massed on the bank of the Nile at dawn, chariots and spearmen, banners, hazy gold light, wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-[B086] — 5. The Spear of Assyria
-Narration: "They believed that was the end of Kush. They were wrong by nearly a thousand years."
-  Prompt:
-  The pyramids of Meroe emerging from dawn mist, steep and elegant, a lone camel in the foreground, camera rising slowly, hero shot. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 [B087] — 6. The Kingdom That Kept Going
 Narration: "At Meroe, far up the Nile, where the summer rains came and iron ore lay near the surface, Kush built a different kind of world. There were furnaces, and heaps of iron slag that still stand today, some of the largest iron-working remains in all of ancient Africa."
-  Take A:
-  Meroe far up the Nile after the summer rains, green savanna, the river, a thriving city, camera high and gliding. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
   Take B:
   Iron furnaces glowing in the dark at Meroe, smiths tapping molten metal, sparks rising, dark skinned smiths in leather aprons, intense close shots. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 

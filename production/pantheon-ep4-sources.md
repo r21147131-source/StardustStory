@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 49 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 51 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -114,7 +114,14 @@ Five more matches — B076 now fully covered:
 | B081 | B081a-masons-chiseling-cartouche-karnak.mp4 | Strong — two masons chiseling a cartouche by torchlight |
 | B085 | B085a-royal-caravan-savanna-shrine.mp4 | Strong — ornate shrine carried by procession across dry savanna at dusk |
 
-**22 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Two more matches — the Meroe section opens:
+
+| Beat | File | Match |
+|---|---|---|
+| B086 | B086a-meroe-pyramids-camel-dawn-mist.mp4 | Near-exact — lone camel silhouette before steep Meroe pyramids in dawn mist |
+| B087 (1/2) | B087a-meroe-aerial-savanna-river.mp4 | Strong — aerial of Meroe's pyramid city beside the Nile, green savanna. Sub-prompt 2 (iron furnaces/smiths) still needed |
+
+**20 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 
