@@ -80,7 +80,9 @@
     "type": "archival",
     "narration": "Within one generation, his family held the Two Lands together and ruled the largest Nile empire since the age of Ramesses.",
     "narration_words": 21,
-    "archival_guidance": "Source: Sphinx of Taharqo, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Sphinx+of+Taharqo+British+Museum&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Sphinx_of_Taharqo. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Sphinx of Taharqo, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Sphinx+of+Taharqo+British+Museum&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Sphinx_of_Taharqo. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "pantheon-ep4-archival/B009a-sphinx-of-taharqo.jpg",
+    "src_status": "user-supplied, user-confirmed Sphinx of Taharqo. Exact match."
   },
   {
     "id": "B010",
@@ -126,7 +128,9 @@
     "type": "archival",
     "narration": "Egyptian temples rose on Kushite soil.",
     "narration_words": 6,
-    "archival_guidance": "Source: Victory stele of Thutmose III from Jebel Barkal, Museum of Fine Arts Boston (23.733). Commons search: https://commons.wikimedia.org/w/index.php?search=Thutmose+III+stele+Gebel+Barkal&ns6=1 | Direct link: https://collections.mfa.org/objects/145121. Licence: CHECK: museum image; confirm open-access terms"
+    "archival_guidance": "Source: Victory stele of Thutmose III from Jebel Barkal, Museum of Fine Arts Boston (23.733). Commons search: https://commons.wikimedia.org/w/index.php?search=Thutmose+III+stele+Gebel+Barkal&ns6=1 | Direct link: https://collections.mfa.org/objects/145121. Licence: CHECK: museum image; confirm open-access terms",
+    "src": "pantheon-ep4-archival/B014a-thutmose-iii-victory-stele.webp",
+    "src_status": "user-supplied, user-confirmed Victory Stele of Thutmose III. Exact match."
   },
   {
     "id": "B015",
