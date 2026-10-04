@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(18 prompts remaining across 17 beats, out of 71 total AI clips needed)
+(13 prompts remaining across 13 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -65,27 +65,10 @@ Narration: "In the year twenty-five before the common era, her armies swept nort
   Take A:
   Kushite army sweeping north past a Nile temple island into Roman Egypt, archers, banners, dust, wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-[B095] — 6. The Kingdom That Kept Going
-Narration: "The emperor of Rome made peace with her anyway."
-  Prompt:
-  Emperor Augustus on a marble terrace at Samos receiving Kushite envoys, the sea behind them, Roman guards, his face weighing the moment, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 [B097] — 6. The Kingdom That Kept Going
 Narration: "They carried it south, and they buried it beneath the steps of a temple at Meroe. Many scholars believe it was placed there so that worshippers would tread over it."
-  Take A:
-  Kushite warriors carrying a bronze head wrapped in cloth on a litter through savanna, dawn, determined and weary. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
   Take B:
   Looking up from the base of a temple stair at Meroe, worshippers' feet and robes passing over the steps, a faint bronze glint between the stones. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B099] — 6. The Kingdom That Kept Going
-Narration: "The peace held for nearly three hundred years. Kush outlasted every native dynasty of Egypt."
-  Prompt:
-  Meroe's pyramids at golden hour as the camera pulls slowly away, wind in the sand, a quiet peace, dissolving into long shadow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B101] — 7. The God's Reflection
-Narration: "Egypt had reasons to forget them. A kingdom that has been ruled by people it called foreigners does not tell that story kindly."
-  Prompt:
-  Egyptian scribes in lamplight copying lists of kings onto papyrus, ink and reed pens, a priest dictating, quiet and orderly, close then wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B107] — 7. The God's Reflection
 Narration: "I watched them speak it for more than a thousand years. I can tell you what they did. I cannot tell you what they said."
@@ -97,9 +80,3 @@ Narration: "I watched them speak it for more than a thousand years. I can tell y
 Narration: "History belongs to those who hold the chisel. But every chisel leaves a mark."
   Prompt:
   A hand with a chisel carving a cartouche into stone, then the chisel stopping and lifting, firelight on the blade. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B111] — 7. The God's Reflection
-Narration: "I have watched many empires try to forget their enemies. I have rarely watched one fail so completely."
-  Prompt:
-  The God's throne room, television dark, stars through the window, a faint gold glow on the empty throne, slow push, then fade to black. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Note: Final plate.

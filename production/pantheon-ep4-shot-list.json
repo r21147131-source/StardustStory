@@ -926,7 +926,9 @@
     "type": "ai",
     "narration": "The emperor of Rome made peace with her anyway.",
     "narration_words": 9,
-    "veo_prompt": "Emperor Augustus on a marble terrace at Samos receiving Kushite envoys, the sea behind them, Roman guards, his face weighing the moment, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Emperor Augustus on a marble terrace at Samos receiving Kushite envoys, the sea behind them, Roman guards, his face weighing the moment, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B095a-augustus-receives-kushite-envoys.mp4",
+    "src_status": "user-supplied, 6.04s - near-exact match: a Roman emperor (laurel wreath, toga) seated on a marble terrace receiving gold-robed Kushite envoys, sea behind, guards present."
   },
   {
     "id": "B096",
@@ -945,7 +947,9 @@
     "veo_prompt": [
       "Kushite warriors carrying a bronze head wrapped in cloth on a litter through savanna, dawn, determined and weary. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Looking up from the base of a temple stair at Meroe, worshippers' feet and robes passing over the steps, a faint bronze glint between the stones. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": "pantheon-ep4-clips/B097a-warriors-carrying-bronze-head-litter.mp4",
+    "src_status": "covers sub-prompt 1 of 2 (warriors carrying a cloth-wrapped bundle on a pole through savanna at dusk) - strong match. Sub-prompt 2 (worshippers' feet passing over the buried head) still needed."
   },
   {
     "id": "B098",
@@ -961,7 +965,9 @@
     "type": "ai",
     "narration": "The peace held for nearly three hundred years. Kush outlasted every native dynasty of Egypt.",
     "narration_words": 15,
-    "veo_prompt": "Meroe's pyramids at golden hour as the camera pulls slowly away, wind in the sand, a quiet peace, dissolving into long shadow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Meroe's pyramids at golden hour as the camera pulls slowly away, wind in the sand, a quiet peace, dissolving into long shadow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B099a-meroe-pyramids-golden-hour-wind.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: wide view of multiple pyramids at golden hour with wind-blown sand."
   },
   {
     "id": "B100",
@@ -979,7 +985,9 @@
     "type": "ai",
     "narration": "Egypt had reasons to forget them. A kingdom that has been ruled by people it called foreigners does not tell that story kindly.",
     "narration_words": 23,
-    "veo_prompt": "Egyptian scribes in lamplight copying lists of kings onto papyrus, ink and reed pens, a priest dictating, quiet and orderly, close then wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Egyptian scribes in lamplight copying lists of kings onto papyrus, ink and reed pens, a priest dictating, quiet and orderly, close then wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B101a-scribes-copying-kings-list.mp4",
+    "src_status": "user-supplied, 6.04s - near-exact match: scribes writing on papyrus by candlelight, a standing priest dictating."
   },
   {
     "id": "B102",
@@ -1061,6 +1069,8 @@
     "narration": "I have watched many empires try to forget their enemies. I have rarely watched one fail so completely.",
     "narration_words": 18,
     "veo_prompt": "The God's throne room, television dark, stars through the window, a faint gold glow on the empty throne, slow push, then fade to black. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "notes": "Final plate."
+    "notes": "Final plate.",
+    "src": "pantheon-ep4-clips/B111a-gods-throne-room-empty-stars.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: an empty ornate stone throne room at night, starry sky through a tall window, torches."
   }
 ]

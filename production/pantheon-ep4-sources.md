@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 54 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 59 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -129,7 +129,17 @@ Three more matches — B087 now fully covered, and B092 upgraded:
 | B090 | B090a-kandake-enthroned-generic.mp4 | Strong — a generic kandake enthroned, attendants with feather fans, correctly not styled as Amanirenas |
 | B092 (sub-prompt 2) | **Upgraded** to B092d-romans-burning-temple-island.mp4 | Roman soldiers advancing on a temple island with visible fire inside it — much closer to "Romans burning the city" than the earlier marching-only clip (kept as a secondary alternate). **Sub-prompt 1 is still not a real match** — still shows Roman troops where the Kushite army is called for |
 
-**18 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Five more matches, deep into Part Seven (The God's Reflection):
+
+| Beat | File | Match |
+|---|---|---|
+| B095 | B095a-augustus-receives-kushite-envoys.mp4 | Near-exact — Roman emperor on a marble terrace receiving gold-robed Kushite envoys, sea behind |
+| B097 (1/2) | B097a-warriors-carrying-bronze-head-litter.mp4 | Strong — warriors carrying a cloth-wrapped bundle on a pole through savanna. Sub-prompt 2 (worshippers' feet over the buried head) still needed |
+| B099 | B099a-meroe-pyramids-golden-hour-wind.mp4 | Strong — wide view of multiple pyramids at golden hour, wind-blown sand |
+| B101 | B101a-scribes-copying-kings-list.mp4 | Near-exact — scribes writing on papyrus by candlelight, a priest dictating |
+| B111 | B111a-gods-throne-room-empty-stars.mp4 | Strong — empty ornate throne room at night, starry sky through a window |
+
+**13 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 
