@@ -715,7 +715,9 @@
     "type": "ai",
     "narration": "Tantamani wrote of a dream, in which two serpents appeared, one at each side of him. He understood it to mean that both Upper and Lower Egypt were his.",
     "narration_words": 29,
-    "veo_prompt": "Tantamani, young Kushite king: dark brown skin, Kushite cap crown with a double cobra, gold collar asleep on a low bed, two glowing cobras rising dreamlike on either side of him, soft golden light, slow rise, then his eyes open. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Tantamani, young Kushite king: dark brown skin, Kushite cap crown with a double cobra, gold collar asleep on a low bed, two glowing cobras rising dreamlike on either side of him, soft golden light, slow rise, then his eyes open. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B073a-tantamani-dream-cobras.mp4",
+    "src_status": "user-supplied, 6.04s - exact match: young crowned king asleep, two glowing golden cobras rising dreamlike on either side of him."
   },
   {
     "id": "B074",
@@ -723,7 +725,9 @@
     "type": "ai",
     "narration": "He marched north. He took Memphis. For a brief moment, the double kingdom lived again.",
     "narration_words": 15,
-    "veo_prompt": "The Kushite army of Tantamani, a young king in a double-cobra cap crown at its head, entering the streets of Memphis under banners, crowds watching from rooftops, triumphant dust, camera rising over the procession. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "The Kushite army of Tantamani, a young king in a double-cobra cap crown at its head, entering the streets of Memphis under banners, crowds watching from rooftops, triumphant dust, camera rising over the procession. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B074a-tantamani-enters-memphis-triumphant.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: crowned king on horseback leading his army into a city street under banners, crowds watching from rooftops, triumphant dust."
   },
   {
     "id": "B075",

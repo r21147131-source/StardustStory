@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 63 of 71 needed clips covered, 4 bonus
+## AI (Veo-style) clips — 65 of 71 needed clips covered, 4 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -159,7 +159,14 @@ Three more matches — B036 is now fully covered (all 3 takes):
 
 Two more set aside, not assigned (both close variants of beats already well-covered, didn't fit any open slot): `EXTRA-king-hand-horse-closeup-unassigned.mp4` (a second hand-on-horse close-up, similar to the already-matched B036 Take B) and `EXTRA-soldiers-marching-nile-wall-unassigned.mp4` (another Roman-style-soldiers-marching clip — same recurring mismatch as B092's unresolved first sub-prompt, still showing Roman-style troops rather than the Kushite army or Delta coalition the script calls for at this point).
 
-**9 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Two more matches:
+
+| Beat | File | Match |
+|---|---|---|
+| B073 | B073a-tantamani-dream-cobras.mp4 | Exact — sleeping king with two glowing golden cobras rising on either side |
+| B074 | B074a-tantamani-enters-memphis-triumphant.mp4 | Strong — crowned king on horseback leading his army into a city street, crowds on rooftops, banners |
+
+**7 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 
