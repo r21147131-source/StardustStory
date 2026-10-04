@@ -265,7 +265,9 @@
     "type": "ai",
     "narration": "If Tefnakht had won, there would have been no Kushite pharaohs. There would have been a Delta king, and a footnote.",
     "narration_words": 21,
-    "veo_prompt": "A column of Delta soldiers with tall feathers and banners marching south along the Nile under a red dawn, long shadows, camera low and tracking backward in front of them. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A column of Delta soldiers with tall feathers and banners marching south along the Nile under a red dawn, long shadows, camera low and tracking backward in front of them. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B028a-delta-soldiers-marching-south-dawn.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: a column of soldiers with tall plumed helmets and banners marching along the Nile under a red dawn sky, long shadows. Beat complete - this was the last of the 71 AI clips needed."
   },
   {
     "id": "B029",

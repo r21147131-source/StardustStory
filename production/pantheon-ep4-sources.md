@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 70 of 71 needed clips covered, 5 bonus
+## AI (Veo-style) clips — ALL 71 of 71 needed clips covered, 5 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -193,7 +193,9 @@ Two more matches — B097 now fully covered:
 
 (Two of the three clips in this batch were duplicates of each other - only 2 unique clips, both matched.)
 
-**ONE clip left: B028** — the very last one.
+**B028 matched — ALL 71 AI CLIPS ARE NOW COVERED.** The clip initially set aside as a style-mismatch bonus (`EXTRA-soldiers-marching-nile-wall-sunset-2-unassigned.mp4`) was reassigned to B028 after a closer look: the helmets do carry tall dark plumes, and the red-dawn Nile-side march matches the prompt well. Renamed to `B028a-delta-soldiers-marching-south-dawn.mp4`.
+
+Every one of the 57 AI beats (71 individual clip slots, including all multi-take beats) now has a user-supplied source. Remaining tentative/flagged items worth a second look before final cut: B023 (cavalry against a temple wall rather than open plain) and B040 (B040a kept as a secondary alternate to the primary B040b). Everything else is a strong or exact match.
 
 ## Archival photos — 4 of 34 beats covered
 
