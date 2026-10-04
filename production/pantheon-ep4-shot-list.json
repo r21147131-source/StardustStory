@@ -964,8 +964,11 @@
       "Kushite warriors carrying a bronze head wrapped in cloth on a litter through savanna, dawn, determined and weary. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Looking up from the base of a temple stair at Meroe, worshippers' feet and robes passing over the steps, a faint bronze glint between the stones. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ],
-    "src": "pantheon-ep4-clips/B097a-warriors-carrying-bronze-head-litter.mp4",
-    "src_status": "covers sub-prompt 1 of 2 (warriors carrying a cloth-wrapped bundle on a pole through savanna at dusk) - strong match. Sub-prompt 2 (worshippers' feet passing over the buried head) still needed."
+    "src": [
+      "pantheon-ep4-clips/B097a-warriors-carrying-bronze-head-litter.mp4",
+      "pantheon-ep4-clips/B097b-worshippers-feet-over-buried-head.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: warriors carrying the wrapped bundle through savanna. Take B: looking up at worshippers' feet passing over temple steps, hieroglyphic wall - exact match. Beat complete."
   },
   {
     "id": "B098",
@@ -1052,7 +1055,9 @@
     "narration": "I watched them speak it for more than a thousand years. I can tell you what they did. I cannot tell you what they said.",
     "narration_words": 25,
     "veo_prompt": "The God's stone throne room at night, a vast television screen showing flickering Meroitic script, stars through a tall window, absolute silence, camera slowly pulling back. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "notes": "The God is heard, not seen."
+    "notes": "The God is heard, not seen.",
+    "src": "pantheon-ep4-clips/B107a-gods-throne-room-flickering-script.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: throne room at night, a large glowing stone panel of flickering Meroitic-style script standing in for the 'television screen', stars visible through a window."
   },
   {
     "id": "B108",

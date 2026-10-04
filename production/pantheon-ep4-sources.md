@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 69 of 71 needed clips covered, 5 bonus
+## AI (Veo-style) clips — 70 of 71 needed clips covered, 5 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -184,7 +184,16 @@ Two more matches — B092 is finally fully covered (all 3 sub-prompts, all real 
 
 (3 of the 5 clips in this batch were duplicates of earlier sends, skipped.)
 
-**3 more AI clips still needed: B028, B097 sub-prompt 2, and B107** — the very last ones.
+Two more matches — B097 now fully covered:
+
+| Beat | File | Match |
+|---|---|---|
+| B097 (2/2 — complete) | B097b-worshippers-feet-over-buried-head.mp4 | Exact — looking up at worshippers' feet passing over temple steps, hieroglyphic wall |
+| B107 | B107a-gods-throne-room-flickering-script.mp4 | Strong — throne room at night, a glowing stone panel of flickering script standing in for the brief's "television screen," stars through a window |
+
+(Two of the three clips in this batch were duplicates of each other - only 2 unique clips, both matched.)
+
+**ONE clip left: B028** — the very last one.
 
 ## Archival photos — 4 of 34 beats covered
 

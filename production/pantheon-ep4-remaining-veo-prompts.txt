@@ -4,11 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(3 prompts remaining across 3 beats, out of 71 total AI clips needed)
-
-Beats already fully or partially covered by clips you've sent are
-skipped or trimmed to just the missing take(s). See
-production/pantheon-ep4-sources.md for what's already matched.
+(1 prompts remaining across 1 beats, out of 71 total AI clips needed)
 
 ============================================================
 
@@ -16,14 +12,3 @@ production/pantheon-ep4-sources.md for what's already matched.
 Narration: "If Tefnakht had won, there would have been no Kushite pharaohs. There would have been a Delta king, and a footnote."
   Prompt:
   A column of Delta soldiers with tall feathers and banners marching south along the Nile under a red dawn, long shadows, camera low and tracking backward in front of them. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B097] — 6. The Kingdom That Kept Going
-Narration: "They carried it south, and they buried it beneath the steps of a temple at Meroe. Many scholars believe it was placed there so that worshippers would tread over it."
-  Take B:
-  Looking up from the base of a temple stair at Meroe, worshippers' feet and robes passing over the steps, a faint bronze glint between the stones. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B107] — 7. The God's Reflection
-Narration: "I watched them speak it for more than a thousand years. I can tell you what they did. I cannot tell you what they said."
-  Prompt:
-  The God's stone throne room at night, a vast television screen showing flickering Meroitic script, stars through a tall window, absolute silence, camera slowly pulling back. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Note: The God is heard, not seen.
