@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 28 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 30 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -68,7 +68,13 @@ One more new match — B021 is now fully covered:
 
 (The other 4 clips in that batch were duplicates of earlier sends - skipped.)
 
-**43 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Two more new matches — B037 is now fully covered:
+
+| Beat | File | Match |
+|---|---|---|
+| B037 (2/2 — both covered) | B037a-tefnakht-slips-into-memphis-gate.mp4, B037b-memphis-walls-aerial-dusk.mp4 | Strong — feathered Tefnakht in a torchlit gateway with soldiers approaching; aerial God's-eye view of Memphis's walls along the curving river at dusk. Both match well |
+
+**41 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 

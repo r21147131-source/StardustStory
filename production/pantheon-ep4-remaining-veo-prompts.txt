@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(43 prompts remaining across 36 beats, out of 71 total AI clips needed)
+(41 prompts remaining across 35 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -48,13 +48,6 @@ Narration: "That tells you who Piye was. Devout toward his gods. Tender toward h
   Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stroking the neck of a fine horse, tender and quiet. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
   Take C:
   Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing in a war chariot, hard-eyed, spear raised, dust behind him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B037] — 3. The Storm from the South
-Narration: "Then came Memphis. Tefnakht slipped back inside the city and brought the garrison to eight thousand men. The walls were high. The river guarded one side."
-  Take A:
-  Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes slipping into the gates of Memphis at night with a column of reinforcements, torches, tense whispers. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Take B:
-  Wide God's-eye view of the high walls of Memphis above the Nile at dusk, the river curling along one side. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B038] — 3. The Storm from the South
 Narration: "Piye's commanders urged a long siege."

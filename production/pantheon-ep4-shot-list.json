@@ -349,7 +349,12 @@
     "veo_prompt": [
       "Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes slipping into the gates of Memphis at night with a column of reinforcements, torches, tense whispers. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Wide God's-eye view of the high walls of Memphis above the Nile at dusk, the river curling along one side. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": [
+      "pantheon-ep4-clips/B037a-tefnakht-slips-into-memphis-gate.mp4",
+      "pantheon-ep4-clips/B037b-memphis-walls-aerial-dusk.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: feathered figure (Tefnakht) in a torchlit gateway with armed soldiers approaching - strong match. Take B: aerial God's-eye view of massive fortified walls along a curving river at dusk, torches lit - strong match for the Memphis walls shot."
   },
   {
     "id": "B038",
