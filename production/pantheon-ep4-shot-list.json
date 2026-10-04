@@ -189,7 +189,7 @@
       "pantheon-ep4-archival/B020a-jebel-barkal-temple-ruins.jpg",
       "pantheon-ep4-archival/B020b-jebel-barkal-mesa-alternate.jpg"
     ],
-    "src_status": "primary: user-supplied photo of temple ruins (columns, mudbrick wall) directly at the base of a sandstone cliff - strong match for 'Jebel Barkal pinnacle and temple ruins'. alternate: user-supplied flat-topped desert mesa, no structures visible - plausible same site, unconfirmed."
+    "src_status": "primary: user-supplied photo of temple ruins (columns, mudbrick wall) directly at the base of a sandstone cliff - strong match for 'Jebel Barkal pinnacle and temple ruins'. alternate: user-supplied flat-topped desert mesa - user-confirmed this is Jebel Barkal itself."
   },
   {
     "id": "B021",
@@ -438,7 +438,7 @@
     "narration_words": 7,
     "archival_guidance": "Source: Victory Stele of Piye, upper register: Piye enthroned, Delta princes kissing the ground. Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye+complete&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye | Direct link: https://commons.wikimedia.org/wiki/Category:Victory%20stele%20in%20the%2021st%20year%20of%20the%20reign%20of%20Pharaoh%20Piankhy. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
     "src": "pantheon-ep4-archival/B043a-stele-relief-homage-scene.jpg",
-    "src_status": "user-supplied stela photo, upper register shows two crowned figures clasping hands with a crowd of smaller figures alongside, hieroglyphic columns and a lower procession register below. Plausible match for a Victory-Stele homage/reception scene - exact register/identification not confirmed, flag for verification before publishing."
+    "src_status": "user-supplied stele photo - user-confirmed this is the Victory Stele of Piye. Upper register shows Piye clasping hands with a Delta prince amid a crowd of kneeling figures, hieroglyphic columns, dense mid-register text, lower procession register. Strong match for B043 (Delta princes kneeling before Piye)."
   },
   {
     "id": "B044",
