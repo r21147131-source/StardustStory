@@ -42,6 +42,7 @@ import { EP4_B091_KandakeTypography } from "./graphics/EP4_B091_KandakeTypograph
 import { EP4_B093_RomeKushTerms } from "./graphics/EP4_B093_RomeKushTerms";
 import { EP4_B102_KingListScroll } from "./graphics/EP4_B102_KingListScroll";
 import { EP4_B106_MeroiticScript } from "./graphics/EP4_B106_MeroiticScript";
+import { Ep4NameCard } from "./graphics/Ep4NameCard";
 
 // Duration in frames = ceil(final_dur_seconds * 30), taken from
 // production/pantheon-ep1-shot-list-final.json (voiceover-reconciled timing).
@@ -112,6 +113,18 @@ export const RemotionRoot: React.FC = () => {
           height={1080}
         />
       ))}
+      {/* Reusable lower-third name card for Ep.4, overridden per-name via
+          --props at render time (see
+          production/pantheon-ep4-render-namecards.py). */}
+      <Composition
+        id="EP4-NameCard"
+        component={Ep4NameCard}
+        durationInFrames={110}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{ name: "NAME", role: "role" }}
+      />
     </>
   );
 };

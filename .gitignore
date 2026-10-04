@@ -30,3 +30,8 @@ output/ep4-segments/
 output/pantheon-ep4-final.mp4
 output/pantheon-ep4-video-only.mp4
 output/pantheon-ep4-preview.mp4
+
+# Rendered name-card clips (one per person, see
+# production/pantheon-ep4-render-namecards.py) - intermediate, not a
+# deliverable, regenerate via that script.
+output/ep4-namecards/

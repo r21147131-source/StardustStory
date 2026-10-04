@@ -94,6 +94,51 @@ watching it:
 Full video reassembled afterward (re-concat + re-mux voiceover +
 re-compress) — see updated numbers below.
 
+## Name cards (lower-third credential cards)
+
+User request: show an on-screen name/title card the first time each
+historical figure is named in the narration. Implementation:
+
+1. **17 people identified** across the script (kings, queens, and the
+   non-royal figures Strabo and Manetho), each with a name, role/title,
+   and the scene index + frame offset of their first mention —
+   `production/pantheon-ep4-names.json`. One scene (25, the Alara→Kashta
+   map) needed two cards in sequence.
+2. **`src/graphics/Ep4NameCard.tsx`** — a single reusable Remotion
+   composition (`EP4-NameCard`, 110 frames / 3.67s), parameterized per
+   person via `--props` at render time instead of registering 17 separate
+   compositions. Slides in from the left (10 frames), holds, slides out
+   (16 frames) — position-based only, never CSS `opacity`, which would
+   blend with the chroma-key backdrop (see next point).
+3. **Chroma-key compositing, not real alpha.** This sandbox's Remotion
+   webm/vp8 alpha export (`--codec=vp8 --pixel-format=yuva420p`) did not
+   actually produce transparency when tested (ffprobe still reported
+   yuv420p). Worked around by rendering each card against solid
+   `#00FF00` and keying it out at assembly time with ffmpeg's `colorkey`
+   filter (`similarity=0.38:blend=0.15` — tuned up slightly from an
+   initial 0.35/0.08 pass, which left a 1-pixel compression-blurred
+   green fringe visible along the card's hard edge against near-black
+   scenes).
+4. **`production/pantheon-ep4-render-namecards.py`** renders the 17
+   unique cards to `output/ep4-namecards/` (gitignored, intermediate).
+   **`production/pantheon-ep4-apply-namecards.py`** composites them onto
+   their target scenes in `output/ep4-segments/`, in place, using
+   `overlay=0:0:eof_action=pass` — the default `eof_action=repeat` was
+   found to freeze a card's last frame (mid-slide-out, still a partial
+   sliver on screen) as a permanent overlay for the rest of the scene
+   once the card's own clip ended, which only showed up once a scene ran
+   longer than a card's 3.67s. For the dual-card scene, the second card
+   is prepended with `tpad=start_duration=...:color=0x00FF00` so both
+   cards composite in one pass on their shared timeline.
+5. Two short archival-photo scenes (TAHARQA at 1.17s, TANTAMANI at
+   2.33s) are shorter than the card's full animation — the card still
+   slides in and reads clearly (confirmed by frame extraction) before
+   the scene cuts away; accepted as a reasonable truncation rather than
+   re-timing those beats.
+
+Full video reassembled afterward (re-concat + re-mux voiceover +
+re-compress) — see updated numbers below.
+
 ## Delivery
 
 - **Original full-quality file** (759.37s, 1920×1080, ~339MB) uploaded to

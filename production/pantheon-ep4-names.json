@@ -1,0 +1,19 @@
+[
+  {"key": "piye", "name": "PIYE", "role": "King of Kush, r. c. 744–714 BCE", "scene_idx": 6, "start_frame": 0},
+  {"key": "ramesses", "name": "RAMESSES II", "role": "Pharaoh of Egypt, r. c. 1279–1213 BCE", "scene_idx": 8, "start_frame": 0},
+  {"key": "alara", "name": "ALARA", "role": "King of Kush, r. c. 785–760 BCE", "scene_idx": 25, "start_frame": 0},
+  {"key": "kashta", "name": "KASHTA", "role": "King of Kush, r. c. 760–745 BCE", "scene_idx": 25, "start_frame": 130},
+  {"key": "tefnakht", "name": "TEFNAKHT", "role": "Chief of Sais, r. c. 740s–720s BCE", "scene_idx": 29, "start_frame": 0},
+  {"key": "nimlot", "name": "NIMLOT", "role": "King of Hermopolis", "scene_idx": 37, "start_frame": 0},
+  {"key": "amenirdis", "name": "AMENIRDIS I", "role": "God's Wife of Amun at Thebes", "scene_idx": 58, "start_frame": 0},
+  {"key": "taharqa", "name": "TAHARQA", "role": "King of Kush and Egypt, r. 690–664 BCE", "scene_idx": 64, "start_frame": 0},
+  {"key": "abar", "name": "ABAR", "role": "Queen of Kush, mother of Taharqa", "scene_idx": 65, "start_frame": 0},
+  {"key": "esarhaddon", "name": "ESARHADDON", "role": "King of Assyria, r. 681–669 BCE", "scene_idx": 81, "start_frame": 0},
+  {"key": "ashurbanipal", "name": "ASHURBANIPAL", "role": "King of Assyria, r. 669–631 BCE", "scene_idx": 86, "start_frame": 0},
+  {"key": "tantamani", "name": "TANTAMANI", "role": "King of Kush and Egypt, r. 664–653 BCE", "scene_idx": 88, "start_frame": 0},
+  {"key": "psamtik", "name": "PSAMTIK I", "role": "Pharaoh of Egypt, r. 664–610 BCE", "scene_idx": 97, "start_frame": 0},
+  {"key": "amanirenas", "name": "AMANIRENAS", "role": "Kandake of Kush, r. c. 40–10 BCE", "scene_idx": 113, "start_frame": 0},
+  {"key": "augustus", "name": "AUGUSTUS", "role": "First Emperor of Rome, r. 27 BCE–14 CE", "scene_idx": 117, "start_frame": 0},
+  {"key": "strabo", "name": "STRABO", "role": "Greek geographer and historian, c. 64 BCE–24 CE", "scene_idx": 118, "start_frame": 0},
+  {"key": "manetho", "name": "MANETHO", "role": "Egyptian priest and historian, 3rd century BCE", "scene_idx": 128, "start_frame": 0}
+]
