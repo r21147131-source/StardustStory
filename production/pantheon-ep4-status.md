@@ -59,17 +59,54 @@ archival photos → motion graphics → assembly → delivery.
      map graphic, Augustus bronze head, cartouche-grid graphic) — all land
      on the correct content.
 
+## Post-cut revisions (first assembled cut → user feedback)
+
+The first assembled cut had three real problems, flagged by the user after
+watching it:
+
+1. **Archival stills were hard-cropped.** The original per-scene ffmpeg
+   filter (`scale=increase,crop=1920:1080`) forced every still to fill
+   16:9 by cropping the overflow — for the many portrait-oriented photos
+   (some as extreme as 0.38:1), that meant losing 50-80% of the image's
+   vertical extent. Fixed: each still is now composited full-content
+   (a blurred, darkened copy of itself scaled to fill as the backdrop,
+   the unmodified image centered and fit on top — no cropping) plus a
+   slow Ken Burns zoom. All 36 image segments re-rendered.
+2. **Stills had no motion** — a plain static hold for their full
+   duration. Fixed by the same change above (zoompan-driven slow
+   zoom-in). Note: zoompan's `d` parameter must be the *total output
+   frame count*, not `1` — with `d=1` the filter silently produces a
+   perfectly static image despite looking correct in the command.
+3. **The 11 Nile-valley map graphics (MG1/MG2/MG4/MG5/MG8) used an
+   entirely invented river/city layout**, not real geography. Fixed:
+   sourced a real public-domain Nile basin map (Wikimedia Commons
+   "River Nile map.svg", Hel-hama, CC BY-SA 3.0), rasterized it via
+   headless Chromium at 3x scale, pixel-sampled the actual city-dot and
+   river-bend positions (Cairo/Luxor/Aswan/Khartoum dots, the real
+   4th-Cataract bend for Napata/Jebel Barkal), recolored to the
+   Pantheon palette (`public/pantheon-ep4-assets/nile-real-map.png`),
+   and recalibrated `CITY_POS`/`RIVER_PATH`/`BORDER_Y` in
+   `src/graphics/ep4-map-data.ts` against those real coordinates. New
+   shared `Ep4RealMapBackground` component renders it behind each
+   graphic's existing animated SVG overlay. All 11 map components
+   updated and re-rendered.
+
+Full video reassembled afterward (re-concat + re-mux voiceover +
+re-compress) — see updated numbers below.
+
 ## Delivery
 
-- **Original full-quality file** (329MB) uploaded to CreativeClaw storage
-  (real PUT upload, not inline base64 — Google Drive's only available tool
-  here requires embedding the whole file as base64 in one call, which isn't
-  workable at this size) and hosted at a durable public URL:
-  `https://cdn.creativeclaw.co/u/a4eaf4ab/videos/db79e426-d4f1-423f-9efc-745b0afaa54c.mp4`
+- **Original full-quality file** (759.36s, 1920×1080, ~339MB) uploaded to
+  CreativeClaw storage (real PUT upload, not inline base64 — Google
+  Drive's only available tool here requires embedding the whole file as
+  base64 in one call, which isn't workable at this size) and hosted at a
+  durable public URL — see the delivery message for the current link
+  (re-uploaded after the post-cut revisions above; an earlier link from
+  before those fixes is stale and superseded).
 - **Compressed full-quality version** committed to the repo:
   `output/pantheon-ep4-full-compressed.mp4` — two-pass H.264 (811k/973k
-  maxrate/1947k bufsize, preset slow, 128k AAC audio), 88.6MB, 1920×1080,
-  759.20s. Same compression recipe pattern as Ep.1/Ep.2, under GitHub's
+  maxrate/1947k bufsize, preset slow, 128k AAC audio), ~89MB, 1920×1080,
+  759.36s. Same compression recipe pattern as Ep.1/Ep.2, under GitHub's
   100MB push limit.
 
 ## Known non-blocking flags
