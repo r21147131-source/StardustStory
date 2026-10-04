@@ -22,6 +22,26 @@ import { EP2_S24_EinkornComparison } from "./graphics/EP2_S24_EinkornComparison"
 import { EP2_S28_ClosingStatCard } from "./graphics/EP2_S28_ClosingStatCard";
 import { EP2_S29_LogoCard } from "./graphics/EP2_S29_LogoCard";
 import { EP2_S30_CitationCrawl } from "./graphics/EP2_S30_CitationCrawl";
+import { EP4_B008_MapEgyptKush } from "./graphics/EP4_B008_MapEgyptKush";
+import { EP4_B017_MapEgyptCracks } from "./graphics/EP4_B017_MapEgyptCracks";
+import { EP4_B019_MapKushGrows } from "./graphics/EP4_B019_MapKushGrows";
+import { EP4_B022_MapAlaraKashta } from "./graphics/EP4_B022_MapAlaraKashta";
+import { EP4_B026_MapCoalitionMarches } from "./graphics/EP4_B026_MapCoalitionMarches";
+import { EP4_B027_MapMemphisHerakleopolis } from "./graphics/EP4_B027_MapMemphisHerakleopolis";
+import { EP4_B030_MapArmyFollowsPiye } from "./graphics/EP4_B030_MapArmyFollowsPiye";
+import { EP4_B039_MemphisHarborSchematic } from "./graphics/EP4_B039_MemphisHarborSchematic";
+import { EP4_B056_MapEmpireGlows } from "./graphics/EP4_B056_MapEmpireGlows";
+import { EP4_B084_MapNapataDims } from "./graphics/EP4_B084_MapNapataDims";
+import { EP4_B062_MapAssyriaSpreads } from "./graphics/EP4_B062_MapAssyriaSpreads";
+import { EP4_B069_AssyrianTimeline } from "./graphics/EP4_B069_AssyrianTimeline";
+import { EP4_B011_TitleCard } from "./graphics/EP4_B011_TitleCard";
+import { EP4_B083_ErasureSequence } from "./graphics/EP4_B083_ErasureSequence";
+import { EP4_B103_ErasureRepeat } from "./graphics/EP4_B103_ErasureRepeat";
+import { EP4_B110_NamesRefill } from "./graphics/EP4_B110_NamesRefill";
+import { EP4_B091_KandakeTypography } from "./graphics/EP4_B091_KandakeTypography";
+import { EP4_B093_RomeKushTerms } from "./graphics/EP4_B093_RomeKushTerms";
+import { EP4_B102_KingListScroll } from "./graphics/EP4_B102_KingListScroll";
+import { EP4_B106_MeroiticScript } from "./graphics/EP4_B106_MeroiticScript";
 
 // Duration in frames = ceil(final_dur_seconds * 30), taken from
 // production/pantheon-ep1-shot-list-final.json (voiceover-reconciled timing).
@@ -52,6 +72,29 @@ const COMPOSITIONS: { id: string; component: React.FC; durationInFrames: number 
   { id: "EP2-S28-ClosingStatCard", component: EP2_S28_ClosingStatCard, durationInFrames: 390 },
   { id: "EP2-S29-LogoCard", component: EP2_S29_LogoCard, durationInFrames: 150 },
   { id: "EP2-S30-CitationCrawl", component: EP2_S30_CitationCrawl, durationInFrames: 300 },
+
+  // Pantheon Ep.4 — Kush. Frames are provisional (narration_words/150wpm*30fps),
+  // not yet voiceover-reconciled — see production/pantheon-ep4-shot-list.json.
+  { id: "EP4-B008-MapEgyptKush", component: EP4_B008_MapEgyptKush, durationInFrames: 216 },
+  { id: "EP4-B017-MapEgyptCracks", component: EP4_B017_MapEgyptCracks, durationInFrames: 228 },
+  { id: "EP4-B019-MapKushGrows", component: EP4_B019_MapKushGrows, durationInFrames: 204 },
+  { id: "EP4-B022-MapAlaraKashta", component: EP4_B022_MapAlaraKashta, durationInFrames: 372 },
+  { id: "EP4-B026-MapCoalitionMarches", component: EP4_B026_MapCoalitionMarches, durationInFrames: 216 },
+  { id: "EP4-B027-MapMemphisHerakleopolis", component: EP4_B027_MapMemphisHerakleopolis, durationInFrames: 216 },
+  { id: "EP4-B030-MapArmyFollowsPiye", component: EP4_B030_MapArmyFollowsPiye, durationInFrames: 132 },
+  { id: "EP4-B039-MemphisHarborSchematic", component: EP4_B039_MemphisHarborSchematic, durationInFrames: 60 },
+  { id: "EP4-B056-MapEmpireGlows", component: EP4_B056_MapEmpireGlows, durationInFrames: 180 },
+  { id: "EP4-B084-MapNapataDims", component: EP4_B084_MapNapataDims, durationInFrames: 264 },
+  { id: "EP4-B062-MapAssyriaSpreads", component: EP4_B062_MapAssyriaSpreads, durationInFrames: 276 },
+  { id: "EP4-B069-AssyrianTimeline", component: EP4_B069_AssyrianTimeline, durationInFrames: 252 },
+  { id: "EP4-B011-TitleCard", component: EP4_B011_TitleCard, durationInFrames: 132 },
+  { id: "EP4-B083-ErasureSequence", component: EP4_B083_ErasureSequence, durationInFrames: 156 },
+  { id: "EP4-B103-ErasureRepeat", component: EP4_B103_ErasureRepeat, durationInFrames: 72 },
+  { id: "EP4-B110-NamesRefill", component: EP4_B110_NamesRefill, durationInFrames: 144 },
+  { id: "EP4-B091-KandakeTypography", component: EP4_B091_KandakeTypography, durationInFrames: 420 },
+  { id: "EP4-B093-RomeKushTerms", component: EP4_B093_RomeKushTerms, durationInFrames: 360 },
+  { id: "EP4-B102-KingListScroll", component: EP4_B102_KingListScroll, durationInFrames: 216 },
+  { id: "EP4-B106-MeroiticScript", component: EP4_B106_MeroiticScript, durationInFrames: 348 },
 ];
 
 export const RemotionRoot: React.FC = () => {
