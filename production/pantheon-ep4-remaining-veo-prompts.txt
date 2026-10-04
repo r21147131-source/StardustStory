@@ -4,12 +4,12 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(41 prompts remaining across 35 beats, out of 71 total AI clips needed)
+(37 prompts remaining across 34 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
 production/pantheon-ep4-sources.md for what's already matched —
-note B023, B040, and B092's first sub-prompt are flagged tentative/
+note B023 and B092's first sub-prompt are flagged tentative/
 mismatched there, so you may want to regenerate those even though
 they're marked 'covered' below.
 
@@ -30,11 +30,6 @@ Narration: "His forces won on the river and won again on land."
   Prompt:
   Nile river battle at first light, wooden warships ramming, spears flashing, spray and smoke, wide then tight, chaotic but readable, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-[B034] — 3. The Storm from the South
-Narration: "Piye besieged Hermopolis until it surrendered. Nimlot came out with gifts: gold, a sistrum, and a horse."
-  Prompt:
-  The gate of a besieged Egyptian city opening at dawn, King Nimlot walking out leading a fine horse and carrying a gold sistrum, kneeling in the dust before an unseen conqueror, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 [B035] — 3. The Storm from the South
 Narration: "Then Piye walked into the royal stables. His horses had been starved. Of everything Nimlot had done, it was this that Piye could not forgive. He said so, and the stone records it."
   Take B:
@@ -42,10 +37,6 @@ Narration: "Then Piye walked into the royal stables. His horses had been starved
 
 [B036] — 3. The Storm from the South
 Narration: "That tells you who Piye was. Devout toward his gods. Tender toward his horses. Hard when he had to be. His own inscription calls him all of these things. And he was a very good general."
-  Take A:
-  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze praying before a statue of Amun, incense rising, eyes closed. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Take B:
-  Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stroking the neck of a fine horse, tender and quiet. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
   Take C:
   Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing in a war chariot, hard-eyed, spear raised, dust behind him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
@@ -163,8 +154,6 @@ Narration: "And Kush was ruled, again and again, by queens. The title was kandak
 Narration: "In the year twenty-five before the common era, her armies swept north into Roman Egypt. The Romans struck back, and burned Napata. Amanirenas did not surrender."
   Take A:
   Kushite army sweeping north past a Nile temple island into Roman Egypt, archers, banners, dust, wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-  Take B:
-  Roman legionaries burning the city of Napata, flames against the mountain, shields and smoke, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B095] — 6. The Kingdom That Kept Going
 Narration: "The emperor of Rome made peace with her anyway."

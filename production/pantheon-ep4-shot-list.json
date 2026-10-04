@@ -313,7 +313,9 @@
     "type": "ai",
     "narration": "Piye besieged Hermopolis until it surrendered. Nimlot came out with gifts: gold, a sistrum, and a horse.",
     "narration_words": 17,
-    "veo_prompt": "The gate of a besieged Egyptian city opening at dawn, King Nimlot walking out leading a fine horse and carrying a gold sistrum, kneeling in the dust before an unseen conqueror, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "The gate of a besieged Egyptian city opening at dawn, King Nimlot walking out leading a fine horse and carrying a gold sistrum, kneeling in the dust before an unseen conqueror, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B034a-nimlot-kneeling-gate-horse-sistrum.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: a kneeling figure at a city gate with a fine horse and a staff/sistrum-like object, city skyline at dusk."
   },
   {
     "id": "B035",
@@ -338,7 +340,12 @@
       "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze praying before a statue of Amun, incense rising, eyes closed. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stroking the neck of a fine horse, tender and quiet. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing in a war chariot, hard-eyed, spear raised, dust behind him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": [
+      "pantheon-ep4-clips/B036a-piye-praying-before-amun.mp4",
+      "pantheon-ep4-clips/B036b-piye-stroking-horse-tender.mp4"
+    ],
+    "src_status": "covers sub-prompts 1-2 of 3. Take A: king praying hands-clasped before a statue of Amun, incense smoke - strong match. Take B: close-up of a bejeweled hand stroking a horse's neck, tender - strong match. Take C (standing in a war chariot, spear raised) still needed."
   },
   {
     "id": "B037",
@@ -379,8 +386,11 @@
     "narration": "His ships and soldiers seized every vessel moored along the quay, and Memphis was stormed from the water.",
     "narration_words": 18,
     "veo_prompt": "Kushite soldiers leaping from ship decks onto the quay of a walled city at dawn, grappling and storming up onto the walls, ships crowded against the harbor, handheld energy, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "src": "pantheon-ep4-clips/B040a-ships-arriving-riverside-city-tentative.mp4",
-    "src_status": "user-supplied, 10.04s - TENTATIVE: two ornate-prowed warships pulling in toward a lit riverside city under a dramatic stormy dusk sky. Assigned here (Memphis stormed from the water) by thematic proximity, but it shows ships arriving/docking rather than soldiers storming the quay - confirm before locking in."
+    "src": [
+      "pantheon-ep4-clips/B040b-ships-storming-harbor-soldiers.mp4",
+      "pantheon-ep4-clips/B040a-ships-arriving-riverside-city-tentative.mp4"
+    ],
+    "src_status": "UPGRADED: B040b is the primary match now - multiple warships packed with soldiers crashing into a riverside harbor at dusk, much closer to 'storming the quay' than the original tentative pick. B040a (ships calmly arriving/docking) kept as a secondary alternate."
   },
   {
     "id": "B041",
@@ -846,9 +856,10 @@
     ],
     "src": [
       "pantheon-ep4-clips/B092a-roman-army-marching-nile-tentative.mp4",
+      "pantheon-ep4-clips/B092b-romans-marching-toward-napata-tentative.mp4",
       "pantheon-ep4-clips/B092c-amanirenas-defiant-firelight.mp4"
     ],
-    "src_status": "covers sub-prompt 3 of 3 (Amanirenas defiant, strong match). For sub-prompt 1 (Kushite army sweeping north), the closest clip received shows ROMAN legionaries marching along the Nile at sunset, not Kushite troops - flagged as a mismatch, not a confirmed match; keep looking for a Kushite-army clip, or repurpose this one elsewhere (e.g. as Roman reinforcements) if it fits better by eye. Sub-prompt 2 (Romans burning Napata) still needed."
+    "src_status": "sub-prompt 3 (Amanirenas defiant) strong match. Sub-prompts 1-2 are still NOT confirmed matches: both available clips show Roman legionaries marching along the Nile at sunset (two different takes, not duplicates of each other), not the Kushite army sweeping north (sub-prompt 1) nor Romans actively burning Napata (sub-prompt 2). Kept as placeholders - B092b assigned to sub-prompt 2 as an 'approaching to burn' stand-in. Still worth generating real matches for sub-prompts 1-2 if a better take turns up."
   },
   {
     "id": "B093",

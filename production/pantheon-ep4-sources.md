@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 30 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 34 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -74,7 +74,16 @@ Two more new matches — B037 is now fully covered:
 |---|---|---|
 | B037 (2/2 — both covered) | B037a-tefnakht-slips-into-memphis-gate.mp4, B037b-memphis-walls-aerial-dusk.mp4 | Strong — feathered Tefnakht in a torchlit gateway with soldiers approaching; aerial God's-eye view of Memphis's walls along the curving river at dusk. Both match well |
 
-**41 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Five more matches, plus a B040 upgrade:
+
+| Beat | File | Match |
+|---|---|---|
+| B034 | B034a-nimlot-kneeling-gate-horse-sistrum.mp4 | Strong — kneeling figure at a city gate with a fine horse and a staff/sistrum, dusk skyline |
+| B036 (2/3) | B036a-piye-praying-before-amun.mp4, B036b-piye-stroking-horse-tender.mp4 | Strong — king praying before an Amun statue; close-up hand stroking a horse's neck. Take C (chariot, spear raised) still needed |
+| B040 | **Upgraded** to B040b-ships-storming-harbor-soldiers.mp4 | Warships packed with soldiers crashing into a riverside harbor — a much closer match to "storming the quay" than the original pick (B040a, kept as a secondary alternate) |
+| B092 (sub-prompt 2) | B092b-romans-marching-toward-napata-tentative.mp4 | Tentative — another Roman-legionaries-marching take (different footage from B092a, not a duplicate), used as an "approaching to burn" stand-in. **Sub-prompts 1 and 2 are still not real matches** — both show Romans marching, not the Kushite army (1) or Napata actually burning (2). Worth regenerating both if better takes turn up |
+
+**37 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 
