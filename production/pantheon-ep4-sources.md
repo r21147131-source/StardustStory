@@ -246,6 +246,14 @@ All in `public/pantheon-ep4-archival/`. The network block on Wikimedia was lifte
 
 ## Motion graphics — 20 of 20 beats built and rendered
 
-All 20 MG1-MG10 Remotion components are built, registered in `src/Root.tsx`, and rendered to `public/pantheon-ep4-motion-graphics/`. Durations are provisional (narration_words / 150wpm × 30fps), not yet voiceover-reconciled. A layout bug in EP4_B102_KingListScroll (names rendering on one line instead of stacking) was caught on visual review and fixed before committing.
+All 20 MG1-MG10 Remotion components are built, registered in `src/Root.tsx`, and rendered to `public/pantheon-ep4-motion-graphics/`. A layout bug in EP4_B102_KingListScroll (names rendering on one line instead of stacking) was caught on visual review and fixed before committing.
+
+**Durations are now voiceover-reconciled.** The user supplied the real voiceover recording (759.43s). `pantheon-ep4-allocate.py` scaled every beat's provisional 150wpm estimate by 0.97164x and wrote `pantheon-ep4-shot-list-final.json`; all 20 graphics were re-rendered at their corrected frame counts and `src/Root.tsx` updated to match.
+
+## Assembly
+
+`pantheon-ep4-build-scenes.py` derives a 140-scene plan (`pantheon-ep4-scenes.json`) from the final shot list: multi-take AI beats split evenly across their clips, short clips loop to fill their allotted time, long clips trim from a non-literal start point, B049 (a narration-less cutaway) borrows 4s from B048's window instead of getting a zero-length scene. Total: 759.46s vs the 759.43s voiceover target.
+
+`vidiq_compose` was ruled out — only 18 credits left (needs ~60/segment × 3-4 segments), so assembly follows Ep.2's local-ffmpeg path instead (free). `pantheon-ep4-render-segments.sh` renders every scene to a normalized 1920×1080/30fps clip (images held static, video clips scaled/cropped/trimmed/looped as needed) into `output/ep4-segments/`, ready to concatenate and mux against `public/pantheon-ep4-voiceover.mp3`.
 
 Not started. Specs for all 10 (MG1-MG10) are in `pantheon-ep4-visual-prompts.md`.

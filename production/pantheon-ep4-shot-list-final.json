@@ -1,0 +1,1386 @@
+[
+  {
+    "id": "B001",
+    "part": "1. Cold Open",
+    "type": "archival",
+    "narration": "There is a monument beside the Nile, at the foot of a sacred mountain.",
+    "narration_words": 14,
+    "archival_guidance": "Source: Jebel Barkal, the sacred mountain at Napata, northern Sudan. Commons search: https://commons.wikimedia.org/w/index.php?search=Jebel+Barkal&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Jebel_Barkal. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B001a-jebel-barkal-mountain.jpg",
+    "src_status": "MATCHED: direct Wikimedia download (og:image of the Jebel Barkal article). Sacred mountain at Napata, strong match.",
+    "est_dur": 5.6,
+    "final_dur": 5.44
+  },
+  {
+    "id": "B002",
+    "part": "1. Cold Open",
+    "type": "archival",
+    "narration": "A tall slab of dark stone, covered in hieroglyphs from top to bottom. It tells how a king conquered Egypt.",
+    "narration_words": 20,
+    "archival_guidance": "Source: Victory Stele of Piye, Egyptian Museum, Cairo (JE 48862). Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye | Direct link: https://commons.wikimedia.org/wiki/Category:Victory%20stele%20in%20the%2021st%20year%20of%20the%20reign%20of%20Pharaoh%20Piankhy. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "pantheon-ep4-archival/B002a-piye-victory-stele-full.jpg",
+    "src_status": "user-supplied black granite stela photo, full view, museum studio shot. Tentative ID as the Victory Stele of Piye (dark stone matches narration) - confirm exact object/provenance before publishing.",
+    "est_dur": 8.0,
+    "final_dur": 7.77
+  },
+  {
+    "id": "B003",
+    "part": "1. Cold Open",
+    "type": "archival",
+    "narration": "And on that stone, someone went back and cut the king out.",
+    "narration_words": 12,
+    "archival_guidance": "Source: Detail drawing of the Victory Stele: Piye, partly erased, receiving four Delta rulers. Commons search: https://commons.wikimedia.org/w/index.php?search=Victory+stele+Piye+detail+drawing+erased&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Piye. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page (19th century drawing)",
+    "src": "pantheon-ep4-archival/B003a-19thc-stele-lithograph-dujardin.jpg",
+    "src_status": "user-supplied 19th-century engraving/lithograph (Photogravure Dujardin) of a royal stela, matches the brief's PD-2D 19th-century-drawing guidance for this beat. Exact source publication not confirmed.",
+    "est_dur": 4.8,
+    "final_dur": 4.66
+  },
+  {
+    "id": "B004",
+    "part": "1. Cold Open",
+    "type": "ai",
+    "narration": "His name was chiseled away. His figure was scraped from the carving.",
+    "narration_words": 12,
+    "veo_prompt": "Extreme close-up of a bronze chisel striking a carved cartouche on a dark granite wall, stone dust drifting through torchlight, the hieroglyphs being gouged away, shallow depth of field, locked-off camera with a tiny push-in. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B004a-chisel-cartouche-closeup.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: extreme close-up bronze chisel gouging a carved cartouche, stone dust drifting, matches the prompt almost exactly.",
+    "est_dur": 4.8,
+    "final_dur": 4.66
+  },
+  {
+    "id": "B005",
+    "part": "1. Cold Open",
+    "type": "archival",
+    "narration": "The story was left standing, as though the stone itself refused to forget what the living had decided to.",
+    "narration_words": 19,
+    "archival_guidance": "Source: Victory Stele of Piye, inscription register (crop). Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B005a-piye-stele-first-line-translation.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. \"Stele du roi Piankhi-Meriamen,\" first line with 19th-c. French translation.",
+    "est_dur": 7.6,
+    "final_dur": 7.38
+  },
+  {
+    "id": "B006",
+    "part": "1. Cold Open",
+    "type": "ai",
+    "narration": "I know who he was. I watched him come north.",
+    "narration_words": 10,
+    "veo_prompt": "A fleet of Nile ships with square sails and Kushite soldiers advancing north at dawn on a mirror-calm river, drifting mist, long silhouettes, camera glides low over the water beside the lead ship, a lone tall figure at the prow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B006a-nile-fleet-dawn-advance.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: fleet of square-sailed Nile ships with soldiers advancing at misty dawn, lone figure at the lead prow.",
+    "est_dur": 4.0,
+    "final_dur": 3.89
+  },
+  {
+    "id": "B007",
+    "part": "1. Cold Open",
+    "type": "ai",
+    "narration": "His name was Piye. He did not come from Egypt.",
+    "narration_words": 10,
+    "veo_prompt": "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze, shown in profile, then turning slowly toward the camera, torchlit throne hall, dust motes in the air, absolute stillness. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "notes": "Character anchor shot; save the best frame as the PIYE reference image for Ingredients to Video.",
+    "src": "pantheon-ep4-clips/B007a-piye-character-anchor-portrait.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: Piye portrait, double-cobra cap crown, leopard cloak, torchlit temple. USE AS THE PIYE CHARACTER-ANCHOR REFERENCE FRAME per the beat's own note.",
+    "est_dur": 4.0,
+    "final_dur": 3.89
+  },
+  {
+    "id": "B008",
+    "part": "1. Cold Open",
+    "type": "graphic",
+    "narration": "He came from Kush, the kingdom to the south, which Egypt had spent centuries calling wretched and conquered.",
+    "narration_words": 18,
+    "notes": "Motion graphic MG1. On-screen: Phase 1 of MG1: Nile valley map, Egypt in the north, Kush in the south. Kush is outlined, Egypt is filled gold.",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  },
+  {
+    "id": "B009",
+    "part": "1. Cold Open",
+    "type": "archival",
+    "narration": "Within one generation, his family held the Two Lands together and ruled the largest Nile empire since the age of Ramesses.",
+    "narration_words": 21,
+    "archival_guidance": "Source: Sphinx of Taharqo, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Sphinx+of+Taharqo+British+Museum&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Sphinx_of_Taharqo. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "pantheon-ep4-archival/B009a-sphinx-of-taharqo.jpg",
+    "src_status": "user-supplied, user-confirmed Sphinx of Taharqo. Exact match.",
+    "est_dur": 8.4,
+    "final_dur": 8.16
+  },
+  {
+    "id": "B010",
+    "part": "1. Cold Open",
+    "type": "ai",
+    "narration": "Egypt answered, in time. Not only with armies. With chisels.",
+    "narration_words": 10,
+    "veo_prompt": "Egyptian masons at night chiseling a king's cartouche from a temple wall, torches in iron brackets, chips of limestone falling, close tracking shot along the wall, tense and methodical. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B010a-masons-chiseling-cartouche-night.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: masons chiseling a cartouche relief (king and winged goddess) by torchlight at night, close tracking.",
+    "est_dur": 4.0,
+    "final_dur": 3.89
+  },
+  {
+    "id": "B011",
+    "part": "1. Cold Open",
+    "type": "graphic",
+    "narration": "This is the story of the pharaohs Egypt tried to erase.",
+    "narration_words": 11,
+    "notes": "Motion graphic MG6. On-screen: Title card: a hollow cartouche on dark stone; the title carves itself into the stone beside it.",
+    "est_dur": 4.4,
+    "final_dur": 4.28
+  },
+  {
+    "id": "B012",
+    "part": "1. Cold Open",
+    "type": "ai",
+    "narration": "But to understand the king, you first have to understand the mountain, and the very long humiliation that came before it.",
+    "narration_words": 21,
+    "veo_prompt": "Jebel Barkal at dusk, a processional way lined with torches leading to the foot of the flat-topped mountain, small figures walking, camera rises slowly from ground level to a wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B012a-jebel-barkal-torch-procession.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: torch-lit procession toward the flat-topped mountain at dusk, camera rising from ground level.",
+    "est_dur": 8.4,
+    "final_dur": 8.16
+  },
+  {
+    "id": "B013",
+    "part": "2. The Land Between",
+    "type": "ai",
+    "narration": "For hundreds of years, Egypt owned Kush. Egyptian governors ran the gold mines of Nubia.",
+    "narration_words": 15,
+    "veo_prompt": "A Nubian gold mine in blazing heat, laborers hauling ore baskets while an Egyptian overseer in white linen supervises with a scribe, dust and glare, wide establishing shot then slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B013a-nubian-gold-mine.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: laborers hauling ore baskets in a rocky canyon, dust and glare, an overseer and scribe at an inscribed doorway.",
+    "est_dur": 6.0,
+    "final_dur": 5.83
+  },
+  {
+    "id": "B014",
+    "part": "2. The Land Between",
+    "type": "archival",
+    "narration": "Egyptian temples rose on Kushite soil.",
+    "narration_words": 6,
+    "archival_guidance": "Source: Victory stele of Thutmose III from Jebel Barkal, Museum of Fine Arts Boston (23.733). Commons search: https://commons.wikimedia.org/w/index.php?search=Thutmose+III+stele+Gebel+Barkal&ns6=1 | Direct link: https://collections.mfa.org/objects/145121. Licence: CHECK: museum image; confirm open-access terms",
+    "src": [
+      "pantheon-ep4-archival/B014a-thutmose-iii-victory-stele.webp",
+      "pantheon-ep4-archival/B014b-thutmose-iii-stela-alternate-museum.jpg"
+    ],
+    "src_status": "user-confirmed Victory Stele of Thutmose III. Two photos now: (a) the main one used, (b) a second museum-case photo of what its own placard labels a Thutmose III victory stela - kept as an alternate/backup angle, possibly a different installation of the same monument or a related one.",
+    "est_dur": 2.4,
+    "final_dur": 2.33
+  },
+  {
+    "id": "B015",
+    "part": "2. The Land Between",
+    "type": "archival",
+    "narration": "Egyptian kings carved their boasts about trampling the south, and Kush paid in gold, in ivory, in ebony, and in soldiers.",
+    "narration_words": 21,
+    "archival_guidance": "Source: Tomb of Huy: Nubians bringing tribute (facsimile painting). Commons search: https://commons.wikimedia.org/w/index.php?search=Tomb+of+Huy+Nubian+tribute&ns6=1. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page",
+    "src": "pantheon-ep4-archival/B015a-tomb-of-huy-nubian-tribute.jpg",
+    "src_status": "user-supplied, exact match: Tomb of Huy facsimile painting, Nubians bringing tribute (cattle, gold, animal skins) to an Egyptian official.",
+    "est_dur": 8.4,
+    "final_dur": 8.16
+  },
+  {
+    "id": "B016",
+    "part": "2. The Land Between",
+    "type": "ai",
+    "narration": "I watched that arrangement last longer than most empires do.",
+    "narration_words": 10,
+    "veo_prompt": "A great Egyptian fortress on the Nile at sunset, mud-brick walls glowing amber, soldiers on the ramparts, camera rising in a slow God's-eye arc above the river. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B016a-egyptian-fortress-nile-sunset.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: a great fortress on a promontory above the Nile at sunset, torches lit, figures on the ramparts, aerial God's-eye framing.",
+    "est_dur": 4.0,
+    "final_dur": 3.89
+  },
+  {
+    "id": "B017",
+    "part": "2. The Land Between",
+    "type": "graphic",
+    "narration": "Then, around the year one thousand and seventy before the common era, the old order cracked. Egypt split apart.",
+    "narration_words": 19,
+    "notes": "Motion graphic MG1. On-screen: Phase 2 of MG1: Egypt cracks along fault lines into rival realms; the gold fill splinters.",
+    "est_dur": 7.6,
+    "final_dur": 7.38
+  },
+  {
+    "id": "B018",
+    "part": "2. The Land Between",
+    "type": "ai",
+    "narration": "Priests ruled in Thebes. Chiefs of Libyan descent carved the north into small kingdoms, and several of them took the title of king. There were many kings, and none of them was strong.",
+    "narration_words": 33,
+    "veo_prompt": [
+      "Priests of Amun in white linen at Karnak between enormous columns, incense smoke in shafts of light, slow tracking shot, calm authority. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "A marshy Delta hall where chiefs with tall feathers in their hair argue around a table, rival crowns and standards behind them, shifting torchlight, slow handheld push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B018a-priests-karnak-colonnade.mp4",
+      "pantheon-ep4-clips/B018b-delta-chiefs-council-table.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: white-robed priests walking a colonnade, sunbeams through incense smoke, matches exactly. Take B: Delta chiefs with tall feathers arguing around a table, rival banners (bull/sun/falcon) behind them, marsh visible through the doorway - matches exactly.",
+    "est_dur": 13.2,
+    "final_dur": 12.83
+  },
+  {
+    "id": "B019",
+    "part": "2. The Land Between",
+    "type": "graphic",
+    "narration": "In the south, Kush did something Egypt had not planned for. It did not shatter. It grew.",
+    "narration_words": 17,
+    "notes": "Motion graphic MG1. On-screen: Phase 3 of MG1: while Egypt stays fractured, Kush glows warm and widens north. Rival names Sais, Hermopolis, Herakleopolis, Memphis and Thebes sit dim on the map.",
+    "est_dur": 6.8,
+    "final_dur": 6.61
+  },
+  {
+    "id": "B020",
+    "part": "2. The Land Between",
+    "type": "archival",
+    "narration": "Its rulers made their home at Napata, beneath a flat-topped mountain called Jebel Barkal.",
+    "narration_words": 14,
+    "archival_guidance": "Source: Jebel Barkal pinnacle and temple ruins at Napata. Commons search: https://commons.wikimedia.org/w/index.php?search=Jebel+Barkal+pinnacle+temple&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Jebel_Barkal. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": [
+      "pantheon-ep4-archival/B020a-jebel-barkal-temple-ruins.jpg",
+      "pantheon-ep4-archival/B020b-jebel-barkal-mesa-alternate.jpg"
+    ],
+    "src_status": "primary: user-supplied photo of temple ruins (columns, mudbrick wall) directly at the base of a sandstone cliff - strong match for 'Jebel Barkal pinnacle and temple ruins'. alternate: user-supplied flat-topped desert mesa - user-confirmed this is Jebel Barkal itself.",
+    "est_dur": 5.6,
+    "final_dur": 5.44
+  },
+  {
+    "id": "B021",
+    "part": "2. The Land Between",
+    "type": "ai",
+    "narration": "Egyptians had always said the god Amun lived inside that mountain. The Kushites believed it too. They did not see themselves as outsiders storming a sacred land. They saw themselves as the people who had kept the old faith while Egypt let it fray.",
+    "narration_words": 44,
+    "veo_prompt": [
+      "Kushite priests in leopard skins carrying a golden bark shrine of Amun in procession at the foot of the mountain, torchlight, reverent slow dolly. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "A Kushite king kneeling alone before the mountain at dawn, offering at a stone altar, long shadows, camera slowly circling. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B021a-priests-bark-shrine-procession.mp4",
+      "pantheon-ep4-clips/B021b-king-kneeling-altar-jebel-barkal.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: priests in leopard skins carrying an ornate golden bark shrine in torchlit procession at the mountain's foot - exact match. Take B: king kneeling alone before the mountain at dawn, offering at a stone altar - strong match.",
+    "est_dur": 17.6,
+    "final_dur": 17.1
+  },
+  {
+    "id": "B022",
+    "part": "2. The Land Between",
+    "type": "graphic",
+    "narration": "A prince named Alara is remembered as the founder of this line, the first ruler of Kush whose name has come down to us. His successor Kashta reached into Upper Egypt.",
+    "narration_words": 31,
+    "notes": "Motion graphic MG1. On-screen: Phase 4 of MG1: the names ALARA, then KASHTA, carve themselves into stone one after another; an arrow from Napata reaches Upper Egypt.",
+    "est_dur": 12.4,
+    "final_dur": 12.05
+  },
+  {
+    "id": "B023",
+    "part": "2. The Land Between",
+    "type": "ai",
+    "narration": "And Kashta's son Piye inherited a kingdom with a great army, a deep faith, and the finest horses of the age.",
+    "narration_words": 21,
+    "veo_prompt": "Kushite cavalry and war horses galloping across a pale plain at dawn, dust trailing, fine muscled horses, camera tracking alongside at low height. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B023a-kushite-cavalry-galloping-tentative.mp4",
+    "src_status": "user-supplied, 10.04s - TENTATIVE: crowned rider leading cavalry at a gallop past a massive carved stone wall at dusk. Good energy match for 'cavalry and war horses galloping' but the prompt calls for an open pale plain, not a temple-wall backdrop - judgment call, worth a second look.",
+    "est_dur": 8.4,
+    "final_dur": 8.16
+  },
+  {
+    "id": "B024",
+    "part": "2. The Land Between",
+    "type": "ai",
+    "narration": "Meanwhile the north was tearing itself apart. And in the Delta city of Sais, one chief had decided to end that, by conquering everything himself.",
+    "narration_words": 25,
+    "veo_prompt": "Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes stands on a rooftop in the Delta city of Sais at night, looking over torch-lit streets and the river, a map-like sprawl of rival towns below, slow push toward his face. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B024a-tefnakht-sais-rooftop-night.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: feathered figure overlooking a torch-lit Nile city at night, matches Tefnakht's rooftop-at-Sais description.",
+    "est_dur": 10.0,
+    "final_dur": 9.72
+  },
+  {
+    "id": "B025",
+    "part": "2. The Land Between",
+    "type": "archival",
+    "narration": "He chose the wrong year, and he chose the wrong neighbor.",
+    "narration_words": 11,
+    "archival_guidance": "Source: Stela of Tefnakht (Athens, year eight). Commons search: https://commons.wikimedia.org/w/index.php?search=Tefnakht+stela+Athens&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Tefnakht. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B025a-tefnakht-stela-detail.jpg",
+    "src_status": "MATCHED: user-confirmed as the Stela of Tefnakht, National Archaeological Museum, Athens. Round-topped stela, offering scene with cartouches, raking-light museum photo.",
+    "est_dur": 4.4,
+    "final_dur": 4.28
+  },
+  {
+    "id": "B026",
+    "part": "3. The Storm from the South",
+    "type": "graphic",
+    "narration": "His name was Tefnakht. He gathered the lords of the Delta into a coalition, and he marched south.",
+    "narration_words": 18,
+    "notes": "Motion graphic MG2. On-screen: Phase 1 of MG2: Delta lords' markers join Sais; a coalition arrow runs south up the river.",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  },
+  {
+    "id": "B027",
+    "part": "3. The Storm from the South",
+    "type": "graphic",
+    "narration": "Memphis, the ancient capital, fell to him. His army laid siege to Herakleopolis, a city loyal to Piye.",
+    "narration_words": 18,
+    "notes": "Motion graphic MG2. On-screen: Phase 2 of MG2: Memphis flips to Tefnakht's color; Herakleopolis is ringed by besiegers.",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  },
+  {
+    "id": "B028",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "If Tefnakht had won, there would have been no Kushite pharaohs. There would have been a Delta king, and a footnote.",
+    "narration_words": 21,
+    "veo_prompt": "A column of Delta soldiers with tall feathers and banners marching south along the Nile under a red dawn, long shadows, camera low and tracking backward in front of them. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B028a-delta-soldiers-marching-south-dawn.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: a column of soldiers with tall plumed helmets and banners marching along the Nile under a red dawn sky, long shadows. Beat complete - this was the last of the 71 AI clips needed.",
+    "est_dur": 8.4,
+    "final_dur": 8.16
+  },
+  {
+    "id": "B029",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "Piye was at Napata, in the twentieth year of his reign, when the news reached him.",
+    "narration_words": 16,
+    "veo_prompt": "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze receiving a messenger at Napata, the flat-topped mountain behind him, the messenger breathless and kneeling, Piye's face unreadable, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B029a-piye-receives-messenger-napata.mp4",
+    "src_status": "user-supplied, 10.04s - excellent match: king in temple doorway with Jebel Barkal visible behind him, a messenger kneeling before him, almost exactly as specced.",
+    "est_dur": 6.4,
+    "final_dur": 6.22
+  },
+  {
+    "id": "B030",
+    "part": "3. The Storm from the South",
+    "type": "graphic",
+    "narration": "He sent his army north first, and then he followed himself.",
+    "narration_words": 11,
+    "notes": "Motion graphic MG2. On-screen: Phase 3 of MG2: the army arrow runs from Napata north; a second arrow, Piye himself, follows.",
+    "est_dur": 4.4,
+    "final_dur": 4.28
+  },
+  {
+    "id": "B031",
+    "part": "3. The Storm from the South",
+    "type": "archival",
+    "narration": "His orders to his commanders survive on the stone, and they read like the orders of a man who cared how a war was won.",
+    "narration_words": 25,
+    "archival_guidance": "Source: Victory Stele of Piye, lines of inscription (crop). Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B031a-piye-stele-complete-inscription.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Full engraving of the complete Victory Stele inscription, all columns.",
+    "est_dur": 10.0,
+    "final_dur": 9.72
+  },
+  {
+    "id": "B032",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "His forces won on the river and won again on land.",
+    "narration_words": 11,
+    "veo_prompt": "Nile river battle at first light, wooden warships ramming, spears flashing, spray and smoke, wide then tight, chaotic but readable, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B032a-nile-river-battle-ramming.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: ornate warships ramming and crashing into a walled harbor city, soldiers with spears visible, battle energy.",
+    "est_dur": 4.4,
+    "final_dur": 4.28
+  },
+  {
+    "id": "B033",
+    "part": "3. The Storm from the South",
+    "type": "archival",
+    "narration": "Then a king named Nimlot of Hermopolis, who had been Piye's ally, abandoned him and joined Tefnakht.",
+    "narration_words": 17,
+    "archival_guidance": "Source: Detail drawing of the Victory Stele: Nimlot offering a horse and a sistrum to Piye. Commons search: https://commons.wikimedia.org/w/index.php?search=Victory+stele+Piye+Nimlot+horse+sistrum&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Nimlot_of_Hermopolis. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page (drawing)",
+    "src": "pantheon-ep4-archival/B033a-nimlot-horse-sistrum-drawing.jpg",
+    "src_status": "user-supplied, exact match: 19th-century line engraving detail showing courtiers presenting a horse to the enthroned king - the Nimlot horse-and-sistrum submission scene the cue calls for.",
+    "est_dur": 6.8,
+    "final_dur": 6.61
+  },
+  {
+    "id": "B034",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "Piye besieged Hermopolis until it surrendered. Nimlot came out with gifts: gold, a sistrum, and a horse.",
+    "narration_words": 17,
+    "veo_prompt": "The gate of a besieged Egyptian city opening at dawn, King Nimlot walking out leading a fine horse and carrying a gold sistrum, kneeling in the dust before an unseen conqueror, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B034a-nimlot-kneeling-gate-horse-sistrum.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: a kneeling figure at a city gate with a fine horse and a staff/sistrum-like object, city skyline at dusk.",
+    "est_dur": 6.8,
+    "final_dur": 6.61
+  },
+  {
+    "id": "B035",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "Then Piye walked into the royal stables. His horses had been starved. Of everything Nimlot had done, it was this that Piye could not forgive. He said so, and the stone records it.",
+    "narration_words": 33,
+    "veo_prompt": [
+      "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze walking slowly down a torch-lit royal stable, thin starved horses in the stalls, his shadow long on the straw, grave and silent. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Close-up of the hand of Piye, king of Kush, resting on the muzzle of a gaunt horse, his jaw tightening in soft focus behind it, shallow depth of field. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B035a-piye-stables-starved-horses.mp4",
+      "pantheon-ep4-clips/B035b-piye-hand-horse-muzzle-closeup.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: king walking the stable among horses. Take B: close-up hand resting on a horse's muzzle, shallow depth of field - exact match. Beat complete.",
+    "est_dur": 13.2,
+    "final_dur": 12.83
+  },
+  {
+    "id": "B036",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "That tells you who Piye was. Devout toward his gods. Tender toward his horses. Hard when he had to be. His own inscription calls him all of these things. And he was a very good general.",
+    "narration_words": 36,
+    "veo_prompt": [
+      "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze praying before a statue of Amun, incense rising, eyes closed. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stroking the neck of a fine horse, tender and quiet. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing in a war chariot, hard-eyed, spear raised, dust behind him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B036a-piye-praying-before-amun.mp4",
+      "pantheon-ep4-clips/B036b-piye-stroking-horse-tender.mp4",
+      "pantheon-ep4-clips/B036c-piye-chariot-spear-raised.mp4"
+    ],
+    "src_status": "ALL 3 sub-prompts covered. Take A: praying before Amun. Take B: stroking a horse's neck. Take C: standing in a war chariot, spear raised, dust behind - exact match. Beat complete.",
+    "est_dur": 14.4,
+    "final_dur": 13.99
+  },
+  {
+    "id": "B037",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "Then came Memphis. Tefnakht slipped back inside the city and brought the garrison to eight thousand men. The walls were high. The river guarded one side.",
+    "narration_words": 26,
+    "veo_prompt": [
+      "Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes slipping into the gates of Memphis at night with a column of reinforcements, torches, tense whispers. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Wide God's-eye view of the high walls of Memphis above the Nile at dusk, the river curling along one side. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B037a-tefnakht-slips-into-memphis-gate.mp4",
+      "pantheon-ep4-clips/B037b-memphis-walls-aerial-dusk.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: feathered figure (Tefnakht) in a torchlit gateway with armed soldiers approaching - strong match. Take B: aerial God's-eye view of massive fortified walls along a curving river at dusk, torches lit - strong match for the Memphis walls shot.",
+    "est_dur": 10.4,
+    "final_dur": 10.11
+  },
+  {
+    "id": "B038",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "Piye's commanders urged a long siege.",
+    "narration_words": 6,
+    "veo_prompt": "Kushite commanders in a council tent arguing around a clay map table, Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze stands apart, then leans in and sets his hand firmly on the harbor. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B038a-piye-commanders-council-map-table.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: king leaning over a clay relief map table with commanders around him, lamp overhead.",
+    "est_dur": 2.4,
+    "final_dur": 2.33
+  },
+  {
+    "id": "B039",
+    "part": "3. The Storm from the South",
+    "type": "graphic",
+    "narration": "Piye struck the harbor instead.",
+    "narration_words": 5,
+    "notes": "Motion graphic MG3. On-screen: MG3: top-down schematic of Memphis; the siege-ramp option is shown and rejected, then ships sweep onto the harbor quay.",
+    "est_dur": 2.0,
+    "final_dur": 1.94
+  },
+  {
+    "id": "B040",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "His ships and soldiers seized every vessel moored along the quay, and Memphis was stormed from the water.",
+    "narration_words": 18,
+    "veo_prompt": "Kushite soldiers leaping from ship decks onto the quay of a walled city at dawn, grappling and storming up onto the walls, ships crowded against the harbor, handheld energy, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": [
+      "pantheon-ep4-clips/B040b-ships-storming-harbor-soldiers.mp4",
+      "pantheon-ep4-clips/B040a-ships-arriving-riverside-city-tentative.mp4"
+    ],
+    "src_status": "UPGRADED: B040b is the primary match now - multiple warships packed with soldiers crashing into a riverside harbor at dusk, much closer to 'storming the quay' than the original tentative pick. B040a (ships calmly arriving/docking) kept as a secondary alternate.",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  },
+  {
+    "id": "B041",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "When the city fell, Piye did something the Delta lords did not expect. He went to the temple of Ptah, the god of the city, and gave thanks. He presented himself not as a raider but as a restorer, the pharaoh Egypt had been missing.",
+    "narration_words": 45,
+    "veo_prompt": [
+      "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze entering the temple of Ptah at Memphis, kneeling before the god's statue to give thanks, incense, priests bowing. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing before the priests of Memphis as they offer him homage, calm and royal, golden light. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B041a-piye-temple-of-ptah-thanks.mp4",
+      "pantheon-ep4-clips/B041b-piye-priests-homage-golden-light.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: king in leopard cloak before an enthroned golden statue (Ptah), kneeling priests, incense - strong match. Take B: king standing before a group of bowing priests, golden light - strong match.",
+    "est_dur": 18.0,
+    "final_dur": 17.49
+  },
+  {
+    "id": "B042",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "One by one, the princes of the Delta came to him with tribute.",
+    "narration_words": 13,
+    "veo_prompt": "Princes of the Delta in feathered headdresses presenting tribute of gold, horses and linen to an unseen king, kneeling in a sunlit courtyard, slow lateral track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B042a-delta-princes-tribute-horses.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: feathered Delta princes kneeling with a tribute chest and vessels, fine horses present in a columned hall.",
+    "est_dur": 5.2,
+    "final_dur": 5.05
+  },
+  {
+    "id": "B043",
+    "part": "3. The Storm from the South",
+    "type": "archival",
+    "narration": "They are carved on the stele, kneeling.",
+    "narration_words": 7,
+    "archival_guidance": "Source: Victory Stele of Piye, upper register: Piye enthroned, Delta princes kissing the ground. Commons search: https://commons.wikimedia.org/w/index.php?search=Stele+of+Piye+complete&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Stele_of_Piye | Direct link: https://commons.wikimedia.org/wiki/Category:Victory%20stele%20in%20the%2021st%20year%20of%20the%20reign%20of%20Pharaoh%20Piankhy. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "pantheon-ep4-archival/B043a-stele-relief-homage-scene.jpg",
+    "src_status": "user-supplied stele photo - user-confirmed this is the Victory Stele of Piye. Upper register shows Piye clasping hands with a Delta prince amid a crowd of kneeling figures, hieroglyphic columns, dense mid-register text, lower procession register. Strong match for B043 (Delta princes kneeling before Piye).",
+    "est_dur": 2.8,
+    "final_dur": 2.72
+  },
+  {
+    "id": "B044",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "Only Tefnakht stayed away. He sent a messenger with an oath of loyalty, and he never stood before Piye himself.",
+    "narration_words": 20,
+    "veo_prompt": "Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes alone on a distant quay at dusk, watching a small boat carry a messenger toward Memphis, refusing to follow, the river wide and empty. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B044a-tefnakht-watching-messenger-quay.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: feathered figure on a wall overlooking the river at dusk, a lone boat visible, city on the far bank.",
+    "est_dur": 8.0,
+    "final_dur": 7.77
+  },
+  {
+    "id": "B045",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "Then Piye did the strangest thing of all. He loaded his ships with silver, gold, and copper, and sailed home.",
+    "narration_words": 20,
+    "veo_prompt": "Kushite ships laden with silver, gold and copper sailing south on the Nile at sunset, sails glowing, a God's-eye wide shot, slow drift. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B045a-ships-sailing-home-tentative.mp4",
+    "src_status": "user-supplied, 10.04s - TENTATIVE: Nile ship fleet under sail at warm dawn/dusk light passing a riverside temple. Assigned here (ships sailing home with tribute) by elimination since it doesn't match the misty northward-advance framing of B006; could also suit B078 (Tantamani's retreat south) - confirm before locking in.",
+    "est_dur": 8.0,
+    "final_dur": 7.77
+  },
+  {
+    "id": "B046",
+    "part": "3. The Storm from the South",
+    "type": "archival",
+    "narration": "He made his sister Amenirdis the God's Wife of Amun at Thebes, which tied the great temples of the south to his family.",
+    "narration_words": 23,
+    "archival_guidance": "Source: Alabaster statue of Amenirdis I, Egyptian Museum, Cairo. Commons search: https://commons.wikimedia.org/w/index.php?search=Amenirdis+I+statue+Cairo&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B046a-amenirdis-i-medinet-habu-chapel-relief.jpg",
+    "src_status": "MATCHED: user-confirmed depiction of Amenirdis I (cartouche + figure relief) from her chapel at Medinet Habu. Differs from the brief's suggested alabaster-statue guidance but is a legitimate, better-sourced depiction of the same person.",
+    "est_dur": 9.2,
+    "final_dur": 8.94
+  },
+  {
+    "id": "B047",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "But he went back to Kush, and so far as we know, he never ruled Egypt from within it.",
+    "narration_words": 19,
+    "veo_prompt": "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing on the deck of a ship looking back at Egypt receding on the horizon, the wind in his cape, silent, then turning south. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B047a-piye-ship-deck-looking-back.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: king on a ship deck looking back at a receding city skyline (pyramid visible) at dusk, matches the prompt closely.",
+    "est_dur": 7.6,
+    "final_dur": 7.38
+  },
+  {
+    "id": "B048",
+    "part": "3. The Storm from the South",
+    "type": "archival",
+    "narration": "When he died, he was buried beneath a pyramid, a tomb style Egypt itself had abandoned centuries before, and eight of his horses were buried beside him.",
+    "narration_words": 27,
+    "archival_guidance": "Source: Pyramids of El-Kurru, royal cemetery, northern Sudan. Commons search: https://commons.wikimedia.org/w/index.php?search=El-Kurru+pyramids&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/El-Kurru. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "notes": "Followed immediately by B049, a cutaway insert with no new narration (adds no runtime).",
+    "src": "public/pantheon-ep4-archival/B048a-el-kurru-pyramid-excavated-tentative.jpg",
+    "src_status": "TENTATIVE: excavated royal pyramid with entrance trench, user-sent. Could be El-Kurru OR Nuri (both are badly eroded Napatan pyramid cemeteries excavated by Reisner with staircase trenches) -- needs user confirmation of exact site.",
+    "est_dur": 10.8,
+    "final_dur": 10.49
+  },
+  {
+    "id": "B049",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": null,
+    "narration_words": 0,
+    "veo_prompt": "Eight horses standing in a line in pre-dawn mist before a small steep pyramid, handlers in leopard skins leading them gently toward the tomb, solemn and quiet, no harm shown. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "notes": "Cutaway insert during the same line as the previous beat (B048); no new narration added, adds no runtime.",
+    "src": "pantheon-ep4-clips/B049a-eight-horses-pyramid-mist.mp4",
+    "src_status": "user-supplied, 10.04s - excellent match: a line of horses led by handlers in leopard-skin wraps toward a small steep pyramid at night, near-exact.",
+    "est_dur": 0.0,
+    "final_dur": 0.0
+  },
+  {
+    "id": "B050",
+    "part": "3. The Storm from the South",
+    "type": "ai",
+    "narration": "His successors built on what he had won. And one of them would build as no king had in generations.",
+    "narration_words": 20,
+    "veo_prompt": "Kushite workers raising stone blocks on a steep pyramid at golden hour, ropes and ramps, dust in the light, camera rising slowly to reveal a row of finished pyramids. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B050a-pyramid-construction-golden-hour.mp4",
+    "src_status": "user-supplied, 10.04s - excellent match: workers hauling blocks up a steep pyramid at golden hour, camera reveals a row of finished pyramids behind, exactly as specced.",
+    "est_dur": 8.0,
+    "final_dur": 7.77
+  },
+  {
+    "id": "B051",
+    "part": "4. The Golden Age",
+    "type": "ai",
+    "narration": "Piye's successors ruled from Memphis, and the dynasty settled in.",
+    "narration_words": 10,
+    "veo_prompt": "A Kushite pharaoh in a double-cobra cap crown seated in a palace at Memphis, Egyptian columns and Kushite guards, warm shafts of light, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B051a-pharaoh-enthroned-memphis-palace.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: pharaoh enthroned in a grand columned hall flanked by guards, warm shafts of light.",
+    "est_dur": 4.0,
+    "final_dur": 3.89
+  },
+  {
+    "id": "B052",
+    "part": "4. The Golden Age",
+    "type": "archival",
+    "narration": "Then came Taharqa.",
+    "narration_words": 3,
+    "archival_guidance": "Source: Statue of Taharqa. Commons search: https://commons.wikimedia.org/w/index.php?search=Taharqa+statue&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Taharqa. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B052a-taharqa-statue-dark-stone-tentative.jpg",
+    "src_status": "TENTATIVE: dark granodiorite standing royal statue, crown/apex missing, no added colour -- plausibly a Taharqa statue (e.g. Kerma/Dukki Gel cache style) but not confirmed against this specific statue; could also be another 25th-Dynasty king. Ask user for source if known.",
+    "est_dur": 1.2,
+    "final_dur": 1.17
+  },
+  {
+    "id": "B053",
+    "part": "4. The Golden Age",
+    "type": "ai",
+    "narration": "Taharqa was a young prince when he first came north. His mother, Queen Abar, stayed behind in Kush for years while he rose in Egypt.",
+    "narration_words": 25,
+    "veo_prompt": [
+      "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe as a young prince on a ship sailing north, watching the Egyptian shore appear, eager and watchful. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Queen Abar, Kushite queen mother: dark brown skin, dignified, gold diadem and broad collar, linen gown waiting alone at Napata on a stair above the river, watching the southern bend of the Nile, patient. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B053a-taharqa-young-prince-sailing-north.mp4",
+      "pantheon-ep4-clips/B053b-queen-abar-waiting-napata.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: young prince close-up on a ship, Egyptian riverside temple complex glowing at night in the background, eager and watchful - strong match. Take B: dignified queen figure on temple steps overlooking a river bend at dusk - strong match for Queen Abar waiting at Napata.",
+    "est_dur": 10.0,
+    "final_dur": 9.72
+  },
+  {
+    "id": "B054",
+    "part": "4. The Golden Age",
+    "type": "ai",
+    "narration": "When he became pharaoh and they were finally reunited, a stone in her homeland recorded the rejoicing.",
+    "narration_words": 17,
+    "veo_prompt": "Queen Abar, Kushite queen mother: dark brown skin, dignified, gold diadem and broad collar, linen gown and Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe embracing in a torchlit temple court as courtiers look on, warm light, tender and restrained, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B054a-taharqa-abar-reunion-embrace.mp4",
+    "src_status": "user-supplied, 10.04s - excellent match: queen and crowned king embracing tenderly in a torchlit temple court, courtiers looking on, near-exact.",
+    "est_dur": 6.8,
+    "final_dur": 6.61
+  },
+  {
+    "id": "B055",
+    "part": "4. The Golden Age",
+    "type": "archival",
+    "narration": "I mention this because it reminds you that these were people, not statues.",
+    "narration_words": 13,
+    "archival_guidance": "Source: Relief at Jebel Barkal: Taharqa followed by his mother Queen Abar (Lepsius drawing). Commons search: https://commons.wikimedia.org/w/index.php?search=Taharqa+Abar+Gebel+Barkal+Lepsius&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Abar_(queen). Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page (19th century drawing)",
+    "src": "public/pantheon-ep4-archival/B055a-taharqa-abar-offering-scene-lepsius.jpg",
+    "src_status": "MATCHED: 19th-c. line-drawing offering scene (king presenting to two enthroned deities, attendant behind), style matches Lepsius Denkmaeler engravings -- consistent with Taharqa/Queen Abar relief at Jebel Barkal.",
+    "est_dur": 5.2,
+    "final_dur": 5.05
+  },
+  {
+    "id": "B056",
+    "part": "4. The Golden Age",
+    "type": "graphic",
+    "narration": "Under Taharqa, the Nile valley was one kingdom from the Delta to deep in Kush.",
+    "narration_words": 15,
+    "notes": "Motion graphic MG4. On-screen: MG4 expansion: the Nile glows gold from the Delta to deep in Kush, one unbroken kingdom.",
+    "est_dur": 6.0,
+    "final_dur": 5.83
+  },
+  {
+    "id": "B057",
+    "part": "4. The Golden Age",
+    "type": "archival",
+    "narration": "He restored temples at Karnak, and built new ones at Kawa and at Jebel Barkal.",
+    "narration_words": 15,
+    "archival_guidance": "Source: Kiosk of Taharqa, Karnak. Commons search: https://commons.wikimedia.org/w/index.php?search=Taharqa+kiosk+Karnak&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B057a-taharqa-kiosk-karnak.jpg",
+    "src_status": "MATCHED: direct Wikimedia download, user-confirmed label \"Kiosk of Taharqa, Karnak.\" Karnak ruins with the kiosk's single tall column.",
+    "est_dur": 6.0,
+    "final_dur": 5.83
+  },
+  {
+    "id": "B058",
+    "part": "4. The Golden Age",
+    "type": "ai",
+    "narration": "He revived the old sculptural styles and the old religious forms with great care. The people Egypt had called foreigners were rebuilding Egypt's own past, stone by stone.",
+    "narration_words": 28,
+    "veo_prompt": [
+      "Kushite sculptors and painters carving a relief in the classic Egyptian style, crushed pigments, lamplight, close and patient. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Masons raising a great column at Karnak with ropes and levers, aerial view slowly turning, sunlight on stone. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B058a-sculptors-carving-relief-lamplight.mp4",
+      "pantheon-ep4-clips/B058b-masons-raising-column-karnak-aerial.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: hand carving a relief by lamplight with pigment pots - strong match. Take B: aerial view of workers raising a great column with ropes at a temple complex, golden hour - near-exact match.",
+    "est_dur": 11.2,
+    "final_dur": 10.88
+  },
+  {
+    "id": "B059",
+    "part": "4. The Golden Age",
+    "type": "archival",
+    "narration": "He built a pyramid at Nuri, the largest in all of Nubia.",
+    "narration_words": 12,
+    "archival_guidance": "Source: Pyramids of Nuri, Taharqa's pyramid. Commons search: https://commons.wikimedia.org/w/index.php?search=Nuri+pyramids+Taharqa&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Nubian_pyramids. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B059a-pyramid-of-taharqa-nuri.jpg",
+    "src_status": "MATCHED: direct Wikimedia download, filename-confirmed \"Pyramid of Taharqa at Nuri.\" Eroded mudbrick/stone pyramid, person for scale.",
+    "est_dur": 4.8,
+    "final_dur": 4.66
+  },
+  {
+    "id": "B060",
+    "part": "4. The Golden Age",
+    "type": "archival",
+    "narration": "And his name survives even in the Hebrew Bible, as a king of Kush who marched out to fight the Assyrians.",
+    "narration_words": 21,
+    "archival_guidance": "Source: Lachish relief, Assyrian siege, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Lachish+relief+British+Museum&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B060a-lachish-relief-assyrian-captives-tentative.jpg",
+    "src_status": "TENTATIVE: large Assyrian palace relief, museum corner display, procession of captives with raised/clasped hands, chariot, hunted animals, landscape backdrop -- matches the visual convention of the Lachish deportation reliefs (Sennacherib, Nineveh, British Museum). Not 100% confirmed against this specific beat; ask user for source if known.",
+    "est_dur": 8.4,
+    "final_dur": 8.16
+  },
+  {
+    "id": "B061",
+    "part": "4. The Golden Age",
+    "type": "ai",
+    "narration": "He had reason to march. For the first time, Egypt faced a rival it could not absorb or outlast.",
+    "narration_words": 19,
+    "veo_prompt": "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe leading a Kushite army out at dawn in a chariot, spears and standards rising behind him, mist, camera tracking at chariot height. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B061a-taharqa-leading-army-dawn-tentative.mp4",
+    "src_status": "user-supplied, 10.04s - TENTATIVE: crowned king in a chariot leading massed spearmen at golden dawn, strong thematic match to 'leading a Kushite army out at dawn in a chariot, spears and standards rising, mist' - crown style not fully confirmed as Taharqa's double-cobra, worth a second look.",
+    "est_dur": 7.6,
+    "final_dur": 7.38
+  },
+  {
+    "id": "B062",
+    "part": "4. The Golden Age",
+    "type": "graphic",
+    "narration": "Assyria, to the east, had iron weapons, siege engines, and a policy of terror, and its kings counted their glory in cities burned.",
+    "narration_words": 23,
+    "notes": "Motion graphic MG5. On-screen: MG5 phase 1: Assyria's territory spreads west across the map like ink toward the Nile.",
+    "est_dur": 9.2,
+    "final_dur": 8.94
+  },
+  {
+    "id": "B063",
+    "part": "4. The Golden Age",
+    "type": "archival",
+    "narration": "I had watched Egypt survive the Hyksos. I had watched it survive the Libyans, and the Sea Peoples.",
+    "narration_words": 18,
+    "archival_guidance": "Source: Medinet Habu reliefs: Sea Peoples and Libyans (reuse from Episode 1). Commons search: https://commons.wikimedia.org/w/index.php?search=Medinet+Habu+Sea+Peoples+relief&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B063a-medinet-habu-sea-peoples-relief.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Sea Peoples relief at Medinet Habu, sourced fresh (not a real Ep.1 reuse, since Ep.1 never sourced this asset).",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  },
+  {
+    "id": "B064",
+    "part": "4. The Golden Age",
+    "type": "ai",
+    "narration": "But Assyria was not like the others. It did not want a share. It wanted everything.",
+    "narration_words": 16,
+    "veo_prompt": "An Assyrian king in scale armor sweeping his hand across a table map of the Nile, clay tokens for cities, flickering lamps, cold eyes, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B064a-assyrian-king-map-table.mp4",
+    "src_status": "user-supplied, 6.04s - excellent match: Assyrian king in scale armor sweeping a hand over a clay relief map of the Nile with city tokens, lamplight, near-exact.",
+    "est_dur": 6.4,
+    "final_dur": 6.22
+  },
+  {
+    "id": "B065",
+    "part": "4. The Golden Age",
+    "type": "ai",
+    "narration": "Taharqa held the line. For a while.",
+    "narration_words": 7,
+    "veo_prompt": "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe, older now, standing alone on a city wall at dusk looking east, banners snapping, long shadow, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B065a-taharqa-older-city-wall-dusk.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: older gray-bearded king standing on a city wall at dusk, banner behind him, river city visible.",
+    "est_dur": 2.8,
+    "final_dur": 2.72
+  },
+  {
+    "id": "B066",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "In six hundred seventy-one before the common era, the Assyrian king Esarhaddon marched on Memphis, and Memphis fell.",
+    "narration_words": 18,
+    "veo_prompt": "Assyrian siege towers and battering rams assaulting the walls of Memphis at dawn, fire arrows, scaling ladders, smoke, wide then tight, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B066a-assyrian-siege-towers-memphis.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: siege towers and fire arrows assaulting a fortified wall at dusk, smoke.",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  },
+  {
+    "id": "B067",
+    "part": "5. The Spear of Assyria",
+    "type": "archival",
+    "narration": "Members of the royal family were taken captive.",
+    "narration_words": 8,
+    "archival_guidance": "Source: Esarhaddon's victory stele from Sam'al: a prince of Egypt kneeling captive. Commons search: https://commons.wikimedia.org/w/index.php?search=Esarhaddon+Sam%27al+victory+stele+Berlin&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B067a-esarhaddon-samal-stele-detail.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Detail of Esarhaddon's victory stele from Sam'al, Pergamon Museum.",
+    "est_dur": 3.2,
+    "final_dur": 3.11
+  },
+  {
+    "id": "B068",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "Taharqa fled south.",
+    "narration_words": 3,
+    "veo_prompt": "Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe riding south at night, a burning city glowing behind him on the horizon, grim, camera tracking beside him. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B068a-taharqa-burning-city-behind.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: crowned king portrait with a burning city glowing on the horizon behind him.",
+    "est_dur": 1.2,
+    "final_dur": 1.17
+  },
+  {
+    "id": "B069",
+    "part": "5. The Spear of Assyria",
+    "type": "graphic",
+    "narration": "He returned. Egypt rebelled against its new masters. Esarhaddon set out to deal with it again and died on the road.",
+    "narration_words": 21,
+    "notes": "Motion graphic MG5. On-screen: MG5 phase 2: timeline of Assyrian campaigns; 671 stamp, then a gap, then Esarhaddon's journey ends mid-route, then Ashurbanipal; the timeline ends on 664 (Taharqa dies at Napata).",
+    "est_dur": 8.4,
+    "final_dur": 8.16
+  },
+  {
+    "id": "B070",
+    "part": "5. The Spear of Assyria",
+    "type": "archival",
+    "narration": "His son Ashurbanipal finished the work, and drove Taharqa out of Egypt for good.",
+    "narration_words": 14,
+    "archival_guidance": "Source: Ashurbanipal on an Assyrian palace relief, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Ashurbanipal+relief+British+Museum&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B070a-ashurbanipal-wall-relief-nineveh.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Ashurbanipal-era wall relief from Nineveh, British Museum.",
+    "est_dur": 5.6,
+    "final_dur": 5.44
+  },
+  {
+    "id": "B071",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "Taharqa died at Napata, in six hundred sixty-four.",
+    "narration_words": 8,
+    "veo_prompt": "An aged Taharqa, pharaoh of Kush: dark brown skin, broad strong features, Kushite cap crown with a double cobra, wide gold collar, white linen robe on a bed in a chamber at Napata, courtiers kneeling around him, the flat-topped mountain visible through a window, low warm light, dignified. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B071a-aged-taharqa-deathbed-napata.mp4",
+    "src_status": "user-supplied, 6.04s - excellent match: aged, gray-bearded king reclining, looking out a window at the flat-topped mountain, attendants seated nearby, torchlit.",
+    "est_dur": 3.2,
+    "final_dur": 3.11
+  },
+  {
+    "id": "B072",
+    "part": "5. The Spear of Assyria",
+    "type": "archival",
+    "narration": "His nephew Tantamani took the crown.",
+    "narration_words": 6,
+    "archival_guidance": "Source: Statue of Tantamani, Louvre (colour reconstruction). Commons search: https://commons.wikimedia.org/w/index.php?search=Tantamani+statue+Louvre&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Tantamani. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B072a-tantamani-statue-louvre-colour.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Statue of Tantamani, Louvre, with the colour reconstruction (gilt crown/collar/sandals) exactly as the brief specified.",
+    "est_dur": 2.4,
+    "final_dur": 2.33
+  },
+  {
+    "id": "B073",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "Tantamani wrote of a dream, in which two serpents appeared, one at each side of him. He understood it to mean that both Upper and Lower Egypt were his.",
+    "narration_words": 29,
+    "veo_prompt": "Tantamani, young Kushite king: dark brown skin, Kushite cap crown with a double cobra, gold collar asleep on a low bed, two glowing cobras rising dreamlike on either side of him, soft golden light, slow rise, then his eyes open. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B073a-tantamani-dream-cobras.mp4",
+    "src_status": "user-supplied, 6.04s - exact match: young crowned king asleep, two glowing golden cobras rising dreamlike on either side of him.",
+    "est_dur": 11.6,
+    "final_dur": 11.27
+  },
+  {
+    "id": "B074",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "He marched north. He took Memphis. For a brief moment, the double kingdom lived again.",
+    "narration_words": 15,
+    "veo_prompt": "The Kushite army of Tantamani, a young king in a double-cobra cap crown at its head, entering the streets of Memphis under banners, crowds watching from rooftops, triumphant dust, camera rising over the procession. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B074a-tantamani-enters-memphis-triumphant.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: crowned king on horseback leading his army into a city street under banners, crowds watching from rooftops, triumphant dust.",
+    "est_dur": 6.0,
+    "final_dur": 5.83
+  },
+  {
+    "id": "B075",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "Ashurbanipal came back.",
+    "narration_words": 3,
+    "veo_prompt": "A vast Assyrian army massed on the bank of the Nile at dawn, chariots and spearmen, banners, hazy gold light, wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B075a-assyrian-army-massed-nile-dawn.mp4",
+    "src_status": "user-supplied, 6.04s - exact match: a vast army with chariots and spearmen massed on the Nile bank at dawn, hazy gold light, wide aerial.",
+    "est_dur": 1.2,
+    "final_dur": 1.17
+  },
+  {
+    "id": "B076",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "Thebes fell, and was sacked, in six hundred sixty-three, its temples stripped of their gold and its treasures carried to Nineveh. The ancient world remembered that day for centuries.",
+    "narration_words": 29,
+    "veo_prompt": [
+      "Thebes burning at night, Karnak's pylons in silhouette against orange flames, Assyrian soldiers carrying out gold and statues, smoke, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Wide God's-eye view of burning Thebes as the smoke drifts across the Nile, temples dark against the glow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B076a-assyrians-sacking-thebes.mp4",
+      "pantheon-ep4-clips/B076b-burning-thebes-aerial-wide.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: Assyrian soldiers carrying gold/statues from a burning temple precinct - strong match. Take B: wide aerial view of Thebes burning along the Nile, temple pylons silhouetted against the glow - strong match.",
+    "est_dur": 11.6,
+    "final_dur": 11.27
+  },
+  {
+    "id": "B077",
+    "part": "5. The Spear of Assyria",
+    "type": "archival",
+    "narration": "An Assyrian inscription boasts that the king lifted his spear against Egypt and Kush and showed his power.",
+    "narration_words": 18,
+    "archival_guidance": "Source: Assyrian clay prism of Ashurbanipal recording the capture of Thebes, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Rassam+cylinder+Ashurbanipal+British+Museum&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B077a-rassam-cylinder-ashurbanipal-egypt.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Translated text plate, \"Assurbanipal: The Second Egyptian War\" (Rassam cylinder), capture of Thebes.",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  },
+  {
+    "id": "B078",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "Tantamani withdrew to Kush.",
+    "narration_words": 4,
+    "veo_prompt": "Kushite ships sailing south down the Nile, a defeated king silent on deck, evening light, quiet and grave. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B078a-tantamani-defeated-ship-deck.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: a crowned king seated alone on a ship deck at dusk, city receding on the riverbank, grave and quiet.",
+    "est_dur": 1.6,
+    "final_dur": 1.55
+  },
+  {
+    "id": "B079",
+    "part": "5. The Spear of Assyria",
+    "type": "archival",
+    "narration": "In Egypt, an Assyrian ally from Sais named Psamtik founded a new dynasty. The twenty-fifth dynasty was over.",
+    "narration_words": 18,
+    "archival_guidance": "Source: Psamtik I, founder of the 26th Dynasty (statue or relief). Commons search: https://commons.wikimedia.org/w/index.php?search=Psamtik+I+statue&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B079a-psamtik-i-bust-statue.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Granite bust of a king (MET, attributed Psamtik I), founder of the 26th Dynasty.",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  },
+  {
+    "id": "B080",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "The Egyptians who ruled next did not forget who had held their throne.",
+    "narration_words": 13,
+    "veo_prompt": "A new Egyptian king in a Saite court handing a rolled order to a master mason, torchlit palace, hard shadows, quiet menace. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B080a-saite-king-order-to-mason.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: an Egyptian king in nemes headdress handing a rolled scroll to a humble figure, torchlit temple.",
+    "est_dur": 5.2,
+    "final_dur": 5.05
+  },
+  {
+    "id": "B081",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "Later kings of that line, Psamtik's descendants, sent masons through the monuments with chisels. Names were cut from walls at Karnak.",
+    "narration_words": 21,
+    "veo_prompt": "Egyptian masons chiseling a Kushite king's cartouche off a Karnak wall, torches, limestone chips, wall of carved names behind them, close tracking shot. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B081a-masons-chiseling-cartouche-karnak.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: two masons chiseling a cartouche on a temple wall by torchlight, carved reliefs visible behind.",
+    "est_dur": 8.4,
+    "final_dur": 8.16
+  },
+  {
+    "id": "B082",
+    "part": "5. The Spear of Assyria",
+    "type": "archival",
+    "narration": "Figures were scraped from temple carvings.",
+    "narration_words": 6,
+    "archival_guidance": "Source: A real monument with an erased Kushite cartouche (find a clear example). Commons search: https://commons.wikimedia.org/w/index.php?search=erased+cartouche+Kushite+Egypt&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B082a-hatshepsut-erased-cartouche-substitute.jpg",
+    "src_status": "MATCHED (substitute, as flagged in research): painted relief of Horus and Thoth purifying Hatshepsut, her figure chiseled away by Thutmose III. A real damnatio memoriae example, not Kushite-specific, standing in per the original guidance.",
+    "est_dur": 2.4,
+    "final_dur": 2.33
+  },
+  {
+    "id": "B083",
+    "part": "5. The Spear of Assyria",
+    "type": "graphic",
+    "narration": "On stones across the country, the Kushite kings were removed from the record.",
+    "narration_words": 13,
+    "notes": "Motion graphic MG6. On-screen: MG6 erasure sequence: a wall of golden cartouches from the 25th Dynasty vanishes one by one, leaving hollow ovals in the stone.",
+    "est_dur": 5.2,
+    "final_dur": 5.05
+  },
+  {
+    "id": "B084",
+    "part": "5. The Spear of Assyria",
+    "type": "graphic",
+    "narration": "And then, a little over seventy years after Tantamani retreated, an Egyptian army marched south and struck the Kushite heartland at Napata.",
+    "narration_words": 22,
+    "notes": "Motion graphic MG4. On-screen: MG4 contraction: an army arrow runs south along the Nile to Napata, which dims.",
+    "est_dur": 8.8,
+    "final_dur": 8.55
+  },
+  {
+    "id": "B085",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "Slowly, the Kushite court moved its center further up the river, to a city called Meroe.",
+    "narration_words": 16,
+    "veo_prompt": "A Kushite royal caravan moving south through dry savanna at dawn, a shrine carried between them, pack animals, long shadows, slow lateral track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B085a-royal-caravan-savanna-shrine.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: ornate shrine carried by a procession across dry savanna at dusk, acacia trees, long shadows.",
+    "est_dur": 6.4,
+    "final_dur": 6.22
+  },
+  {
+    "id": "B086",
+    "part": "5. The Spear of Assyria",
+    "type": "ai",
+    "narration": "They believed that was the end of Kush. They were wrong by nearly a thousand years.",
+    "narration_words": 16,
+    "veo_prompt": "The pyramids of Meroe emerging from dawn mist, steep and elegant, a lone camel in the foreground, camera rising slowly, hero shot. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B086a-meroe-pyramids-camel-dawn-mist.mp4",
+    "src_status": "user-supplied, 6.04s - near-exact match: a lone camel silhouette before multiple steep Meroe pyramids in dawn mist.",
+    "est_dur": 6.4,
+    "final_dur": 6.22
+  },
+  {
+    "id": "B087",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "ai",
+    "narration": "At Meroe, far up the Nile, where the summer rains came and iron ore lay near the surface, Kush built a different kind of world. There were furnaces, and heaps of iron slag that still stand today, some of the largest iron-working remains in all of ancient Africa.",
+    "narration_words": 48,
+    "veo_prompt": [
+      "Meroe far up the Nile after the summer rains, green savanna, the river, a thriving city, camera high and gliding. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Iron furnaces glowing in the dark at Meroe, smiths tapping molten metal, sparks rising, dark skinned smiths in leather aprons, intense close shots. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B087a-meroe-aerial-savanna-river.mp4",
+      "pantheon-ep4-clips/B087b-iron-furnace-smith-meroe.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: aerial of Meroe's pyramid city beside the Nile - strong match. Take B: smith pouring molten iron at a furnace, sparks flying - strong match (smith's skin tone doesn't exactly match the prompt's description, otherwise a good match).",
+    "est_dur": 19.2,
+    "final_dur": 18.66
+  },
+  {
+    "id": "B088",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "archival",
+    "narration": "There were pyramids, small and steep and graceful, hundreds of them across the kingdom.",
+    "narration_words": 14,
+    "archival_guidance": "Source: Pyramids of Meroe, aerial view. Commons search: https://commons.wikimedia.org/w/index.php?search=Meroe+pyramids+aerial&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Nubian_pyramids. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B088a-meroe-pyramids-aerial.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Aerial view of the Meroe pyramid field, exactly as specified.",
+    "est_dur": 5.6,
+    "final_dur": 5.44
+  },
+  {
+    "id": "B089",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "archival",
+    "narration": "There were temples to Apedemak, a lion-headed war god you will not find in Egypt.",
+    "narration_words": 15,
+    "archival_guidance": "Source: Lion Temple of Apedemak, Naqa. Commons search: https://commons.wikimedia.org/w/index.php?search=Apedemak+Naqa+lion+temple&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B089a-apedemak-lion-temple-naqa.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Lepsius-style line drawing of the triple-lion-headed Apedemak flanked by royal figures, Naqa lion temple.",
+    "est_dur": 6.0,
+    "final_dur": 5.83
+  },
+  {
+    "id": "B090",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "ai",
+    "narration": "And Kush was ruled, again and again, by queens. The title was kandake.",
+    "narration_words": 13,
+    "veo_prompt": "A kandake of Kush enthroned in a Meroitic hall, ornate robes and gold, attendants fanning her, slow push toward her face. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "notes": "Use a generic queen here, not the Amanirenas reference.",
+    "src": "pantheon-ep4-clips/B090a-kandake-enthroned-generic.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: a generic kandake enthroned in a Meroitic hall, attendants with feather fans - correctly NOT styled as Amanirenas, per the beat's own note.",
+    "est_dur": 5.2,
+    "final_dur": 5.05
+  },
+  {
+    "id": "B091",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "graphic",
+    "narration": "The Romans heard it and turned it into Candace, as if it were a single woman's name. It was not. It was a title, and the woman who made Rome respect it was named Amanirenas.",
+    "narration_words": 35,
+    "notes": "Motion graphic MG7. On-screen: MG7: the word CANDACE appears as if it were a name; a line strikes it through, replaced by KANDAKE; a caption reads a title, not a name. Then AMANIRENAS carves itself into stone.",
+    "est_dur": 14.0,
+    "final_dur": 13.6
+  },
+  {
+    "id": "B092",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "ai",
+    "narration": "In the year twenty-five before the common era, her armies swept north into Roman Egypt. The Romans struck back, and burned Napata. Amanirenas did not surrender.",
+    "narration_words": 26,
+    "veo_prompt": [
+      "Kushite army sweeping north past a Nile temple island into Roman Egypt, archers, banners, dust, wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Roman legionaries burning the city of Napata, flames against the mountain, shields and smoke, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Amanirenas, kandake of Kush: dark brown skin, regal bearing, fringed Meroitic robe, heavy gold jewelry and amulets, jeweled diadem standing defiant before her court, firelight on her face, not backing down, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B092e-kushite-army-sweeping-north-city.mp4",
+      "pantheon-ep4-clips/B092d-romans-burning-temple-island.mp4",
+      "pantheon-ep4-clips/B092c-amanirenas-defiant-firelight.mp4"
+    ],
+    "src_status": "ALL 3 sub-prompts now have real matches. Sub-prompt 1 UPGRADED: a crowned Kushite king leading his army down a torchlit city street past crowds on the rooftops, finally a genuine Kushite-styled army shot (replaces the earlier Roman-soldier mismatches, which are kept as unassigned bonus clips). Sub-prompt 2: Romans advancing on a burning temple island. Sub-prompt 3: Amanirenas defiant. Beat complete.",
+    "est_dur": 10.4,
+    "final_dur": 10.11
+  },
+  {
+    "id": "B093",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "graphic",
+    "narration": "She sent envoys to the emperor Augustus, who was on the island of Samos, and he agreed to terms that left Kush independent and cancelled the tribute he had demanded.",
+    "narration_words": 30,
+    "notes": "Motion graphic MG8. On-screen: MG8: map of Roman Egypt and Kush; envoy ships cross to the island of Samos; terms appear as a Kush-independent border line and a struck-out tribute mark.",
+    "est_dur": 12.0,
+    "final_dur": 11.66
+  },
+  {
+    "id": "B094",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "archival",
+    "narration": "The Greek geographer Strabo sneered that she was mannish and blind in one eye.",
+    "narration_words": 14,
+    "archival_guidance": "Source: Strabo, Geography (manuscript page). Commons search: https://commons.wikimedia.org/w/index.php?search=Strabo+Geographica+manuscript&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "notes": "Check-before-rendering caution: do not show Amanirenas with a blinded eye; Strabo's description is hostile and the script only reports it.",
+    "src": "public/pantheon-ep4-archival/B094a-strabo-geographica-manuscript.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Handwritten Greek manuscript page of Strabo's Geographica.",
+    "est_dur": 5.6,
+    "final_dur": 5.44
+  },
+  {
+    "id": "B095",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "ai",
+    "narration": "The emperor of Rome made peace with her anyway.",
+    "narration_words": 9,
+    "veo_prompt": "Emperor Augustus on a marble terrace at Samos receiving Kushite envoys, the sea behind them, Roman guards, his face weighing the moment, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B095a-augustus-receives-kushite-envoys.mp4",
+    "src_status": "user-supplied, 6.04s - near-exact match: a Roman emperor (laurel wreath, toga) seated on a marble terrace receiving gold-robed Kushite envoys, sea behind, guards present.",
+    "est_dur": 3.6,
+    "final_dur": 3.5
+  },
+  {
+    "id": "B096",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "archival",
+    "narration": "Her warriors had also taken the bronze head of a statue of Augustus.",
+    "narration_words": 13,
+    "archival_guidance": "Source: Bronze head of Augustus from Meroe, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Head+of+Augustus+Meroe+British+Museum&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Roman_relations_with_Nubia. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B096a-bronze-head-augustus-meroe.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. The \"Meroe Head\" bronze bust of Augustus, British Museum.",
+    "est_dur": 5.2,
+    "final_dur": 5.05
+  },
+  {
+    "id": "B097",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "ai",
+    "narration": "They carried it south, and they buried it beneath the steps of a temple at Meroe. Many scholars believe it was placed there so that worshippers would tread over it.",
+    "narration_words": 30,
+    "veo_prompt": [
+      "Kushite warriors carrying a bronze head wrapped in cloth on a litter through savanna, dawn, determined and weary. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "Looking up from the base of a temple stair at Meroe, worshippers' feet and robes passing over the steps, a faint bronze glint between the stones. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep4-clips/B097a-warriors-carrying-bronze-head-litter.mp4",
+      "pantheon-ep4-clips/B097b-worshippers-feet-over-buried-head.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: warriors carrying the wrapped bundle through savanna. Take B: looking up at worshippers' feet passing over temple steps, hieroglyphic wall - exact match. Beat complete.",
+    "est_dur": 12.0,
+    "final_dur": 11.66
+  },
+  {
+    "id": "B098",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "archival",
+    "narration": "It lay there until nineteen ten, when archaeologists found it.",
+    "narration_words": 10,
+    "archival_guidance": "Source: Excavations at Meroe, 1910 (Garstang). Commons search: https://commons.wikimedia.org/w/index.php?search=Garstang+Meroe+excavation&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B098a-garstang-meroe-excavation-1910.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Plate from \"Meroe, the City of the Ethiopians\" (Garstang's 1909-1910 excavation report).",
+    "est_dur": 4.0,
+    "final_dur": 3.89
+  },
+  {
+    "id": "B099",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "ai",
+    "narration": "The peace held for nearly three hundred years. Kush outlasted every native dynasty of Egypt.",
+    "narration_words": 15,
+    "veo_prompt": "Meroe's pyramids at golden hour as the camera pulls slowly away, wind in the sand, a quiet peace, dissolving into long shadow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B099a-meroe-pyramids-golden-hour-wind.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: wide view of multiple pyramids at golden hour with wind-blown sand.",
+    "est_dur": 6.0,
+    "final_dur": 5.83
+  },
+  {
+    "id": "B100",
+    "part": "6. The Kingdom That Kept Going",
+    "type": "ai",
+    "narration": "So why do you not know their names? That, at last, is the question worth asking.",
+    "narration_words": 16,
+    "veo_prompt": "A single torch moving along a long stone wall of carved cartouches, many hollowed and chiseled blank, camera following the torch and its light. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B100a-torch-cartouche-wall.mp4",
+    "src_status": "user-supplied, 10.04s - strong match: single torch moving along a long wall of carved oval recesses/cartouches, camera following the torchlight.",
+    "est_dur": 6.4,
+    "final_dur": 6.22
+  },
+  {
+    "id": "B101",
+    "part": "7. The God's Reflection",
+    "type": "ai",
+    "narration": "Egypt had reasons to forget them. A kingdom that has been ruled by people it called foreigners does not tell that story kindly.",
+    "narration_words": 23,
+    "veo_prompt": "Egyptian scribes in lamplight copying lists of kings onto papyrus, ink and reed pens, a priest dictating, quiet and orderly, close then wide. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B101a-scribes-copying-kings-list.mp4",
+    "src_status": "user-supplied, 6.04s - near-exact match: scribes writing on papyrus by candlelight, a standing priest dictating.",
+    "est_dur": 9.2,
+    "final_dur": 8.94
+  },
+  {
+    "id": "B102",
+    "part": "7. The God's Reflection",
+    "type": "graphic",
+    "narration": "In the surviving versions of the great list of pharaohs by the priest Manetho, Piye himself is missing.",
+    "narration_words": 18,
+    "notes": "Motion graphic MG9. On-screen: MG9: a scroll of royal names scrolls down; Piye's slot stays blank while the others fill in.",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  },
+  {
+    "id": "B103",
+    "part": "7. The God's Reflection",
+    "type": "graphic",
+    "narration": "The masons cut away the rest.",
+    "narration_words": 6,
+    "notes": "Motion graphic MG6. On-screen: Short repeat of MG6: a handful of cartouches erase.",
+    "est_dur": 2.4,
+    "final_dur": 2.33
+  },
+  {
+    "id": "B104",
+    "part": "7. The God's Reflection",
+    "type": "archival",
+    "narration": "And the Greeks and Romans who came after knew Kush only as a distant land at the edge of the world.",
+    "narration_words": 21,
+    "archival_guidance": "Source: Ancient Greek world map showing Aethiopia at the edge. Commons search: https://commons.wikimedia.org/w/index.php?search=Herodotus+world+map+Aethiopia&ns6=1. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page",
+    "src": "public/pantheon-ep4-archival/B104a-herodotus-world-map-aethiopia.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Modern reconstruction map, \"The World according to Herodotus,\" showing Aethiopes at the southern edge.",
+    "est_dur": 8.4,
+    "final_dur": 8.16
+  },
+  {
+    "id": "B105",
+    "part": "7. The God's Reflection",
+    "type": "archival",
+    "narration": "But Kush wrote itself, too. In a script that has never been fully deciphered.",
+    "narration_words": 14,
+    "archival_guidance": "Source: Meroitic inscription on a stele or temple wall. Commons search: https://commons.wikimedia.org/w/index.php?search=Meroitic+inscription&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B105a-meroitic-inscription-petrie-museum.jpg",
+    "src_status": "MATCHED: direct Wikimedia download. Macro of carved Meroitic hieroglyphic characters, Petrie Museum.",
+    "est_dur": 5.6,
+    "final_dur": 5.44
+  },
+  {
+    "id": "B106",
+    "part": "7. The God's Reflection",
+    "type": "graphic",
+    "narration": "Meroitic, the language of Kush, still keeps its secrets. We can sound out the letters. We can recognize the names of kings and queens. But the sentences stay shut.",
+    "narration_words": 29,
+    "notes": "Motion graphic MG10. On-screen: MG10: Meroitic letters glow gold one at a time; the known royal names light fully while the long sentences stay dark.",
+    "est_dur": 11.6,
+    "final_dur": 11.27
+  },
+  {
+    "id": "B107",
+    "part": "7. The God's Reflection",
+    "type": "ai",
+    "narration": "I watched them speak it for more than a thousand years. I can tell you what they did. I cannot tell you what they said.",
+    "narration_words": 25,
+    "veo_prompt": "The God's stone throne room at night, a vast television screen showing flickering Meroitic script, stars through a tall window, absolute silence, camera slowly pulling back. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "notes": "The God is heard, not seen.",
+    "src": "pantheon-ep4-clips/B107a-gods-throne-room-flickering-script.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: throne room at night, a large glowing stone panel of flickering Meroitic-style script standing in for the 'television screen', stars visible through a window.",
+    "est_dur": 10.0,
+    "final_dur": 9.72
+  },
+  {
+    "id": "B108",
+    "part": "7. The God's Reflection",
+    "type": "ai",
+    "narration": "History belongs to those who hold the chisel. But every chisel leaves a mark.",
+    "narration_words": 14,
+    "veo_prompt": "A hand with a chisel carving a cartouche into stone, then the chisel stopping and lifting, firelight on the blade. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B108a-chisel-carving-cartouche-outline.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: close-up of a hand with a chisel carving an oval cartouche outline into stone, firelight.",
+    "est_dur": 5.6,
+    "final_dur": 5.44
+  },
+  {
+    "id": "B109",
+    "part": "7. The God's Reflection",
+    "type": "archival",
+    "narration": "Where Egypt cut away a king's name, it left a hole in the exact shape of the king. Scholars have been reading those holes for generations.",
+    "narration_words": 26,
+    "archival_guidance": "Source: Macro of a hollow, erased cartouche in an Egyptian wall. Commons search: https://commons.wikimedia.org/w/index.php?search=erased+cartouche+Egypt&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B109a-erased-cartouche-situla-substitute.jpg",
+    "src_status": "MATCHED (substitute, as flagged in research): blue faience situla with a hollowed-out, erased cartouche of Akhenaten, Walters Art Museum. Real erasure example, object type (vessel vs. wall) differs from the literal guidance.",
+    "est_dur": 10.4,
+    "final_dur": 10.11
+  },
+  {
+    "id": "B110",
+    "part": "7. The God's Reflection",
+    "type": "graphic",
+    "narration": "The names are still in the stone. Someone only has to look.",
+    "narration_words": 12,
+    "notes": "Motion graphic MG6. On-screen: MG6 reversed: the hollow ovals fill in gold, reading PIYE, TAHARQA, TANTAMANI, AMANIRENAS.",
+    "est_dur": 4.8,
+    "final_dur": 4.66
+  },
+  {
+    "id": "B111",
+    "part": "7. The God's Reflection",
+    "type": "ai",
+    "narration": "I have watched many empires try to forget their enemies. I have rarely watched one fail so completely.",
+    "narration_words": 18,
+    "veo_prompt": "The God's throne room, television dark, stars through the window, a faint gold glow on the empty throne, slow push, then fade to black. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "notes": "Final plate.",
+    "src": "pantheon-ep4-clips/B111a-gods-throne-room-empty-stars.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: an empty ornate stone throne room at night, starry sky through a tall window, torches.",
+    "est_dur": 7.2,
+    "final_dur": 7.0
+  }
+]

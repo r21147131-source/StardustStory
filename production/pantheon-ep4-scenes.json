@@ -1,0 +1,925 @@
+[
+  {
+    "shot": "B001",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B001a-jebel-barkal-mountain.jpg",
+    "duration": 5.44
+  },
+  {
+    "shot": "B002",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B002a-piye-victory-stele-full.jpg",
+    "duration": 7.77
+  },
+  {
+    "shot": "B003",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B003a-19thc-stele-lithograph-dujardin.jpg",
+    "duration": 4.66
+  },
+  {
+    "shot": "B004",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B004a-chisel-cartouche-closeup.mp4",
+    "duration": 4.66,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B005",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B005a-piye-stele-first-line-translation.jpg",
+    "duration": 7.38
+  },
+  {
+    "shot": "B006",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B006a-nile-fleet-dawn-advance.mp4",
+    "duration": 3.89,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B007",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B007a-piye-character-anchor-portrait.mp4",
+    "duration": 3.89,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B008",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B008-MapEgyptKush.mp4",
+    "duration": 7.0
+  },
+  {
+    "shot": "B009",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B009a-sphinx-of-taharqo.jpg",
+    "duration": 8.16
+  },
+  {
+    "shot": "B010",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B010a-masons-chiseling-cartouche-night.mp4",
+    "duration": 3.89,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B011",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B011-TitleCard.mp4",
+    "duration": 4.28
+  },
+  {
+    "shot": "B012",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B012a-jebel-barkal-torch-procession.mp4",
+    "duration": 8.16,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B013",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B013a-nubian-gold-mine.mp4",
+    "duration": 5.83,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B014",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B014a-thutmose-iii-victory-stele.webp",
+    "duration": 1.17
+  },
+  {
+    "shot": "B014",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B014b-thutmose-iii-stela-alternate-museum.jpg",
+    "duration": 1.17
+  },
+  {
+    "shot": "B015",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B015a-tomb-of-huy-nubian-tribute.jpg",
+    "duration": 8.16
+  },
+  {
+    "shot": "B016",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B016a-egyptian-fortress-nile-sunset.mp4",
+    "duration": 3.89,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B017",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B017-MapEgyptCracks.mp4",
+    "duration": 7.38
+  },
+  {
+    "shot": "B018",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B018a-priests-karnak-colonnade.mp4",
+    "duration": 6.42,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B018",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B018b-delta-chiefs-council-table.mp4",
+    "duration": 6.42,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B019",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B019-MapKushGrows.mp4",
+    "duration": 6.61
+  },
+  {
+    "shot": "B020",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B020a-jebel-barkal-temple-ruins.jpg",
+    "duration": 2.72
+  },
+  {
+    "shot": "B020",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B020b-jebel-barkal-mesa-alternate.jpg",
+    "duration": 2.72
+  },
+  {
+    "shot": "B021",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B021a-priests-bark-shrine-procession.mp4",
+    "duration": 8.55,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B021",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B021b-king-kneeling-altar-jebel-barkal.mp4",
+    "duration": 8.55,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B022",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B022-MapAlaraKashta.mp4",
+    "duration": 12.05
+  },
+  {
+    "shot": "B023",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B023a-kushite-cavalry-galloping-tentative.mp4",
+    "duration": 8.16,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B024",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B024a-tefnakht-sais-rooftop-night.mp4",
+    "duration": 9.72,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B025",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B025a-tefnakht-stela-detail.jpg",
+    "duration": 4.28
+  },
+  {
+    "shot": "B026",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B026-MapCoalitionMarches.mp4",
+    "duration": 7.0
+  },
+  {
+    "shot": "B027",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B027-MapMemphisHerakleopolis.mp4",
+    "duration": 7.0
+  },
+  {
+    "shot": "B028",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B028a-delta-soldiers-marching-south-dawn.mp4",
+    "duration": 4.08,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B028",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B028a-delta-soldiers-marching-south-dawn.mp4",
+    "duration": 4.08,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B029",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B029a-piye-receives-messenger-napata.mp4",
+    "duration": 6.22,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B030",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B030-MapArmyFollowsPiye.mp4",
+    "duration": 4.28
+  },
+  {
+    "shot": "B031",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B031a-piye-stele-complete-inscription.jpg",
+    "duration": 9.72
+  },
+  {
+    "shot": "B032",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B032a-nile-river-battle-ramming.mp4",
+    "duration": 4.28,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B033",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B033a-nimlot-horse-sistrum-drawing.jpg",
+    "duration": 6.61
+  },
+  {
+    "shot": "B034",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B034a-nimlot-kneeling-gate-horse-sistrum.mp4",
+    "duration": 3.31,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B034",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B034a-nimlot-kneeling-gate-horse-sistrum.mp4",
+    "duration": 3.31,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B035",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B035a-piye-stables-starved-horses.mp4",
+    "duration": 6.42,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B035",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B035b-piye-hand-horse-muzzle-closeup.mp4",
+    "duration": 6.42,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B036",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B036a-piye-praying-before-amun.mp4",
+    "duration": 4.66,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B036",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B036b-piye-stroking-horse-tender.mp4",
+    "duration": 4.66,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B036",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B036c-piye-chariot-spear-raised.mp4",
+    "duration": 4.66,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B037",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B037a-tefnakht-slips-into-memphis-gate.mp4",
+    "duration": 5.05,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B037",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B037b-memphis-walls-aerial-dusk.mp4",
+    "duration": 5.05,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B038",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B038a-piye-commanders-council-map-table.mp4",
+    "duration": 2.33,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B039",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B039-MemphisHarborSchematic.mp4",
+    "duration": 1.94
+  },
+  {
+    "shot": "B040",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B040b-ships-storming-harbor-soldiers.mp4",
+    "duration": 3.5,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B040",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B040a-ships-arriving-riverside-city-tentative.mp4",
+    "duration": 3.5,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B041",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B041a-piye-temple-of-ptah-thanks.mp4",
+    "duration": 8.74,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B041",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B041b-piye-priests-homage-golden-light.mp4",
+    "duration": 8.74,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B042",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B042a-delta-princes-tribute-horses.mp4",
+    "duration": 5.05,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B043",
+    "type": "image",
+    "source": "pantheon-ep4-archival/B043a-stele-relief-homage-scene.jpg",
+    "duration": 2.72
+  },
+  {
+    "shot": "B044",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B044a-tefnakht-watching-messenger-quay.mp4",
+    "duration": 3.88,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B044",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B044a-tefnakht-watching-messenger-quay.mp4",
+    "duration": 3.88,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B045",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B045a-ships-sailing-home-tentative.mp4",
+    "duration": 7.77,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B046",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B046a-amenirdis-i-medinet-habu-chapel-relief.jpg",
+    "duration": 8.94
+  },
+  {
+    "shot": "B047",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B047a-piye-ship-deck-looking-back.mp4",
+    "duration": 7.38,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B048",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B048a-el-kurru-pyramid-excavated-tentative.jpg",
+    "duration": 6.49
+  },
+  {
+    "shot": "B049",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B049a-eight-horses-pyramid-mist.mp4",
+    "duration": 4.0
+  },
+  {
+    "shot": "B050",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B050a-pyramid-construction-golden-hour.mp4",
+    "duration": 7.77,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B051",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B051a-pharaoh-enthroned-memphis-palace.mp4",
+    "duration": 3.89,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B052",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B052a-taharqa-statue-dark-stone-tentative.jpg",
+    "duration": 1.17
+  },
+  {
+    "shot": "B053",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B053a-taharqa-young-prince-sailing-north.mp4",
+    "duration": 4.86,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B053",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B053b-queen-abar-waiting-napata.mp4",
+    "duration": 4.86,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B054",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B054a-taharqa-abar-reunion-embrace.mp4",
+    "duration": 6.61,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B055",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B055a-taharqa-abar-offering-scene-lepsius.jpg",
+    "duration": 5.05
+  },
+  {
+    "shot": "B056",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B056-MapEmpireGlows.mp4",
+    "duration": 5.83
+  },
+  {
+    "shot": "B057",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B057a-taharqa-kiosk-karnak.jpg",
+    "duration": 5.83
+  },
+  {
+    "shot": "B058",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B058a-sculptors-carving-relief-lamplight.mp4",
+    "duration": 5.44,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B058",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B058b-masons-raising-column-karnak-aerial.mp4",
+    "duration": 5.44,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B059",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B059a-pyramid-of-taharqa-nuri.jpg",
+    "duration": 4.66
+  },
+  {
+    "shot": "B060",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B060a-lachish-relief-assyrian-captives-tentative.jpg",
+    "duration": 8.16
+  },
+  {
+    "shot": "B061",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B061a-taharqa-leading-army-dawn-tentative.mp4",
+    "duration": 7.38,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B062",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B062-MapAssyriaSpreads.mp4",
+    "duration": 8.94
+  },
+  {
+    "shot": "B063",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B063a-medinet-habu-sea-peoples-relief.jpg",
+    "duration": 7.0
+  },
+  {
+    "shot": "B064",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B064a-assyrian-king-map-table.mp4",
+    "duration": 3.11,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B064",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B064a-assyrian-king-map-table.mp4",
+    "duration": 3.11,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B065",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B065a-taharqa-older-city-wall-dusk.mp4",
+    "duration": 2.72,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B066",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B066a-assyrian-siege-towers-memphis.mp4",
+    "duration": 3.5,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B066",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B066a-assyrian-siege-towers-memphis.mp4",
+    "duration": 3.5,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B067",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B067a-esarhaddon-samal-stele-detail.jpg",
+    "duration": 3.11
+  },
+  {
+    "shot": "B068",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B068a-taharqa-burning-city-behind.mp4",
+    "duration": 1.17,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B069",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B069-AssyrianTimeline.mp4",
+    "duration": 8.16
+  },
+  {
+    "shot": "B070",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B070a-ashurbanipal-wall-relief-nineveh.jpg",
+    "duration": 5.44
+  },
+  {
+    "shot": "B071",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B071a-aged-taharqa-deathbed-napata.mp4",
+    "duration": 3.11,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B072",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B072a-tantamani-statue-louvre-colour.jpg",
+    "duration": 2.33
+  },
+  {
+    "shot": "B073",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B073a-tantamani-dream-cobras.mp4",
+    "duration": 5.63,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B073",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B073a-tantamani-dream-cobras.mp4",
+    "duration": 5.63,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B074",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B074a-tantamani-enters-memphis-triumphant.mp4",
+    "duration": 5.83,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B075",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B075a-assyrian-army-massed-nile-dawn.mp4",
+    "duration": 1.17,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B076",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B076a-assyrians-sacking-thebes.mp4",
+    "duration": 5.63,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B076",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B076b-burning-thebes-aerial-wide.mp4",
+    "duration": 5.63,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B077",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B077a-rassam-cylinder-ashurbanipal-egypt.jpg",
+    "duration": 7.0
+  },
+  {
+    "shot": "B078",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B078a-tantamani-defeated-ship-deck.mp4",
+    "duration": 1.55,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B079",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B079a-psamtik-i-bust-statue.jpg",
+    "duration": 7.0
+  },
+  {
+    "shot": "B080",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B080a-saite-king-order-to-mason.mp4",
+    "duration": 5.05,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B081",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B081a-masons-chiseling-cartouche-karnak.mp4",
+    "duration": 4.08,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B081",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B081a-masons-chiseling-cartouche-karnak.mp4",
+    "duration": 4.08,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B082",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B082a-hatshepsut-erased-cartouche-substitute.jpg",
+    "duration": 2.33
+  },
+  {
+    "shot": "B083",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B083-ErasureSequence.mp4",
+    "duration": 5.05
+  },
+  {
+    "shot": "B084",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B084-MapNapataDims.mp4",
+    "duration": 8.55
+  },
+  {
+    "shot": "B085",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B085a-royal-caravan-savanna-shrine.mp4",
+    "duration": 3.11,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B085",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B085a-royal-caravan-savanna-shrine.mp4",
+    "duration": 3.11,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B086",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B086a-meroe-pyramids-camel-dawn-mist.mp4",
+    "duration": 3.11,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B086",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B086a-meroe-pyramids-camel-dawn-mist.mp4",
+    "duration": 3.11,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B087",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B087a-meroe-aerial-savanna-river.mp4",
+    "duration": 9.33,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B087",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B087b-iron-furnace-smith-meroe.mp4",
+    "duration": 9.33,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B088",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B088a-meroe-pyramids-aerial.jpg",
+    "duration": 5.44
+  },
+  {
+    "shot": "B089",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B089a-apedemak-lion-temple-naqa.jpg",
+    "duration": 5.83
+  },
+  {
+    "shot": "B090",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B090a-kandake-enthroned-generic.mp4",
+    "duration": 5.05,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B091",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B091-KandakeTypography.mp4",
+    "duration": 13.6
+  },
+  {
+    "shot": "B092",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B092e-kushite-army-sweeping-north-city.mp4",
+    "duration": 3.37,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B092",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B092d-romans-burning-temple-island.mp4",
+    "duration": 3.37,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B092",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B092c-amanirenas-defiant-firelight.mp4",
+    "duration": 3.37,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B093",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B093-RomeKushTerms.mp4",
+    "duration": 11.66
+  },
+  {
+    "shot": "B094",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B094a-strabo-geographica-manuscript.jpg",
+    "duration": 5.44
+  },
+  {
+    "shot": "B095",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B095a-augustus-receives-kushite-envoys.mp4",
+    "duration": 3.5,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B096",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B096a-bronze-head-augustus-meroe.jpg",
+    "duration": 5.05
+  },
+  {
+    "shot": "B097",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B097a-warriors-carrying-bronze-head-litter.mp4",
+    "duration": 5.83,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B097",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B097b-worshippers-feet-over-buried-head.mp4",
+    "duration": 5.83,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B098",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B098a-garstang-meroe-excavation-1910.jpg",
+    "duration": 3.89
+  },
+  {
+    "shot": "B099",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B099a-meroe-pyramids-golden-hour-wind.mp4",
+    "duration": 5.83,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B100",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B100a-torch-cartouche-wall.mp4",
+    "duration": 6.22,
+    "_native": 10.041667
+  },
+  {
+    "shot": "B101",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B101a-scribes-copying-kings-list.mp4",
+    "duration": 4.47,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B101",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B101a-scribes-copying-kings-list.mp4",
+    "duration": 4.47,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B102",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B102-KingListScroll.mp4",
+    "duration": 7.0
+  },
+  {
+    "shot": "B103",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B103-ErasureRepeat.mp4",
+    "duration": 2.33
+  },
+  {
+    "shot": "B104",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B104a-herodotus-world-map-aethiopia.jpg",
+    "duration": 8.16
+  },
+  {
+    "shot": "B105",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B105a-meroitic-inscription-petrie-museum.jpg",
+    "duration": 5.44
+  },
+  {
+    "shot": "B106",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B106-MeroiticScript.mp4",
+    "duration": 11.27
+  },
+  {
+    "shot": "B107",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B107a-gods-throne-room-flickering-script.mp4",
+    "duration": 4.86,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B107",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B107a-gods-throne-room-flickering-script.mp4",
+    "duration": 4.86,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B108",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B108a-chisel-carving-cartouche-outline.mp4",
+    "duration": 5.44,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B109",
+    "type": "image",
+    "source": "public/pantheon-ep4-archival/B109a-erased-cartouche-situla-substitute.jpg",
+    "duration": 10.11
+  },
+  {
+    "shot": "B110",
+    "type": "video",
+    "source": "pantheon-ep4-motion-graphics/EP4-B110-NamesRefill.mp4",
+    "duration": 4.66
+  },
+  {
+    "shot": "B111",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B111a-gods-throne-room-empty-stars.mp4",
+    "duration": 3.5,
+    "_native": 6.041667
+  },
+  {
+    "shot": "B111",
+    "type": "video",
+    "source": "pantheon-ep4-clips/B111a-gods-throne-room-empty-stars.mp4",
+    "duration": 3.5,
+    "_native": 6.041667
+  }
+]
