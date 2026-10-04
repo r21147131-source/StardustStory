@@ -250,7 +250,9 @@
     "type": "archival",
     "narration": "He chose the wrong year, and he chose the wrong neighbor.",
     "narration_words": 11,
-    "archival_guidance": "Source: Stela of Tefnakht (Athens, year eight). Commons search: https://commons.wikimedia.org/w/index.php?search=Tefnakht+stela+Athens&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Tefnakht. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Stela of Tefnakht (Athens, year eight). Commons search: https://commons.wikimedia.org/w/index.php?search=Tefnakht+stela+Athens&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Tefnakht. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B025a-tefnakht-stela-detail.jpg",
+    "src_status": "MATCHED: user-confirmed as the Stela of Tefnakht, National Archaeological Museum, Athens. Round-topped stela, offering scene with cartouches, raking-light museum photo."
   },
   {
     "id": "B026",

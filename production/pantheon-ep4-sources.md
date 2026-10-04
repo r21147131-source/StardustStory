@@ -197,7 +197,7 @@ Two more matches — B097 now fully covered:
 
 Every one of the 57 AI beats (71 individual clip slots, including all multi-take beats) now has a user-supplied source. Remaining tentative/flagged items worth a second look before final cut: B023 (cavalry against a temple wall rather than open plain) and B040 (B040a kept as a secondary alternate to the primary B040b). Everything else is a strong or exact match.
 
-## Archival photos — 12 of 34 beats covered
+## Archival photos — 13 of 34 beats covered
 
 All in `public/pantheon-ep4-archival/`.
 
@@ -217,14 +217,14 @@ All in `public/pantheon-ep4-archival/`.
 | B052 | B052a-taharqa-statue-dark-stone-tentative.jpg | Dark granodiorite standing royal statue, crown apex missing, no added colour | **Tentative — plausibly Taharqa but not confirmed against this specific statue; could be another 25th-Dynasty king. Please confirm if known** |
 | B055 | B055a-taharqa-abar-offering-scene-lepsius.jpg | 19th-c. line-drawing offering scene, Lepsius-style engraving — king presenting offering to two enthroned deities with an attendant behind, matches the brief's Taharqa/Queen Abar relief | Strong |
 | B060 | B060a-lachish-relief-assyrian-captives-tentative.jpg | Large Assyrian palace relief, museum corner display — procession of captives with raised hands, chariot, hunted animals; matches the visual convention of the Lachish deportation reliefs | **Tentative — not confirmed as this specific relief; please confirm source if known** |
+| B025 | B025a-tefnakht-stela-detail.jpg | Stela of Tefnakht, National Archaeological Museum, Athens — user-confirmed | Strong |
 
 **Flag before publishing:** B002, B003, B014 (alternate), B048, B052, and B060 are best-guess matches, not confirmed identifications. B048, B052, and B060 especially need your confirmation — I can't fully distinguish them from close alternatives (El-Kurru vs Nuri; which Kushite king's statue; which Assyrian relief) without more to go on.
 
 **Still unassigned, identity unknown — need your input:**
-- `EXTRA-stela-relief-detail-unassigned.jpg` — weathered sandstone relief close-up with cartouches (asked previously, no answer yet)
-- `EXTRA-cartouche-relief-raking-light-unassigned.jpg` — a cartouche and falcon/figure relief in dramatic raking light (new, from this batch)
+- `EXTRA-cartouche-relief-raking-light-unassigned.jpg` — a cartouche and falcon/figure relief in dramatic raking light
 
-**22 more archival beats still need photos:** B001, B005, B025, B031, B046, B057, B059, B063, B067, B070, B072, B077, B079, B082, B088, B089, B094, B096, B098, B104, B105, B109.
+**21 more archival beats still need photos:** B001, B005, B031, B046, B057, B059, B063, B067, B070, B072, B077, B079, B082, B088, B089, B094, B096, B098, B104, B105, B109.
 
 ## Motion graphics — 20 of 20 beats built and rendered
 

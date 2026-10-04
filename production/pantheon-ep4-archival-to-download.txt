@@ -1,7 +1,7 @@
 PANTHEON EP.4 (KUSH) — ARCHIVAL PHOTOS TO DOWNLOAD
 ============================================================
 
-(22 verified direct image URLs, researched via Wikimedia
+(21 verified direct image URLs, researched via Wikimedia
 Commons and museum sites. Each one was confirmed to actually load
 (server-side) before being listed here. Download each and send it
 back as a file attachment, same as the AI clips.)
@@ -21,13 +21,6 @@ Source: Stele of Piye, first line of the inscription with its French translation
 URL: https://upload.wikimedia.org/wikipedia/commons/a/af/Stele_of_Piye_%28translation_of_first_line%29.jpg
 License: Public Domain (19th-century publication; PD-old)
 Quality: Good — a genuine inscription extract from the real stele, distinct from B002's full-stela photo and B043's homage-register crop already in the shot list. Not a tight physical-register crop so much as a text excerpt plate, hence Good rather than Strong.
-
-[B025] Stela of Tefnakht (Athens)
-Narration: "He chose the wrong year, and he chose the wrong neighbor."
-Source: Stela of Tefnakht, National Archaeological Museum, Athens (detail, photo by T. Efthimiadis)
-URL: https://upload.wikimedia.org/wikipedia/commons/e/ed/Tefnakht_Athens_stela_%28T._Efthimiadis%29_det.jpg
-License: CHECK — unclear (this is the `og:image` on Wikipedia's "Tefnakht" article and resolves fine; I did not separately confirm the Commons file page's licence tag)
-Quality: Strong — exact object named in the guidance, found directly via the Tefnakht Wikipedia page. (This was flagged as one of the harder ones to find; it turned up cleanly.)
 
 [B031] Victory Stele of Piye, complete inscription
 Narration: "His orders to his commanders survive on the stone, and they read like the orders of a man who cared how a war was won."
