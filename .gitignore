@@ -21,6 +21,7 @@ output/pantheon-ep2-final.mp4
 output/pantheon-ep2-video-only.mp4
 output/pantheon-ep2-preview.mp4
 output/ffmpeg2pass-*
+ffmpeg2pass-*
 
 # Pantheon Ep.4 local-assembly intermediates (140 normalized per-shot
 # clips, concat list) - not final deliverables, not meant to be
