@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 44 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 49 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -104,7 +104,17 @@ Four more matches (Part Five, Taharqa's decline/Assyrian wars arc):
 
 (One duplicate of B064a in this batch, caught by hash and skipped.)
 
-**27 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Five more matches — B076 now fully covered:
+
+| Beat | File | Match |
+|---|---|---|
+| B076 (2/2 — both covered) | B076b-burning-thebes-aerial-wide.mp4 | Strong — wide aerial of Thebes burning along the Nile, temple pylons silhouetted against the glow |
+| B078 | B078a-tantamani-defeated-ship-deck.mp4 | Strong — crowned king alone on a ship deck at dusk, city receding, grave and quiet |
+| B080 | B080a-saite-king-order-to-mason.mp4 | Strong — Egyptian king handing a rolled scroll to a humble figure, torchlit |
+| B081 | B081a-masons-chiseling-cartouche-karnak.mp4 | Strong — two masons chiseling a cartouche by torchlight |
+| B085 | B085a-royal-caravan-savanna-shrine.mp4 | Strong — ornate shrine carried by procession across dry savanna at dusk |
+
+**22 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 

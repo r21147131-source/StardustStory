@@ -4,7 +4,7 @@ PANTHEON EP.4 (KUSH) — REMAINING AI/VEO PROMPTS
 Shared style suffix (already included at the end of every prompt below):
 Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
-(27 prompts remaining across 25 beats, out of 71 total AI clips needed)
+(22 prompts remaining across 20 beats, out of 71 total AI clips needed)
 
 Beats already fully or partially covered by clips you've sent are
 skipped or trimmed to just the missing take(s). See
@@ -59,31 +59,6 @@ Narration: "He marched north. He took Memphis. For a brief moment, the double ki
 Narration: "Ashurbanipal came back."
   Prompt:
   A vast Assyrian army massed on the bank of the Nile at dawn, chariots and spearmen, banners, hazy gold light, wide God's-eye view. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B076] — 5. The Spear of Assyria
-Narration: "Thebes fell, and was sacked, in six hundred sixty-three, its temples stripped of their gold and its treasures carried to Nineveh. The ancient world remembered that day for centuries."
-  Take B:
-  Wide God's-eye view of burning Thebes as the smoke drifts across the Nile, temples dark against the glow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B078] — 5. The Spear of Assyria
-Narration: "Tantamani withdrew to Kush."
-  Prompt:
-  Kushite ships sailing south down the Nile, a defeated king silent on deck, evening light, quiet and grave. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B080] — 5. The Spear of Assyria
-Narration: "The Egyptians who ruled next did not forget who had held their throne."
-  Prompt:
-  A new Egyptian king in a Saite court handing a rolled order to a master mason, torchlit palace, hard shadows, quiet menace. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B081] — 5. The Spear of Assyria
-Narration: "Later kings of that line, Psamtik's descendants, sent masons through the monuments with chisels. Names were cut from walls at Karnak."
-  Prompt:
-  Egyptian masons chiseling a Kushite king's cartouche off a Karnak wall, torches, limestone chips, wall of carved names behind them, close tracking shot. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-[B085] — 5. The Spear of Assyria
-Narration: "Slowly, the Kushite court moved its center further up the river, to a city called Meroe."
-  Prompt:
-  A Kushite royal caravan moving south through dry savanna at dawn, a shrine carried between them, pack animals, long shadows, slow lateral track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 [B086] — 5. The Spear of Assyria
 Narration: "They believed that was the end of Kush. They were wrong by nearly a thousand years."

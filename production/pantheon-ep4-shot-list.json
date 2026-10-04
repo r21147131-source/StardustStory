@@ -738,8 +738,11 @@
       "Thebes burning at night, Karnak's pylons in silhouette against orange flames, Assyrian soldiers carrying out gold and statues, smoke, no gore. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Wide God's-eye view of burning Thebes as the smoke drifts across the Nile, temples dark against the glow. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ],
-    "src": "pantheon-ep4-clips/B076a-assyrians-sacking-thebes.mp4",
-    "src_status": "user-supplied, 10.04s - covers sub-prompt 1 of 2 (Assyrian soldiers carrying off gold and statuary from a burning temple precinct, pylons visible). Second sub-prompt (wide God's-eye view of burning Thebes) still needed."
+    "src": [
+      "pantheon-ep4-clips/B076a-assyrians-sacking-thebes.mp4",
+      "pantheon-ep4-clips/B076b-burning-thebes-aerial-wide.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: Assyrian soldiers carrying gold/statues from a burning temple precinct - strong match. Take B: wide aerial view of Thebes burning along the Nile, temple pylons silhouetted against the glow - strong match."
   },
   {
     "id": "B077",
@@ -755,7 +758,9 @@
     "type": "ai",
     "narration": "Tantamani withdrew to Kush.",
     "narration_words": 4,
-    "veo_prompt": "Kushite ships sailing south down the Nile, a defeated king silent on deck, evening light, quiet and grave. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Kushite ships sailing south down the Nile, a defeated king silent on deck, evening light, quiet and grave. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B078a-tantamani-defeated-ship-deck.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: a crowned king seated alone on a ship deck at dusk, city receding on the riverbank, grave and quiet."
   },
   {
     "id": "B079",
@@ -771,7 +776,9 @@
     "type": "ai",
     "narration": "The Egyptians who ruled next did not forget who had held their throne.",
     "narration_words": 13,
-    "veo_prompt": "A new Egyptian king in a Saite court handing a rolled order to a master mason, torchlit palace, hard shadows, quiet menace. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A new Egyptian king in a Saite court handing a rolled order to a master mason, torchlit palace, hard shadows, quiet menace. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B080a-saite-king-order-to-mason.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: an Egyptian king in nemes headdress handing a rolled scroll to a humble figure, torchlit temple."
   },
   {
     "id": "B081",
@@ -779,7 +786,9 @@
     "type": "ai",
     "narration": "Later kings of that line, Psamtik's descendants, sent masons through the monuments with chisels. Names were cut from walls at Karnak.",
     "narration_words": 21,
-    "veo_prompt": "Egyptian masons chiseling a Kushite king's cartouche off a Karnak wall, torches, limestone chips, wall of carved names behind them, close tracking shot. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Egyptian masons chiseling a Kushite king's cartouche off a Karnak wall, torches, limestone chips, wall of carved names behind them, close tracking shot. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B081a-masons-chiseling-cartouche-karnak.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: two masons chiseling a cartouche on a temple wall by torchlight, carved reliefs visible behind."
   },
   {
     "id": "B082",
@@ -811,7 +820,9 @@
     "type": "ai",
     "narration": "Slowly, the Kushite court moved its center further up the river, to a city called Meroe.",
     "narration_words": 16,
-    "veo_prompt": "A Kushite royal caravan moving south through dry savanna at dawn, a shrine carried between them, pack animals, long shadows, slow lateral track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A Kushite royal caravan moving south through dry savanna at dawn, a shrine carried between them, pack animals, long shadows, slow lateral track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B085a-royal-caravan-savanna-shrine.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: ornate shrine carried by a procession across dry savanna at dusk, acacia trees, long shadows."
   },
   {
     "id": "B086",
