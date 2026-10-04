@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 59 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 60 of 71 needed clips covered, 2 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -139,7 +139,17 @@ Five more matches, deep into Part Seven (The God's Reflection):
 | B101 | B101a-scribes-copying-kings-list.mp4 | Near-exact — scribes writing on papyrus by candlelight, a priest dictating |
 | B111 | B111a-gods-throne-room-empty-stars.mp4 | Strong — empty ornate throne room at night, starry sky through a window |
 
-**13 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+One more match:
+
+| Beat | File | Match |
+|---|---|---|
+| B108 | B108a-chisel-carving-cartouche-outline.mp4 | Strong — close-up chisel carving an oval cartouche outline, firelight |
+
+One clip set aside, not assigned: `EXTRA-gothic-throne-room-style-mismatch.mp4` — a second take for The God's throne room, but built with Gothic cathedral tracery/arches rather than the Egyptian stone-and-torches look the series uses elsewhere (including the already-matched B111a). Kept as a bonus in case you want it for something else, but I didn't force it onto B111.
+
+(A duplicate of B111a was also in this batch, skipped.)
+
+**12 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 

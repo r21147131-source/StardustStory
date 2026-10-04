@@ -1044,7 +1044,9 @@
     "type": "ai",
     "narration": "History belongs to those who hold the chisel. But every chisel leaves a mark.",
     "narration_words": 14,
-    "veo_prompt": "A hand with a chisel carving a cartouche into stone, then the chisel stopping and lifting, firelight on the blade. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A hand with a chisel carving a cartouche into stone, then the chisel stopping and lifting, firelight on the blade. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B108a-chisel-carving-cartouche-outline.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: close-up of a hand with a chisel carving an oval cartouche outline into stone, firelight."
   },
   {
     "id": "B109",
