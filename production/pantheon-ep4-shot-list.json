@@ -129,8 +129,11 @@
     "narration": "Egyptian temples rose on Kushite soil.",
     "narration_words": 6,
     "archival_guidance": "Source: Victory stele of Thutmose III from Jebel Barkal, Museum of Fine Arts Boston (23.733). Commons search: https://commons.wikimedia.org/w/index.php?search=Thutmose+III+stele+Gebel+Barkal&ns6=1 | Direct link: https://collections.mfa.org/objects/145121. Licence: CHECK: museum image; confirm open-access terms",
-    "src": "pantheon-ep4-archival/B014a-thutmose-iii-victory-stele.webp",
-    "src_status": "user-supplied, user-confirmed Victory Stele of Thutmose III. Exact match."
+    "src": [
+      "pantheon-ep4-archival/B014a-thutmose-iii-victory-stele.webp",
+      "pantheon-ep4-archival/B014b-thutmose-iii-stela-alternate-museum.jpg"
+    ],
+    "src_status": "user-confirmed Victory Stele of Thutmose III. Two photos now: (a) the main one used, (b) a second museum-case photo of what its own placard labels a Thutmose III victory stela - kept as an alternate/backup angle, possibly a different installation of the same monument or a related one."
   },
   {
     "id": "B015",
@@ -138,7 +141,9 @@
     "type": "archival",
     "narration": "Egyptian kings carved their boasts about trampling the south, and Kush paid in gold, in ivory, in ebony, and in soldiers.",
     "narration_words": 21,
-    "archival_guidance": "Source: Tomb of Huy: Nubians bringing tribute (facsimile painting). Commons search: https://commons.wikimedia.org/w/index.php?search=Tomb+of+Huy+Nubian+tribute&ns6=1. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page"
+    "archival_guidance": "Source: Tomb of Huy: Nubians bringing tribute (facsimile painting). Commons search: https://commons.wikimedia.org/w/index.php?search=Tomb+of+Huy+Nubian+tribute&ns6=1. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page",
+    "src": "pantheon-ep4-archival/B015a-tomb-of-huy-nubian-tribute.jpg",
+    "src_status": "user-supplied, exact match: Tomb of Huy facsimile painting, Nubians bringing tribute (cattle, gold, animal skins) to an Egyptian official."
   },
   {
     "id": "B016",
@@ -315,7 +320,9 @@
     "type": "archival",
     "narration": "Then a king named Nimlot of Hermopolis, who had been Piye's ally, abandoned him and joined Tefnakht.",
     "narration_words": 17,
-    "archival_guidance": "Source: Detail drawing of the Victory Stele: Nimlot offering a horse and a sistrum to Piye. Commons search: https://commons.wikimedia.org/w/index.php?search=Victory+stele+Piye+Nimlot+horse+sistrum&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Nimlot_of_Hermopolis. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page (drawing)"
+    "archival_guidance": "Source: Detail drawing of the Victory Stele: Nimlot offering a horse and a sistrum to Piye. Commons search: https://commons.wikimedia.org/w/index.php?search=Victory+stele+Piye+Nimlot+horse+sistrum&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Nimlot_of_Hermopolis. Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page (drawing)",
+    "src": "pantheon-ep4-archival/B033a-nimlot-horse-sistrum-drawing.jpg",
+    "src_status": "user-supplied, exact match: 19th-century line engraving detail showing courtiers presenting a horse to the enthroned king - the Nimlot horse-and-sistrum submission scene the cue calls for."
   },
   {
     "id": "B034",
