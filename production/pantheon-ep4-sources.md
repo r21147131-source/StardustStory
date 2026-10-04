@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 34 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 40 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -83,7 +83,17 @@ Five more matches, plus a B040 upgrade:
 | B040 | **Upgraded** to B040b-ships-storming-harbor-soldiers.mp4 | Warships packed with soldiers crashing into a riverside harbor — a much closer match to "storming the quay" than the original pick (B040a, kept as a secondary alternate) |
 | B092 (sub-prompt 2) | B092b-romans-marching-toward-napata-tentative.mp4 | Tentative — another Roman-legionaries-marching take (different footage from B092a, not a duplicate), used as an "approaching to burn" stand-in. **Sub-prompts 1 and 2 are still not real matches** — both show Romans marching, not the Kushite army (1) or Napata actually burning (2). Worth regenerating both if better takes turn up |
 
-**37 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+Six more matches — B041 and B058 now fully covered:
+
+| Beat | File | Match |
+|---|---|---|
+| B041 (2/2 — both covered) | B041a-piye-temple-of-ptah-thanks.mp4, B041b-piye-priests-homage-golden-light.mp4 | Strong — king kneeling before an enthroned god statue with incense; king standing before bowing priests in golden light |
+| B042 | B042a-delta-princes-tribute-horses.mp4 | Strong — feathered princes kneeling with a tribute chest, fine horses present |
+| B044 | B044a-tefnakht-watching-messenger-quay.mp4 | Strong — feathered figure watching a lone boat from a riverside wall at dusk |
+| B058 (2/2 — both covered) | B058b-masons-raising-column-karnak-aerial.mp4 | Near-exact — aerial of workers raising a great column with ropes at a temple complex |
+| B064 | B064a-assyrian-king-map-table.mp4 | Excellent — Assyrian king in scale armor over a clay relief map with city tokens, near-exact |
+
+**31 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 

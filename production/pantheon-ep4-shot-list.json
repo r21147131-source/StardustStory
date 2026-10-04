@@ -401,7 +401,12 @@
     "veo_prompt": [
       "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze entering the temple of Ptah at Memphis, kneeling before the god's statue to give thanks, incense, priests bowing. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Piye, king of Kush in his forties: dark brown skin, strong angular face, close-fitting Kushite cap crown with a double cobra at the brow, leopard-skin cape over a linen kilt, heavy gold collar, calm hard gaze standing before the priests of Memphis as they offer him homage, calm and royal, golden light. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    ],
+    "src": [
+      "pantheon-ep4-clips/B041a-piye-temple-of-ptah-thanks.mp4",
+      "pantheon-ep4-clips/B041b-piye-priests-homage-golden-light.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: king in leopard cloak before an enthroned golden statue (Ptah), kneeling priests, incense - strong match. Take B: king standing before a group of bowing priests, golden light - strong match."
   },
   {
     "id": "B042",
@@ -409,7 +414,9 @@
     "type": "ai",
     "narration": "One by one, the princes of the Delta came to him with tribute.",
     "narration_words": 13,
-    "veo_prompt": "Princes of the Delta in feathered headdresses presenting tribute of gold, horses and linen to an unseen king, kneeling in a sunlit courtyard, slow lateral track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Princes of the Delta in feathered headdresses presenting tribute of gold, horses and linen to an unseen king, kneeling in a sunlit courtyard, slow lateral track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B042a-delta-princes-tribute-horses.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: feathered Delta princes kneeling with a tribute chest and vessels, fine horses present in a columned hall."
   },
   {
     "id": "B043",
@@ -427,7 +434,9 @@
     "type": "ai",
     "narration": "Only Tefnakht stayed away. He sent a messenger with an oath of loyalty, and he never stood before Piye himself.",
     "narration_words": 20,
-    "veo_prompt": "Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes alone on a distant quay at dusk, watching a small boat carry a messenger toward Memphis, refusing to follow, the river wide and empty. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Tefnakht, Great Chief of the West: lean Libyan-descended Delta chieftain, tall feather in his hair, long fringed cloak, restless ambitious eyes alone on a distant quay at dusk, watching a small boat carry a messenger toward Memphis, refusing to follow, the river wide and empty. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B044a-tefnakht-watching-messenger-quay.mp4",
+    "src_status": "user-supplied, 6.04s - strong match: feathered figure on a wall overlooking the river at dusk, a lone boat visible, city on the far bank."
   },
   {
     "id": "B045",
@@ -565,8 +574,11 @@
       "Kushite sculptors and painters carving a relief in the classic Egyptian style, crushed pigments, lamplight, close and patient. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "Masons raising a great column at Karnak with ropes and levers, aerial view slowly turning, sunlight on stone. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ],
-    "src": "pantheon-ep4-clips/B058a-sculptors-carving-relief-lamplight.mp4",
-    "src_status": "covers sub-prompt 1 of 2 (close-up hand carving a relief by lamplight, pigment pots) - strong match. Sub-prompt 2 (masons raising a column at Karnak, aerial) still needed."
+    "src": [
+      "pantheon-ep4-clips/B058a-sculptors-carving-relief-lamplight.mp4",
+      "pantheon-ep4-clips/B058b-masons-raising-column-karnak-aerial.mp4"
+    ],
+    "src_status": "BOTH sub-prompts covered. Take A: hand carving a relief by lamplight with pigment pots - strong match. Take B: aerial view of workers raising a great column with ropes at a temple complex, golden hour - near-exact match."
   },
   {
     "id": "B059",
@@ -616,7 +628,9 @@
     "type": "ai",
     "narration": "But Assyria was not like the others. It did not want a share. It wanted everything.",
     "narration_words": 16,
-    "veo_prompt": "An Assyrian king in scale armor sweeping his hand across a table map of the Nile, clay tokens for cities, flickering lamps, cold eyes, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "An Assyrian king in scale armor sweeping his hand across a table map of the Nile, clay tokens for cities, flickering lamps, cold eyes, slow push. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep4-clips/B064a-assyrian-king-map-table.mp4",
+    "src_status": "user-supplied, 6.04s - excellent match: Assyrian king in scale armor sweeping a hand over a clay relief map of the Nile with city tokens, lamplight, near-exact."
   },
   {
     "id": "B065",
