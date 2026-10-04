@@ -200,9 +200,10 @@
       "A Kushite king kneeling alone before the mountain at dawn, offering at a stone altar, long shadows, camera slowly circling. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ],
     "src": [
+      "pantheon-ep4-clips/B021a-priests-bark-shrine-procession.mp4",
       "pantheon-ep4-clips/B021b-king-kneeling-altar-jebel-barkal.mp4"
     ],
-    "src_status": "covers sub-prompt 2 of 2 (king kneeling alone before the mountain at dawn, offering at a stone altar) - strong match. Sub-prompt 1 (priests carrying the golden bark shrine in procession) still needed."
+    "src_status": "BOTH sub-prompts covered. Take A: priests in leopard skins carrying an ornate golden bark shrine in torchlit procession at the mountain's foot - exact match. Take B: king kneeling alone before the mountain at dawn, offering at a stone altar - strong match."
   },
   {
     "id": "B022",

@@ -4,7 +4,7 @@ Running log of every user-supplied asset matched to a beat ID in
 `pantheon-ep4-shot-list.json`. 111 beats total (34 archival / 57 AI /
 20 graphic, 71 AI clips needed since several beats need 2-3 takes).
 
-## AI (Veo-style) clips — 27 of 71 needed clips covered, 1 bonus
+## AI (Veo-style) clips — 28 of 71 needed clips covered, 1 bonus
 
 All in `public/pantheon-ep4-clips/`, 10.04s each (Grok).
 
@@ -60,7 +60,15 @@ One more new match:
 
 (A re-send of the B053a clip arrived in the same batch, byte-identical — skipped.)
 
-**44 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
+One more new match — B021 is now fully covered:
+
+| Beat | File | Match |
+|---|---|---|
+| B021 (2/2 — both covered) | B021a-priests-bark-shrine-procession.mp4 | Excellent — priests in leopard skins carrying an ornate golden bark shrine in torchlit procession at the mountain's foot, exact match |
+
+(The other 4 clips in that batch were duplicates of earlier sends - skipped.)
+
+**43 more AI clips still needed** (57 beats minus the beats now fully covered, plus the remaining second/third takes noted above).
 
 ## Archival photos — 4 of 34 beats covered
 
