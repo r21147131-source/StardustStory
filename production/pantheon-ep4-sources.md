@@ -197,7 +197,7 @@ Two more matches — B097 now fully covered:
 
 Every one of the 57 AI beats (71 individual clip slots, including all multi-take beats) now has a user-supplied source. Remaining tentative/flagged items worth a second look before final cut: B023 (cavalry against a temple wall rather than open plain) and B040 (B040a kept as a secondary alternate to the primary B040b). Everything else is a strong or exact match.
 
-## Archival photos — 4 of 34 beats covered
+## Archival photos — 12 of 34 beats covered
 
 All in `public/pantheon-ep4-archival/`.
 
@@ -205,14 +205,29 @@ All in `public/pantheon-ep4-archival/`.
 |---|---|---|---|
 | B002 | B002a-piye-victory-stele-full.jpg | Full black granite stela, museum studio shot — dark stone matches the narration | Tentative — exact object/provenance not confirmed |
 | B003 | B003a-19thc-stele-lithograph-dujardin.jpg | 19th-century engraving (Photogravure Dujardin) — matches the brief's PD-2D drawing guidance for this beat | Tentative — source publication not confirmed |
-| B020 (primary) | B020a-jebel-barkal-temple-ruins.jpg | Temple ruins (columns, mudbrick) at a cliff base — strong match | Strong |
-| B020 (alternate) | B020b-jebel-barkal-mesa-alternate.jpg | Flat-topped desert mesa, no structures | Plausible, unconfirmed same site |
-| B043 | B043a-stele-relief-homage-scene.jpg | Two crowned figures clasping hands, a crowd alongside, hieroglyphic columns, procession register below | Plausible match for a homage/reception scene — identification not confirmed |
+| B009 | B009a-sphinx-of-taharqo.jpg | Sphinx of Taharqo, user-labeled and confirmed | Strong |
+| B014 (primary) | B014a-thutmose-iii-victory-stele.webp | Thutmose III victory stele, user-labeled and confirmed | Strong |
+| B014 (alternate) | B014b-thutmose-iii-stela-alternate-museum.jpg | A second museum installation photo of a Thutmose III stela | Plausible, unconfirmed same stela |
+| B015 | B015a-tomb-of-huy-nubian-tribute.jpg | Tomb of Huy, Nubian tribute-bearers painting — exact match | Strong |
+| B020 (primary) | B020a-jebel-barkal-temple-ruins.jpg | Temple ruins (columns, mudbrick) at a cliff base, user-confirmed as Jebel Barkal | Strong |
+| B020 (alternate) | B020b-jebel-barkal-mesa-alternate.jpg | Flat-topped desert mesa, user-confirmed as Jebel Barkal | Strong |
+| B033 | B033a-nimlot-horse-sistrum-drawing.jpg | Engraving of Nimlot submitting a horse and sistrum to Piye — exact match | Strong |
+| B043 | B043a-stele-relief-homage-scene.jpg | Victory Stele of Piye relief, user-labeled and confirmed | Strong |
+| B048 | B048a-el-kurru-pyramid-excavated-tentative.jpg | Excavated royal pyramid with staircase-trench entrance | **Tentative — could be El-Kurru or Nuri, both fit the visual (badly eroded Napatan royal pyramids excavated by Reisner); please confirm the site if you know it** |
+| B052 | B052a-taharqa-statue-dark-stone-tentative.jpg | Dark granodiorite standing royal statue, crown apex missing, no added colour | **Tentative — plausibly Taharqa but not confirmed against this specific statue; could be another 25th-Dynasty king. Please confirm if known** |
+| B055 | B055a-taharqa-abar-offering-scene-lepsius.jpg | 19th-c. line-drawing offering scene, Lepsius-style engraving — king presenting offering to two enthroned deities with an attendant behind, matches the brief's Taharqa/Queen Abar relief | Strong |
+| B060 | B060a-lachish-relief-assyrian-captives-tentative.jpg | Large Assyrian palace relief, museum corner display — procession of captives with raised hands, chariot, hunted animals; matches the visual convention of the Lachish deportation reliefs | **Tentative — not confirmed as this specific relief; please confirm source if known** |
 
-**Flag before publishing:** B002, B003, and B043 are my best-guess matches, not confirmed identifications — I haven't independently verified these are the exact objects the brief's archival_guidance names. Worth a second look (reverse image search or your own knowledge of the source) before they go in the final cut and before writing the citation crawl.
+**Flag before publishing:** B002, B003, B014 (alternate), B048, B052, and B060 are best-guess matches, not confirmed identifications. B048, B052, and B060 especially need your confirmation — I can't fully distinguish them from close alternatives (El-Kurru vs Nuri; which Kushite king's statue; which Assyrian relief) without more to go on.
 
-**30 more archival beats still need photos.**
+**Still unassigned, identity unknown — need your input:**
+- `EXTRA-stela-relief-detail-unassigned.jpg` — weathered sandstone relief close-up with cartouches (asked previously, no answer yet)
+- `EXTRA-cartouche-relief-raking-light-unassigned.jpg` — a cartouche and falcon/figure relief in dramatic raking light (new, from this batch)
 
-## Motion graphics — 0 of 20 beats built yet
+**22 more archival beats still need photos:** B001, B005, B025, B031, B046, B057, B059, B063, B067, B070, B072, B077, B079, B082, B088, B089, B094, B096, B098, B104, B105, B109.
+
+## Motion graphics — 20 of 20 beats built and rendered
+
+All 20 MG1-MG10 Remotion components are built, registered in `src/Root.tsx`, and rendered to `public/pantheon-ep4-motion-graphics/`. Durations are provisional (narration_words / 150wpm × 30fps), not yet voiceover-reconciled. A layout bug in EP4_B102_KingListScroll (names rendering on one line instead of stacking) was caught on visual review and fixed before committing.
 
 Not started. Specs for all 10 (MG1-MG10) are in `pantheon-ep4-visual-prompts.md`.

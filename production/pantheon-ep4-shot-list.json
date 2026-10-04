@@ -496,7 +496,9 @@
     "narration": "When he died, he was buried beneath a pyramid, a tomb style Egypt itself had abandoned centuries before, and eight of his horses were buried beside him.",
     "narration_words": 27,
     "archival_guidance": "Source: Pyramids of El-Kurru, royal cemetery, northern Sudan. Commons search: https://commons.wikimedia.org/w/index.php?search=El-Kurru+pyramids&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/El-Kurru. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
-    "notes": "Followed immediately by B049, a cutaway insert with no new narration (adds no runtime)."
+    "notes": "Followed immediately by B049, a cutaway insert with no new narration (adds no runtime).",
+    "src": "public/pantheon-ep4-archival/B048a-el-kurru-pyramid-excavated-tentative.jpg",
+    "src_status": "TENTATIVE: excavated royal pyramid with entrance trench, user-sent. Could be El-Kurru OR Nuri (both are badly eroded Napatan pyramid cemeteries excavated by Reisner with staircase trenches) -- needs user confirmation of exact site."
   },
   {
     "id": "B049",
@@ -535,7 +537,9 @@
     "type": "archival",
     "narration": "Then came Taharqa.",
     "narration_words": 3,
-    "archival_guidance": "Source: Statue of Taharqa. Commons search: https://commons.wikimedia.org/w/index.php?search=Taharqa+statue&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Taharqa. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Statue of Taharqa. Commons search: https://commons.wikimedia.org/w/index.php?search=Taharqa+statue&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Taharqa. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B052a-taharqa-statue-dark-stone-tentative.jpg",
+    "src_status": "TENTATIVE: dark granodiorite standing royal statue, crown/apex missing, no added colour -- plausibly a Taharqa statue (e.g. Kerma/Dukki Gel cache style) but not confirmed against this specific statue; could also be another 25th-Dynasty king. Ask user for source if known."
   },
   {
     "id": "B053",
@@ -569,7 +573,9 @@
     "type": "archival",
     "narration": "I mention this because it reminds you that these were people, not statues.",
     "narration_words": 13,
-    "archival_guidance": "Source: Relief at Jebel Barkal: Taharqa followed by his mother Queen Abar (Lepsius drawing). Commons search: https://commons.wikimedia.org/w/index.php?search=Taharqa+Abar+Gebel+Barkal+Lepsius&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Abar_(queen). Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page (19th century drawing)"
+    "archival_guidance": "Source: Relief at Jebel Barkal: Taharqa followed by his mother Queen Abar (Lepsius drawing). Commons search: https://commons.wikimedia.org/w/index.php?search=Taharqa+Abar+Gebel+Barkal+Lepsius&ns6=1 | Wikipedia page: https://en.wikipedia.org/wiki/Abar_(queen). Licence: PD-2D: faithful reproduction of ancient 2D art; confirm on the file page (19th century drawing)",
+    "src": "public/pantheon-ep4-archival/B055a-taharqa-abar-offering-scene-lepsius.jpg",
+    "src_status": "MATCHED: 19th-c. line-drawing offering scene (king presenting to two enthroned deities, attendant behind), style matches Lepsius Denkmaeler engravings -- consistent with Taharqa/Queen Abar relief at Jebel Barkal."
   },
   {
     "id": "B056",
@@ -617,7 +623,9 @@
     "type": "archival",
     "narration": "And his name survives even in the Hebrew Bible, as a king of Kush who marched out to fight the Assyrians.",
     "narration_words": 21,
-    "archival_guidance": "Source: Lachish relief, Assyrian siege, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Lachish+relief+British+Museum&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page"
+    "archival_guidance": "Source: Lachish relief, Assyrian siege, British Museum. Commons search: https://commons.wikimedia.org/w/index.php?search=Lachish+relief+British+Museum&ns6=1. Licence: CHECK: photo of a 3D object or modern photo; confirm photographer licence on the file page",
+    "src": "public/pantheon-ep4-archival/B060a-lachish-relief-assyrian-captives-tentative.jpg",
+    "src_status": "TENTATIVE: large Assyrian palace relief, museum corner display, procession of captives with raised/clasped hands, chariot, hunted animals, landscape backdrop -- matches the visual convention of the Lachish deportation reliefs (Sennacherib, Nineveh, British Museum). Not 100% confirmed against this specific beat; ask user for source if known."
   },
   {
     "id": "B061",
