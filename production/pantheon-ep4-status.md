@@ -96,13 +96,13 @@ re-compress) — see updated numbers below.
 
 ## Delivery
 
-- **Original full-quality file** (759.36s, 1920×1080, ~339MB) uploaded to
+- **Original full-quality file** (759.37s, 1920×1080, ~339MB) uploaded to
   CreativeClaw storage (real PUT upload, not inline base64 — Google
   Drive's only available tool here requires embedding the whole file as
   base64 in one call, which isn't workable at this size) and hosted at a
-  durable public URL — see the delivery message for the current link
-  (re-uploaded after the post-cut revisions above; an earlier link from
-  before those fixes is stale and superseded).
+  durable public URL:
+  `https://cdn.creativeclaw.co/u/a4eaf4ab/videos/df03a531-08e5-4306-b249-9c9e810fa083.mp4`
+  (the earlier pre-revision upload was deleted from storage).
 - **Compressed full-quality version** committed to the repo:
   `output/pantheon-ep4-full-compressed.mp4` — two-pass H.264 (811k/973k
   maxrate/1947k bufsize, preset slow, 128k AAC audio), ~89MB, 1920×1080,
