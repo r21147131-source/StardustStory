@@ -141,17 +141,17 @@ re-compress) — see updated numbers below.
 
 ## Delivery
 
-- **Original full-quality file** (759.37s, 1920×1080, ~339MB) uploaded to
-  CreativeClaw storage (real PUT upload, not inline base64 — Google
-  Drive's only available tool here requires embedding the whole file as
-  base64 in one call, which isn't workable at this size) and hosted at a
-  durable public URL:
-  `https://cdn.creativeclaw.co/u/a4eaf4ab/videos/df03a531-08e5-4306-b249-9c9e810fa083.mp4`
-  (the earlier pre-revision upload was deleted from storage).
+- **Original full-quality file, with name cards** (759.41s, 1920×1080,
+  ~330MB) uploaded to CreativeClaw storage (real PUT upload, not inline
+  base64 — Google Drive's only available tool here requires embedding
+  the whole file as base64 in one call, which isn't workable at this
+  size) and hosted at a durable public URL:
+  `https://cdn.creativeclaw.co/u/a4eaf4ab/videos/c0d38e76-598c-416b-baf5-975382ee607e.mp4`
+  (the prior pre-name-cards upload was deleted from storage).
 - **Compressed full-quality version** committed to the repo:
   `output/pantheon-ep4-full-compressed.mp4` — two-pass H.264 (811k/973k
-  maxrate/1947k bufsize, preset slow, 128k AAC audio), ~89MB, 1920×1080,
-  759.36s. Same compression recipe pattern as Ep.1/Ep.2, under GitHub's
+  maxrate/1947k bufsize, preset slow, 128k AAC audio), 90MB, 1920×1080,
+  759.41s. Same compression recipe pattern as Ep.1/Ep.2, under GitHub's
   100MB push limit.
 
 ## Known non-blocking flags
