@@ -73,6 +73,14 @@
     "robin-shou-assets/mortal-kombat-1995-bd1.jpg",
     "robin-shou-assets/mortal-kombat-1995-bd2.jpg",
     "robin-shou-assets/mortal-kombat-1995-bd3.jpg",
+    "robin-shou-assets/mortal-kombat-1995-bd4.jpg",
+    "robin-shou-assets/mortal-kombat-1995-bd5.jpg",
+    "robin-shou-assets/mortal-kombat-1995-bd6.jpg",
+    "robin-shou-assets/mortal-kombat-1995-bd7.jpg",
+    "robin-shou-assets/mortal-kombat-1995-bd8.jpg",
+    "robin-shou-assets/mortal-kombat-1995-bd9.jpg",
+    "robin-shou-assets/mortal-kombat-1995-bd10.jpg",
+    "robin-shou-assets/mortal-kombat-1995-bd11.jpg",
     "robin-shou-assets/mortal-kombat-1995-poster.jpg"
    ],
    "videos": [
@@ -90,6 +98,14 @@
     "robin-shou-assets/mortal-kombat-annihilation-1997-bd1.jpg",
     "robin-shou-assets/mortal-kombat-annihilation-1997-bd2.jpg",
     "robin-shou-assets/mortal-kombat-annihilation-1997-bd3.jpg",
+    "robin-shou-assets/mortal-kombat-annihilation-1997-bd4.jpg",
+    "robin-shou-assets/mortal-kombat-annihilation-1997-bd5.jpg",
+    "robin-shou-assets/mortal-kombat-annihilation-1997-bd6.jpg",
+    "robin-shou-assets/mortal-kombat-annihilation-1997-bd7.jpg",
+    "robin-shou-assets/mortal-kombat-annihilation-1997-bd8.jpg",
+    "robin-shou-assets/mortal-kombat-annihilation-1997-bd9.jpg",
+    "robin-shou-assets/mortal-kombat-annihilation-1997-bd10.jpg",
+    "robin-shou-assets/mortal-kombat-annihilation-1997-bd11.jpg",
     "robin-shou-assets/mortal-kombat-annihilation-1997-poster.jpg"
    ],
    "videos": [
@@ -107,6 +123,7 @@
     "robin-shou-assets/tiger-cage-2-1990-bd1.jpg",
     "robin-shou-assets/tiger-cage-2-1990-bd2.jpg",
     "robin-shou-assets/tiger-cage-2-1990-bd3.jpg",
+    "robin-shou-assets/tiger-cage-2-1990-bd4.jpg",
     "robin-shou-assets/tiger-cage-2-1990-poster.jpg"
    ],
    "videos": [
@@ -122,11 +139,36 @@
     "robin-shou-assets/shaolin-temple-1982-bd1.jpg",
     "robin-shou-assets/shaolin-temple-1982-bd2.jpg",
     "robin-shou-assets/shaolin-temple-1982-bd3.jpg",
+    "robin-shou-assets/shaolin-temple-1982-bd4.jpg",
+    "robin-shou-assets/shaolin-temple-1982-bd5.jpg",
+    "robin-shou-assets/shaolin-temple-1982-bd6.jpg",
+    "robin-shou-assets/shaolin-temple-1982-bd7.jpg",
     "robin-shou-assets/shaolin-temple-1982-poster.jpg"
    ],
    "videos": [
     "https://youtu.be/4ClFErO2jGI"
    ]
+  },
+  {
+   "beat": "ANY",
+   "title": "Robin Shou other credits",
+   "files": [
+    "robin-shou-assets/credit-cold-case-2171.jpg",
+    "robin-shou-assets/credit-the-outer-limits-21561.jpg",
+    "robin-shou-assets/credit-death-race-10483.jpg",
+    "robin-shou-assets/credit-mortal-kombat-9312.jpg",
+    "robin-shou-assets/credit-death-race-2-51620.jpg",
+    "robin-shou-assets/credit-mortal-kombat:-annihilation-9823.jpg",
+    "robin-shou-assets/credit-doa:-dead-or-alive-9053.jpg",
+    "robin-shou-assets/credit-death-race:-inferno-156717.jpg",
+    "robin-shou-assets/credit-beverly-hills-ninja-9622.jpg",
+    "robin-shou-assets/credit-street-fighter:-the-legend-of-chun-li-15268.jpg",
+    "robin-shou-assets/credit-tiger-cage-ii-58412.jpg",
+    "robin-shou-assets/credit-undefeatable-24527.jpg",
+    "robin-shou-assets/credit-in-the-line-of-duty-3-52695.jpg",
+    "robin-shou-assets/credit-forbidden-arsenal-170810.jpg"
+   ],
+   "videos": []
   }
  ]
 }
