@@ -5,9 +5,7 @@
     "type": "ai",
     "narration": "On a late summer day in the year four hundred and seventy-six, a soldier walked into a palace in the Italian city of Ravenna and told a sixteen-year-old boy that he was no longer emperor of Rome.",
     "narration_words": 37,
-    "veo_prompts": [
-      "A Roman military officer in plain armor strides into a marble palace hall in Ravenna, late-afternoon light through high windows, a teenage boy in purple imperial robes seated alone on a modest throne looks up, tense stillness, camera tracks low behind the officer's shoulder toward the boy. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A Roman military officer in plain armor strides into a marble palace hall in Ravenna, late-afternoon light through high windows, a teenage boy in purple imperial robes seated alone on a modest throne looks up, tense stillness, camera tracks low behind the officer's shoulder toward the boy. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B002",
@@ -23,9 +21,7 @@
     "type": "ai",
     "narration": "He did not die. He was not even imprisoned. He was given an estate on the Bay of Naples and a yearly pension, and the empire that had ruled the Mediterranean world for five hundred years simply stopped having a man in Italy who could call himself its emperor.",
     "narration_words": 49,
-    "veo_prompts": [
-      "A lone young man in plain traveling clothes rides away from a palace toward a sunlit coastal villa on the Bay of Naples, cliffs and sea beyond, wide shot, camera pulls back slowly as the figure grows small against the landscape. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A lone young man in plain traveling clothes rides away from a palace toward a sunlit coastal villa on the Bay of Naples, cliffs and sea beyond, wide shot, camera pulls back slowly as the figure grows small against the landscape. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B004",
@@ -58,9 +54,7 @@
     "type": "ai",
     "narration": "Not in one day. In a hundred years of them.",
     "narration_words": 10,
-    "veo_prompts": [
-      "Extreme slow-motion of a single grain of sand falling through an hourglass filled with gold dust instead of sand, dark background, dramatic single light source, camera holds static. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Extreme slow-motion of a single grain of sand falling through an hourglass filled with gold dust instead of sand, dark background, dramatic single light source, camera holds static. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B008",
@@ -68,9 +62,7 @@
     "type": "ai",
     "narration": "For two centuries, Rome's power was so complete that its own citizens forgot it could end.",
     "narration_words": 16,
-    "veo_prompts": [
-      "A bustling Roman forum market at midday, togas and merchants, colonnades, golden light, camera glides slowly through the crowd at head height, peaceful and prosperous. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A bustling Roman forum market at midday, togas and merchants, colonnades, golden light, camera glides slowly through the crowd at head height, peaceful and prosperous. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B009",
@@ -95,9 +87,7 @@
     "type": "ai",
     "narration": "But an empire that size has borders longer than any army can hold forever, and beyond those borders, the world was not standing still.",
     "narration_words": 24,
-    "veo_prompts": [
-      "Wide aerial-style shot of a Roman frontier wall with timber watchtowers along a river at dusk, misty forest on the far bank, a lone sentry visible, camera rises slowly to reveal the wall's length vanishing into haze. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Wide aerial-style shot of a Roman frontier wall with timber watchtowers along a river at dusk, misty forest on the far bank, a lone sentry visible, camera rises slowly to reveal the wall's length vanishing into haze. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B012",
@@ -131,9 +121,7 @@
     "type": "ai",
     "narration": "In the year three hundred seventy-six, Roman officers on the Danube frontier watched a sight they had never seen: tens of thousands of Gothic people, whole families, wagons, elders, children, begging to be let inside the empire.",
     "narration_words": 37,
-    "veo_prompts": [
-      "Wide dusk shot of a riverbank crowded with refugee wagons, campfires, families and elders waiting at the water's edge, Roman soldiers watching from fortified towers on the far bank, mist rising off the river, camera slowly pans across the mass of people. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Wide dusk shot of a riverbank crowded with refugee wagons, campfires, families and elders waiting at the water's edge, Roman soldiers watching from fortified towers on the far bank, mist rising off the river, camera slowly pans across the mass of people. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B016",
@@ -141,9 +129,7 @@
     "type": "ai",
     "narration": "They were not raiders. They were refugees.",
     "narration_words": 7,
-    "veo_prompts": [
-      "Close-up of a Gothic family huddled around a small fire at night, a mother holding a sleeping child, worn travel clothes, exhaustion and quiet dignity, camera holds still, firelight flickering across faces. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Close-up of a Gothic family huddled around a small fire at night, a mother holding a sleeping child, worn travel clothes, exhaustion and quiet dignity, camera holds still, firelight flickering across faces. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B017",
@@ -151,9 +137,7 @@
     "type": "ai",
     "narration": "Something had driven them out of their homeland on the steppes north of the Black Sea, and that something had a name Rome would come to know well: the Huns, horse-warriors out of Central Asia whose archery and mobility nothing in the Gothic world could withstand.",
     "narration_words": 46,
-    "veo_prompts": [
-      "Hunnic horse-archers riding at full gallop across open steppe grassland at dawn, composite bows drawn, dust trailing behind the horses, low camera angle tracking alongside the riders. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Hunnic horse-archers riding at full gallop across open steppe grassland at dawn, composite bows drawn, dust trailing behind the horses, low camera angle tracking alongside the riders. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B018",
@@ -169,9 +153,7 @@
     "type": "ai",
     "narration": "But the empire did it badly. Roman officials meant to feed and settle them instead cheated them, sold them dog meat at famine prices, took their children as slaves for payment.",
     "narration_words": 31,
-    "veo_prompts": [
-      "A grim riverside market scene at dusk, Roman officials weighing out meager food against desperate Gothic families offering their few possessions, tense transactional atmosphere, handheld camera moving through the crowd. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A grim riverside market scene at dusk, Roman officials weighing out meager food against desperate Gothic families offering their few possessions, tense transactional atmosphere, handheld camera moving through the crowd. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B020",
@@ -205,9 +187,7 @@
     "type": "ai",
     "narration": "Near the city of Adrianople, he found the Goths drawn up and waiting.",
     "narration_words": 13,
-    "veo_prompts": [
-      "Dawn wide shot of a Roman legion arrayed in formation on an open plain, shields and standards catching the first light, a line of Gothic warriors visible in the distance across the field, tense stillness before battle. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Dawn wide shot of a Roman legion arrayed in formation on an open plain, shields and standards catching the first light, a line of Gothic warriors visible in the distance across the field, tense stillness before battle. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B024",
@@ -215,9 +195,17 @@
     "type": "ai",
     "narration": "The battle lasted an afternoon. Roman cavalry rode in late and scattered; the infantry was boxed in, crushed from every side, and by nightfall perhaps two-thirds of the eastern Roman field army lay dead on the plain, the emperor Valens among them — his body never recovered, lost in the chaos or burned alive in a farmhouse where the wounded had taken shelter.",
     "narration_words": 63,
-    "veo_prompts": [
+    "veo_prompt": [
       "Chaotic battle scene, Roman infantry packed shoulder to shoulder and surrounded on all sides by Gothic cavalry and infantry, dust and dropped shields, late-afternoon light turning amber, camera pushes low through the melee. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "A burning farmhouse at night on the edge of a battlefield, flames engulfing the structure, silhouettes of wounded soldiers visible within, smoke rising into a dark sky, camera holds a slow static shot. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      null,
+      "pantheon-ep5-clips/B024b-burning-farmhouse-valens.mp4"
+    ],
+    "src_status": [
+      "UNMATCHED: take A (Roman infantry surrounded in the melee) still needed.",
+      "user-supplied Grok video, 10.04s - strong match: burning two-story farmhouse at night on a battlefield littered with debris and torches, silhouettes of soldiers visible climbing through the flames, smoke rising into a dark sky, matches the B024B prompt closely."
     ]
   },
   {
@@ -252,9 +240,7 @@
     "type": "ai",
     "narration": "Their leader for much of this was a man named Alaric — born on an island in the Danube delta, raised in a kingdom of Romans and Goths tangled together, a man who wanted not to destroy Rome but to be given an honored place inside it: land for his people, a Roman command worthy of his rank.",
     "narration_words": 58,
-    "veo_prompts": [
-      "Portrait of Alaric, a Gothic war-leader in his thirties, weathered face, mixed Roman and Gothic armor, standing at a campfire at night looking toward a distant lit city on the horizon, contemplative, camera slowly pushes in. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Portrait of Alaric, a Gothic war-leader in his thirties, weathered face, mixed Roman and Gothic armor, standing at a campfire at night looking toward a distant lit city on the horizon, contemplative, camera slowly pushes in. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B029",
@@ -262,9 +248,7 @@
     "type": "ai",
     "narration": "Three times he marched on Italy to make his case. Three times Rome's generals bled him, bribed him, or outlasted him.",
     "narration_words": 21,
-    "veo_prompts": [
-      "A Gothic army marching through an Italian mountain pass in grey weather, banners drooping, a long weary column, camera tracks alongside at a distance, somber tone. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A Gothic army marching through an Italian mountain pass in grey weather, banners drooping, a long weary column, camera tracks alongside at a distance, somber tone. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B030",
@@ -281,9 +265,7 @@
     "type": "ai",
     "narration": "On the night of August the twenty-fourth, enslaved people inside Rome itself — by one account, the very people the city depended on to run its households — opened the Salarian Gate from within.",
     "narration_words": 34,
-    "veo_prompts": [
-      "Night scene at a massive Roman city gate, a side postern door creaks open from within by shadowy figures, torchlight flickering beyond the wall, tense and quiet, camera close on the opening door. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Night scene at a massive Roman city gate, a side postern door creaks open from within by shadowy figures, torchlight flickering beyond the wall, tense and quiet, camera close on the opening door. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B032",
@@ -291,9 +273,7 @@
     "type": "ai",
     "narration": "For the first time in almost eight hundred years, an army that was not Rome's own stood inside the walls of Rome.",
     "narration_words": 22,
-    "veo_prompts": [
-      "Wide shot of Gothic warriors pouring through an open city gate at night by torchlight, silhouettes against the flames, the ancient walls towering above them, camera low and slow, awe and dread. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Wide shot of Gothic warriors pouring through an open city gate at night by torchlight, silhouettes against the flames, the ancient walls towering above them, camera low and slow, awe and dread. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B033",
@@ -317,9 +297,7 @@
     "type": "ai",
     "narration": "Alaric did not live to see what came of it. He died of fever months later, marching south, and his men are said to have diverted a river to bury him in its bed with his treasures, then killed the enslaved laborers who had dug the grave, so that no living person could say where a conqueror of Rome lay at rest.",
     "narration_words": 62,
-    "veo_prompts": [
-      "Dusk scene beside a diverted riverbed, Gothic warriors lowering a shrouded body and treasure into a dug grave in the exposed riverbed, torches on the banks above, solemn and secretive, camera holds a high wide angle looking down. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Dusk scene beside a diverted riverbed, Gothic warriors lowering a shrouded body and treasure into a dug grave in the exposed riverbed, torches on the banks above, solemn and secretive, camera holds a high wide angle looking down. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B036",
@@ -327,9 +305,7 @@
     "type": "ai",
     "narration": "The same pressure that had pushed the Goths across the Danube a lifetime earlier eventually arrived in person.",
     "narration_words": 18,
-    "veo_prompts": [
-      "A vast Hunnic encampment at dusk on the steppe, thousands of campfires stretching to the horizon, horses and gers, camera rises slowly to reveal the scale of the camp. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A vast Hunnic encampment at dusk on the steppe, thousands of campfires stretching to the horizon, horses and gers, camera rises slowly to reveal the scale of the camp. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B037",
@@ -345,9 +321,7 @@
     "type": "ai",
     "narration": "When he marched anyway, in four hundred fifty-one, he came west into Gaul — and there, Rome found one general still capable of meeting him.",
     "narration_words": 25,
-    "veo_prompts": [
-      "A massive Hunnic horde riding west across a Gaulish landscape, forests and farmland giving way beneath dust clouds, wide aerial-style tracking shot following the column's advance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A massive Hunnic horde riding west across a Gaulish landscape, forests and farmland giving way beneath dust clouds, wide aerial-style tracking shot following the column's advance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B039",
@@ -355,9 +329,7 @@
     "type": "ai",
     "narration": "Flavius Aetius had spent his youth as a hostage among the Huns himself; he knew their tactics, and in some years he had even been their ally against Rome's other enemies.",
     "narration_words": 31,
-    "veo_prompts": [
-      "Portrait of Flavius Aetius, a Roman general in his fifties, scarred and weathered, wearing mixed Roman-Hunnic riding gear, standing at a war table lit by a single lamp, studying a map, camera slowly circles. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Portrait of Flavius Aetius, a Roman general in his fifties, scarred and weathered, wearing mixed Roman-Hunnic riding gear, standing at a war table lit by a single lamp, studying a map, camera slowly circles. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B040",
@@ -365,9 +337,7 @@
     "type": "ai",
     "narration": "Now he built the only kind of army the dying western empire could still raise: Romans, yes, but beside them Visigoths, Franks, and other peoples the empire had once called barbarians, fighting under Roman command because Attila threatened them all alike.",
     "narration_words": 41,
-    "veo_prompts": [
-      "A dawn camp scene, Roman legionary standards planted beside Visigothic and Frankish war-banners, warriors of visibly different peoples arming together in silence, camera glides past the mixed ranks. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A dawn camp scene, Roman legionary standards planted beside Visigothic and Frankish war-banners, warriors of visibly different peoples arming together in silence, camera glides past the mixed ranks. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B041",
@@ -375,9 +345,7 @@
     "type": "ai",
     "narration": "On the Catalaunian Plains, that patchwork army met Attila's horde in what ancient writers called one of the bloodiest single-day battles the world had seen.",
     "narration_words": 25,
-    "veo_prompts": [
-      "Epic wide shot of two massive armies colliding on an open plain, dust and smoke rising, countless banners and spears, the scale overwhelming, camera pulls back and up to a God's-eye view of the chaos. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "Epic wide shot of two massive armies colliding on an open plain, dust and smoke rising, countless banners and spears, the scale overwhelming, camera pulls back and up to a God's-eye view of the chaos. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B042",
@@ -393,9 +361,7 @@
     "type": "ai",
     "narration": "Attila died not long after, on his own wedding night, by a burst blood vessel, not a Roman sword.",
     "narration_words": 19,
-    "veo_prompts": [
-      "A somber Hunnic royal tent at dawn, attendants standing in hushed shock outside the entrance, mist over the steppe camp beyond, camera holds still at a respectful distance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A somber Hunnic royal tent at dawn, attendants standing in hushed shock outside the entrance, mist over the steppe camp beyond, camera holds still at a respectful distance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B044",
@@ -403,9 +369,7 @@
     "type": "ai",
     "narration": "Aetius, the general who had held the line against him, did not outlive him by much. The reigning emperor, fearing a man more capable than himself, stabbed him to death with his own hand in four hundred fifty-four.",
     "narration_words": 38,
-    "veo_prompts": [
-      "A dim imperial audience chamber, the young emperor rising suddenly from his throne with a blade in hand as the unarmed general before him looks up in disbelief, the moment frozen just before the strike, dramatic single-source lighting. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A dim imperial audience chamber, the young emperor rising suddenly from his throne with a blade in hand as the unarmed general before him looks up in disbelief, the moment frozen just before the strike, dramatic single-source lighting. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B045",
@@ -422,9 +386,7 @@
     "type": "ai",
     "narration": "The empire that killed its last great general had little left to defend itself with.",
     "narration_words": 15,
-    "veo_prompts": [
-      "A half-manned Roman garrison fort at dusk, watchtowers thinly staffed, a few weary soldiers on the walls, gates standing open and unguarded, camera holds a slow static wide shot conveying depletion and exposure. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A half-manned Roman garrison fort at dusk, watchtowers thinly staffed, a few weary soldiers on the walls, gates standing open and unguarded, camera holds a slow static wide shot conveying depletion and exposure. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B047",
@@ -432,9 +394,7 @@
     "type": "ai",
     "narration": "In four hundred fifty-five, a Vandal king named Gaiseric sailed from North Africa — a kingdom the Vandals had carved for themselves a generation earlier — and landed at the mouth of the Tiber.",
     "narration_words": 34,
-    "veo_prompts": [
-      "A fleet of Vandal ships approaching the Italian coastline at dawn, sails catching early light, the mouth of a river visible ahead, warriors visible on deck, camera glides low over the water alongside the lead ship. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A fleet of Vandal ships approaching the Italian coastline at dawn, sails catching early light, the mouth of a river visible ahead, warriors visible on deck, camera glides low over the water alongside the lead ship. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B048",
@@ -450,7 +410,7 @@
     "type": "ai",
     "narration": "What Gaiseric's men took instead, over fourteen methodical days, was everything that could be carried — gold, silver, half the gilded bronze roof tiles of the Temple of Jupiter, imperial treasures, the emperor's own widow and daughters, taken as captives to Carthage.",
     "narration_words": 42,
-    "veo_prompts": [
+    "veo_prompt": [
       "Vandal soldiers systematically stripping gilded bronze tiles from a temple roof in daylight, carts loaded with gold and silver vessels passing below, methodical rather than chaotic, camera tracks along the looting procession. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "A somber procession of captive imperial women being led down to waiting ships at the harbor, guarded by Vandal warriors, late afternoon light, camera holds a wide static shot as they board. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ]
@@ -470,9 +430,7 @@
     "type": "ai",
     "narration": "After Gaiseric sailed home, the western throne became a title more than a power.",
     "narration_words": 14,
-    "veo_prompts": [
-      "An empty imperial throne room in late-afternoon light, dust motes drifting, the throne itself untouched but the hall otherwise bare and silent, camera slowly pushes in toward the empty seat. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "An empty imperial throne room in late-afternoon light, dust motes drifting, the throne itself untouched but the hall otherwise bare and silent, camera slowly pushes in toward the empty seat. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B052",
@@ -489,9 +447,7 @@
     "type": "ai",
     "narration": "The empire of the west had not been conquered in one great battle. It had been cashed out, piece by piece, by men who found it was worth more as plunder and pension than as a government worth saving.",
     "narration_words": 39,
-    "veo_prompts": [
-      "A toppled and partially gilded Roman statue lying in weeds beside a crumbling colonnade, late golden light, no people, camera holds a slow static wide shot, melancholy and still. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A toppled and partially gilded Roman statue lying in weeds beside a crumbling colonnade, late golden light, no people, camera holds a slow static wide shot, melancholy and still. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B054",
@@ -499,9 +455,7 @@
     "type": "ai",
     "narration": "By four hundred seventy-five, the army defending Italy was itself made up mostly of soldiers from Germanic peoples — men who had fought for Rome for generations and wanted, in the end, the same thing Alaric had asked for seventy years before: land of their own, recognized and legal, inside the empire they served.",
     "narration_words": 54,
-    "veo_prompts": [
-      "A Roman army camp at dusk, soldiers of clearly Germanic appearance around campfires in a mix of Roman and tribal dress, low tense conversation, camera moves slowly among the fires. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A Roman army camp at dusk, soldiers of clearly Germanic appearance around campfires in a mix of Roman and tribal dress, low tense conversation, camera moves slowly among the fires. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B055",
@@ -509,9 +463,7 @@
     "type": "ai",
     "narration": "Rome's last functioning general refused them.",
     "narration_words": 6,
-    "veo_prompts": [
-      "A Roman general in his command tent by lamplight, reading a petition and setting it down with a hard, final expression, a messenger waiting nervously nearby, camera close on the general's face. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A Roman general in his command tent by lamplight, reading a petition and setting it down with a hard, final expression, a messenger waiting nervously nearby, camera close on the general's face. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B056",
@@ -519,7 +471,7 @@
     "type": "ai",
     "narration": "His own officer corps turned on him. A commander named Odoacer, himself of mixed barbarian descent, was raised on a shield by his soldiers and given the general's job, and within weeks, the general was dead and the boy-emperor his faction had installed — Romulus Augustulus — had nothing left to rule in whose name.",
     "narration_words": 55,
-    "veo_prompts": [
+    "veo_prompt": [
       "A torchlit night ceremony, a weathered commander lifted aloft on a war-shield by cheering soldiers in a crowded camp, chaotic energy and firelight, camera low and handheld amid the crowd. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "A dim palace corridor at dawn, the deposed general's body being carried away by soldiers while a frightened teenage boy in imperial robes watches from a doorway, somber and quiet. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ]
@@ -556,9 +508,7 @@
     "type": "ai",
     "narration": "Romulus Augustulus lived on for decades in his villa on the coast, the last of his name, a pensioner of the kingdom that had replaced him, dying of old age in a world where Rome still stood, and no one who called himself its emperor lived in it anymore.",
     "narration_words": 49,
-    "veo_prompts": [
-      "An older man in plain clothing walking alone through a sunlit coastal garden overlooking the Bay of Naples, peaceful and unremarkable, camera pulls back slowly to a wide, quiet, elegiac shot of the villa and sea. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "An older man in plain clothing walking alone through a sunlit coastal garden overlooking the Bay of Naples, peaceful and unremarkable, camera pulls back slowly to a wide, quiet, elegiac shot of the villa and sea. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B061",
@@ -592,9 +542,7 @@
     "type": "ai",
     "narration": "Odoacer himself ruled Italy for the Roman Senate's benefit, in Roman administrative forms, for seventeen more years, until a different Gothic king killed him at a banquet and took his place doing much the same thing.",
     "narration_words": 36,
-    "veo_prompts": [
-      "A lamplit banquet hall, a seated ruler struck down suddenly at the table by a guest rising with a blade, other diners frozen in shock, dramatic chiaroscuro lighting, camera close on the moment of the strike. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A lamplit banquet hall, a seated ruler struck down suddenly at the table by a guest rising with a blade, other diners frozen in shock, dramatic chiaroscuro lighting, camera close on the moment of the strike. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   },
   {
     "id": "B065",
@@ -646,8 +594,6 @@
     "type": "ai",
     "narration": "Decide for yourself, then, which is the more thorough way to disappear.",
     "narration_words": 12,
-    "veo_prompts": [
-      "A wide, slow aerial-style shot at golden-hour sunset over the overgrown ruins of the Roman Forum, broken columns and weeds reclaiming the stones, utterly silent and still, camera drifts very slowly backward and up. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
-    ]
+    "veo_prompt": "A wide, slow aerial-style shot at golden-hour sunset over the overgrown ruins of the Roman Forum, broken columns and weeds reclaiming the stones, utterly silent and still, camera drifts very slowly backward and up. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
   }
 ]
