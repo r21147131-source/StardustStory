@@ -7,7 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 A = f"{ROOT}/production/robin-shou-assets"
 OUT = f"{ROOT}/output/robin-shou"; TMP = f"{OUT}/shots"
 os.makedirs(TMP, exist_ok=True)
-FPS, SHOT = 25, 5.0
+FPS, SHOT = 25, 3.0
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 edl = json.load(open(f"{ROOT}/production/robin-shou-edl.json"))
 g = lambda pat: sorted(glob.glob(f"{A}/{pat}"))
@@ -16,7 +16,7 @@ MK, MKA, TC, SH, CR = (g("mortal-kombat-1995-bd*"), g("mortal-kombat-annihilatio
 P = lambda n: g(f"{n}-0.jpg")[0]
 # beat -> (image pool, [(portrait, label)] inserts, grade)
 POOL = {
- "B01": (MK[:8], [], "hot"), "B02": ([], [(P("robin-shou"), "ROBIN SHOU")], "hot"),
+ "B01": (MK[:14], [], "hot"), "B02": ([], [(P("robin-shou"), "ROBIN SHOU")], "hot"),
  "B03": (CR, [], "cold"), "B04": (SH + CR, [], "cold"), "B05": (CR, [], "cold"),
  "B06": (CR, [], "cold"), "B07": (SH, [], "hot"), "B08": (SH + CR, [], "cold"),
  "B09": (CR, [], "cold"), "B10": (TC + CR, [], "cold"), "B11": (TC + CR, [], "hot"),
@@ -49,9 +49,9 @@ def render(args):
     w, h = map(int, subprocess.check_output(["ffprobe","-v","error","-show_entries","stream=width,height","-of","csv=p=0:s=x",f]).decode().strip().split("x"))
     zi = k % 2 == 0
     z = "min(zoom+0.0007,1.18)" if zi else "if(eq(on,0),1.18,max(zoom-0.0007,1.0))"
-    fg = (f"scale=2880:1620:force_original_aspect_ratio=increase,crop=2880:1620" if w / h > 1.5 else
-          "split[a][b];[a]scale=2880:1620:force_original_aspect_ratio=increase,crop=2880:1620,boxblur=40:5[bg];"
-          "[b]scale=-2:1500[fgp];[bg][fgp]overlay=(W-w)/2:(H-h)/2")
+    fg = (f"scale=2400:1350:force_original_aspect_ratio=increase,crop=2400:1350" if w / h > 1.5 else
+          "split[a][b];[a]scale=2400:1350:force_original_aspect_ratio=increase,crop=2400:1350,boxblur=40:5[bg];"
+          "[b]scale=-2:1250[fgp];[bg][fgp]overlay=(W-w)/2:(H-h)/2")
     vf = f"{fg},zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames}:s=1920x1080:fps={FPS}"
     vf += (",eq=saturation=1.05:contrast=1.08" if grade == "hot" else ",eq=saturation=0.55:brightness=-0.07:contrast=1.1")
     vf += ",vignette=PI/4,fade=t=in:st=0:d=0.25"
@@ -59,11 +59,6 @@ def render(args):
         t = label.replace("'", "\\'")
         vf += (f",drawbox=x=90:y=880:w=8:h=70:color=0xE8B04A@1:t=fill,drawtext=fontfile={FONT}:text='{t}':fontsize=54:"
                f"fontcolor=white:x=120:y=888:shadowcolor=black:shadowx=2:shadowy=2")
-    if bid == "B19":
-        d = frames / FPS / 3
-        for i, (txt, c) in enumerate([("$23M OPENING WEEKEND", "white"), ("3 WEEKENDS AT #1", "white"), ("$122M WORLDWIDE", "0xE8B04A")]):
-            vf += (f",drawtext=fontfile={FONT}:text='{txt}':fontsize=96:fontcolor={c}:x=(w-text_w)/2:y=(h-text_h)/2:"
-                   f"box=1:boxcolor=black@0.55:boxborderw=28:enable='between(t,{i*d:.2f},{(i+1)*d:.2f})'")
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-loop", "1", "-i", f, "-vf", vf, "-frames:v", str(frames),
                     "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", out], check=True)
     return out
@@ -75,8 +70,35 @@ for b in edl["beats"]:
 print(len(jobs), "shots", sum(j[3] for j in jobs) / FPS, "s")
 with cf.ThreadPoolExecutor(os.cpu_count()) as ex: files = list(ex.map(render, jobs))
 open(f"{TMP}/list.txt", "w").write("".join(f"file '{f}'\n" for f in files))
+# (beat, start frac, end frac, big text, caption)
+NUM = [
+ ("B01", .44, .70, "$120 MILLION+", "WORLDWIDE BOX OFFICE"),
+ ("B04", .10, .80, "1960", "BORN IN HONG KONG"),
+ ("B05", .00, .35, "1971", "FAMILY MOVES TO LOS ANGELES"),
+ ("B10", .00, .20, "LATE 1980s", "HONG KONG"),
+ ("B13", .00, .85, "1994", "BACK IN LOS ANGELES"),
+ ("B19", .02, .15, "AUG 18, 1995", "MORTAL KOMBAT OPENS"),
+ ("B19", .15, .30, "$23 MILLION", "OPENING WEEKEND"),
+ ("B19", .30, .42, "#1 x 3", "WEEKENDS IN A ROW"),
+ ("B19", .42, .55, "$70 MILLION+", "DOMESTIC"),
+ ("B19", .55, .66, "$50 MILLION", "OVERSEAS"),
+ ("B19", .66, .80, "$122 MILLION", "WORLDWIDE"),
+ ("B19", .80, .92, "$20 MILLION", "BUDGET"),
+ ("B20", .12, .26, "1997", "ANNIHILATION"),
+ ("B20", .52, .74, "$50 MILLION", "WORLDWIDE - LESS THAN HALF"),
+]
+beats = {b["id"]: b for b in edl["beats"]}
+vf = []
+for bid, f0, f1, big, cap in NUM:
+    b = beats[bid]; a, z = b["start"] + f0 * b["dur"], b["start"] + f1 * b["dur"]
+    en = f"enable='between(t,{a:.2f},{z:.2f})'"
+    vf.append(f"drawbox=x=90:y=800:w=860:h=170:color=black@0.55:t=fill:{en}")
+    vf.append(f"drawbox=x=90:y=800:w=8:h=170:color=0xE8B04A:t=fill:{en}")
+    vf.append(f"drawtext=fontfile={FONT}:text='{big}':fontsize=84:fontcolor=0xE8B04A:x=125:y=812:{en}")
+    vf.append(f"drawtext=fontfile={FONT}:text='{cap}':fontsize=36:fontcolor=white:x=125:y=915:{en}")
+vf.append(f"fade=t=out:st={edl['duration']-2.5}:d=2.5")
 final = f"{OUT}/robin-shou.mp4"
 subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", f"{TMP}/list.txt", "-i", f"{ROOT}/{edl['voiceover']}",
-                "-vf", f"fade=t=out:st={edl['duration']-2.5}:d=2.5", "-af", f"afade=t=out:st={edl['duration']-1.5}:d=1.5",
-                "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "192k", "-shortest", final], check=True)
+                "-vf", ",".join(vf), "-af", f"afade=t=out:st={edl['duration']-1.5}:d=1.5",
+                "-c:v", "libx264", "-preset", "medium", "-crf", "24", "-c:a", "aac", "-b:a", "128k", "-shortest", final], check=True)
 print(final)

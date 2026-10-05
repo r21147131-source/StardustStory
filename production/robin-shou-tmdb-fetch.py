@@ -27,7 +27,7 @@ def person(name, beat, n=2):
     return {"beat": beat, "label": name.upper(), "tmdb_id": p["id"],
             "files": [dl(i["file_path"], f"{slug}-{k}.jpg") for k, i in enumerate(imgs)]}
 
-def movie(title, year, beat, n=12):
+def movie(title, year, beat, n=40):
     m = next(x for x in get("/search/movie", query=title, year=year)["results"])
     im = get(f"/movie/{m['id']}/images", include_image_language="en,null")
     slug = f"{title.lower().replace(' ', '-')}-{year}"
@@ -37,7 +37,7 @@ def movie(title, year, beat, n=12):
             if v["site"] == "YouTube" and v["type"] in ("Trailer", "Clip")][:3]
     return {"beat": beat, "title": m["title"], "tmdb_id": m["id"], "files": files, "videos": vids}
 
-def credits(n=14):
+def credits(n=45):
     cast = get("/person/57250/combined_credits")["cast"]
     cast = [c for c in cast if c.get("backdrop_path")]
     cast.sort(key=lambda c: -c.get("popularity", 0))
