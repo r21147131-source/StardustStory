@@ -200,11 +200,11 @@
       "A burning farmhouse at night on the edge of a battlefield, flames engulfing the structure, silhouettes of wounded soldiers visible within, smoke rising into a dark sky, camera holds a slow static shot. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
     ],
     "src": [
-      null,
+      "pantheon-ep5-clips/B024a-roman-infantry-surrounded.mp4",
       "pantheon-ep5-clips/B024b-burning-farmhouse-valens.mp4"
     ],
     "src_status": [
-      "UNMATCHED: take A (Roman infantry surrounded in the melee) still needed.",
+      "user-supplied Grok video, 10.04s - strong match: dense Roman legionary infantry packed shoulder to shoulder, shields with eagle/wing emblems, swords drawn in close melee, Gothic cavalry with spears and torches pressing in from behind, ruined classical colonnade in the background, amber dust-choked light, matches the B024A prompt closely.",
       "user-supplied Grok video, 10.04s - strong match: burning two-story farmhouse at night on a battlefield littered with debris and torches, silhouettes of soldiers visible climbing through the flames, smoke rising into a dark sky, matches the B024B prompt closely."
     ]
   },
