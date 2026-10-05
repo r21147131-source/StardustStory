@@ -1,0 +1,174 @@
+{
+ "voiceover": "public/robin-shou-voiceover.m4a",
+ "duration": 373.6,
+ "beats": [
+  {
+   "id": "B01",
+   "start": 0.0,
+   "end": 18.8,
+   "beat": "COLD OPEN",
+   "assets": "film: Mortal Kombat (1995) trailer/fight cuts + cinema/box-office stock",
+   "dur": 18.8
+  },
+  {
+   "id": "B02",
+   "start": 18.8,
+   "end": 23.4,
+   "beat": "NAME REVEAL",
+   "assets": "photo: Robin Shou portrait | LABEL: ROBIN SHOU",
+   "dur": 4.6
+  },
+  {
+   "id": "B03",
+   "start": 23.4,
+   "end": 40.3,
+   "beat": "THE MYTH",
+   "assets": "stock: empty LA streets at night, slow push",
+   "dur": 16.9
+  },
+  {
+   "id": "B04",
+   "start": 40.3,
+   "end": 43.9,
+   "beat": "BORN IN HONG KONG",
+   "assets": "photo: young Shou; stock: HK skyline/streets",
+   "dur": 3.6
+  },
+  {
+   "id": "B05",
+   "start": 43.9,
+   "end": 58.0,
+   "beat": "MOVE TO LOS ANGELES",
+   "assets": "stock: LA street, apartment block",
+   "dur": 14.1
+  },
+  {
+   "id": "B06",
+   "start": 58.0,
+   "end": 69.1,
+   "beat": "THE ENGINEER",
+   "assets": "stock: campus, blueprints, desk",
+   "dur": 11.1
+  },
+  {
+   "id": "B07",
+   "start": 69.1,
+   "end": 78.5,
+   "beat": "WUSHU AWAKENING",
+   "assets": "film: Shaolin Temple (1982) clip; stock: wushu forms",
+   "dur": 9.4
+  },
+  {
+   "id": "B08",
+   "start": 78.5,
+   "end": 103.0,
+   "beat": "NANJING GAMBLE",
+   "assets": "stock: plane takeoff, training hall; photo: Shou wushu competition",
+   "dur": 24.5
+  },
+  {
+   "id": "B09",
+   "start": 103.0,
+   "end": 111.6,
+   "beat": "SOIL ENGINEER",
+   "assets": "stock: office desk, clock, monitor",
+   "dur": 8.6
+  },
+  {
+   "id": "B10",
+   "start": 111.6,
+   "end": 142.7,
+   "beat": "HONG KONG",
+   "assets": "stock: HK neon streets, rooftops, gym",
+   "dur": 31.1
+  },
+  {
+   "id": "B11",
+   "start": 142.7,
+   "end": 162.6,
+   "beat": "HENCHMAN YEARS",
+   "assets": "film: HK action cuts (City War etc.)",
+   "dur": 19.9
+  },
+  {
+   "id": "B12",
+   "start": 162.6,
+   "end": 188.3,
+   "beat": "TIGER CAGE 2",
+   "assets": "film: Tiger Cage 2 clip; photos: Donnie Yen, Yuen Woo-ping, Simon Yam, Cynthia Rothrock | LABELS: DONNIE YEN, YUEN WOO-PING",
+   "dur": 25.7
+  },
+  {
+   "id": "B13",
+   "start": 188.3,
+   "end": 195.4,
+   "beat": "BACK IN LA",
+   "assets": "stock: LA freeway dusk, shipping boxes",
+   "dur": 7.1
+  },
+  {
+   "id": "B14",
+   "start": 195.4,
+   "end": 227.0,
+   "beat": "THE CALL",
+   "assets": "stock: ringing phone, script pages; film: MK title",
+   "dur": 31.6
+  },
+  {
+   "id": "B15",
+   "start": 227.0,
+   "end": 233.3,
+   "beat": "THE HERO",
+   "assets": "film: Liu Kang scenes; interview: Shou on the role",
+   "dur": 6.3
+  },
+  {
+   "id": "B16",
+   "start": 233.3,
+   "end": 250.8,
+   "beat": "SEVEN AUDITIONS",
+   "assets": "stock: casting room, waiting chairs",
+   "dur": 17.5
+  },
+  {
+   "id": "B17",
+   "start": 250.8,
+   "end": 276.4,
+   "beat": "DIRECTOR",
+   "assets": "photo: Paul W. S. Anderson | LABEL: PAUL W. S. ANDERSON",
+   "dur": 25.6
+  },
+  {
+   "id": "B18",
+   "start": 276.4,
+   "end": 300.0,
+   "beat": "MORE FIGHTING",
+   "assets": "film: Liu Kang vs Reptile; interview: Shou on choreography",
+   "dur": 23.6
+  },
+  {
+   "id": "B19",
+   "start": 300.0,
+   "end": 326.4,
+   "beat": "BOX OFFICE",
+   "assets": "graphics: $23M / 3 weekends / $122M; film celebratory cuts",
+   "dur": 26.4
+  },
+  {
+   "id": "B20",
+   "start": 326.4,
+   "end": 361.1,
+   "beat": "THE FUNERAL",
+   "assets": "film: Annihilation (1997) clips; photo: Talisa Soto",
+   "dur": 34.7
+  },
+  {
+   "id": "B21",
+   "start": 361.1,
+   "end": 373.6,
+   "beat": "CLOSING BEAT",
+   "assets": "photo: Shou portrait, slow push, fade to black",
+   "dur": 12.5
+  }
+ ]
+}
