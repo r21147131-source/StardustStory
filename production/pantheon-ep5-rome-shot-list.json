@@ -1,0 +1,653 @@
+[
+  {
+    "id": "B001",
+    "part": "1. Cold Open",
+    "type": "ai",
+    "narration": "On a late summer day in the year four hundred and seventy-six, a soldier walked into a palace in the Italian city of Ravenna and told a sixteen-year-old boy that he was no longer emperor of Rome.",
+    "narration_words": 37,
+    "veo_prompts": [
+      "A Roman military officer in plain armor strides into a marble palace hall in Ravenna, late-afternoon light through high windows, a teenage boy in purple imperial robes seated alone on a modest throne looks up, tense stillness, camera tracks low behind the officer's shoulder toward the boy. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B002",
+    "part": "1. Cold Open",
+    "type": "archival",
+    "narration": "The boy's name was Romulus. His enemies, not without irony, called him Augustulus — Little Augustus.",
+    "narration_words": 16,
+    "archival_guidance": "Source: coin or portrait bust of Romulus Augustulus, last Western Roman emperor (r. 475-476 CE). Commons search: https://commons.wikimedia.org/w/index.php?search=Romulus+Augustulus&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Romulus_Augustulus. Licence: CHECK photo of a coin/3D object; confirm photographer licence on file page."
+  },
+  {
+    "id": "B003",
+    "part": "1. Cold Open",
+    "type": "ai",
+    "narration": "He did not die. He was not even imprisoned. He was given an estate on the Bay of Naples and a yearly pension, and the empire that had ruled the Mediterranean world for five hundred years simply stopped having a man in Italy who could call himself its emperor.",
+    "narration_words": 49,
+    "veo_prompts": [
+      "A lone young man in plain traveling clothes rides away from a palace toward a sunlit coastal villa on the Bay of Naples, cliffs and sea beyond, wide shot, camera pulls back slowly as the figure grows small against the landscape. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B004",
+    "part": "1. Cold Open",
+    "type": "archival",
+    "narration": "No battle marked the day. No great fire. Most people in the city of Rome did not learn of it for weeks.",
+    "narration_words": 22,
+    "archival_guidance": "Source: Roman Forum ruins, quiet/empty composition. Commons search: https://commons.wikimedia.org/w/index.php?search=Roman+Forum+ruins&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Roman_Forum. Licence: modern photograph, confirm photographer licence (CC-BY/CC-BY-SA) on file page."
+  },
+  {
+    "id": "B005",
+    "part": "1. Cold Open",
+    "type": "archival",
+    "narration": "I was there for the beginning of that empire. I watched it swallow Gaul, and Egypt, and the kingdom of Kush's own neighbors on the Nile, and I watched a queen with one eye force a Roman emperor to the bargaining table and walk away with her freedom.",
+    "narration_words": 48,
+    "archival_guidance": "Callback asset to Episode 4: the bronze head of Augustus looted by Amanirenas's forces and buried under temple steps at Meroe (British Museum, 1911,0901.1). Reuse same source image used for EP4-B093/B096 if available in public/pantheon-ep4-archival/, else: Commons search: https://commons.wikimedia.org/w/index.php?search=Meroe+Head+Augustus&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Meroe_Head. Licence: museum photo, confirm licence on file page."
+  },
+  {
+    "id": "B006",
+    "part": "1. Cold Open",
+    "type": "graphic",
+    "narration": "I am telling you now how the empire that did that to everyone else finally had it done to itself.",
+    "narration_words": 20,
+    "motion_graphic": "MG-TITLE",
+    "notes": "Cold-open title card. Phase 1: the words THE LAST ROMAN carve themselves into a weathered marble slab in gold, cracks already running through the stone. Phase 2: the crack widens and a fragment falls away, leaving the title legible but visibly broken. About 6 seconds."
+  },
+  {
+    "id": "B007",
+    "part": "1. Cold Open",
+    "type": "ai",
+    "narration": "Not in one day. In a hundred years of them.",
+    "narration_words": 10,
+    "veo_prompts": [
+      "Extreme slow-motion of a single grain of sand falling through an hourglass filled with gold dust instead of sand, dark background, dramatic single light source, camera holds static. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B008",
+    "part": "2. The Peace That Could Not Last",
+    "type": "ai",
+    "narration": "For two centuries, Rome's power was so complete that its own citizens forgot it could end.",
+    "narration_words": 16,
+    "veo_prompts": [
+      "A bustling Roman forum market at midday, togas and merchants, colonnades, golden light, camera glides slowly through the crowd at head height, peaceful and prosperous. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B009",
+    "part": "2. The Peace That Could Not Last",
+    "type": "graphic",
+    "narration": "One road system connected Britain to the Euphrates. One currency moved through every port. A traveler could cross from Spain to Syria and never leave Roman law.",
+    "narration_words": 27,
+    "motion_graphic": "MG1",
+    "notes": "Roads and Rule. A flat ink-and-gold map of the Mediterranean world. Phase 1: a single road network lights up gold from Britain to the Euphrates. Phase 2: coin icons pulse at major ports from Spain to Syria. Phase 3: caption ROMA AETERNA fades in beneath. About 12 seconds."
+  },
+  {
+    "id": "B010",
+    "part": "2. The Peace That Could Not Last",
+    "type": "archival",
+    "narration": "The historians of the day called it the Roman Peace, and for a long while, it deserved the name.",
+    "narration_words": 19,
+    "archival_guidance": "Source: Roman milestone or paved Roman road (via), e.g. Via Appia. Commons search: https://commons.wikimedia.org/w/index.php?search=Via+Appia+Roman+road&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Pax_Romana. Licence: modern photograph, confirm on file page."
+  },
+  {
+    "id": "B011",
+    "part": "2. The Peace That Could Not Last",
+    "type": "ai",
+    "narration": "But an empire that size has borders longer than any army can hold forever, and beyond those borders, the world was not standing still.",
+    "narration_words": 24,
+    "veo_prompts": [
+      "Wide aerial-style shot of a Roman frontier wall with timber watchtowers along a river at dusk, misty forest on the far bank, a lone sentry visible, camera rises slowly to reveal the wall's length vanishing into haze. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B012",
+    "part": "2. The Peace That Could Not Last",
+    "type": "archival",
+    "narration": "Through the third century after the common era, the cracks showed first. Plague emptied cities. Soldiers made and unmade emperors faster than coins could be struck with their faces. For a few decades, there were years when Rome had a new ruler almost every season.",
+    "narration_words": 45,
+    "archival_guidance": "Source: montage-suitable Roman coin portraits of short-reigned 3rd-century 'Crisis' emperors (e.g. Aemilian, Balbinus, Pupienus). Commons search: https://commons.wikimedia.org/w/index.php?search=Crisis+of+the+Third+Century+coins&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century. Licence: numismatic photos, confirm per-file licence."
+  },
+  {
+    "id": "B013",
+    "part": "2. The Peace That Could Not Last",
+    "type": "graphic",
+    "narration": "The empire did not fall then. It reorganized. It split its rule in two — an eastern half, rich and walled behind the new capital at Constantinople, and a western half, older, poorer, and far more exposed.",
+    "narration_words": 37,
+    "motion_graphic": "MG2",
+    "notes": "The Empire Splits. Same map as MG1, now dividing down a vertical seam. Phase 1: the gold fill cracks into two separate fields, East and West. Phase 2: a small walled-city icon and the label CONSTANTINOPLE appear in the east, glowing brighter. Phase 3: the western field dims to a duller bronze. About 10 seconds."
+  },
+  {
+    "id": "B014",
+    "part": "2. The Peace That Could Not Last",
+    "type": "graphic",
+    "narration": "Both halves called themselves Rome. Only one of them would see the next century out.",
+    "narration_words": 15,
+    "motion_graphic": "MG2",
+    "notes": "Continuation of MG2, phase 4: both halves are labeled ROMA, then the western label flickers and fades while the eastern one holds steady. About 5 seconds."
+  },
+  {
+    "id": "B015",
+    "part": "3. A People Running from Something Worse",
+    "type": "ai",
+    "narration": "In the year three hundred seventy-six, Roman officers on the Danube frontier watched a sight they had never seen: tens of thousands of Gothic people, whole families, wagons, elders, children, begging to be let inside the empire.",
+    "narration_words": 37,
+    "veo_prompts": [
+      "Wide dusk shot of a riverbank crowded with refugee wagons, campfires, families and elders waiting at the water's edge, Roman soldiers watching from fortified towers on the far bank, mist rising off the river, camera slowly pans across the mass of people. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B016",
+    "part": "3. A People Running from Something Worse",
+    "type": "ai",
+    "narration": "They were not raiders. They were refugees.",
+    "narration_words": 7,
+    "veo_prompts": [
+      "Close-up of a Gothic family huddled around a small fire at night, a mother holding a sleeping child, worn travel clothes, exhaustion and quiet dignity, camera holds still, firelight flickering across faces. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B017",
+    "part": "3. A People Running from Something Worse",
+    "type": "ai",
+    "narration": "Something had driven them out of their homeland on the steppes north of the Black Sea, and that something had a name Rome would come to know well: the Huns, horse-warriors out of Central Asia whose archery and mobility nothing in the Gothic world could withstand.",
+    "narration_words": 46,
+    "veo_prompts": [
+      "Hunnic horse-archers riding at full gallop across open steppe grassland at dawn, composite bows drawn, dust trailing behind the horses, low camera angle tracking alongside the riders. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B018",
+    "part": "3. A People Running from Something Worse",
+    "type": "archival",
+    "narration": "Rome said yes. Let them cross. It was, on its own terms, not an unreasonable decision — Gothic warriors could fill the legions, Gothic farmers could work empty land.",
+    "narration_words": 29,
+    "archival_guidance": "Source: reconstructed/archaeological photo of a Roman Danube frontier fort (limes), e.g. Carnuntum. Commons search: https://commons.wikimedia.org/w/index.php?search=Roman+Danube+limes+fort&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Danube%E2%80%93Iller%E2%80%93Rhine_Limes. Licence: modern photo, confirm on file page."
+  },
+  {
+    "id": "B019",
+    "part": "3. A People Running from Something Worse",
+    "type": "ai",
+    "narration": "But the empire did it badly. Roman officials meant to feed and settle them instead cheated them, sold them dog meat at famine prices, took their children as slaves for payment.",
+    "narration_words": 31,
+    "veo_prompts": [
+      "A grim riverside market scene at dusk, Roman officials weighing out meager food against desperate Gothic families offering their few possessions, tense transactional atmosphere, handheld camera moving through the crowd. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B020",
+    "part": "3. A People Running from Something Worse",
+    "type": "graphic",
+    "narration": "Desperate people, betrayed by the power that was supposed to protect them, do not stay peaceful for long.",
+    "narration_words": 18,
+    "motion_graphic": "MG3",
+    "notes": "Crossing the River. Danube map close-up. Phase 1: a wave of small refugee-wagon icons crosses the river into Roman territory. Phase 2: the icons flip from pale (refugee) to a weapon icon (armed), rippling outward. About 8 seconds."
+  },
+  {
+    "id": "B021",
+    "part": "3. A People Running from Something Worse",
+    "type": "graphic",
+    "narration": "By three hundred seventy-eight, the Goths were not refugees anymore. They were an army inside Rome's own borders.",
+    "narration_words": 18,
+    "motion_graphic": "MG3",
+    "notes": "Continuation. Phase 3: the converted icons mass into a single army marker south of the river. Phase 4: date stamp 378 CE appears beside it. About 6 seconds."
+  },
+  {
+    "id": "B022",
+    "part": "3. A People Running from Something Worse",
+    "type": "archival",
+    "narration": "The Roman emperor Valens marched out from Constantinople to put them down before his nephew's reinforcements could arrive and share the glory.",
+    "narration_words": 22,
+    "archival_guidance": "Source: coin or portrait bust of Emperor Valens (r. 364-378 CE). Commons search: https://commons.wikimedia.org/w/index.php?search=Emperor+Valens&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Valens. Licence: numismatic/museum photo, confirm on file page."
+  },
+  {
+    "id": "B023",
+    "part": "3. A People Running from Something Worse",
+    "type": "ai",
+    "narration": "Near the city of Adrianople, he found the Goths drawn up and waiting.",
+    "narration_words": 13,
+    "veo_prompts": [
+      "Dawn wide shot of a Roman legion arrayed in formation on an open plain, shields and standards catching the first light, a line of Gothic warriors visible in the distance across the field, tense stillness before battle. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B024",
+    "part": "3. A People Running from Something Worse",
+    "type": "ai",
+    "narration": "The battle lasted an afternoon. Roman cavalry rode in late and scattered; the infantry was boxed in, crushed from every side, and by nightfall perhaps two-thirds of the eastern Roman field army lay dead on the plain, the emperor Valens among them — his body never recovered, lost in the chaos or burned alive in a farmhouse where the wounded had taken shelter.",
+    "narration_words": 63,
+    "veo_prompts": [
+      "Chaotic battle scene, Roman infantry packed shoulder to shoulder and surrounded on all sides by Gothic cavalry and infantry, dust and dropped shields, late-afternoon light turning amber, camera pushes low through the melee. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "A burning farmhouse at night on the edge of a battlefield, flames engulfing the structure, silhouettes of wounded soldiers visible within, smoke rising into a dark sky, camera holds a slow static shot. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B025",
+    "part": "3. A People Running from Something Worse",
+    "type": "graphic",
+    "narration": "No Roman emperor had died in battle against a foreign enemy in centuries.",
+    "narration_words": 13,
+    "motion_graphic": "MG4",
+    "notes": "The Toll of Adrianople. Stat card on dark ground: TWO-THIRDS of the Eastern field army, in one afternoon. Then: the first Roman emperor killed in battle by a foreign enemy in over two hundred years. About 8 seconds."
+  },
+  {
+    "id": "B026",
+    "part": "3. A People Running from Something Worse",
+    "type": "archival",
+    "narration": "A Roman historian who wrote of that day called it the worst defeat since Hannibal. He understated it.",
+    "narration_words": 18,
+    "archival_guidance": "Source: medieval or early-modern manuscript illumination depicting the Battle of Adrianople (378), or a page from Ammianus Marcellinus manuscript tradition. Commons search: https://commons.wikimedia.org/w/index.php?search=Battle+of+Adrianople+378+illustration&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Battle_of_Adrianople. Licence: PD-old reproduction of historical artwork, confirm on file page."
+  },
+  {
+    "id": "B027",
+    "part": "4. The Sack",
+    "type": "graphic",
+    "narration": "The Goths who broke Rome at Adrianople did not go away. For a generation they moved through the Balkans and Greece, sometimes at war with the empire, sometimes serving in its armies, always searching for a settlement Rome never fully honored.",
+    "narration_words": 41,
+    "motion_graphic": "MG5",
+    "notes": "Three Marches, One Sack. Balkans/Italy map. Phase 1: an army icon wanders through the Balkans and Greece over several loops, a faint trail marking two decades of movement. About 8 seconds."
+  },
+  {
+    "id": "B028",
+    "part": "4. The Sack",
+    "type": "ai",
+    "narration": "Their leader for much of this was a man named Alaric — born on an island in the Danube delta, raised in a kingdom of Romans and Goths tangled together, a man who wanted not to destroy Rome but to be given an honored place inside it: land for his people, a Roman command worthy of his rank.",
+    "narration_words": 58,
+    "veo_prompts": [
+      "Portrait of Alaric, a Gothic war-leader in his thirties, weathered face, mixed Roman and Gothic armor, standing at a campfire at night looking toward a distant lit city on the horizon, contemplative, camera slowly pushes in. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B029",
+    "part": "4. The Sack",
+    "type": "ai",
+    "narration": "Three times he marched on Italy to make his case. Three times Rome's generals bled him, bribed him, or outlasted him.",
+    "narration_words": 21,
+    "veo_prompts": [
+      "A Gothic army marching through an Italian mountain pass in grey weather, banners drooping, a long weary column, camera tracks alongside at a distance, somber tone. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B030",
+    "part": "4. The Sack",
+    "type": "graphic",
+    "narration": "The fourth time, in the year four hundred ten, nothing stopped him.",
+    "narration_words": 12,
+    "motion_graphic": "MG5",
+    "notes": "Continuation. Phase 2: the first three march-lines toward Rome fade out one by one (dotted, failing). Phase 3: a fourth line runs solid and unbroken to the city, and the date 410 CE stamps in large. About 6 seconds."
+  },
+  {
+    "id": "B031",
+    "part": "4. The Sack",
+    "type": "ai",
+    "narration": "On the night of August the twenty-fourth, enslaved people inside Rome itself — by one account, the very people the city depended on to run its households — opened the Salarian Gate from within.",
+    "narration_words": 34,
+    "veo_prompts": [
+      "Night scene at a massive Roman city gate, a side postern door creaks open from within by shadowy figures, torchlight flickering beyond the wall, tense and quiet, camera close on the opening door. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B032",
+    "part": "4. The Sack",
+    "type": "ai",
+    "narration": "For the first time in almost eight hundred years, an army that was not Rome's own stood inside the walls of Rome.",
+    "narration_words": 22,
+    "veo_prompts": [
+      "Wide shot of Gothic warriors pouring through an open city gate at night by torchlight, silhouettes against the flames, the ancient walls towering above them, camera low and slow, awe and dread. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B033",
+    "part": "4. The Sack",
+    "type": "archival",
+    "narration": "What followed was three days of looting, not the annihilation later legend made of it — Alaric's own men were Christian, as was most of the city, and churches were spared by his order — but the shock was not in the violence. It was in the fact of it happening at all.",
+    "narration_words": 53,
+    "archival_guidance": "Source: 19th-century history painting of the Sack of Rome, 410 CE (several exist, e.g. by J-N. Sylvestre or similar). Commons search: https://commons.wikimedia.org/w/index.php?search=Sack+of+Rome+410+painting&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Sack_of_Rome_(410). Licence: PD-old painting reproduction, confirm on file page."
+  },
+  {
+    "id": "B034",
+    "part": "4. The Sack",
+    "type": "archival",
+    "narration": "A scholar far away in the Holy Land, hearing the news, wrote that his voice failed him and sobs cut short his words: the city that had taken the whole world captive was itself taken.",
+    "narration_words": 35,
+    "archival_guidance": "Source: portrait of St. Jerome (in Bethlehem at the time of the sack; this is his documented reaction, Letter 127). Commons search: https://commons.wikimedia.org/w/index.php?search=Saint+Jerome+portrait&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Jerome. Licence: PD-old master painting reproduction, confirm on file page."
+  },
+  {
+    "id": "B035",
+    "part": "4. The Sack",
+    "type": "ai",
+    "narration": "Alaric did not live to see what came of it. He died of fever months later, marching south, and his men are said to have diverted a river to bury him in its bed with his treasures, then killed the enslaved laborers who had dug the grave, so that no living person could say where a conqueror of Rome lay at rest.",
+    "narration_words": 62,
+    "veo_prompts": [
+      "Dusk scene beside a diverted riverbed, Gothic warriors lowering a shrouded body and treasure into a dug grave in the exposed riverbed, torches on the banks above, solemn and secretive, camera holds a high wide angle looking down. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B036",
+    "part": "5. The Scourge and the General",
+    "type": "ai",
+    "narration": "The same pressure that had pushed the Goths across the Danube a lifetime earlier eventually arrived in person.",
+    "narration_words": 18,
+    "veo_prompts": [
+      "A vast Hunnic encampment at dusk on the steppe, thousands of campfires stretching to the horizon, horses and gers, camera rises slowly to reveal the scale of the camp. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B037",
+    "part": "5. The Scourge and the General",
+    "type": "archival",
+    "narration": "By the fourteen-forties, a Hunnic king named Attila ruled an empire of his own stretching from the Rhine to the steppes of Central Asia, and both Roman empires paid him tribute in gold simply to keep him from marching.",
+    "narration_words": 39,
+    "archival_guidance": "Source: historical artwork depicting Attila the Hun (no contemporary portrait survives; use a well-documented later depiction, e.g. Eugene Delacroix's 'Attila' ceiling mural at the Palais Bourbon, or a Renaissance/medieval manuscript image). Commons search: https://commons.wikimedia.org/w/index.php?search=Attila+the+Hun+painting&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Attila. Licence: PD-old artwork reproduction, confirm on file page."
+  },
+  {
+    "id": "B038",
+    "part": "5. The Scourge and the General",
+    "type": "ai",
+    "narration": "When he marched anyway, in four hundred fifty-one, he came west into Gaul — and there, Rome found one general still capable of meeting him.",
+    "narration_words": 25,
+    "veo_prompts": [
+      "A massive Hunnic horde riding west across a Gaulish landscape, forests and farmland giving way beneath dust clouds, wide aerial-style tracking shot following the column's advance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B039",
+    "part": "5. The Scourge and the General",
+    "type": "ai",
+    "narration": "Flavius Aetius had spent his youth as a hostage among the Huns himself; he knew their tactics, and in some years he had even been their ally against Rome's other enemies.",
+    "narration_words": 31,
+    "veo_prompts": [
+      "Portrait of Flavius Aetius, a Roman general in his fifties, scarred and weathered, wearing mixed Roman-Hunnic riding gear, standing at a war table lit by a single lamp, studying a map, camera slowly circles. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B040",
+    "part": "5. The Scourge and the General",
+    "type": "ai",
+    "narration": "Now he built the only kind of army the dying western empire could still raise: Romans, yes, but beside them Visigoths, Franks, and other peoples the empire had once called barbarians, fighting under Roman command because Attila threatened them all alike.",
+    "narration_words": 41,
+    "veo_prompts": [
+      "A dawn camp scene, Roman legionary standards planted beside Visigothic and Frankish war-banners, warriors of visibly different peoples arming together in silence, camera glides past the mixed ranks. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B041",
+    "part": "5. The Scourge and the General",
+    "type": "ai",
+    "narration": "On the Catalaunian Plains, that patchwork army met Attila's horde in what ancient writers called one of the bloodiest single-day battles the world had seen.",
+    "narration_words": 25,
+    "veo_prompts": [
+      "Epic wide shot of two massive armies colliding on an open plain, dust and smoke rising, countless banners and spears, the scale overwhelming, camera pulls back and up to a God's-eye view of the chaos. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B042",
+    "part": "5. The Scourge and the General",
+    "type": "archival",
+    "narration": "Attila was checked, not destroyed. He withdrew — and the following year invaded Italy instead, burning cities, until, by tradition, a meeting with the bishop of Rome persuaded him to turn back, his army already weakened by hunger and disease.",
+    "narration_words": 40,
+    "archival_guidance": "Source: Raphael's fresco 'The Meeting of Leo the Great and Attila' (Vatican, Stanza di Eliodoro), a famous and well-documented depiction of this exact meeting. Commons search: https://commons.wikimedia.org/w/index.php?search=Raphael+Leo+Attila&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/The_Meeting_of_Leo_the_Great_and_Attila. Licence: PD-old master artwork, confirm on file page."
+  },
+  {
+    "id": "B043",
+    "part": "5. The Scourge and the General",
+    "type": "ai",
+    "narration": "Attila died not long after, on his own wedding night, by a burst blood vessel, not a Roman sword.",
+    "narration_words": 19,
+    "veo_prompts": [
+      "A somber Hunnic royal tent at dawn, attendants standing in hushed shock outside the entrance, mist over the steppe camp beyond, camera holds still at a respectful distance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B044",
+    "part": "5. The Scourge and the General",
+    "type": "ai",
+    "narration": "Aetius, the general who had held the line against him, did not outlive him by much. The reigning emperor, fearing a man more capable than himself, stabbed him to death with his own hand in four hundred fifty-four.",
+    "narration_words": 38,
+    "veo_prompts": [
+      "A dim imperial audience chamber, the young emperor rising suddenly from his throne with a blade in hand as the unarmed general before him looks up in disbelief, the moment frozen just before the strike, dramatic single-source lighting. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B045",
+    "part": "5. The Scourge and the General",
+    "type": "graphic",
+    "narration": "A courtier is said to have told the emperor he had just cut off his right hand with his left. Within a year, the emperor too was dead, killed by Aetius's former bodyguards.",
+    "narration_words": 33,
+    "motion_graphic": "MG6",
+    "notes": "The Hand That Was Cut Off. Phase 1: quote card, gold serif text on dark marble, the courtier's line appears word by word: ...with your right hand, you have cut off your left. Phase 2: the quote dissolves; new text fades in beneath it: WITHIN A YEAR, THE EMPEROR TOO WAS DEAD, KILLED BY AETIUS'S FORMER BODYGUARDS. About 11 seconds total."
+  },
+  {
+    "id": "B046",
+    "part": "6. Fourteen Days",
+    "type": "ai",
+    "narration": "The empire that killed its last great general had little left to defend itself with.",
+    "narration_words": 15,
+    "veo_prompts": [
+      "A half-manned Roman garrison fort at dusk, watchtowers thinly staffed, a few weary soldiers on the walls, gates standing open and unguarded, camera holds a slow static wide shot conveying depletion and exposure. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B047",
+    "part": "6. Fourteen Days",
+    "type": "ai",
+    "narration": "In four hundred fifty-five, a Vandal king named Gaiseric sailed from North Africa — a kingdom the Vandals had carved for themselves a generation earlier — and landed at the mouth of the Tiber.",
+    "narration_words": 34,
+    "veo_prompts": [
+      "A fleet of Vandal ships approaching the Italian coastline at dawn, sails catching early light, the mouth of a river visible ahead, warriors visible on deck, camera glides low over the water alongside the lead ship. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B048",
+    "part": "6. Fourteen Days",
+    "type": "archival",
+    "narration": "Rome's new bishop, Leo, rode out to meet him as he once had met Attila, and won one concession: no massacre, no burning.",
+    "narration_words": 23,
+    "archival_guidance": "Source: artwork or icon depicting Pope Leo I (same figure as the Attila meeting, B042 — reuse that source image or a companion depiction). Commons search: https://commons.wikimedia.org/w/index.php?search=Pope+Leo+I&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Pope_Leo_I. Licence: PD-old artwork/icon reproduction, confirm on file page."
+  },
+  {
+    "id": "B049",
+    "part": "6. Fourteen Days",
+    "type": "ai",
+    "narration": "What Gaiseric's men took instead, over fourteen methodical days, was everything that could be carried — gold, silver, half the gilded bronze roof tiles of the Temple of Jupiter, imperial treasures, the emperor's own widow and daughters, taken as captives to Carthage.",
+    "narration_words": 42,
+    "veo_prompts": [
+      "Vandal soldiers systematically stripping gilded bronze tiles from a temple roof in daylight, carts loaded with gold and silver vessels passing below, methodical rather than chaotic, camera tracks along the looting procession. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "A somber procession of captive imperial women being led down to waiting ships at the harbor, guarded by Vandal warriors, late afternoon light, camera holds a wide static shot as they board. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B050",
+    "part": "6. Fourteen Days",
+    "type": "graphic",
+    "narration": "It is from this sack, not Alaric's, that a later age drew the word for wanton destruction of beautiful things — vandalism — a label that outlived the kingdom it was coined to insult by well over a thousand years.",
+    "narration_words": 40,
+    "motion_graphic": "MG7",
+    "notes": "Vandalism. Typography reveal on dark stone: VANDAL carves itself in gold. A line strikes beneath it and VANDALISM grows out from the same letters, larger, with the caption 'a word that outlived the kingdom.' About 10 seconds."
+  },
+  {
+    "id": "B051",
+    "part": "6. Fourteen Days",
+    "type": "ai",
+    "narration": "After Gaiseric sailed home, the western throne became a title more than a power.",
+    "narration_words": 14,
+    "veo_prompts": [
+      "An empty imperial throne room in late-afternoon light, dust motes drifting, the throne itself untouched but the hall otherwise bare and silent, camera slowly pushes in toward the empty seat. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B052",
+    "part": "6. Fourteen Days",
+    "type": "graphic",
+    "narration": "Nine men wore the crown in the next twenty-one years. Several were killed. Several were puppets of whichever barbarian general commanded the loyalty of what remained of the army.",
+    "narration_words": 29,
+    "motion_graphic": "MG8",
+    "notes": "Nine Emperors, Twenty-One Years. A vertical ticker of nine small coin-portrait medallions drops down one by one, each stamped with a reign-length of months or a couple of years; several are struck through with a red/iron mark as they land. About 14 seconds."
+  },
+  {
+    "id": "B053",
+    "part": "6. Fourteen Days",
+    "type": "ai",
+    "narration": "The empire of the west had not been conquered in one great battle. It had been cashed out, piece by piece, by men who found it was worth more as plunder and pension than as a government worth saving.",
+    "narration_words": 39,
+    "veo_prompts": [
+      "A toppled and partially gilded Roman statue lying in weeds beside a crumbling colonnade, late golden light, no people, camera holds a slow static wide shot, melancholy and still. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B054",
+    "part": "7. The Boy Who Did Not Fight Back",
+    "type": "ai",
+    "narration": "By four hundred seventy-five, the army defending Italy was itself made up mostly of soldiers from Germanic peoples — men who had fought for Rome for generations and wanted, in the end, the same thing Alaric had asked for seventy years before: land of their own, recognized and legal, inside the empire they served.",
+    "narration_words": 54,
+    "veo_prompts": [
+      "A Roman army camp at dusk, soldiers of clearly Germanic appearance around campfires in a mix of Roman and tribal dress, low tense conversation, camera moves slowly among the fires. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B055",
+    "part": "7. The Boy Who Did Not Fight Back",
+    "type": "ai",
+    "narration": "Rome's last functioning general refused them.",
+    "narration_words": 6,
+    "veo_prompts": [
+      "A Roman general in his command tent by lamplight, reading a petition and setting it down with a hard, final expression, a messenger waiting nervously nearby, camera close on the general's face. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B056",
+    "part": "7. The Boy Who Did Not Fight Back",
+    "type": "ai",
+    "narration": "His own officer corps turned on him. A commander named Odoacer, himself of mixed barbarian descent, was raised on a shield by his soldiers and given the general's job, and within weeks, the general was dead and the boy-emperor his faction had installed — Romulus Augustulus — had nothing left to rule in whose name.",
+    "narration_words": 55,
+    "veo_prompts": [
+      "A torchlit night ceremony, a weathered commander lifted aloft on a war-shield by cheering soldiers in a crowded camp, chaotic energy and firelight, camera low and handheld amid the crowd. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+      "A dim palace corridor at dawn, the deposed general's body being carried away by soldiers while a frightened teenage boy in imperial robes watches from a doorway, somber and quiet. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B057",
+    "part": "7. The Boy Who Did Not Fight Back",
+    "type": "archival",
+    "narration": "Odoacer did not crown himself emperor of the west. He did something stranger. He sent the imperial regalia east, to Constantinople, with a message: the west no longer needed an emperor of its own. One Roman emperor, ruling from the east, was enough.",
+    "narration_words": 43,
+    "archival_guidance": "Source: surviving Late Roman imperial regalia / insignia artifacts (diadem, orb, or similar), or depiction of Constantinople's Great Palace. Commons search: https://commons.wikimedia.org/w/index.php?search=Late+Roman+imperial+regalia&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Odoacer. Licence: museum artifact photo, confirm per-file licence."
+  },
+  {
+    "id": "B058",
+    "part": "7. The Boy Who Did Not Fight Back",
+    "type": "graphic",
+    "narration": "The eastern emperor accepted the symbols and, with no army to spare for Italy, accepted the arrangement too.",
+    "narration_words": 18,
+    "motion_graphic": "MG9",
+    "notes": "476. Map: a small regalia-icon travels by ship from Ravenna/Rome to Constantinople across the map. The western half of the earlier split-map (from MG2) goes fully dark. About 8 seconds."
+  },
+  {
+    "id": "B059",
+    "part": "7. The Boy Who Did Not Fight Back",
+    "type": "graphic",
+    "narration": "So ended, by the only date historians could ever agree to put a pin in, the Western Roman Empire.",
+    "narration_words": 19,
+    "motion_graphic": "MG9",
+    "notes": "Continuation. Big date card on black: 476 CE — THE WESTERN ROMAN EMPIRE ENDS. About 5 seconds."
+  },
+  {
+    "id": "B060",
+    "part": "7. The Boy Who Did Not Fight Back",
+    "type": "ai",
+    "narration": "Romulus Augustulus lived on for decades in his villa on the coast, the last of his name, a pensioner of the kingdom that had replaced him, dying of old age in a world where Rome still stood, and no one who called himself its emperor lived in it anymore.",
+    "narration_words": 49,
+    "veo_prompts": [
+      "An older man in plain clothing walking alone through a sunlit coastal garden overlooking the Bay of Naples, peaceful and unremarkable, camera pulls back slowly to a wide, quiet, elegiac shot of the villa and sea. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B061",
+    "part": "8. What Actually Fell",
+    "type": "graphic",
+    "narration": "You have been taught this was an ending. I want to be more careful with you than that.",
+    "narration_words": 18,
+    "motion_graphic": "MG10",
+    "notes": "What Outlived the Throne, phase 1: on black, the word ENDING appears in large gold type, then a crack splits it and the word reassembles, slightly altered, as CONTINUES. About 6 seconds."
+  },
+  {
+    "id": "B062",
+    "part": "8. What Actually Fell",
+    "type": "archival",
+    "narration": "The eastern half of the empire did not fall in four hundred seventy-six. It called itself Rome for another thousand years, until a different army took Constantinople in fourteen fifty-three — and some of its own people, to the end, never stopped calling themselves Romans.",
+    "narration_words": 45,
+    "archival_guidance": "Source: Hagia Sophia, Constantinople/Istanbul — the great Byzantine (Eastern Roman) cathedral. Commons search: https://commons.wikimedia.org/w/index.php?search=Hagia+Sophia&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Hagia_Sophia. Licence: modern photograph, confirm on file page."
+  },
+  {
+    "id": "B063",
+    "part": "8. What Actually Fell",
+    "type": "graphic",
+    "narration": "In Italy and Gaul and Spain, the kingdoms that replaced the western empire kept Roman law on their books, Roman bishops in their cities, Roman roads under their feet, Latin on their tongues reshaping itself, generation by generation, into French and Spanish and Italian.",
+    "narration_words": 44,
+    "motion_graphic": "MG10",
+    "notes": "Phase 2: the western map from MG2/MG9 relights, now divided into small successor kingdoms, each still faintly gold at the edges. Beneath it, the word LATIN splits and regrows into FRANÇAIS, ESPAÑOL, ITALIANO branching outward like roots. About 12 seconds."
+  },
+  {
+    "id": "B064",
+    "part": "8. What Actually Fell",
+    "type": "ai",
+    "narration": "Odoacer himself ruled Italy for the Roman Senate's benefit, in Roman administrative forms, for seventeen more years, until a different Gothic king killed him at a banquet and took his place doing much the same thing.",
+    "narration_words": 36,
+    "veo_prompts": [
+      "A lamplit banquet hall, a seated ruler struck down suddenly at the table by a guest rising with a blade, other diners frozen in shock, dramatic chiaroscuro lighting, camera close on the moment of the strike. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  },
+  {
+    "id": "B065",
+    "part": "8. What Actually Fell",
+    "type": "graphic",
+    "narration": "The empire did not vanish. Its single throne broke into many, and the idea of it proved harder to kill than the government that had once enforced it.",
+    "narration_words": 28,
+    "motion_graphic": "MG10",
+    "notes": "Phase 3: a single gold crown icon on black shatters into a dozen smaller crown icons that scatter outward and settle, each still faintly glowing gold. About 8 seconds."
+  },
+  {
+    "id": "B066",
+    "part": "8. What Actually Fell",
+    "type": "graphic",
+    "narration": "For a thousand years afterward, kings from Germany to Russia would take the word Caesar for their own titles — Kaiser, Tsar — reaching back for a legitimacy they thought had died in that palace at Ravenna.",
+    "narration_words": 37,
+    "motion_graphic": "MG11",
+    "notes": "Caesar's Long Shadow. Typography on dark stone, modeled on Episode 4's Kandake treatment: CAESAR carves itself in gold, then splits and regrows into KAISER and TSAR branching to either side. About 10 seconds."
+  },
+  {
+    "id": "B067",
+    "part": "8. What Actually Fell",
+    "type": "graphic",
+    "narration": "It had not died. It had simply stopped belonging to any one throne.",
+    "narration_words": 13,
+    "motion_graphic": "MG11",
+    "notes": "Continuation. Caption fades in beneath the three words: IT HAD NOT DIED. IT HAD STOPPED BELONGING TO ANY ONE THRONE. About 6 seconds."
+  },
+  {
+    "id": "B068",
+    "part": "8. What Actually Fell",
+    "type": "archival",
+    "narration": "I have watched kingdoms erase their predecessors with a chisel, cutting a name from stone so thoroughly that only the holes remembered the king had been there.",
+    "narration_words": 27,
+    "archival_guidance": "Callback asset to Episode 4: an erased/chiseled-out royal cartouche on Egyptian stone (same visual motif as EP4-B004/B083, the Kushite king names cut from temple walls). Reuse source image from public/pantheon-ep4-archival/ if suitable, else: Commons search: https://commons.wikimedia.org/w/index.php?search=erased+cartouche+damnatio+memoriae&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Damnatio_memoriae. Licence: confirm per-file licence on Commons."
+  },
+  {
+    "id": "B069",
+    "part": "8. What Actually Fell",
+    "type": "graphic",
+    "narration": "Rome's fall was the opposite kind of vanishing. Everyone kept the name. Almost no one kept the thing the name once meant.",
+    "narration_words": 22,
+    "motion_graphic": "MG12",
+    "notes": "Closing thesis card. On black, gold serif text builds line by line: EVERYONE KEPT THE NAME. / ALMOST NO ONE KEPT / THE THING THE NAME ONCE MEANT. About 8 seconds."
+  },
+  {
+    "id": "B070",
+    "part": "8. What Actually Fell",
+    "type": "ai",
+    "narration": "Decide for yourself, then, which is the more thorough way to disappear.",
+    "narration_words": 12,
+    "veo_prompts": [
+      "A wide, slow aerial-style shot at golden-hour sunset over the overgrown ruins of the Roman Forum, broken columns and weeds reclaiming the stones, utterly silent and still, camera drifts very slowly backward and up. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ]
+  }
+]
