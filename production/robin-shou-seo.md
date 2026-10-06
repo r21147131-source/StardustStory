@@ -35,16 +35,16 @@ This is the story of Robin Shou: the civil engineering student who sold his car 
 
 CHAPTERS
 0:00 He didn't disappear
-0:30 Born in Hong Kong, raised in Los Angeles
-1:00 Wushu, and the first big gamble
-1:30 From soil engineer to Hong Kong stuntman
+0:37 Born in Hong Kong, raised in Los Angeles
+1:00 Wushu and the first big gamble
+1:36 From soil engineer to Hong Kong stuntman
 2:30 Hong Kong action films and Tiger Cage II with Donnie Yen
-3:00 Back in Los Angeles: the Mortal Kombat call
-3:45 Seven auditions for Liu Kang
-4:00 Paul W.S. Anderson and the fight scenes
+3:02 Back in Los Angeles: the Mortal Kombat call
+3:47 Seven auditions for Liu Kang
+4:08 Paul W. S. Anderson and the fight scenes
 5:00 Opening weekend and box office
-5:25 Mortal Kombat: Annihilation
-5:50 What came after
+5:26 Mortal Kombat: Annihilation
+6:01 What came after
 
 KEY FACTS FROM THE VIDEO
 - Mortal Kombat opened August 18, 1995: about $23M opening weekend, number one for three weekends, roughly $122M worldwide on a ~$20M budget.
@@ -74,3 +74,34 @@ robin shou, robin shou story, robin shou liu kang, what happened to robin shou, 
 - Captions: upload an English SRT built from the transcript (the voiceover is clean, so auto-captions will be accurate; fix proper names: Shou, Liu Kang, Yuen Woo-ping).
 - End screen: last 20s of the video — the Death Race still section (≈5:53–6:13) is a good spot for the subscribe / next-video cards.
 - Rights: the trailer clips may trigger Content ID claims. Expect possible claims on the Mortal Kombat / Tiger Cage II footage.
+
+## Files for this video
+- Video: output/robin-shou/robin-shou.mp4 (1920x1080, 6:13)
+- Thumbnail: output/robin-shou/thumbnail.jpg (1280x720, under 2 MB, JPG)
+- Captions: production/robin-shou-captions.srt (142 cues, timed from the voiceover; upload under Subtitles > English)
+- This file: titles, description, tags, comment, Shorts plan
+
+## Upload checklist (YouTube Studio)
+1. Upload the MP4. Title: option 1 above.
+2. Description: paste the block above. Chapters work because the first one is at 0:00, there are more than three, and each is longer than 10 seconds.
+3. Thumbnail: upload thumbnail.jpg.
+4. Tags: paste the tag list. Playlist: create "Actors Hollywood Forgot".
+5. Subtitles: upload the SRT. Language English.
+6. Category Film & Animation. Audience: not made for kids. Altered content: no.
+7. Cards: add one around 3:12 (Mortal Kombat starts). End screen: last 20 seconds.
+8. Publish at 2-3 pm in the audience's main time zone on a Thursday or Friday, as the video is evergreen biography rather than news.
+9. Pin the comment below within the first hour.
+
+## Shorts plan (extra reach, link back to the full video)
+Vertical clips from the same voiceover. Use the hook as the Short's own title.
+1. "He didn't disappear" — 0:00 to 0:36 (the opening hook).
+2. "Why Hollywood almost didn't cast him" — 3:12 to 3:47 (the villain default, then the hero role).
+3. "A three-rib fight" — 4:21 to 5:00 (Liu Kang vs Reptile, how he rates a fight).
+4. "$23 million opening weekend" — 5:00 to 5:26.
+5. "The sequel was a funeral" — 5:26 to 6:01.
+Each Short: description "Full story: <link to the video>". Tags: #shorts #MortalKombat #RobinShou.
+
+## First 48 hours
+- Reply to every comment in the first hour (boosts early engagement).
+- Post a Community post with the thumbnail and the question from the pinned comment.
+- Watch retention in Studio. If viewers drop in the 0:40 to 1:47 stretch (it uses stills, as no footage was available), consider re-cutting that part with interview clips or photos.
