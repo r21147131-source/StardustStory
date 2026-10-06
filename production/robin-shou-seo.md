@@ -2,13 +2,26 @@
 
 Based on the voiceover transcript (production/robin-shou-script.txt). Video length 6:13.
 
-## Title options (pick one, ≤ 60 chars so it doesn't truncate)
-1. The Actor Hollywood Forgot: Robin Shou After Mortal Kombat   (primary)
-2. What Happened to Robin Shou? The Real Liu Kang Story
-3. Robin Shou: From Engineer to Mortal Kombat's Liu Kang
-4. Mortal Kombat Made Him a Star. Then Hollywood Walked Away.
+## Keyword data (vidIQ, checked 2026-10-06, est. monthly YouTube searches)
+| Keyword | Searches/mo | Competition (0-100) |
+|---|---|---|
+| robin shou story | 7,438 | 34 |
+| robin shou | 4,912 | 39 |
+| robin shou liu kang | 4,742 | 27 |
+| donnie yen vs robin shou | 4,606 | 15 |
+| robin shou vs donnie yen | 3,475 | 7 |
+| robin shou mortal kombat | <750 | 26 |
 
-Primary keyword up front: "Robin Shou". Secondary: "Mortal Kombat", "Liu Kang".
+"robin shou story" has the most searches and matches this video, so it leads the title.
+"robin shou mortal kombat" is below vidIQ's measurable threshold, so use "Liu Kang" and "Mortal Kombat" as supporting words, not as the lead phrase.
+The video covers Tiger Cage II opposite Donnie Yen, so the Donnie Yen terms are real, low-competition secondary keywords (keep them to the Tiger Cage II chapter, tags and one description line).
+Not used on purpose: "robin shou interview" and "robin shou fight scenes" have search demand but the video is neither, and misleading terms hurt retention.
+
+## Title options (vidIQ title score, 0-100)
+1. Robin Shou Story: Mortal Kombat Made Him a Star, Then Hollywood Walked Away  (89, recommended)
+2. The Actor Hollywood Forgot: Robin Shou After Mortal Kombat  (86)
+3. The Robin Shou Story: The Actor Hollywood Forgot  (75)
+Option 1 is 76 characters, so the end may be cut off in search results. "Robin Shou Story" is up front and survives the cut.
 
 ## Thumbnail text (2–4 words, high contrast)
 - "HE DIDN'T DISAPPEAR"
@@ -25,7 +38,7 @@ CHAPTERS
 0:30 Born in Hong Kong, raised in Los Angeles
 1:00 Wushu, and the first big gamble
 1:30 From soil engineer to Hong Kong stuntman
-2:30 Hong Kong action films and Tiger Cage II
+2:30 Hong Kong action films and Tiger Cage II with Donnie Yen
 3:00 Back in Los Angeles: the Mortal Kombat call
 3:45 Seven auditions for Liu Kang
 4:00 Paul W.S. Anderson and the fight scenes
@@ -47,7 +60,7 @@ This product uses the TMDB API but is not endorsed or certified by TMDB. Images 
 #RobinShou #MortalKombat #LiuKang
 
 ## Tags (comma-separated, ≤ 500 chars)
-robin shou, robin shou mortal kombat, what happened to robin shou, liu kang, liu kang actor, mortal kombat 1995, mortal kombat annihilation, mortal kombat movie, robin shou interview, robin shou story, tiger cage 2, yuen woo-ping, paul w s anderson, hong kong action, martial arts actor, wushu, 90s action movies, video game movies, mortal kombat cast, actor biography
+robin shou, robin shou story, robin shou liu kang, what happened to robin shou, donnie yen vs robin shou, liu kang, liu kang actor, mortal kombat 1995, mortal kombat annihilation, mortal kombat movie, tiger cage 2, yuen woo-ping, paul w s anderson, hong kong action, martial arts actor, wushu, 90s action movies, video game movies, mortal kombat cast, actor biography
 
 ## Hashtags (first 3 show above the title)
 #RobinShou #MortalKombat #LiuKang
