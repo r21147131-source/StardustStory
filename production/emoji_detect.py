@@ -27,15 +27,18 @@ def masks(bgr):
 def has_emoji(bgr):
     x0, y0, x1, y1 = ROI
     sub = bgr[y0:y1, x0:x1]
-    for m in masks(sub):
+    for name, m in zip(("warm", "green", "red", "blue"), masks(sub)):
         m = cv2.morphologyEx(m.astype(np.uint8), cv2.MORPH_CLOSE, np.ones((3, 3), np.uint8))
         n, lab, stats, _ = cv2.connectedComponentsWithStats(m, connectivity=8)
         for i in range(1, n):
             x, y, w, hh, area = stats[i]
-            if area < 300 or w < 14 or hh < 14 or w > 90 or hh > 90: continue
+            if w < 12 or hh < 12 or w > 90 or hh > 90: continue
             if not (0.55 < w / hh < 1.8): continue
-            if area / (w * hh) < 0.5: continue
-            return True
+            fill = area / (w * hh)
+            if name == "red":      # crosses / hearts are thin: accept low fill
+                if area >= 90 and fill >= 0.18: return True
+            elif area >= 300 and fill >= 0.5:
+                return True
     return False
 
 def scan(src):

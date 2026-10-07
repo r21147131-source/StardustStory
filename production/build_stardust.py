@@ -174,6 +174,7 @@ def make_label(spec, persist=False):
 CLIPS = f"{ROOT}/footage/clips"
 GOOD, CROPS, POOLS = {}, {}, {}
 LOGO = (62, 136, 214, 62)      # OpusClip trial watermark box (x, y, w, h) in the 1920x1080 source
+MAXPIECE = 2.4          # never stay on one trailer segment longer than this (variety, trailer-style pacing)
 INTRO = (3.2, 8.4)      # OpusClip "Created with OpusClip" vertical text runs here in every export
 DARK = 12.0             # mean luma (0-255) below which a frame is treated as black
 def subtract(segs, bad, minlen=0.9):
@@ -192,10 +193,12 @@ def load_footage():
     clean = json.load(open(f"{ROOT}/footage/clean.json"))
     bl = json.load(open(f"{ROOT}/production/footage_blacklist.json"))
     luma = json.load(open(f"{ROOT}/footage/luma.json"))
+    emoji = json.load(open(f"{ROOT}/footage/emoji.json"))
     for k, v in clean.items():
         segs = [x for i, x in enumerate(v) if i not in bl.get(k, [])]
         bad = [list(INTRO)] + [list(r) for r in bl.get("_ranges", {}).get(k, [])]
         bad += [[i / 8 - 0.125, i / 8 + 0.25] for i, l in enumerate(luma[k]) if l < DARK]
+        bad += [[t - 0.4, t + 0.5] for t in emoji.get(k, [])]       # OpusClip auto-emoji (latest detector run)
         GOOD[k] = subtract(segs, bad)
     CROPS.update(json.load(open(f"{ROOT}/footage/crops.json")))
 
@@ -212,7 +215,7 @@ class Pool:
             avail = (b - a) - off
             if avail < 0.8:
                 self.cur[src] = [i + 1, 0.0]; self.rr -= 1; continue
-            d = min(avail, need)
+            d = min(avail, need, MAXPIECE)
             pieces.append((src, round(a + off, 3), round(d, 3))); need -= d
             self.cur[src] = [i + 1, 0.0] if d >= avail - 0.25 else [i, off + d]
         return pieces
