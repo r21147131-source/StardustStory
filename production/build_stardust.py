@@ -7,10 +7,12 @@ Work files live in footage/work/ (gitignored); the result goes to output/stardus
 import os, sys, math, json, hashlib, subprocess, concurrent.futures as cf, textwrap
 sys.path.insert(0, os.path.dirname(__file__))
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
-import stardust_timeline as TL
+import importlib
+PROJECT = os.environ.get("PROJECT", "stardust")
+TL = importlib.import_module({"stardust": "stardust_timeline", "keanu": "keanu_timeline"}[PROJECT])
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-WORK = f"{ROOT}/footage/work"
+WORK = f"{ROOT}/footage/work" if PROJECT == "stardust" else f"{ROOT}/footage/work_{PROJECT}"
 PLATES, LABELS, UNITS = f"{WORK}/plates", f"{WORK}/labels", f"{WORK}/units"
 W, H, FPS = 1920, 1080, 24
 GOLD, GOLD_DIM = (212, 175, 55), (176, 146, 52)
@@ -69,7 +71,7 @@ def make_plate(key, side="right"):
     kind = key.split(":", 1)[0]
     if kind == "tmdb":
         _, k, n = key.split(":")
-        src = Image.open(f"{ROOT}/footage/tmdb/{k}/{n}.jpg").convert("RGB")
+        src = Image.open(f"{ROOT}/{getattr(TL, 'TMDB_ROOT', 'footage/tmdb')}/{k}/{n}.jpg").convert("RGB")
         if n.startswith("b"):
             im = cover(src, W, H)
         else:
@@ -108,7 +110,7 @@ def make_plate(key, side="right"):
         text, attr, bgk = (key.split(":", 1)[1].split("|") + ["", ""])[:3]
         if bgk.startswith("tmdb:"):
             _, k, n = bgk.split(":")
-            im = blur_bg(Image.open(f"{ROOT}/footage/tmdb/{k}/{n}.jpg"))
+            im = blur_bg(Image.open(f"{ROOT}/{getattr(TL, 'TMDB_ROOT', 'footage/tmdb')}/{k}/{n}.jpg"))
             im = ImageEnhance.Brightness(im).enhance(0.55)
         else:
             im = Image.new("RGB", (W, H), (0, 0, 0))
@@ -128,6 +130,14 @@ def make_plate(key, side="right"):
             w = d.textlength(ln, font=fn); d.text((W / 2 - w / 2, 400 + i * 92), ln, font=fn, fill=(238, 232, 214))
         d.line((W / 2 - 80, 625, W / 2 + 80, 625), fill=GOLD, width=2)
         tracked(d, (W / 2, 660), "STARDUST STORY", font(F_REG, 34), GOLD, 16, "m")
+        tracked(d, (W / 2, 1010), "THIS PRODUCT USES THE TMDB API BUT IS NOT ENDORSED OR CERTIFIED BY TMDB.", font(F_REG, 20), (140, 135, 120), 3, "m")
+    elif kind == "trailer":
+        a, b = (key.split(":", 1)[1].split("|") + [""])[:2]
+        im = Image.new("RGB", (W, H), (0, 0, 0)); d = ImageDraw.Draw(im)
+        tracked(d, (W / 2, 380), a, font(F_REG, 120), GOLD, 16, "m")
+        d.line((W / 2 - 150, 540, W / 2 + 150, 540), fill=GOLD, width=2)
+        tracked(d, (W / 2, 580), b, font(F_REG, 44), (236, 228, 200), 10, "m")
+        tracked(d, (W / 2, 880), "SUBSCRIBE SO IT'S WAITING FOR YOU", font(F_REG, 28), GOLD_DIM, 8, "m")
         tracked(d, (W / 2, 1010), "THIS PRODUCT USES THE TMDB API BUT IS NOT ENDORSED OR CERTIFIED BY TMDB.", font(F_REG, 20), (140, 135, 120), 3, "m")
     else:
         raise ValueError(key)
@@ -171,7 +181,7 @@ def make_label(spec, persist=False):
     im.save(out); return out
 
 # ------------------------------------------------------------------ footage
-CLIPS = f"{ROOT}/footage/clips"
+CLIPS = f"{ROOT}/footage/clips" if PROJECT == "stardust" else f"{ROOT}/{TL.CLIPS_DIR}"
 GOOD, CROPS, POOLS = {}, {}, {}
 LOGO = (62, 136, 214, 62)      # OpusClip trial watermark box (x, y, w, h) in the 1920x1080 source
 MAXPIECE = 2.4          # never stay on one trailer segment longer than this (variety, trailer-style pacing)
@@ -188,8 +198,36 @@ def subtract(segs, bad, minlen=0.9):
         if b > cur: out.append([cur, b])
     return [[round(x, 3), round(y, 3)] for x, y in out if y - x >= minlen]
 
+def _detect_crop(path):
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-ss", "2", "-t", "20", "-i", path, "-vf", "cropdetect=24:2:0", "-f", "null", "-"], capture_output=True, text=True).stderr
+    import collections
+    c = collections.Counter(re.findall(r"crop=(\d+):(\d+):(\d+):(\d+)", r))
+    (w, h, x, y), _ = c.most_common(1)[0]
+    return dict(w=int(w), h=int(h), x=int(x), y=int(y))
+
+def _luma(path):
+    import numpy as np
+    r = subprocess.run(["ffmpeg", "-v", "error", "-i", path, "-an", "-vf", "fps=8,scale=64:36,format=gray", "-f", "rawvideo", "-"], capture_output=True)
+    return np.frombuffer(r.stdout, np.uint8).reshape(-1, 64 * 36).mean(axis=1)
+
 def load_footage():
     if GOOD: return
+    if PROJECT != "stardust":
+        d = f"{ROOT}/{TL.CLIPS_DIR}"
+        cache = f"{d}/_meta.json"
+        meta = json.load(open(cache)) if os.path.exists(cache) else {}
+        for f in sorted(os.listdir(d)) if os.path.isdir(d) else []:
+            if not f.endswith(".mp4"): continue
+            k = f[:-4]
+            if k not in meta:
+                dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f"{d}/{f}"]))
+                meta[k] = dict(crop=_detect_crop(f"{d}/{f}"), dur=dur, luma=[round(float(x), 1) for x in _luma(f"{d}/{f}")])
+            m = meta[k]
+            bad = [[i / 8 - 0.125, i / 8 + 0.25] for i, l in enumerate(m["luma"]) if l < DARK] + [[0, 0.3], [m["dur"] - 0.3, m["dur"] + 1]]
+            GOOD[k] = subtract([[0.0, m["dur"]]], bad)
+            CROPS[k] = m["crop"]
+        json.dump(meta, open(cache, "w"))
+        return
     clean = json.load(open(f"{ROOT}/footage/clean.json"))
     bl = json.load(open(f"{ROOT}/production/footage_blacklist.json"))
     luma = json.load(open(f"{ROOT}/footage/luma.json"))
@@ -222,7 +260,10 @@ class Pool:
 
 def footage_pieces(key, seconds):
     load_footage()
-    srcs = key.split(":", 1)[1].split(",")
+    names = key.split(":", 1)[1].split(",")
+    srcs = [k for k in GOOD if k in names or any(k.startswith(n + "_") for n in names)]
+    srcs = [k for k in srcs if GOOD[k]]
+    if not srcs: return None
     return POOLS.setdefault(key, Pool(srcs)).take(seconds)
 
 # ------------------------------------------------------------------ shots
@@ -242,6 +283,9 @@ def build_shots():
             plates = s["plates"]
             key = plates[k % len(plates)]
             pieces = footage_pieces(key, (edges[k + 1] - edges[k]) / FPS) if key.startswith("foot:") else None
+            if key.startswith("foot:") and not pieces:      # no footage available for this film: use its TMDB stills
+                fb = getattr(TL, "FALLBACK", {}).get(key.split(":", 1)[1].split(",")[0]) or getattr(TL, "KP", [key])
+                key = fb[pick % len(fb)]; pick += 1
             shots.append(dict(f0=edges[k], f1=edges[k + 1], plate=key, label=s["label"] if k == 0 else None,
                               flash=s["flash"] and k == 0, dissolve=s["dissolve"], seg=i, first_in_seg=k == 0,
                               kb=s["kb"], pieces=pieces))
@@ -372,12 +416,13 @@ def stage_render(limit=None):
         print("picture.mp4 done")
 
 def stage_audio():
-    narr = [f"{ROOT}/public/stardust-story/{n}.mp3" for n in ("hook", "act1", "act2", "act3", "act4", "act5", "end")]
+    narr = [f"{ROOT}/{f}" for f in getattr(TL, "NARR_FILES", [])] or [f"{ROOT}/public/stardust-story/{n}.mp3" for n in ("hook", "act1", "act2", "act3", "act4", "act5", "end")]
+    N = len(narr)
     T = TL.T_END
     # narration
     ins = sum([["-i", p] for p in narr], [])
     subprocess.run(["ffmpeg", "-v", "error", "-y"] + ins + ["-filter_complex",
-        "".join(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo[a{i}];" for i in range(7)) + "".join(f"[a{i}]" for i in range(7)) + f"concat=n=7:v=0:a=1,apad=whole_dur={T},atrim=0:{T}[n]",
+        "".join(f"[{i}:a]aresample=48000,aformat=channel_layouts=stereo[a{i}];" for i in range(N)) + "".join(f"[a{i}]" for i in range(N)) + f"concat=n={N}:v=1:a=1,apad=whole_dur={T},atrim=0:{T}[n]".replace(":v=1:a=1", ":v=0:a=1"),
         "-map", "[n]", f"{WORK}/narration.wav"], check=True)
     # music bed: low drone + pink-noise air, slow swell
     subprocess.run(["ffmpeg", "-v", "error", "-y",
@@ -413,7 +458,8 @@ def stage_audio():
 
 def stage_final():
     T = TL.T_END
-    hq, outdir = f"{ROOT}/footage/hq", f"{ROOT}/output/stardust-story"
+    hq, outdir = f"{ROOT}/footage/hq", f"{ROOT}/{getattr(TL, 'OUT_DIR', 'output/stardust-story')}"
+    base = getattr(TL, "OUT_BASENAME", "stardust-story-karen-page")
     os.makedirs(hq, exist_ok=True); os.makedirs(outdir, exist_ok=True)
     grade = ("eq=contrast=1.07:saturation=0.93:gamma=0.98,colorbalance=rs=-0.03:gs=0.0:bs=0.04:rh=0.04:gh=0.01:bh=-0.04,"
              "vignette=PI/5")
@@ -422,12 +468,12 @@ def stage_final():
     # full quality, with film grain (large file, kept out of git)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{WORK}/picture.mp4", "-i", f"{WORK}/mix.wav", "-vf", f"{grade},noise=alls=6:allf=t+u,{fade}",
         "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-maxrate", "9M", "-bufsize", "18M", "-b:a", "192k"] + common +
-        [f"{hq}/stardust-story-karen-page-hq.mp4"], check=True)
+        [f"{hq}/{base}-hq.mp4"], check=True)
     print("hq done", flush=True)
     # compact copy for git (<100 MB): no grain, lower bitrate
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{WORK}/picture.mp4", "-i", f"{WORK}/mix.wav", "-vf", f"{grade},{fade}",
         "-c:v", "libx264", "-preset", "medium", "-crf", "27", "-maxrate", "900k", "-bufsize", "2M", "-b:a", "128k"] + common +
-        [f"{outdir}/stardust-story-karen-page.mp4"], check=True)
+        [f"{outdir}/{base}.mp4"], check=True)
     print("final done")
 
 if __name__ == "__main__":
