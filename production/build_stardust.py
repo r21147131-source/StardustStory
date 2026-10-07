@@ -174,11 +174,29 @@ def make_label(spec, persist=False):
 CLIPS = f"{ROOT}/footage/clips"
 GOOD, CROPS, POOLS = {}, {}, {}
 LOGO = (62, 136, 214, 62)      # OpusClip trial watermark box (x, y, w, h) in the 1920x1080 source
+INTRO = (3.2, 8.4)      # OpusClip "Created with OpusClip" vertical text runs here in every export
+DARK = 12.0             # mean luma (0-255) below which a frame is treated as black
+def subtract(segs, bad, minlen=0.9):
+    out = []
+    for a, b in segs:
+        cur = a
+        for x, y in sorted(bad):
+            if y <= cur or x >= b: continue
+            if x > cur: out.append([cur, x])
+            cur = max(cur, y)
+        if b > cur: out.append([cur, b])
+    return [[round(x, 3), round(y, 3)] for x, y in out if y - x >= minlen]
+
 def load_footage():
     if GOOD: return
     clean = json.load(open(f"{ROOT}/footage/clean.json"))
     bl = json.load(open(f"{ROOT}/production/footage_blacklist.json"))
-    for k, v in clean.items(): GOOD[k] = [x for i, x in enumerate(v) if i not in bl.get(k, [])]
+    luma = json.load(open(f"{ROOT}/footage/luma.json"))
+    for k, v in clean.items():
+        segs = [x for i, x in enumerate(v) if i not in bl.get(k, [])]
+        bad = [list(INTRO)] + [list(r) for r in bl.get("_ranges", {}).get(k, [])]
+        bad += [[i / 8 - 0.125, i / 8 + 0.25] for i, l in enumerate(luma[k]) if l < DARK]
+        GOOD[k] = subtract(segs, bad)
     CROPS.update(json.load(open(f"{ROOT}/footage/crops.json")))
 
 class Pool:
