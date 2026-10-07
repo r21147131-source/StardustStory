@@ -1,0 +1,40 @@
+# Stardust Story — transcript of user voiceover (Descript, timecodes = running time across hook, act1-act5, end)
+# Segment starts: hook 0:00 | act1 0:54 | act2 2:16 | act3 4:04 | act4 6:31 | act5 9:09 | end 11:46 (approx; total ~13:22)
+
+[00:00] When Marvel came calling for Daredevil: Born Again, almost every cast member from the original Netflix era said yes without hesitation. Vincent D'Onofrio said yes. Wilson Bethel said yes. Jon Bernthal said yes. Krysten Ritter waited six years and then said yes. Deborah Ann Woll said no. Not because she did not want to come back.
+[00:25] Not because she had moved on. She said no because she had spent years protecting a character that Hollywood kept trying to reduce to a supporting role. ... What happened after that no, and what it took to turn it into a yes, is the most quietly powerful story in the entire Daredevil universe.
+[00:51] And almost nobody is talking about it
+[00:53] She grew up in Brooklyn, New York. Her father was an architect. Her mother taught at the Berkeley Carroll School ... acting lessons in middle school alongside piano and dance.
+[01:12] ... BFA program at the University of Southern California ... flew to London for an intensive Shakespeare program at the Royal Academy of Dramatic Arts.
+[01:37] Stage work, guest spots, small parts ... Ten years ... before True Blood changed everything. Life (2007), ER, CSI, My Name Is Earl, The Mentalist.
+[02:16] True Blood premiered in 2008 ... HBO ... Anna Paquin as Sookie Stackhouse ... Deborah Ann Woll cast as Jessica Hamby for a single episode in season one.
+[02:41] ... Bill Compton's newly turned vampire progeny ... The writers kept her.
+[03:01] ... recurring, then series regular, all seven seasons. Satellite Award for Best Cast; SAG nomination. Six years among the most recognizable faces on cable.
+[03:32] True Blood was Anna Paquin's show ...
+[03:44] In 2014, Marvel and Netflix ... Karen Page in the new Daredevil series. 1999 storyline, killed off.
+[04:09] "If she's just going to be someone's girlfriend, I don't want to do it."
+[04:30] Marvel said yes ... journalist, investigator ... Hell's Kitchen.
+[04:53] Three seasons of Daredevil, The Punisher, The Defenders.
+[05:18] "You might not see the Karen Page story, but she's having a whole TV show on her own that no one filmed ..." Netflix canceled everything in 2019.
+[05:43] Cox, D'Onofrio, Bernthal, Ritter waiting ... Woll went and made other things. Dungeons & Dragons.
+[06:06] Critical Role (Matthew Mercer), guest character Twiggy; Force Grey: Lost City of Omu; charity one-shots.
+[06:29] Creative community around tabletop gaming outside Hollywood.
+[06:54] Escape Room (2019), Escape Room: Tournament of Champions (2021); God of War (2022) voice + mocap as Faye.
+[07:23] Queen of the Ring (2024). Husband E.J. Scott, choroideremia; celiac disease.
+[07:58] "...her life was not on hold, and then the call came, and she said no."
+[08:11] Daredevil: Born Again original version: no Karen Page, no Foggy Nelson.
+[08:41] September 2023 overhaul; showrunner Dario Scardapane.
+[09:06] He approached Woll. She said no.
+[09:32] Scardapane came back with a pitch ... She said yes.
+[09:54] Born Again season one, March 2025; Karen in three episodes.
+[10:20] Foggy had died; Matt withdrawn; Karen ran.
+[10:47] Born Again season two (2026): "co-parenting Hell's Kitchen." 
+[11:13] Kidnaps a federal agent in episode three.
+[11:36] "In my mind and in Debs's mind, she has never been a sidekick. She has never been a girlfriend."
+[12:04] In the comics Karen Page dead since 1999 ... Deborah Ann Woll fought for her at every stage.
+[12:46] Some actors fight for attention, billing, money. Woll spent 10 years fighting for a fictional woman's right to have a full life.
+[13:10] "...the industry came around to her way of thinking. It just needed a little convincing."
+
+# NOTE: abridged here for the plan; full verbatim transcript lives in the Descript project
+# https://web.descript.com/4a49182f-0e55-4bd4-bc9b-fbae23de95b4  (Romans's Drive, project "Stardust Story transcripts")
+# ASR slips to fix in on-screen text: "Wul/Wohl" = Woll; "Force Gray" = Force Grey; "choroidemia" = choroideremia; "Skartapane" = Scardapane.
