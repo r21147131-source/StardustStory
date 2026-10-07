@@ -1,0 +1,135 @@
+{
+ "narration_seconds": 543.262,
+ "cta_insert_at": 380.5,
+ "cta_length": 12.0,
+ "trailer": 30.0,
+ "final_seconds": 585.262,
+ "cues": [
+  {
+   "key": "hook",
+   "label": "HOOK + PREMISE STAMP",
+   "narration_start": 0.09,
+   "narration_end": 21.74,
+   "final_start": 0.09,
+   "final_end": 21.74,
+   "note": "Recorded as 'stood on the biggest stages... never see his name on the wall'."
+  },
+  {
+   "key": "series",
+   "label": "Series stamp ('This is Stardust Story, [SERIES], episode [N]')",
+   "narration_start": 21.8,
+   "narration_end": 25.0,
+   "final_start": 21.8,
+   "final_end": 25.0,
+   "note": "NOT in the recording. On-screen lower-third only (no VO) so no time is added. Fill in [SERIES] and [N]."
+  },
+  {
+   "key": "boy",
+   "label": "The boy (extra section, not in your pasted script)",
+   "narration_start": 22.53,
+   "narration_end": 75.85,
+   "final_start": 22.53,
+   "final_end": 75.85,
+   "note": "Toronto, moving between countries, absent father, close to his sisters."
+  },
+  {
+   "key": "wound",
+   "label": "THE WOUND",
+   "narration_start": 76.51,
+   "narration_end": 153.16,
+   "final_start": 76.51,
+   "final_end": 153.16,
+   "note": "Kim diagnosed 1991 at 1:20.3; 'He stayed' 1:39.6; remission 'around 2001' 2:02; ends 'kept his sister alive'."
+  },
+  {
+   "key": "matrix",
+   "label": "THE MATRIX MONEY",
+   "narration_start": 154.31,
+   "narration_end": 281.96,
+   "final_start": 154.31,
+   "final_end": 281.96,
+   "note": "1999 at 2:34.3; the 70% / $31M claim 2:50.6-3:09.2; 'single media report' 3:14.9 (put an UNVERIFIED stamp here); motorcycles-for-stunt-team 4:10.7-4:16.1."
+  },
+  {
+   "key": "callback",
+   "label": "MID-ROLL CALLBACK CARD",
+   "narration_start": 282.38,
+   "narration_end": 287.4,
+   "final_start": 282.38,
+   "final_end": 287.4,
+   "note": "Seam is a 0.41 s pause at 4:41.96-4:42.38 (~52% of runtime). Text card over 'Now we reach the heart of the story'. NOT in the recording: card-only adds 0 s; if you want it spoken (~16 s) the cues after 4:42.4 move later by that amount."
+  },
+  {
+   "key": "confession",
+   "label": "THE CONFESSION",
+   "narration_start": 282.38,
+   "narration_end": 372.74,
+   "final_start": 282.38,
+   "final_end": 372.74,
+   "note": "Ladies' Home Journal 2009 at 4:44.9; part-1/part-2 join at ~4:58.8 sits right after 'private foundation,' (comma pause 0.55 s); 'does not like to attach his name' 5:09.4; 'what we do not know' 5:45.6-6:00.3; ends 'designed to stay out of sight'."
+  },
+  {
+   "key": "interrupt",
+   "label": "PATTERN INTERRUPT",
+   "narration_start": 315.09,
+   "narration_end": 317.0,
+   "final_start": 315.09,
+   "final_end": 317.0,
+   "note": "Maps to your 'Read that again.' -> recorded as 'Sit with how unusual that is.' (5:15.1, after a 0.47 s pause). Hard cut / flash / SFX here. Second interrupt candidate: 7:44.9 (0.31 s pause before 'His giving did not begin as a brand strategy')."
+  },
+  {
+   "key": "cta",
+   "label": "70% OPEN-LOOP CTA (recording to insert)",
+   "narration_start": 380.5,
+   "narration_end": 380.5,
+   "final_start": 392.5,
+   "final_end": 392.5,
+   "note": "70% of 9:03.3 = 6:20.3. Seam: 0.56 s pause at 6:20.25-6:20.81, right after 'Keanu Reeves is not invisible about everything.' Insert ~12 s VO: 'Next Friday, [NEXT EPISODE TITLE]. If you want to see what happens when a star does the exact opposite, make sure you're subscribed so it's waiting for you.' Alternative seam: 6:12.74-6:13.60 (end of Confession, 68.5%) is a cleaner section break."
+  },
+  {
+   "key": "complication",
+   "label": "THE HONEST COMPLICATION",
+   "narration_start": 373.62,
+   "narration_end": 444.38,
+   "final_start": 373.62,
+   "final_end": 456.38,
+   "note": "2020 Zoom auction 6:20.8; $19k+ 6:26.8; Camp Rainbow Gold 6:30.8; 2008 Stand Up to Cancer 6:44.2; 'ego under discipline' 7:15.4."
+  },
+  {
+   "key": "why",
+   "label": "Why it lands (extra section, not in your pasted script)",
+   "narration_start": 444.58,
+   "narration_end": 493.38,
+   "final_start": 456.58,
+   "final_end": 505.38,
+   "note": "Performative generosity vs. 'philanthropy as scar tissue'."
+  },
+  {
+   "key": "blueprint",
+   "label": "THE BLUEPRINT",
+   "narration_start": 494.64,
+   "narration_end": 519.9,
+   "final_start": 506.64,
+   "final_end": 531.9,
+   "note": "'So what is the blueprint?' 8:14.6; three points 8:17.0-8:39.9."
+  },
+  {
+   "key": "outro",
+   "label": "Channel line + last sentence",
+   "narration_start": 520.71,
+   "narration_end": 543.26,
+   "final_start": 532.71,
+   "final_end": 555.26,
+   "note": "'fame creates stars, time turns them into dust' 8:45; recording ends on '...does not turn to dust' with no closing sentence."
+  },
+  {
+   "key": "trailer",
+   "label": "NEXT-EPISODE TRAILER (final 30 s, 3 lines + 2 shots)",
+   "narration_start": 543.26,
+   "narration_end": 573.26,
+   "final_start": 555.26,
+   "final_end": 585.26,
+   "note": "Starts after the narration ends. Placeholder title still to fill in. Needs 3 recorded lines (~30 s)."
+  }
+ ]
+}
