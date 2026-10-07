@@ -170,6 +170,40 @@ def make_label(spec, persist=False):
         tracked(d, (110 + w + 52, 66), b, font(F_REG, 26), GOLD, 11)
     im.save(out); return out
 
+# ------------------------------------------------------------------ footage
+CLIPS = f"{ROOT}/footage/clips"
+GOOD, CROPS, POOLS = {}, {}, {}
+LOGO = (62, 136, 214, 62)      # OpusClip trial watermark box (x, y, w, h) in the 1920x1080 source
+def load_footage():
+    if GOOD: return
+    clean = json.load(open(f"{ROOT}/footage/clean.json"))
+    bl = json.load(open(f"{ROOT}/production/footage_blacklist.json"))
+    for k, v in clean.items(): GOOD[k] = [x for i, x in enumerate(v) if i not in bl.get(k, [])]
+    CROPS.update(json.load(open(f"{ROOT}/footage/crops.json")))
+
+class Pool:
+    """Hands out clean trailer segments in order, round-robin over sources, remembering where it stopped."""
+    def __init__(self, srcs): self.srcs, self.cur, self.rr = srcs, {s: [0, 0.0] for s in srcs}, 0
+    def take(self, dur):
+        pieces, need, guard = [], dur, 0
+        while need > 0.02 and guard < 500:
+            guard += 1
+            src = self.srcs[self.rr % len(self.srcs)]; self.rr += 1
+            i, off = self.cur[src]; segs = GOOD[src]
+            a, b = segs[i % len(segs)]
+            avail = (b - a) - off
+            if avail < 0.8:
+                self.cur[src] = [i + 1, 0.0]; self.rr -= 1; continue
+            d = min(avail, need)
+            pieces.append((src, round(a + off, 3), round(d, 3))); need -= d
+            self.cur[src] = [i + 1, 0.0] if d >= avail - 0.25 else [i, off + d]
+        return pieces
+
+def footage_pieces(key, seconds):
+    load_footage()
+    srcs = key.split(":", 1)[1].split(",")
+    return POOLS.setdefault(key, Pool(srcs)).take(seconds)
+
 # ------------------------------------------------------------------ shots
 def build_shots():
     segs, shots = TL.SEGS, []
@@ -186,9 +220,10 @@ def build_shots():
         for k in range(n):
             plates = s["plates"]
             key = plates[k % len(plates)]
+            pieces = footage_pieces(key, (edges[k + 1] - edges[k]) / FPS) if key.startswith("foot:") else None
             shots.append(dict(f0=edges[k], f1=edges[k + 1], plate=key, label=s["label"] if k == 0 else None,
                               flash=s["flash"] and k == 0, dissolve=s["dissolve"], seg=i, first_in_seg=k == 0,
-                              kb=s["kb"]))
+                              kb=s["kb"], pieces=pieces))
     # chapter cards: gap after the card (segment dur override) is filled by extending the next shot backwards
     fixed = []
     for a, b in zip(shots, shots[1:] + [None]):
@@ -215,7 +250,7 @@ def group_units(shots):
     units, i = [], 0
     while i < len(shots):
         a = shots[i]
-        if a["dissolve"] and i + 1 < len(shots) and shots[i + 1]["seg"] == a["seg"] and (a["f1"] - a["f0"]) > 14 and (shots[i + 1]["f1"] - shots[i + 1]["f0"]) > 14:
+        if a["dissolve"] and not a.get("pieces") and not shots[min(i + 1, len(shots) - 1)].get("pieces") and i + 1 < len(shots) and shots[i + 1]["seg"] == a["seg"] and (a["f1"] - a["f0"]) > 14 and (shots[i + 1]["f1"] - shots[i + 1]["f0"]) > 14:
             units.append([a, shots[i + 1]]); i += 2
         else:
             units.append([a]); i += 1
@@ -223,23 +258,40 @@ def group_units(shots):
 
 def render_unit(args):
     uid, unit, base_idx = args
-    out = f"{UNITS}/{uid:04d}.mp4"
+    sig = hashlib.md5(repr([(s["f0"], s["f1"], s["plate"], s["label"], s["flash"], s.get("pieces"), s["kb"]) for s in unit]).encode()).hexdigest()[:10]
+    out = f"{UNITS}/{uid:04d}_{sig}.mp4"
     total = sum(s["f1"] - s["f0"] for s in unit)
     if os.path.exists(out): return out
     inputs, filt = [], []
-    for k, s in enumerate(unit):
-        side = "left" if (base_idx + k) % 3 == 2 and not s["label"] else "right"
-        inputs += ["-i", make_plate(s["plate"], side)]
-    n_img = len(unit)
     frames = [s["f1"] - s["f0"] for s in unit]
-    for k, s in enumerate(unit):
+    if unit[0].get("pieces"):
+        pcs = unit[0]["pieces"]
+        nf = [max(1, round(d * FPS)) for _, _, d in pcs]; nf[-1] = max(1, total - sum(nf[:-1]))
+        lx, ly, lw, lh = LOGO
+        for k, ((src, a, d), n) in enumerate(zip(pcs, nf)):
+            c = CROPS[src]
+            inputs += ["-ss", f"{a:.3f}", "-t", f"{n / FPS + 0.4:.3f}", "-i", f"{CLIPS}/{src}.mp4"]
+            filt.append(f"[{k}:v]delogo=x={lx}:y={ly}:w={lw}:h={lh},crop={c['w']}:{c['h']}:{c['x']}:{c['y']},"
+                        f"scale={W}:-2:flags=lanczos,crop=iw:'min(ih,{H})',pad={W}:{H}:0:(oh-ih)/2:black,fps={FPS},trim=end_frame={n},setpts=PTS-STARTPTS,setsar=1[p{k}]")
+        n_img = len(pcs)
+        joined = "".join(f"[p{k}]" for k in range(n_img)) + f"concat=n={n_img}:v=1:a=0," if n_img > 1 else "[p0]"
+        filt.append(f"{joined}format=yuv420p[s0]")
+        filt.append("[s0]null[base]")
+    else:
+        for k, s in enumerate(unit):
+            side = "left" if (base_idx + k) % 3 == 2 and not s["label"] else "right"
+            inputs += ["-i", make_plate(s["plate"], side)]
+        n_img = len(unit)
+    for k, s in enumerate(unit if not unit[0].get("pieces") else []):
         N = frames[k] + (6 if len(unit) == 2 else 0)
         z, x, y = kb_exprs(s, base_idx + k, N)
         bars = ""
         if s["plate"].startswith("tmdb:") and s["plate"].split(":")[2].startswith("b"):
             bars = f",drawbox=0:0:{W}:{BAR}:black:fill,drawbox=0:{H - BAR}:{W}:{BAR}:black:fill"
         filt.append(f"[{k}:v]scale=2400:1350:flags=bicubic,zoompan=z='{z}':x='{x}':y='{y}':d={N}:s={W}x{H}:fps={FPS}{bars},setsar=1,format=yuv420p[s{k}]")
-    if len(unit) == 2:
+    if unit[0].get("pieces"):
+        pass
+    elif len(unit) == 2:
         off = (frames[0] + 6 - 12) / FPS
         filt.append(f"[s0][s1]xfade=transition=fade:duration=0.5:offset={off:.4f}[base]")
     else:
@@ -255,7 +307,7 @@ def render_unit(args):
         dur = frames[k] / FPS
         ovl = []
         if s["label"]: ovl.append((make_label(s["label"]), True))
-        if s["f0"] / FPS < TL.SERIES_TAG_UNTIL and s["plate"].startswith("tmdb:"):
+        if s["f0"] / FPS < TL.SERIES_TAG_UNTIL and s["plate"].startswith(("tmdb:", "foot:")):
             ovl.append((make_label(("series",) + TL.SERIES_TAG, True), False))
         for path, fades in ovl:
             inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{total / FPS + 1:.3f}", "-i", path]
@@ -287,14 +339,14 @@ def stage_render(limit=None):
     for u, unit in enumerate(units):
         jobs.append((u, unit, idx)); idx += len(unit)
     if limit: jobs = jobs[:limit]
-    done = 0
+    done, results = 0, []
     with cf.ThreadPoolExecutor(4) as ex:
-        for _ in ex.map(render_unit, jobs):
-            done += 1
+        for r in ex.map(render_unit, jobs):
+            results.append(r); done += 1
             if done % 20 == 0: print(f"  rendered {done}/{len(jobs)}", flush=True)
     if not limit:
         with open(f"{WORK}/concat.txt", "w") as f:
-            for u in range(len(units)): f.write(f"file '{UNITS}/{u:04d}.mp4'\n")
+            for r in results: f.write(f"file '{r}'\n")
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{WORK}/concat.txt", "-c", "copy", f"{WORK}/picture.mp4"], check=True)
         print("picture.mp4 done")
 
@@ -340,14 +392,21 @@ def stage_audio():
 
 def stage_final():
     T = TL.T_END
-    outdir = f"{ROOT}/output/stardust-story"; os.makedirs(outdir, exist_ok=True)
-    vf = ("eq=contrast=1.07:saturation=0.93:gamma=0.98,colorbalance=rs=-0.03:gs=0.0:bs=0.04:rh=0.04:gh=0.01:bh=-0.04,"
-          "vignette=PI/5,noise=alls=6:allf=t+u,"
-          f"fade=t=out:st={T-1.8}:d=1.8")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{WORK}/picture.mp4", "-i", f"{WORK}/mix.wav", "-vf", vf,
-        "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-maxrate", "9M", "-bufsize", "18M", "-pix_fmt", "yuv420p",
-        "-c:a", "aac", "-b:a", "192k", "-af", f"afade=t=out:st={T-2}:d=2", "-movflags", "+faststart", "-shortest",
-        f"{outdir}/stardust-story-karen-page.mp4"], check=True)
+    hq, outdir = f"{ROOT}/footage/hq", f"{ROOT}/output/stardust-story"
+    os.makedirs(hq, exist_ok=True); os.makedirs(outdir, exist_ok=True)
+    grade = ("eq=contrast=1.07:saturation=0.93:gamma=0.98,colorbalance=rs=-0.03:gs=0.0:bs=0.04:rh=0.04:gh=0.01:bh=-0.04,"
+             "vignette=PI/5")
+    fade = f"fade=t=out:st={T-1.8}:d=1.8"
+    common = ["-pix_fmt", "yuv420p", "-c:a", "aac", "-af", f"afade=t=out:st={T-2}:d=2", "-movflags", "+faststart", "-shortest"]
+    # full quality, with film grain (large file, kept out of git)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{WORK}/picture.mp4", "-i", f"{WORK}/mix.wav", "-vf", f"{grade},noise=alls=6:allf=t+u,{fade}",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-maxrate", "9M", "-bufsize", "18M", "-b:a", "192k"] + common +
+        [f"{hq}/stardust-story-karen-page-hq.mp4"], check=True)
+    print("hq done", flush=True)
+    # compact copy for git (<100 MB): no grain, lower bitrate
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{WORK}/picture.mp4", "-i", f"{WORK}/mix.wav", "-vf", f"{grade},{fade}",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "27", "-maxrate", "900k", "-bufsize", "2M", "-b:a", "128k"] + common +
+        [f"{outdir}/stardust-story-karen-page.mp4"], check=True)
     print("final done")
 
 if __name__ == "__main__":

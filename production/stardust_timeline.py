@@ -26,9 +26,15 @@ CHAPTER_LEN = 1.3
 
 def T(k, n): return f"tmdb:{k}:{n}"
 KP = [T("woll", f"p{i}") for i in range(6)]
-DD = [T("daredevil", f"b{i}") for i in range(8)]
-BA = [T("born_again", f"b{i}") for i in (0, 1, 5, 6, 4, 1, 5, 6)]   # b2/b3/b7 are duplicates of b0 key art
-TB = [T("trueblood", f"b{i}") for i in range(8)]
+# Footage tokens pull clean trailer segments (see footage_blacklist.json) round-robin over the listed sources.
+FOOT_BA = "foot:born_again,born_again_s2"
+FOOT_S2 = "foot:born_again_s2,born_again"
+FOOT_DD = "foot:daredevil_s1,daredevil_s3,defenders,punisher"
+FOOT_TB = "foot:trueblood"
+DD = [FOOT_DD] * 8
+BA = [FOOT_BA] * 8
+BA2 = [FOOT_S2] * 8
+TB = [FOOT_TB, T("trueblood", "b1"), FOOT_TB, T("trueblood", "b3"), FOOT_TB, T("trueblood", "b4"), FOOT_TB, T("trueblood", "b5")]
 
 SEGS = []
 def seg(start, plates, label=None, nosplit=False, dissolve=False, kb=None, flash=False, dur_override=None):
@@ -102,8 +108,8 @@ seg("4:26.31", ["quote:\"IF SHE'S JUST GOING TO BE SOMEONE'S GIRLFRIEND, I DON'T
 seg("4:30.60", [DD[7], KP[0], DD[0], KP[1]])
 seg("4:48.90", ["place:HELL'S KITCHEN|MANHATTAN, NEW YORK|40.7638° N  73.9918° W"], nosplit=True)
 seg("4:53.33", [DD[2]], title("DAREDEVIL", "NETFLIX · SEASONS 1–3"), nosplit=True)
-seg("4:56.85", [T("punisher", "b0")], title("THE PUNISHER", "NETFLIX · 2017"), nosplit=True)
-seg("4:58.00", [T("defenders", "b0")], title("THE DEFENDERS", "NETFLIX · 2017"), nosplit=True)
+seg("4:56.85", ["foot:punisher"], title("THE PUNISHER", "NETFLIX · 2017"), nosplit=True)
+seg("4:58.00", ["foot:defenders"], title("THE DEFENDERS", "NETFLIX · 2017"), nosplit=True)
 seg("5:01.00", [KP[2], DD[3], KP[4], DD[5], KP[0], DD[6]])
 seg("5:23.03", ["quote:\"YOU MIGHT NOT SEE THE KAREN PAGE STORY, BUT SHE'S HAVING A WHOLE TV SHOW ON HER OWN THAT NO ONE FILMED. MAKE SURE THAT WE JUST CONTINUE TO HONOR THAT THEY HAVE FULL LIVES.\"|DEBORAH ANN WOLL|" + KP[5]], nosplit=True)
 seg("5:33.50", [KP[1]], nosplit=True)
@@ -131,10 +137,10 @@ seg("6:36.54", [KP[0], KP[1], KP[2]], dissolve=True)
 
 # ---- escape room, God of War, Queen of the Ring -----------------------------------------
 seg("6:54.69", [KP[3]], nosplit=True)
-seg("6:57.80", [T("escape1", "b0")], title("ESCAPE ROOM", "2019"), nosplit=True)
-seg("7:00.40", [T("escape2", "b1")], title("ESCAPE ROOM: TOURNAMENT OF CHAMPIONS", "2021"), nosplit=True)
+seg("6:57.80", ["foot:escape_room"], title("ESCAPE ROOM", "2019"), nosplit=True)
+seg("7:00.40", ["foot:escape_room_2"], title("ESCAPE ROOM: TOURNAMENT OF CHAMPIONS", "2021"), nosplit=True)
 seg("7:05.07", ["place:GOD OF WAR|VIDEO GAME · 2022 · FAYE|VOICE & MOTION CAPTURE"], nosplit=True)
-seg("7:11.00", [KP[4], KP[5], KP[0]])
+seg("7:11.00", ["foot:escape_room", KP[5], "foot:escape_room_2", KP[0]])
 seg("7:23.68", [T("queen", "b0"), T("queen", "b1")], title("QUEEN OF THE RING", "2024"))
 seg("7:29.00", ["place:E.J. SCOTT|HER HUSBAND · LIVING WITH CHOROIDEREMIA|"], nosplit=True)
 seg("7:37.69", [KP[2]], nosplit=True)
@@ -170,23 +176,23 @@ seg("10:24.61", [KP[1], KP[2], KP[3], KP[4]], dissolve=True)
 
 # ---- CHAPTER VII : SEASON TWO ----------------------------------------------------------------------
 seg("10:48.86", ["chapter:VII|SEASON TWO"], nosplit=True, dur_override=CHAPTER_LEN)
-seg("10:50.20", [BA[5]], title("DAREDEVIL: BORN AGAIN", "DISNEY+ · SEASON TWO"), nosplit=True)
-seg("10:54.50", [BA[6]], stat("2026", "SEASON TWO"), nosplit=True, flash=True)
+seg("10:50.20", [BA2[5]], title("DAREDEVIL: BORN AGAIN", "DISNEY+ · SEASON TWO"), nosplit=True)
+seg("10:54.50", [BA2[6]], stat("2026", "SEASON TWO"), nosplit=True, flash=True)
 seg("10:58.90", [KP[3], KP[4]])
 seg("11:06.90", [T("scardapane", "p0")], name("DARIO SCARDAPANE", "SHOWRUNNER"), nosplit=True)
 seg("11:10.50", ["place:HELL'S KITCHEN|MANHATTAN, NEW YORK|40.7638° N  73.9918° W"], nosplit=True)
-seg("11:13.20", [BA[7], T("cox", "p0"), BA[0], KP[5], BA[1]])
-seg("11:26.00", [BA[2]], stat("EPISODE 3", "KAREN KIDNAPS A FEDERAL AGENT"), nosplit=True, flash=True)
-seg("11:30.00", [BA[3], BA[4]])
+seg("11:13.20", [BA2[7], T("cox", "p0"), BA2[0], KP[5], BA2[1]])
+seg("11:26.00", [BA2[2]], stat("EPISODE 3", "KAREN KIDNAPS A FEDERAL AGENT"), nosplit=True, flash=True)
+seg("11:30.00", [BA2[3], BA2[4]])
 seg("11:36.99", ["quote:\"IN MY MIND AND IN DEBS'S MIND, SHE HAS NEVER BEEN A SIDEKICK. SHE HAS NEVER BEEN A GIRLFRIEND.\"|DARIO SCARDAPANE · SHOWRUNNER|" + T("scardapane", "p0")], nosplit=True)
 seg("11:44.85", [KP[0], KP[1], KP[2]], dissolve=True)
 seg("11:54.21", [DD[4]], nosplit=True)
 seg("11:56.30", [DD[5]], stat("2014", "SHE SET HER TERMS"), nosplit=True, flash=True)
 seg("11:58.11", [DD[6], KP[3]])
-seg("12:04.02", [BA[4], KP[4]])
+seg("12:04.02", [BA2[4], KP[4]])
 seg("12:12.82", [DD[7]], nosplit=True)
 seg("12:15.50", [DD[0]], stat("1999", "DEAD IN THE COMICS"), nosplit=True, flash=True)
-seg("12:20.16", [KP[5], BA[1], KP[0], BA[2]])
+seg("12:20.16", [KP[5], BA2[1], KP[0], BA2[2]])
 
 # ---- CHAPTER VIII : A FULL LIFE -----------------------------------------------------------------------------
 seg("12:46.81", ["chapter:VIII|A FULL LIFE"], nosplit=True, dur_override=CHAPTER_LEN)
