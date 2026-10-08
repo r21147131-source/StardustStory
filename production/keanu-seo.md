@@ -28,8 +28,8 @@ The title keeps the user's wording and leads with "Keanu Reeves" (267k searches)
 2. Keanu Reeves Secretly Funded Children's Hospitals. Here's Why You Never Heard — 93 (77 chars)
 3. Keanu Reeves Hospital Donations: The Giving He Hid for 20 Years — 90 (63 chars). Warning: "20 years" is not in the script; only use it if you can source it.
 
-## Thumbnail (to produce)
-Not made yet. Suggested: Keanu portrait (TMDB p-series in `footage/tmdb_keanu/keanu/`) on dark gradient, gold serif "NO NAME ON THE WALL" (or "HE HID IT"), small gold subtitle "Keanu Reeves / Children's hospitals". A/B alternative: "THE GIFT NOBODY SIGNED". Say the word and I will build it at 1280x720 JPG under 2 MB.
+## Thumbnail
+`output/keanu/thumbnail.jpg` (1280x720, JPG, 177 KB): cream "NO NAME" over gold "ON THE WALL." beside a dark Keanu portrait, subtitle "Keanu Reeves / The children's hospitals he funded in silence". A/B alternatives: "HE HID IT" or "THE GIFT NOBODY SIGNED".
 
 ## Description (paste as is)
 Keanu Reeves has stood on the biggest stages in the world, yet you will not find his name on a hospital wall. This is the story of the quiet giving behind the Matrix star: a childhood spent moving between countries, a sister's fight with leukemia, a widely repeated claim about what he gave up from The Matrix, and why he has kept his name off the work.
@@ -96,6 +96,7 @@ These come from the voiceover and were not independently verified:
 [SERIES], episode [N], [PREVIOUS EPISODE], [NEXT EPISODE TITLE] in the description and the CTA. The CTA voiceover (about 12 s) and the trailer lines are not recorded: the video uses on-screen text there, and adding the CTA audio would shift every chapter after 6:20 by about 12 s.
 
 ## Files
+- Thumbnail: output/keanu/thumbnail.jpg
 - Video (git, compact): output/keanu/keanu-reeves-stardust-story.mp4
 - Video (full quality, grain): footage/hq/ in the container; uploaded to CreativeClaw.
 - Cue sheet: production/keanu-cue-sheet.md; timeline: production/keanu_timeline.py
