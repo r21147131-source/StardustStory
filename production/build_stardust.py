@@ -4,7 +4,7 @@
 Stages:  plates -> render -> audio -> final      (python3 production/build_stardust.py all)
 Work files live in footage/work/ (gitignored); the result goes to output/stardust-story/.
 """
-import os, sys, math, json, hashlib, subprocess, concurrent.futures as cf, textwrap
+import os, re, sys, collections, math, json, hashlib, subprocess, concurrent.futures as cf, textwrap
 sys.path.insert(0, os.path.dirname(__file__))
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 import importlib

@@ -32,6 +32,7 @@ PB = [T("pointbreak", f"b{i}") for i in (2, 3, 6, 5, 1)]
 BT = [T("billted", f"b{i}") for i in (1, 0, 2)]
 F_MATRIX, F_WICK, F_SPEED, F_PB, F_BT = ("foot:matrix", "foot:wick", "foot:speed", "foot:pointbreak", "foot:billted")
 F_ANY = "foot:matrix,wick,speed,pointbreak"
+F_INT = "foot:interview"
 FALLBACK = {"matrix": MATRIX, "wick": WICK, "speed": SPEED, "pointbreak": PB, "billted": BT, "reloaded": RELOADED}
 
 SEGS = []
@@ -61,7 +62,7 @@ seg("1:02.99", [F_PB, F_BT, F_SPEED])                                           
 seg("1:07.14", [F_BT], title("BILL & TED'S EXCELLENT ADVENTURE", "1989"), nosplit=True)
 seg("1:08.30", [F_PB], title("POINT BREAK", "1991"), nosplit=True)
 seg("1:09.60", [F_SPEED], title("SPEED", "1994"), nosplit=True)
-seg("1:11.52", [F_ANY, KP[2], F_ANY])
+seg("1:11.52", [F_ANY, F_INT, KP[2]])
 seg("1:16.49", [KP[6]], nosplit=True, kb="in")                                          # "something happened that had nothing to do with a camera"
 seg("1:20.29", [KP[5], KP[4]], stat("1991", "HIS SISTER KIM IS DIAGNOSED WITH LEUKEMIA"))
 seg("1:25.09", [KP[4]], nosplit=True, kb="in")
@@ -110,11 +111,11 @@ seg("6:20.50", [KP[0]], title("NEXT FRIDAY", NEXT_TITLE), nosplit=True)
 seg("6:26.80", [KP[7]], stat("$19,000+", "ZOOM CALL AUCTION  →  CAMP RAINBOW GOLD"), nosplit=True, flash=True)
 seg("6:35.98", [KP[2], KP[3]], dissolve=True)
 seg("6:44.18", [KP[4]], stat("2008", "STAND UP TO CANCER TELETHON"), nosplit=True)
-seg("6:52.32", [KP[5], F_ANY, KP[1]])
+seg("6:52.32", [KP[5], F_INT, KP[1]])
 seg("7:02.01", [KP[6], KP[8]], dissolve=True)
 seg("7:15.40", [KP[0]], nosplit=True, kb="in")
 # ---- WHY IT LANDS 7:24-8:14 ---------------------------------------------------------------------------
-seg("7:24.60", [F_ANY, KP[2], F_ANY])
+seg("7:24.60", [F_INT, KP[2], F_ANY])
 seg("7:44.90", [KP[7], KP[3]], dissolve=True)
 seg("7:56.90", ["place:A HOSPITAL CORRIDOR|1991|"], nosplit=True)
 seg("8:00.50", [KP[9], KP[4]], dissolve=True)
