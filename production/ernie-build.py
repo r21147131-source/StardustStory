@@ -12,7 +12,7 @@ import argparse, math, os, random, subprocess, sys, glob, shutil
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-MEDIA = os.path.join(ROOT, "media")
+MEDIA = os.environ.get("ERNIE_MEDIA", os.path.join(ROOT, "media"))
 WORK = os.environ.get("ERNIE_WORK", "/tmp/ernie-work")
 OUT = os.path.join(os.path.dirname(ROOT), "output", "ernie-reyes-jr.mp4")
 VO1 = "/root/.claude/uploads/d9ee64d3-1860-5d99-bef8-6d5081458d32/f8de7028-11CapCut_TTS_Bill_D20260713_T081806.mp3"
@@ -256,6 +256,12 @@ MONTAGE = {
     "s03": ([("s20", 6), ("s24", 8), ("s23", 4), ("s15", 10), ("s34", 5), ("s32", 6)], True, -0.12),
     "s04": ([("s11", 16), ("s17", 6), ("s09", 10), ("s33", 12), ("s31", 16)], False, -0.22),
 }
+if os.environ.get("ERNIE_CLIPFREE"):
+    MONTAGE = {
+        "s01": ([("ernie_jr", 0), ("s06", 20), ("bruce", 0), ("s02", 6), ("chan", 0)], False, -0.05),
+        "s03": ([("rock", 0), ("s06", 40), ("jcvd", 0), ("s02", 14), ("bruce", 0), ("chan", 0)], True, -0.12),
+        "s04": ([("s02", 4), ("jcvd", 0), ("s06", 30), ("rock", 0), ("ernie_jr", 0)], False, -0.22),
+    }
 # seconds the headline/kicker stay on screen for scenes that are not title-card-only
 TEXT_END = {"s01": 8.0, "s03": 7.0, "s04": 13.0}
 
@@ -304,14 +310,21 @@ def render_scene(W, H, sc, f0, nf):
     mont = MONTAGE.get(sid)
     tend = TEXT_END.get(sid, 1e9)
     # --- background ---
-    if mont and all(find_media(sl) for sl, _ in mont[0]):
+    if mont and all(_raw(sl) for sl, _ in mont[0]):
         cuts, gray, bri = mont
         nbg = len(cuts); seg = D / nbg
+        post = (f"{'hue=s=0,' if gray else ''}eq=contrast=1.1:saturation={0.9 if not gray else 1}:brightness={bri},"
+                f"colorbalance=rs=-0.05:bs=0.06:rh=0.06:bh=-0.05,trim=duration={seg:.3f},setpts=PTS-STARTPTS")
         for j, (sl, st0) in enumerate(cuts):
-            inputs += ["-ss", str(st0), "-t", f"{seg + 0.5:.3f}", "-i", find_media(sl)]
-            fc.append(f"[{j}:v]fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,"
-                      f"{'hue=s=0,' if gray else ''}eq=contrast=1.1:saturation={0.9 if not gray else 1}:brightness={bri},"
-                      f"colorbalance=rs=-0.05:bs=0.06:rh=0.06:bh=-0.05,trim=duration={seg:.3f},setpts=PTS-STARTPTS[m{j}]")
+            path = _raw(sl)
+            if path.lower().endswith((".jpg", ".jpeg", ".png")):
+                card = os.path.join(wd, f"m{j}.png"); photo_card(path, W * 2, H * 2, card)
+                inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{seg + 0.5:.3f}", "-i", card]
+                fc.append(f"[{j}:v]scale={W*2}:{H*2},zoompan=z='1+0.08*on/{int(seg*FPS)}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS},setsar=1,{post}[m{j}]")
+            else:
+                inputs += ["-ss", str(st0), "-t", f"{seg + 0.5:.3f}", "-i", path]
+                pre = "crop=iw:ih*0.88:0:0," if sl == "s06" else ""   # hide the source's burned-in watermark
+                fc.append(f"[{j}:v]fps={FPS},{pre}scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,{post}[m{j}]")
         fc.append("".join(f"[m{j}]" for j in range(nbg)) + f"concat=n={nbg}:v=1:a=0[bg0]")
     elif media and media.lower().endswith((".mp4", ".m4v", ".mov", ".mkv", ".webm")):
         o = dict(SLOT_OPTS.get(sid, {}))
