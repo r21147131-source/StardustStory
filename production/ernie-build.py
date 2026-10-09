@@ -245,18 +245,21 @@ def photo_card(src, W, H, path):
     bg.paste(im, (x, y)); bg.save(path, quality=95)
 
 # ---------- ffmpeg ----------
+# per-slot clip options: start offset (s) into the clip, fraction of frame height to crop off the bottom (watermarks)
+SLOT_OPTS = {"s02": {"start": 2}, "s06": {"start": 60, "crop_bottom": 0.12}}
+
 ALIAS = {"s02": "ernie_jr", "s09": "bruce", "s42": "chan", "s24": "jcvd", "s31": "rock"}
 
 def find_media(sid):
     for name in (sid, ALIAS.get(sid)):
         if not name: continue
-        for ext in ("mp4", "mov", "mkv", "webm", "jpg", "jpeg", "png"):
+        for ext in ("mp4", "m4v", "mov", "mkv", "webm", "jpg", "jpeg", "png"):
             p = os.path.join(MEDIA, f"{name}.{ext}")
             if os.path.exists(p) and os.path.getsize(p) > 20000: return p
     return None
 
 def _unused_find_media(sid):
-    for ext in ("mp4", "mov", "mkv", "webm", "jpg", "jpeg", "png"):
+    for ext in ("mp4", "m4v", "mov", "mkv", "webm", "jpg", "jpeg", "png"):
         p = os.path.join(MEDIA, f"{sid}.{ext}")
         if os.path.exists(p): return p
     return None
@@ -272,9 +275,12 @@ def render_scene(W, H, sc, f0, nf):
     photo = bool(media) and media.lower().endswith((".jpg", ".jpeg", ".png"))
     inputs, fc = [], []
     # --- background ---
-    if media and media.lower().endswith((".mp4", ".mov", ".mkv", ".webm")):
-        inputs += ["-stream_loop", "-1", "-i", media]
-        fc.append(f"[0:v]fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,"
+    if media and media.lower().endswith((".mp4", ".m4v", ".mov", ".mkv", ".webm")):
+        o = SLOT_OPTS.get(sid, {})
+        inputs += ["-stream_loop", "-1", "-ss", str(o.get("start", 0)), "-i", media]
+        cb = o.get("crop_bottom", 0)
+        pre = f"crop=iw:ih*{1-cb:.3f}:0:0," if cb else ""
+        fc.append(f"[0:v]fps={FPS},{pre}scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,"
                   f"eq=contrast=1.1:saturation=0.88:brightness=-0.03,colorbalance=rs=-0.05:bs=0.06:rh=0.06:bh=-0.05,"
                   f"trim=duration={D:.3f},setpts=PTS-STARTPTS[bg0]")
     else:
