@@ -5,7 +5,8 @@
 # whole  ernie-clips/  folder (or a zip of it) back to Claude.  Files are named
 # s10.mp4, s11.mp4 ... exactly as the build script expects.
 #
-# Needs: yt-dlp + ffmpeg.   Optional: a cookies file next to this script
+# Needs: yt-dlp (latest: yt-dlp -U) + ffmpeg + a JavaScript runtime (Node or Deno) --
+# without one, yt-dlp warns "n challenge solving failed" and offers only thumbnails.   Optional: a cookies file next to this script
 # (cookies.txt, Netscape format) if YouTube asks you to sign in.
 #
 #   bash download-clips.sh            # all slots
