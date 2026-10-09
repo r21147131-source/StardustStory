@@ -153,12 +153,12 @@ def png_kicker(W, H, text, path):
     shadow_text(img, (x + int(22 * s), y + int(2 * s)), text, font("Inter-SemiBold", int(28 * s)), (*AMBER, 255), spacing=int(5 * s))
     img.save(path)
 
-def png_headline(W, H, text, idx, nlines, path, big=True):
+def png_headline(W, H, text, idx, nlines, path, big=True, maxw=0.85):
     s = H / 1080
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     size = int((112 if big else 84) * s)
     f = font("InterDisplay-Black", size)
-    while ImageDraw.Draw(img).textlength(text, font=f) > W * 0.85 and size > 40:
+    while ImageDraw.Draw(img).textlength(text, font=f) > W * maxw and size > 40:
         size -= 4; f = font("InterDisplay-Black", size)
     x = int(W * 0.075)
     y = int(H * 0.515 + idx * size * 1.08)
@@ -269,6 +269,7 @@ def render_scene(W, H, sc, f0, nf):
     wd = os.path.join(WORK, sid); os.makedirs(wd, exist_ok=True)
     out = os.path.join(WORK, f"{sid}.mp4")
     media = find_media(sid)
+    photo = bool(media) and media.lower().endswith((".jpg", ".jpeg", ".png"))
     inputs, fc = [], []
     # --- background ---
     if media and media.lower().endswith((".mp4", ".mov", ".mkv", ".webm")):
@@ -298,7 +299,7 @@ def render_scene(W, H, sc, f0, nf):
         p = os.path.join(wd, "c.png"); png_center(W, H, lines[0], lines[1], p); ov.append((p, 0.2, D - 0.7, "fade"))
     else:
         for i, ln in enumerate(lines):
-            p = os.path.join(wd, f"h{i}.png"); png_headline(W, H, ln, i, len(lines), p); ov.append((p, 0.35 + i * 0.28, D - 0.95 - i * 0.28, "up"))
+            p = os.path.join(wd, f"h{i}.png"); png_headline(W, H, ln, i, len(lines), p, maxw=(0.58 if photo else 0.85)); ov.append((p, 0.35 + i * 0.28, D - 0.95 - i * 0.28, "up"))
     nslot, mslot = 0, 0
     for k, lab in enumerate(labels):
         at = min(2.0 + k * 6.2, max(1.0, D - 4.5))
