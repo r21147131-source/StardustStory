@@ -5,7 +5,8 @@
 # whole  ernie-clips/  folder (or a zip of it) back to Claude.  Files are named
 # s10.mp4, s11.mp4 ... exactly as the build script expects.
 #
-# Needs: yt-dlp (latest: yt-dlp -U) + ffmpeg + a JavaScript runtime (Node or Deno) --
+# Needs: yt-dlp WITH its challenge solver: pip install -U "yt-dlp[default]"
+# (a plain yt-dlp binary shows only thumbnails). Also + ffmpeg + a JavaScript runtime (Node or Deno) --
 # without one, yt-dlp warns "n challenge solving failed" and offers only thumbnails.   Optional: a cookies file next to this script
 # (cookies.txt, Netscape format) if YouTube asks you to sign in.
 #
@@ -66,7 +67,7 @@ while read -r slot start len url _; do
   [ -f "$OUT/$slot.mp4" ] && { echo "skip $slot (exists)"; continue; }
   end=$((start + len))
   echo "== $slot  $url  [${start}s-${end}s]"
-  yt-dlp "${COOK[@]}" --extractor-args "youtube:player_client=web_safari" \
+  yt-dlp ${YTDLP_EXTRA:-} "${COOK[@]}" --extractor-args "youtube:player_client=web_safari" \
     -f "$FMT" --merge-output-format mp4 \
     --download-sections "*${start}-${end}" --force-keyframes-at-cuts \
     -o "$OUT/$slot.%(ext)s" "$url" || echo "!! $slot failed"
