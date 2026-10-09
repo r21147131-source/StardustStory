@@ -249,6 +249,16 @@ def photo_card(src, W, H, path):
 SLOT_OPTS = {"s02": {"start": 2}, "s06": {"start": 60, "crop_bottom": 0.12},
              "s22": {"start": 10}, "s24": {"start": 12}, "s14": {"start": 6}, "s11": {"start": 8}}
 
+# Opening scenes would sit on one static card for 20+ s, so they are quick-cut montages of other slots:
+# scene -> (list of (slot, start_s) cuts, grayscale?, brightness offset)
+MONTAGE = {
+    "s01": ([("s14", 8), ("s10", 14), ("s18", 10), ("s22", 16), ("s31", 6)], False, -0.05),
+    "s03": ([("s20", 6), ("s24", 8), ("s23", 4), ("s15", 10), ("s34", 5), ("s32", 6)], True, -0.12),
+    "s04": ([("s11", 16), ("s17", 6), ("s09", 10), ("s33", 12), ("s31", 16)], False, -0.22),
+}
+# seconds the headline/kicker stay on screen for scenes that are not title-card-only
+TEXT_END = {"s01": 8.0, "s03": 7.0, "s04": 13.0}
+
 ALIAS = {"s02": "ernie_jr", "s09": "bruce", "s42": "chan", "s24": "jcvd", "s31": "rock"}
 
 def find_media(sid):
@@ -275,8 +285,20 @@ def render_scene(W, H, sc, f0, nf):
     media = find_media(sid)
     photo = bool(media) and media.lower().endswith((".jpg", ".jpeg", ".png"))
     inputs, fc = [], []
+    nbg = 1
+    mont = MONTAGE.get(sid)
+    tend = TEXT_END.get(sid, 1e9)
     # --- background ---
-    if media and media.lower().endswith((".mp4", ".m4v", ".mov", ".mkv", ".webm")):
+    if mont and all(find_media(sl) for sl, _ in mont[0]):
+        cuts, gray, bri = mont
+        nbg = len(cuts); seg = D / nbg
+        for j, (sl, st0) in enumerate(cuts):
+            inputs += ["-ss", str(st0), "-t", f"{seg + 0.5:.3f}", "-i", find_media(sl)]
+            fc.append(f"[{j}:v]fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,"
+                      f"{'hue=s=0,' if gray else ''}eq=contrast=1.1:saturation={0.9 if not gray else 1}:brightness={bri},"
+                      f"colorbalance=rs=-0.05:bs=0.06:rh=0.06:bh=-0.05,trim=duration={seg:.3f},setpts=PTS-STARTPTS[m{j}]")
+        fc.append("".join(f"[m{j}]" for j in range(nbg)) + f"concat=n={nbg}:v=1:a=0[bg0]")
+    elif media and media.lower().endswith((".mp4", ".m4v", ".mov", ".mkv", ".webm")):
         o = SLOT_OPTS.get(sid, {})
         inputs += ["-stream_loop", "-1", "-ss", str(o.get("start", 0)), "-i", media]
         cb = o.get("crop_bottom", 0)
@@ -300,13 +322,13 @@ def render_scene(W, H, sc, f0, nf):
     ov = []   # (png, start, dur, kind)
     t = 0.35
     if kicker:
-        p = os.path.join(wd, "k.png"); png_kicker(W, H, kicker, p); ov.append((p, 0.25, D - 0.9, "up"))
+        p = os.path.join(wd, "k.png"); png_kicker(W, H, kicker, p); ov.append((p, 0.25, min(D - 0.9, tend - 0.25), "up"))
     big = len(lines) <= 2 and not (sid in ("s04",))
     if sid == "s04":
-        p = os.path.join(wd, "c.png"); png_center(W, H, lines[0], lines[1], p); ov.append((p, 0.2, D - 0.7, "fade"))
+        p = os.path.join(wd, "c.png"); png_center(W, H, lines[0], lines[1], p); ov.append((p, 0.2, min(D - 0.7, tend - 0.2), "fade"))
     else:
         for i, ln in enumerate(lines):
-            p = os.path.join(wd, f"h{i}.png"); png_headline(W, H, ln, i, len(lines), p, maxw=(0.58 if photo else 0.85)); ov.append((p, 0.35 + i * 0.28, D - 0.95 - i * 0.28, "up"))
+            p = os.path.join(wd, f"h{i}.png"); png_headline(W, H, ln, i, len(lines), p, maxw=(0.58 if photo else 0.85)); ov.append((p, 0.35 + i * 0.28, min(D - 0.95 - i * 0.28, tend - 0.35 - i * 0.28), "up"))
     nslot, mslot = 0, 0
     for k, lab in enumerate(labels):
         at = min(2.0 + k * 6.2, max(1.0, D - 4.5))
@@ -322,7 +344,7 @@ def render_scene(W, H, sc, f0, nf):
     for i, (p, st, du, kind) in enumerate(ov):
         du = max(0.8, du)
         inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{st+du+0.6:.3f}", "-i", p]
-        n = i + 1
+        n = nbg + i
         fc.append(f"[{n}:v]format=rgba,fade=t=in:st={st:.3f}:d=0.55:alpha=1,fade=t=out:st={st+du:.3f}:d=0.45:alpha=1[o{i}]")
         e = EASE(st, 0.8)
         pos = {"up": ("0", f"40*(1-{e})"), "left": (f"-120*(1-{e})", "0"), "right": (f"120*(1-{e})", "0"), "fade": ("0", "0"),
