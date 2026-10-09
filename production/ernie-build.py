@@ -246,7 +246,8 @@ def photo_card(src, W, H, path):
 
 # ---------- ffmpeg ----------
 # per-slot clip options: start offset (s) into the clip, fraction of frame height to crop off the bottom (watermarks)
-SLOT_OPTS = {"s02": {"start": 2}, "s06": {"start": 60, "crop_bottom": 0.12}}
+SLOT_OPTS = {"s02": {"start": 2}, "s06": {"start": 60, "crop_bottom": 0.12},
+             "s22": {"start": 10}, "s24": {"start": 12}, "s14": {"start": 6}, "s11": {"start": 8}}
 
 ALIAS = {"s02": "ernie_jr", "s09": "bruce", "s42": "chan", "s24": "jcvd", "s31": "rock"}
 
