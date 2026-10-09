@@ -247,7 +247,7 @@ def photo_card(src, W, H, path):
 # ---------- ffmpeg ----------
 # per-slot clip options: start offset (s) into the clip, fraction of frame height to crop off the bottom (watermarks)
 SLOT_OPTS = {"s02": {"start": 2}, "s06": {"start": 60, "crop_bottom": 0.12},
-             "s22": {"start": 10}, "s28": {"crop_bottom": 0.14}, "s29": {"crop_bottom": 0.14}, "s30": {"crop_bottom": 0.14}, "s18": {"start": 8}, "s24": {"start": 12}, "s14": {"start": 6}, "s11": {"start": 8}}
+             "s22": {"start": 10}, "s28": {"crop_bottom": 0.14}, "s29": {"crop_bottom": 0.14}, "s30": {"crop_bottom": 0.14}, "s18": {"start": 10}, "s31": {"crop_bottom": 0.14}, "s32": {"crop_bottom": 0.14}, "s24": {"start": 12}, "s14": {"start": 6}, "s11": {"start": 8}}
 
 # Opening scenes would sit on one static card for 20+ s, so they are quick-cut montages of other slots:
 # scene -> (list of (slot, start_s) cuts, grayscale?, brightness offset)
@@ -260,11 +260,11 @@ MONTAGE = {
 TEXT_END = {"s01": 8.0, "s03": 7.0, "s04": 13.0}
 
 # scene -> (other slot whose clip to reuse, start second): used where a scene's own clip did not fit its line
-SLOT_SRC = {"s13": ("s18", 2), "s15": ("s15", 1), "s16": ("s17", 13), "s19": ("s17", 26), "s20": ("s23", 10),
+SLOT_SRC = {"s13": ("s18", 2), "s15": ("s17", 14), "s16": ("s17", 13), "s19": ("s17", 26), "s20": ("s23", 10),
             "s21": ("s23", 22), "s25": ("s37", 10), "s26": ("s36", 10), "s27": ("s37", 18),
-            "s31": ("s32", 6), "s32": ("s31", 10)}
+            "s31": ("s32", 6), "s32": ("s31", 10), "s38": ("s40", 2)}
 # scenes where a Commons photo beats a clip (labels name a person who must be the one on screen)
-PHOTO_FIRST = {"s09": "bruce", "s42": "chan", "s38": "ernie_jr"}
+PHOTO_FIRST = {"s09": "bruce", "s42": "chan"}
 
 ALIAS = {"s02": "ernie_jr", "s09": "bruce", "s42": "chan", "s24": "jcvd", "s31": "rock"}
 
