@@ -37,7 +37,7 @@ def p1(m, s): return m * 60 + s
 # labels: ("name", text, sub) | ("movie", title, year) | ("city", text) | ("money", big, caption)
 SC = [
  ("s01", p1(0, 0), "open", "STARDUST STORY", ["Whatever happened", "to that kid?"], [], ""),
- ("s02", p1(0, 20), "open", "THE EARLY 1990s", ["Impossible", "to ignore."], [("name", "ERNIE REYES JR.", "Martial artist · Actor")], "1990"),
+ ("s02", p1(0, 20), "open", "THE EARLY 1990s", ["Impossible", "to ignore."], [], "1990"),
  ("s03", p1(0, 41), "open", "", ["Then it", "all stopped."], [], ""),
  ("s04", p1(1, 3), "open", "", ["ERNIE REYES JR.", "The kid Hollywood forgot"], [], ""),
  ("s05", p1(1, 25), "prodigy", "CHAPTER I · THE PRODIGY", ["Born to", "the dojo."], [("city", "CALIFORNIA, USA · 1972")], "1972"),
@@ -73,7 +73,7 @@ SC = [
  ("s35", p2(1, 51), "battle", "CHAPTER V · THE BATTLE", ["A challenge", "no script could write."], [("city", "2014 · KIDNEY FAILURE")], "2014"),
  ("s36", p2(2, 16), "battle", "", ["The world", "reached out."], [], ""),
  ("s37", p2(2, 38), "battle", "A SECOND CHANCE", ["His sister's", "gift."], [("money", "FUNDRAISING CAMPAIGN", "MEDICAL EXPENSES · KIDNEY TRANSPLANT")], ""),
- ("s38", p2(3, 1), "battle", "", ["Simple movements", "became victories."], [], ""),
+ ("s38", p2(3, 1), "battle", "", ["Simple movements", "became victories."], [("name", "ERNIE REYES JR.", "Martial artist · Actor")], ""),
  ("s39", p2(3, 22), "battle", "", ["Passing it", "on."], [], ""),
  ("s40", p2(3, 47), "battle", "", ["A different", "definition of success."], [], ""),
  ("s41", p2(4, 15), "legacy", "CHAPTER VI · THE LEGACY", ["Not every talent", "becomes A-list."], [], ""),
@@ -247,7 +247,7 @@ def photo_card(src, W, H, path):
 # ---------- ffmpeg ----------
 # per-slot clip options: start offset (s) into the clip, fraction of frame height to crop off the bottom (watermarks)
 SLOT_OPTS = {"s02": {"start": 2}, "s06": {"start": 60, "crop_bottom": 0.12},
-             "s22": {"start": 10}, "s24": {"start": 12}, "s14": {"start": 6}, "s11": {"start": 8}}
+             "s22": {"start": 10}, "s28": {"crop_bottom": 0.14}, "s29": {"crop_bottom": 0.14}, "s30": {"crop_bottom": 0.14}, "s18": {"start": 8}, "s24": {"start": 12}, "s14": {"start": 6}, "s11": {"start": 8}}
 
 # Opening scenes would sit on one static card for 20+ s, so they are quick-cut montages of other slots:
 # scene -> (list of (slot, start_s) cuts, grayscale?, brightness offset)
@@ -259,9 +259,24 @@ MONTAGE = {
 # seconds the headline/kicker stay on screen for scenes that are not title-card-only
 TEXT_END = {"s01": 8.0, "s03": 7.0, "s04": 13.0}
 
+# scene -> (other slot whose clip to reuse, start second): used where a scene's own clip did not fit its line
+SLOT_SRC = {"s13": ("s18", 2), "s15": ("s15", 1), "s16": ("s17", 13), "s19": ("s17", 26), "s20": ("s23", 10),
+            "s21": ("s23", 22), "s25": ("s37", 10), "s26": ("s36", 10), "s27": ("s37", 18),
+            "s31": ("s32", 6), "s32": ("s31", 10)}
+# scenes where a Commons photo beats a clip (labels name a person who must be the one on screen)
+PHOTO_FIRST = {"s09": "bruce", "s42": "chan", "s38": "ernie_jr"}
+
 ALIAS = {"s02": "ernie_jr", "s09": "bruce", "s42": "chan", "s24": "jcvd", "s31": "rock"}
 
+def _raw(name):
+    for ext in ("mp4", "m4v", "mov", "mkv", "webm", "jpg", "jpeg", "png"):
+        p = os.path.join(MEDIA, f"{name}.{ext}")
+        if os.path.exists(p) and os.path.getsize(p) > 20000: return p
+    return None
+
 def find_media(sid):
+    if sid in PHOTO_FIRST and _raw(PHOTO_FIRST[sid]): return _raw(PHOTO_FIRST[sid])
+    if sid in SLOT_SRC and _raw(SLOT_SRC[sid][0]): return _raw(SLOT_SRC[sid][0])
     for name in (sid, ALIAS.get(sid)):
         if not name: continue
         for ext in ("mp4", "m4v", "mov", "mkv", "webm", "jpg", "jpeg", "png"):
@@ -299,7 +314,8 @@ def render_scene(W, H, sc, f0, nf):
                       f"colorbalance=rs=-0.05:bs=0.06:rh=0.06:bh=-0.05,trim=duration={seg:.3f},setpts=PTS-STARTPTS[m{j}]")
         fc.append("".join(f"[m{j}]" for j in range(nbg)) + f"concat=n={nbg}:v=1:a=0[bg0]")
     elif media and media.lower().endswith((".mp4", ".m4v", ".mov", ".mkv", ".webm")):
-        o = SLOT_OPTS.get(sid, {})
+        o = dict(SLOT_OPTS.get(sid, {}))
+        if sid in SLOT_SRC: o["start"] = SLOT_SRC[sid][1]
         inputs += ["-stream_loop", "-1", "-ss", str(o.get("start", 0)), "-i", media]
         cb = o.get("crop_bottom", 0)
         pre = f"crop=iw:ih*{1-cb:.3f}:0:0," if cb else ""
