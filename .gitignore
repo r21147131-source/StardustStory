@@ -3,3 +3,4 @@ out/
 .DS_Store
 render/
 .claude/settings.local.json
+production/media/

@@ -44,7 +44,7 @@ SC = [
  ("s06", p1(1, 48), "prodigy", "THE FATHER", ["Speed. Flexibility.", "Showmanship."], [("name", "ERNIE REYES SR.", "Master instructor · Father")], ""),
  ("s07", p1(2, 11), "prodigy", "", ["Every kick sharper.", "Every landing cleaner."], [], ""),
  ("s08", p1(2, 33), "prodigy", "THE DEMONSTRATION TEAM", ["Across", "America."], [("city", "UNITED STATES · TOURING")], ""),
- ("s09", p1(3, 0), "prodigy", "THE MID-1980s", ["Hollywood", "came calling."], [("name", "BRUCE LEE", "The inspiration"), ("name", "JACKIE CHAN", "The rising star")], "1985"),
+ ("s09", p1(3, 0), "prodigy", "THE MID-1980s", ["Hollywood", "came calling."], [("name", "BRUCE LEE", "The inspiration")], "1985"),
  ("s10", p1(3, 29), "prodigy", "FIRST CREDITS", ["Learning", "the craft."], [("movie", "THE LAST DRAGON", "1985")], ""),
  ("s11", p1(3, 51), "prodigy", "SHARING THE SCREEN", ["Work hard.", "Stay humble."], [("movie", "RED SONJA", "1985")], ""),
  ("s12", p1(4, 14), "prodigy", "", ["Never missed", "a mark."], [], ""),
@@ -77,7 +77,7 @@ SC = [
  ("s39", p2(3, 22), "battle", "", ["Passing it", "on."], [], ""),
  ("s40", p2(3, 47), "battle", "", ["A different", "definition of success."], [], ""),
  ("s41", p2(4, 15), "legacy", "CHAPTER VI · THE LEGACY", ["Not every talent", "becomes A-list."], [], ""),
- ("s42", p2(4, 40), "legacy", "", ["Something", "much rarer."], [], ""),
+ ("s42", p2(4, 40), "legacy", "", ["Something", "much rarer."], [("name", "JACKIE CHAN", "The star he never had to be")], ""),
  ("s43", p2(5, 10), "legacy", "STARDUST STORY", ["Your favorite", "Ernie performance?"], [], ""),
 ]
 
@@ -148,7 +148,7 @@ def spaced_w(text, f, sp):
 def png_kicker(W, H, text, path):
     s = H / 1080
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
-    x, y = int(W * 0.075), int(H * 0.545)
+    x, y = int(W * 0.075), int(H * 0.455)
     d.rectangle([x, y, x + int(6 * s), y + int(34 * s)], fill=RED)
     shadow_text(img, (x + int(22 * s), y + int(2 * s)), text, font("Inter-SemiBold", int(28 * s)), (*AMBER, 255), spacing=int(5 * s))
     img.save(path)
@@ -161,7 +161,7 @@ def png_headline(W, H, text, idx, nlines, path, big=True):
     while ImageDraw.Draw(img).textlength(text, font=f) > W * 0.85 and size > 40:
         size -= 4; f = font("InterDisplay-Black", size)
     x = int(W * 0.075)
-    y = int(H * 0.60 + idx * size * 1.08)
+    y = int(H * 0.515 + idx * size * 1.08)
     shadow_text(img, (x, y), text, f, (*CREAM, 255))
     img.save(path)
 
@@ -179,7 +179,7 @@ def png_center(W, H, title, sub, path):
 def png_name(W, H, name, sub, slot, path):
     s = H / 1080
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
-    x, y = int(W * 0.075), int(H * 0.80) - slot * int(120 * s)
+    x, y = int(W * 0.075), int(H * 0.765) - slot * int(120 * s)
     f1, f2 = font("InterDisplay-ExtraBold", int(50 * s)), font("Inter-Medium", int(26 * s))
     w = max(d.textlength(name, font=f1), d.textlength(sub, font=f2)) + int(60 * s)
     d.rectangle([x - 20 * s, y - 14 * s, x + w, y + 96 * s], fill=(0, 0, 0, 150))
@@ -219,7 +219,7 @@ def png_money(W, H, big, cap, path):
     f = font("InterDisplay-Black", int(96 * s))
     while d.textlength(big, font=f) > W * 0.8: f = font("InterDisplay-Black", int(f.size * 0.92))
     bw = d.textlength(big, font=f) + 120 * s
-    x0, y0 = W / 2 - bw / 2, H * 0.24
+    x0, y0 = W / 2 - bw / 2, H * 0.185
     d.rounded_rectangle([x0, y0, x0 + bw, y0 + 250 * s], 16, fill=(0, 0, 0, 175), outline=(*AMBER, 230), width=int(3 * s))
     shadow_text(img, (W / 2, y0 + 105 * s), big, f, (*AMBER, 255), anchor="mm")
     shadow_text(img, (W / 2, y0 + 190 * s), cap, font("Inter-SemiBold", int(26 * s)), (*CREAM, 235), spacing=int(4 * s), anchor="mm") if False else None
@@ -227,8 +227,35 @@ def png_money(W, H, big, cap, path):
     shadow_text(img, (W / 2 - cw / 2, y0 + 178 * s), cap, font("Inter-SemiBold", int(26 * s)), (*CREAM, 235), spacing=int(4 * s))
     img.save(path)
 
+def photo_card(src, W, H, path):
+    """Blurred, darkened cover of the photo as backdrop + the photo itself, framed, on the right."""
+    im = Image.open(src).convert("RGB")
+    bg = im.copy(); r = max(W / bg.width, H / bg.height)
+    bg = bg.resize((int(bg.width * r) + 1, int(bg.height * r) + 1))
+    bg = bg.crop(((bg.width - W) // 2, (bg.height - H) // 2, (bg.width - W) // 2 + W, (bg.height - H) // 2 + H))
+    bg = bg.filter(ImageFilter.GaussianBlur(H // 28))
+    bg = Image.blend(bg, Image.new("RGB", (W, H), (6, 5, 5)), 0.62)
+    ph = H * 0.62
+    r = min(ph / im.height, (W * 0.5) / im.width)
+    im = im.resize((int(im.width * r), int(im.height * r)))
+    x, y = int(W * 0.80 - im.width / 2), int(H * 0.5 - im.height / 2)
+    sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(sh).rectangle([x - 6, y - 4, x + im.width + 14, y + im.height + 20], fill=(0, 0, 0, 190))
+    bg = Image.alpha_composite(bg.convert("RGBA"), sh.filter(ImageFilter.GaussianBlur(14))).convert("RGB")
+    ImageDraw.Draw(bg).rectangle([x - 3, y - 3, x + im.width + 2, y + im.height + 2], outline=(*CREAM,), width=2)
+    bg.paste(im, (x, y)); bg.save(path, quality=95)
+
 # ---------- ffmpeg ----------
+ALIAS = {"s02": "ernie_jr", "s09": "bruce", "s42": "chan", "s24": "jcvd", "s31": "rock"}
+
 def find_media(sid):
+    for name in (sid, ALIAS.get(sid)):
+        if not name: continue
+        for ext in ("mp4", "mov", "mkv", "webm", "jpg", "jpeg", "png"):
+            p = os.path.join(MEDIA, f"{name}.{ext}")
+            if os.path.exists(p) and os.path.getsize(p) > 20000: return p
+    return None
+
+def _unused_find_media(sid):
     for ext in ("mp4", "mov", "mkv", "webm", "jpg", "jpeg", "png"):
         p = os.path.join(MEDIA, f"{sid}.{ext}")
         if os.path.exists(p): return p
@@ -251,7 +278,7 @@ def render_scene(W, H, sc, f0, nf):
                   f"trim=duration={D:.3f},setpts=PTS-STARTPTS[bg0]")
     else:
         if media:
-            src = media
+            src = os.path.join(wd, "bg.png"); photo_card(media, W * 2, H * 2, src)
         else:
             src = os.path.join(wd, "bg.png")
             make_bg(W * 2, H * 2, theme, mark, hash(sid) % 1000, src)
@@ -274,7 +301,7 @@ def render_scene(W, H, sc, f0, nf):
             p = os.path.join(wd, f"h{i}.png"); png_headline(W, H, ln, i, len(lines), p); ov.append((p, 0.35 + i * 0.28, D - 0.95 - i * 0.28, "up"))
     nslot, mslot = 0, 0
     for k, lab in enumerate(labels):
-        at = min(2.0 + k * 3.2, max(1.0, D - 4.5))
+        at = min(2.0 + k * 6.2, max(1.0, D - 4.5))
         du = min(5.5, D - at - 0.6)
         if du < 1.5: at, du = 0.6, min(4.5, D - 1.2)
         p = os.path.join(wd, f"l{k}.png")
@@ -308,7 +335,7 @@ def render_scene(W, H, sc, f0, nf):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only"); ap.add_argument("--res", default="1920x1080"); ap.add_argument("--no-audio", action="store_true")
+    ap.add_argument("--only"); ap.add_argument("--res", default="1920x1080"); ap.add_argument("--no-audio", action="store_true"); ap.add_argument("--assemble", action="store_true")
     a = ap.parse_args()
     W, H = map(int, a.res.split("x"))
     os.makedirs(WORK, exist_ok=True); os.makedirs(os.path.dirname(OUT), exist_ok=True); os.makedirs(MEDIA, exist_ok=True)
@@ -316,9 +343,10 @@ def main():
     fr = frames(); scenes = {s[0]: s for s in SC}
     for sid, f0, nf in fr:
         if only and sid not in only: continue
+        if a.assemble: continue
         print("scene", sid, f"{nf/FPS:.1f}s", "media" if find_media(sid) else "card", flush=True)
         render_scene(W, H, scenes[sid], f0, nf)
-    if only: return
+    if only and not a.assemble: return
     lst = os.path.join(WORK, "list.txt")
     open(lst, "w").write("".join(f"file '{WORK}/{sid}.mp4'\n" for sid, _, _ in fr))
     vid = os.path.join(WORK, "video.mp4")
