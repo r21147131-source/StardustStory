@@ -17,7 +17,7 @@ Labels: N = name, $ = money, C = city/place, M = movie.
 | 2:33 | Father's demonstration team tours the US | Demo-team performance footage | I | C: UNITED STATES |
 | 3:00 | Mid-1980s martial arts boom; Bruce Lee, Jackie Chan | Photos + clips | P/F | N: BRUCE LEE, JACKIE CHAN |
 | 3:29 | *The Last Dragon* (1985) | Film clip | F | M: THE LAST DRAGON · 1985 |
-| 3:51 | Second film (VO garbled: "Santa Triene" — likely *Red Sonja*? **confirm title**) | Film clip | F | M: (confirm) |
+| 3:51 | *Red Sonja* (1985) — confirmed by user | Film clip | F | M: RED SONJA · 1985 |
 | 4:37 | TV, guest roles, commercials | TV clips | I | — |
 | 5:01 | 1990 — *Teenage Mutant Ninja Turtles* | Film clips (Donatello suit) | F | M: TEENAGE MUTANT NINJA TURTLES · 1990 |
 | 5:26 | Costumes / foam suits | Behind-the-scenes | I | — |
@@ -42,7 +42,7 @@ Labels: N = name, $ = money, C = city/place, M = movie.
 | P2 5:10 | CTA — comments/subscribe | End card | G | — |
 
 ## Transcript issues to fix before sourcing clips
-- 3:51 "Santa Triene. Sonia" — mis-transcribed film title(s).
+- 3:51 "Santa Triene. Sonia" — confirmed as *Red Sonja*; VO is a TTS mispronunciation, so label the film on screen.
 - Speech tags "dot" (×4) are TTS artifacts; trim or re-render if audible.
 - The script gives no box-office/budget/fundraising numbers, so money labels need figures you confirm.
 
