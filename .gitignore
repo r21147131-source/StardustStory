@@ -5,3 +5,4 @@ render/
 .claude/settings.local.json
 production/media/
 output/*-clips-*.mp4
+__pycache__/
