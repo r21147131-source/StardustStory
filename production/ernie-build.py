@@ -8,20 +8,32 @@ Every scene has a media slot.  Drop a clip or photo named <scene-id>.mp4/.mov/.m
 the clip replaces the generated card, gets graded, and keeps all the labels.
 Scenes without media use an animated generated title card.
 """
-import argparse, math, os, random, subprocess, sys, glob, shutil
+import argparse, math, os, random, subprocess, sys, glob, shutil, tempfile, zlib
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 MEDIA = os.environ.get("ERNIE_MEDIA", os.path.join(ROOT, "media"))
-WORK = os.environ.get("ERNIE_WORK", "/tmp/ernie-work")
-OUT = os.path.join(os.path.dirname(ROOT), "output", "ernie-reyes-jr.mp4")
-VO1 = "/root/.claude/uploads/d9ee64d3-1860-5d99-bef8-6d5081458d32/f8de7028-11CapCut_TTS_Bill_D20260713_T081806.mp3"
-VO2 = "/root/.claude/uploads/d9ee64d3-1860-5d99-bef8-6d5081458d32/9138e33a-22CapCut_TTS_Bill_D20260713_T082752.mp3"
+WORK = os.environ.get("ERNIE_WORK", os.path.join(tempfile.gettempdir(), "ernie-work"))
+OUT = os.environ.get("ERNIE_OUT", os.path.join(os.path.dirname(ROOT), "output", "ernie-reyes-jr.mp4"))
+# voiceover files: set ERNIE_VO1 / ERNIE_VO2 (or pass --vo1 / --vo2). The defaults only exist in the original sandbox.
+VO1 = os.environ.get("ERNIE_VO1", "/root/.claude/uploads/d9ee64d3-1860-5d99-bef8-6d5081458d32/f8de7028-11CapCut_TTS_Bill_D20260713_T081806.mp3")
+VO2 = os.environ.get("ERNIE_VO2", "/root/.claude/uploads/d9ee64d3-1860-5d99-bef8-6d5081458d32/9138e33a-22CapCut_TTS_Bill_D20260713_T082752.mp3")
 P1, TOTAL = 694.595918, 694.595918 + 342.674285
 FPS = 24
-F = "/usr/share/fonts/opentype/inter/"
+# Fonts: the design uses Inter. Point ERNIE_FONTS at a folder holding Inter-*.otf / InterDisplay-*.otf (https://rsms.me/inter/)
+# or leave it unset: the first usable system font (Segoe UI / Arial / DejaVu / Helvetica) is used as a fallback.
+F = os.environ.get("ERNIE_FONTS", "/usr/share/fonts/opentype/inter/")
+_FALLBACK_BOLD = ["C:/Windows/Fonts/segoeuib.ttf", "C:/Windows/Fonts/arialbd.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+                  "/System/Library/Fonts/Supplemental/Arial Bold.ttf", "/Library/Fonts/Arial Bold.ttf"]
+_FALLBACK_REG = ["C:/Windows/Fonts/segoeui.ttf", "C:/Windows/Fonts/arial.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+                 "/System/Library/Fonts/Supplemental/Arial.ttf", "/Library/Fonts/Arial.ttf"]
 def font(name, size):
-    return ImageFont.truetype(F + name + ".otf", size)
+    path = os.path.join(F, name + ".otf")
+    if os.path.exists(path): return ImageFont.truetype(path, size)
+    heavy = any(w in name for w in ("Black", "ExtraBold", "Bold", "SemiBold"))
+    for cand in (_FALLBACK_BOLD if heavy else _FALLBACK_REG):
+        if os.path.exists(cand): return ImageFont.truetype(cand, size)
+    sys.exit(f"No usable font found for '{name}'. Install Inter and set ERNIE_FONTS to its folder.")
 
 RED, AMBER, CREAM = (229, 9, 20), (255, 190, 90), (245, 238, 225)
 THEMES = {  # chapter palettes: (center glow, edge)
@@ -340,7 +352,7 @@ def render_scene(W, H, sc, f0, nf):
             src = os.path.join(wd, "bg.png"); photo_card(media, W * 2, H * 2, src)
         else:
             src = os.path.join(wd, "bg.png")
-            make_bg(W * 2, H * 2, theme, mark, hash(sid) % 1000, src)
+            make_bg(W * 2, H * 2, theme, mark, zlib.crc32(sid.encode()) % 1000, src)
         inputs += ["-loop", "1", "-framerate", str(FPS), "-i", src]
         fc.append(f"[0:v]scale={W*2}:{H*2}:force_original_aspect_ratio=increase,crop={W*2}:{H*2},"
                   f"zoompan=z='1+0.10*on/{nf}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS},"
@@ -394,9 +406,11 @@ def render_scene(W, H, sc, f0, nf):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only"); ap.add_argument("--res", default="1920x1080"); ap.add_argument("--no-audio", action="store_true"); ap.add_argument("--assemble", action="store_true")
+    ap.add_argument("--only"); ap.add_argument("--res", default="1920x1080"); ap.add_argument("--no-audio", action="store_true"); ap.add_argument("--vo1"); ap.add_argument("--vo2"); ap.add_argument("--assemble", action="store_true")
     a = ap.parse_args()
     W, H = map(int, a.res.split("x"))
+    global VO1, VO2
+    VO1, VO2 = a.vo1 or VO1, a.vo2 or VO2
     os.makedirs(WORK, exist_ok=True); os.makedirs(os.path.dirname(OUT), exist_ok=True); os.makedirs(MEDIA, exist_ok=True)
     only = set(a.only.split(",")) if a.only else None
     fr = frames(); scenes = {s[0]: s for s in SC}
@@ -406,8 +420,11 @@ def main():
         print("scene", sid, f"{nf/FPS:.1f}s", "media" if find_media(sid) else "card", flush=True)
         render_scene(W, H, scenes[sid], f0, nf)
     if only and not a.assemble: return
+    for vo in (VO1, VO2):
+        if not os.path.exists(vo): sys.exit(f"Voiceover not found: {vo}\nSet ERNIE_VO1 / ERNIE_VO2 or pass --vo1 / --vo2.")
     lst = os.path.join(WORK, "list.txt")
-    open(lst, "w").write("".join(f"file '{WORK}/{sid}.mp4'\n" for sid, _, _ in fr))
+    wk = WORK.replace("\\", "/")
+    open(lst, "w").write("".join(f"file '{wk}/{sid}.mp4'\n" for sid, _, _ in fr))
     vid = os.path.join(WORK, "video.mp4")
     sh(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", vid])
     # audio: voiceover + soft synthesized pad, gentle fade out
