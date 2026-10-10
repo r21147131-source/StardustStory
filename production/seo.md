@@ -2,6 +2,33 @@
 
 Runtime 17:17. Facts below come from your script; check anything you add yourself.
 
+## Title scores and keyword data (vidIQ, 2026-10-10)
+
+| Title | CTR score |
+|---|---|
+| From Ninja Turtles to Kidney Failure: Ernie Reyes Jr.'s Life | 95 |
+| Ernie Reyes Jr. vs. The Rock: The Reality Behind the Fight | 93 |
+| The Rise and Fall of Ernie Reyes Jr. | 92 |
+| Whatever Happened to Ernie Reyes Jr.? The Ninja Turtles Star Hollywood Forgot | 91 |
+| Why Ernie Reyes Jr. Disappeared After Surf Ninjas | 91 |
+
+Use the "Whatever Happened" title below: it scores 91 and puts the searched name first. Skip "The Dark Reality Behind..." (93): the film does not support it.
+
+| Keyword | Est. monthly searches | Competition (0-100) |
+|---|---|---|
+| ernie reyes | 5,100 | 27.5 |
+| ernie reyes jr. | 4,804 | 30.2 |
+| surf ninjas | 4,601 | 37.9 |
+| secret of the ooze | 4,476 | 41.6 |
+| tmnt 2 | 4,447 | 34.5 |
+| ernie reyes jr ninja turtles | 4,173 | 13.5 (best target) |
+| ernie reyes jr | 3,305 | 25.1 |
+| keno | 38,340 | 29.8 (mostly the lottery game; always pair with Ninja Turtles) |
+| red sonja | 15,354 | 41.8 |
+| the last dragon | 65,190 (up 357% vs 30-day baseline) | 56.5 |
+
+The name itself is a small, low-competition niche (about 3-5k searches a month). The reach comes from the film titles (TMNT, The Last Dragon, The Rundown), so mention them in the title, first description lines and tags. Question-style searches returned nothing for this topic.
+
 ## Title (pick one — under 70 characters so nothing is cut off in search)
 
 1. **Whatever Happened to Ernie Reyes Jr.? The Ninja Turtles Star Hollywood Forgot** (64) — recommended: leads with the question people search, names the best-known credit.
@@ -41,7 +68,7 @@ Film trailers and clips are shown for commentary and criticism. All rights belon
 
 ## Tags (comma-separated, most important first; ~450 characters)
 
-Ernie Reyes Jr, Ernie Reyes Jr what happened, Ernie Reyes Jr documentary, Ernie Reyes Jr Keno, Teenage Mutant Ninja Turtles 2, Secret of the Ooze Keno, Ninja Turtles actor, Surf Ninjas, Surf Ninjas cast, The Rundown fight scene, Dwayne Johnson The Rundown, The Last Dragon 1985, Red Sonja 1985, 90s action stars, forgotten action stars, martial arts movies, martial arts actor, Ernie Reyes Sr, West Coast Demo Team, stunt performer, kidney transplant actor, where are they now, Hollywood untold stories
+Ernie Reyes Jr, Ernie Reyes Jr Ninja Turtles, Ernie Reyes, Ernie Reyes Jr what happened, Ernie Reyes Jr documentary, Ernie Reyes Jr Keno, Teenage Mutant Ninja Turtles 2, Secret of the Ooze Keno, Ninja Turtles actor, Surf Ninjas, Surf Ninjas cast, The Rundown fight scene, Dwayne Johnson The Rundown, The Last Dragon 1985, Red Sonja 1985, 90s action stars, forgotten action stars, martial arts movies, martial arts actor, Ernie Reyes Sr, West Coast Demo Team, stunt performer, kidney transplant actor, where are they now, Hollywood untold stories
 
 ## Pinned comment
 
@@ -59,3 +86,11 @@ Which Ernie Reyes Jr. role did you grow up with — Donatello, Keno, or Johnny i
 - Add captions: upload an English .srt (export the transcript from Descript project "Voiceover transcripts" or use YouTube auto-captions and fix names: Reyes, Keno, Donatello, Manito).
 - End screen: last 20 seconds (16:57 onwards) is the call-to-action card — place subscribe + next-video elements there.
 - Before publishing: confirm the TMNT budget/gross figures (~$13.5M / ~$202M), and expect a possible copyright claim on the film excerpts; consider swapping a few trailer scenes for photos or your own footage if you want to avoid claims.
+
+## Extra SEO steps
+
+- Put "Ernie Reyes Jr" and "Ninja Turtles" in the first 100 characters of the description (the description above does).
+- File name before upload: `ernie-reyes-jr-ninja-turtles-surf-ninjas-the-rundown.mp4`.
+- Pin the comment, reply to the first comments within an hour, and add the video to a playlist such as "90s action stars".
+- Shorts to cut from the film (each under 60 s, link to the full video): the Surf Ninjas fall (8:10), the Rundown fight (11:56), the kidney story (13:25).
+- Thumbnail text, 3 words or fewer: "WHAT HAPPENED?" or "FORGOTTEN?".
