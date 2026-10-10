@@ -44,6 +44,12 @@ falls back to Segoe UI / Arial / DejaVu and the look changes slightly.
 
   Commons rate-limits quickly: if you get an error, wait a minute and retry. Credits: `photo-credits.md`.
 
+## Shortcut (Windows): steps 3 and 4 in one command
+
+    powershell -ExecutionPolicy Bypass -File .\production\build-full.ps1 -Clips C:\path\to\ernie-clips -Own C:\path\to\s02-and-s06-folder -Vo1 C:\path\part1.mp3 -Vo2 C:\path\part2.mp3
+
+It copies your clips into `production\media`, fetches the five photos, and runs the build.
+
 ## 4. Build
 
 Windows (PowerShell), from the repo root:
