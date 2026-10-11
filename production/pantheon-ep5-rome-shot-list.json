@@ -147,7 +147,9 @@
     "type": "ai",
     "narration": "They were not raiders. They were refugees.",
     "narration_words": 7,
-    "veo_prompt": "Close-up of a Gothic family huddled around a small fire at night, a mother holding a sleeping child, worn travel clothes, exhaustion and quiet dignity, camera holds still, firelight flickering across faces. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Close-up of a Gothic family huddled around a small fire at night, a mother holding a sleeping child, worn travel clothes, exhaustion and quiet dignity, camera holds still, firelight flickering across faces. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B016a-gothic-family-by-fire.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: close-up of a Gothic family huddled by a campfire at night in ruins, a mother in a dark red hooded cloak holding a sleeping child against her shoulder, two elder men hooded in dark cloaks beside her, exhaustion and quiet dignity, matches the B016 prompt closely."
   },
   {
     "id": "B017",
@@ -155,7 +157,9 @@
     "type": "ai",
     "narration": "Something had driven them out of their homeland on the steppes north of the Black Sea, and that something had a name Rome would come to know well: the Huns, horse-warriors out of Central Asia whose archery and mobility nothing in the Gothic world could withstand.",
     "narration_words": 46,
-    "veo_prompt": "Hunnic horse-archers riding at full gallop across open steppe grassland at dawn, composite bows drawn, dust trailing behind the horses, low camera angle tracking alongside the riders. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Hunnic horse-archers riding at full gallop across open steppe grassland at dawn, composite bows drawn, dust trailing behind the horses, low camera angle tracking alongside the riders. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B017a-hunnic-horse-archers.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: Hunnic horse-archers in fur-trimmed armor and red cloaks riding at full gallop across open steppe grassland at dawn, composite bows drawn, dust trailing, low tracking camera, matches the B017 prompt closely."
   },
   {
     "id": "B018",
@@ -173,7 +177,9 @@
     "type": "ai",
     "narration": "But the empire did it badly. Roman officials meant to feed and settle them instead cheated them, sold them dog meat at famine prices, took their children as slaves for payment.",
     "narration_words": 31,
-    "veo_prompt": "A grim riverside market scene at dusk, Roman officials weighing out meager food against desperate Gothic families offering their few possessions, tense transactional atmosphere, handheld camera moving through the crowd. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A grim riverside market scene at dusk, Roman officials weighing out meager food against desperate Gothic families offering their few possessions, tense transactional atmosphere, handheld camera moving through the crowd. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B019a-food-for-gothic-refugees.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: a grim riverside/harbor scene with a Roman official in crimson robes at a table with weighing scales, a desperate Gothic refugee handing over a bag of possessions for grain, crowd of hooded refugees waiting behind, ruined cityscape and ships beyond, matches the B019 prompt closely."
   },
   {
     "id": "B020",

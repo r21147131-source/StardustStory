@@ -1,4 +1,4 @@
-# Pantheon Ep5 — Remaining AI Clip Prompts (29 beats)
+# Pantheon Ep5 — Remaining AI Clip Prompts (26 beats)
 
 Copy-paste ready. Sourced beats excluded. Grouped by part.
 
@@ -16,21 +16,6 @@ Wide aerial-style shot of a Roman frontier wall with timber watchtowers along a 
 **[B015]** _In the year three hundred seventy-six, Roman officers on the Danube frontier watched a sight they had never seen: tens of thousands of Gothic people, whole families, wagons, elders, children, begging to be let inside the empire._
 
 Wide dusk shot of a riverbank crowded with refugee wagons, campfires, families and elders waiting at the water's edge, Roman soldiers watching from fortified towers on the far bank, mist rising off the river, camera slowly pans across the mass of people. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B016]** _They were not raiders. They were refugees._
-
-Close-up of a Gothic family huddled around a small fire at night, a mother holding a sleeping child, worn travel clothes, exhaustion and quiet dignity, camera holds still, firelight flickering across faces. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B017]** _Something had driven them out of their homeland on the steppes north of the Black Sea, and that something had a name Rome would come to know well: the Huns, horse-warriors out of Central Asia whose archery and mobility nothing in the Gothic world could withstand._
-
-Hunnic horse-archers riding at full gallop across open steppe grassland at dawn, composite bows drawn, dust trailing behind the horses, low camera angle tracking alongside the riders. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B019]** _But the empire did it badly. Roman officials meant to feed and settle them instead cheated them, sold them dog meat at famine prices, took their children as slaves for payment._
-
-A grim riverside market scene at dusk, Roman officials weighing out meager food against desperate Gothic families offering their few possessions, tense transactional atmosphere, handheld camera moving through the crowd. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 
 **[B023]** _Near the city of Adrianople, he found the Goths drawn up and waiting._
