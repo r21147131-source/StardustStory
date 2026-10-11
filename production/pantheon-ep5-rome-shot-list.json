@@ -700,6 +700,8 @@
     "type": "ai",
     "narration": "Decide for yourself, then, which is the more thorough way to disappear.",
     "narration_words": 12,
-    "veo_prompt": "A wide, slow aerial-style shot at golden-hour sunset over the overgrown ruins of the Roman Forum, broken columns and weeds reclaiming the stones, utterly silent and still, camera drifts very slowly backward and up. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A wide, slow aerial-style shot at golden-hour sunset over the overgrown ruins of the Roman Forum, broken columns and weeds reclaiming the stones, utterly silent and still, camera drifts very slowly backward and up. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B070a-forum-ruins-sunset.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: a wide golden-hour aerial shot over the overgrown ruins of the Roman Forum, broken columns and weeds reclaiming the stones, utterly silent and still, matches the B070 closing prompt closely."
   }
 ]
