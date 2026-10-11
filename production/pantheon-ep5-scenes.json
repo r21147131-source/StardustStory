@@ -23,7 +23,14 @@
     "shot": "B003",
     "type": "video",
     "source": "pantheon-ep5-clips/B003a-rides-away-to-bay-of-naples.mp4",
-    "duration": 15.48,
+    "duration": 7.74,
+    "_native": 6.042
+  },
+  {
+    "shot": "B003",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B003b-rides-away-to-bay-of-naples.mp4",
+    "duration": 7.74,
     "_native": 6.042
   },
   {
@@ -113,7 +120,14 @@
     "shot": "B017",
     "type": "video",
     "source": "pantheon-ep5-clips/B017a-hunnic-horse-archers.mp4",
-    "duration": 14.53,
+    "duration": 7.26,
+    "_native": 6.042
+  },
+  {
+    "shot": "B017",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B017b-hunnic-horse-archers.mp4",
+    "duration": 7.26,
     "_native": 6.042
   },
   {
@@ -190,7 +204,14 @@
     "shot": "B028",
     "type": "video",
     "source": "pantheon-ep5-clips/B028a-alaric-portrait-campfire.mp4",
-    "duration": 18.32,
+    "duration": 9.16,
+    "_native": 6.042
+  },
+  {
+    "shot": "B028",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B028b-alaric-portrait-campfire.mp4",
+    "duration": 9.16,
     "_native": 6.042
   },
   {
@@ -236,7 +257,14 @@
     "shot": "B035",
     "type": "video",
     "source": "pantheon-ep5-clips/B035a-alaric-river-burial.mp4",
-    "duration": 19.58,
+    "duration": 9.79,
+    "_native": 6.042
+  },
+  {
+    "shot": "B035",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B035b-alaric-river-burial.mp4",
+    "duration": 9.79,
     "_native": 6.042
   },
   {
@@ -370,7 +398,14 @@
     "shot": "B054",
     "type": "video",
     "source": "pantheon-ep5-clips/B054a-germanic-soldiers-campfire.mp4",
-    "duration": 17.06,
+    "duration": 8.53,
+    "_native": 6.042
+  },
+  {
+    "shot": "B054",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B054b-germanic-soldiers-campfire.mp4",
+    "duration": 8.53,
     "_native": 6.042
   },
   {
@@ -416,7 +451,14 @@
     "shot": "B060",
     "type": "video",
     "source": "pantheon-ep5-clips/B060a-romulus-augustulus-villa-garden.mp4",
-    "duration": 15.48,
+    "duration": 7.74,
+    "_native": 6.042
+  },
+  {
+    "shot": "B060",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B060b-romulus-augustulus-villa-garden.mp4",
+    "duration": 7.74,
     "_native": 6.042
   },
   {

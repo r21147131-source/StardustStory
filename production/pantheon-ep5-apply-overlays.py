@@ -9,9 +9,18 @@ from collections import defaultdict
 data = json.load(open("production/pantheon-ep5-overlays.json"))
 scenes = json.load(open("production/pantheon-ep5-scenes.json"))
 
+# Cards target a shot id, not a baked-in scene index: a beat's position in
+# scenes.json shifts whenever an earlier beat gains or loses scenes (e.g.
+# splicing in a second AI clip), so resolve to the shot's first scene here,
+# at apply time, instead of trusting a stale index.
+first_scene_for_shot = {}
+for i, sc in enumerate(scenes):
+    first_scene_for_shot.setdefault(sc["shot"], i)
+
 by_scene = defaultdict(list)
 for d in data:
-    by_scene[d["scene_idx"]].append(d)
+    scene_idx = first_scene_for_shot[d["shot"]]
+    by_scene[scene_idx].append(d)
 
 CARD_DIR = "output/ep5-overlays"
 SEG_DIR = "output/ep5-segments"

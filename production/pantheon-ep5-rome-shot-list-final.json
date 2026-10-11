@@ -41,7 +41,10 @@
     "narration": "He did not die. He was not even imprisoned. He was given an estate on the Bay of Naples and a yearly pension, and the empire that had ruled the Mediterranean world for five hundred years simply stopped having a man in Italy who could call himself its emperor.",
     "narration_words": 49,
     "veo_prompt": "A lone young man in plain traveling clothes rides away from a palace toward a sunlit coastal villa on the Bay of Naples, cliffs and sea beyond, wide shot, camera pulls back slowly as the figure grows small against the landscape. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "src": "pantheon-ep5-clips/B003a-rides-away-to-bay-of-naples.mp4",
+    "src": [
+      "pantheon-ep5-clips/B003a-rides-away-to-bay-of-naples.mp4",
+      "pantheon-ep5-clips/B003b-rides-away-to-bay-of-naples.mp4"
+    ],
     "src_status": "user-supplied Grok video, 6.04s - strong match: a lone rider on horseback departing a colonnaded temple/palace along a cliffside path toward a sunlit coastal villa complex on a rocky Bay of Naples-style coastline, matches the B003 prompt closely.",
     "est_dur": 19.6,
     "final_dur": 15.48
@@ -205,7 +208,10 @@
     "narration": "Something had driven them out of their homeland on the steppes north of the Black Sea, and that something had a name Rome would come to know well: the Huns, horse-warriors out of Central Asia whose archery and mobility nothing in the Gothic world could withstand.",
     "narration_words": 46,
     "veo_prompt": "Hunnic horse-archers riding at full gallop across open steppe grassland at dawn, composite bows drawn, dust trailing behind the horses, low camera angle tracking alongside the riders. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "src": "pantheon-ep5-clips/B017a-hunnic-horse-archers.mp4",
+    "src": [
+      "pantheon-ep5-clips/B017a-hunnic-horse-archers.mp4",
+      "pantheon-ep5-clips/B017b-hunnic-horse-archers.mp4"
+    ],
     "src_status": "user-supplied Grok video, 6.04s - strong match: Hunnic horse-archers in fur-trimmed armor and red cloaks riding at full gallop across open steppe grassland at dawn, composite bows drawn, dust trailing, low tracking camera, matches the B017 prompt closely.",
     "est_dur": 18.4,
     "final_dur": 14.53
@@ -342,7 +348,10 @@
     "narration": "Their leader for much of this was a man named Alaric — born on an island in the Danube delta, raised in a kingdom of Romans and Goths tangled together, a man who wanted not to destroy Rome but to be given an honored place inside it: land for his people, a Roman command worthy of his rank.",
     "narration_words": 58,
     "veo_prompt": "Portrait of Alaric, a Gothic war-leader in his thirties, weathered face, mixed Roman and Gothic armor, standing at a campfire at night looking toward a distant lit city on the horizon, contemplative, camera slowly pushes in. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "src": "pantheon-ep5-clips/B028a-alaric-portrait-campfire.mp4",
+    "src": [
+      "pantheon-ep5-clips/B028a-alaric-portrait-campfire.mp4",
+      "pantheon-ep5-clips/B028b-alaric-portrait-campfire.mp4"
+    ],
     "src_status": "user-supplied Grok video, 6.04s - strong match: portrait of a weathered Gothic war-leader in mixed Roman-Gothic armor and a red cloak, a campfire glowing beside him, looking out toward a distant lit city on the horizon at night, matches the B028 prompt closely.",
     "est_dur": 23.2,
     "final_dur": 18.32
@@ -425,7 +434,10 @@
     "narration": "Alaric did not live to see what came of it. He died of fever months later, marching south, and his men are said to have diverted a river to bury him in its bed with his treasures, then killed the enslaved laborers who had dug the grave, so that no living person could say where a conqueror of Rome lay at rest.",
     "narration_words": 62,
     "veo_prompt": "Dusk scene beside a diverted riverbed, Gothic warriors lowering a shrouded body and treasure into a dug grave in the exposed riverbed, torches on the banks above, solemn and secretive, camera holds a high wide angle looking down. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "src": "pantheon-ep5-clips/B035a-alaric-river-burial.mp4",
+    "src": [
+      "pantheon-ep5-clips/B035a-alaric-river-burial.mp4",
+      "pantheon-ep5-clips/B035b-alaric-river-burial.mp4"
+    ],
     "src_status": "user-supplied Grok video, 6.04s - strong match: a dusk scene in a diverted riverbed/crater, a circle of warriors lowering a shrouded body into a dug grave, a line of torchbearers along the rim above, solemn and secretive, matches the B035 prompt closely.",
     "est_dur": 24.8,
     "final_dur": 19.58
@@ -659,7 +671,10 @@
     "narration": "By four hundred seventy-five, the army defending Italy was itself made up mostly of soldiers from Germanic peoples — men who had fought for Rome for generations and wanted, in the end, the same thing Alaric had asked for seventy years before: land of their own, recognized and legal, inside the empire they served.",
     "narration_words": 54,
     "veo_prompt": "A Roman army camp at dusk, soldiers of clearly Germanic appearance around campfires in a mix of Roman and tribal dress, low tense conversation, camera moves slowly among the fires. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "src": "pantheon-ep5-clips/B054a-germanic-soldiers-campfire.mp4",
+    "src": [
+      "pantheon-ep5-clips/B054a-germanic-soldiers-campfire.mp4",
+      "pantheon-ep5-clips/B054b-germanic-soldiers-campfire.mp4"
+    ],
     "src_status": "user-supplied Grok video, 6.04s - strong match: Germanic-looking soldiers in a mix of Roman and tribal dress gathered around a campfire at dusk, a Roman eagle standard planted nearby, ruined colonnade in the background, low tense conversation, matches the B054 prompt closely.",
     "est_dur": 21.6,
     "final_dur": 17.06
@@ -738,7 +753,10 @@
     "narration": "Romulus Augustulus lived on for decades in his villa on the coast, the last of his name, a pensioner of the kingdom that had replaced him, dying of old age in a world where Rome still stood, and no one who called himself its emperor lived in it anymore.",
     "narration_words": 49,
     "veo_prompt": "An older man in plain clothing walking alone through a sunlit coastal garden overlooking the Bay of Naples, peaceful and unremarkable, camera pulls back slowly to a wide, quiet, elegiac shot of the villa and sea. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
-    "src": "pantheon-ep5-clips/B060a-romulus-augustulus-villa-garden.mp4",
+    "src": [
+      "pantheon-ep5-clips/B060a-romulus-augustulus-villa-garden.mp4",
+      "pantheon-ep5-clips/B060b-romulus-augustulus-villa-garden.mp4"
+    ],
     "src_status": "user-supplied Grok video, 6.04s - strong match: an older man in plain robes walking alone away down a path through a sunlit coastal garden overlooking the sea, a villa and cypress trees around him, peaceful and elegiac, matches the B060 prompt closely.",
     "est_dur": 19.6,
     "final_dur": 15.48
