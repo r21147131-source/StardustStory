@@ -3,7 +3,7 @@
 
 **Stats:** 70 beats | 16 archival | 34 Veo beats | 37 Veo clips | 20 motion graphic beats | est. 14.1 min runtime
 
-Companion to `pantheon-ep5-rome-script.md` and `pantheon-ep5-rome-shot-list.json`. No assets have been sourced yet — this is the pre-sourcing shot list and prompt reference, same stage Episode 4's `pantheon-ep4-shot-list.json` was at before archival/AI-clip matching.
+Companion to `pantheon-ep5-rome-script.md` and `pantheon-ep5-rome-shot-list.json`. All 16 archival beats are sourced (see `public/pantheon-ep5-archival/`); AI-clip and motion-graphic sourcing is still in progress.
 
 ---
 
@@ -169,65 +169,97 @@ A wide, slow aerial-style shot at golden-hour sunset over the overgrown ruins of
 
 Source: coin or portrait bust of Romulus Augustulus, last Western Roman emperor (r. 475-476 CE). Commons search: https://commons.wikimedia.org/w/index.php?search=Romulus+Augustulus&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Romulus_Augustulus. Licence: CHECK photo of a coin/3D object; confirm photographer licence on file page.
 
+**Sourced:** `pantheon-ep5-archival/B002a-romulus-augustulus-solidus.jpg` — Wikimedia Commons, 'Gold Solidus of Romulus Augustulus.jpg' - gold solidus coin of the last Western Roman emperor, clear obverse portrait.
+
 **[B004]** No battle marked the day. No great fire. Most people in the city of Rome did not learn of it for weeks.
 
 Source: Roman Forum ruins, quiet/empty composition. Commons search: https://commons.wikimedia.org/w/index.php?search=Roman+Forum+ruins&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Roman_Forum. Licence: modern photograph, confirm photographer licence (CC-BY/CC-BY-SA) on file page.
+
+**Sourced:** `pantheon-ep5-archival/B004a-roman-forum.jpg` — Wikimedia Commons, 'Foro Romano Musei Capitolini Roma.jpg' - modern panoramic photo of the Roman Forum ruins, quiet/empty composition.
 
 **[B005]** I was there for the beginning of that empire. I watched it swallow Gaul, and Egypt, and the kingdom of Kush's own neighbors on the Nile, and I watched a queen with one eye force a Roman emperor to the bargaining table and walk away with her freedom.
 
 Callback asset to Episode 4: the bronze head of Augustus looted by Amanirenas's forces and buried under temple steps at Meroe (British Museum, 1911,0901.1). Reuse same source image used for EP4-B093/B096 if available in public/pantheon-ep4-archival/, else: Commons search: https://commons.wikimedia.org/w/index.php?search=Meroe+Head+Augustus&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Meroe_Head. Licence: museum photo, confirm licence on file page.
 
+**Sourced:** `pantheon-ep5-archival/B005a-meroe-head-augustus-ep4-callback.jpg` — Reused from Episode 4 (public/pantheon-ep4-archival/B096a-bronze-head-augustus-meroe.jpg) - the bronze head of Augustus looted by Amanirenas's forces, buried under temple steps at Meroe (British Museum, 1911,0901.1). Intentional callback.
+
 **[B010]** The historians of the day called it the Roman Peace, and for a long while, it deserved the name.
 
 Source: Roman milestone or paved Roman road (via), e.g. Via Appia. Commons search: https://commons.wikimedia.org/w/index.php?search=Via+Appia+Roman+road&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Pax_Romana. Licence: modern photograph, confirm on file page.
+
+**Sourced:** `pantheon-ep5-archival/B010a-via-appia.jpg` — Wikimedia Commons, "Paesaggio dell'Appia antica.jpg" - golden-hour photo of the actual paved Via Appia.
 
 **[B012]** Through the third century after the common era, the cracks showed first. Plague emptied cities. Soldiers made and unmade emperors faster than coins could be struck with their faces. For a few decades, there were years when Rome had a new ruler almost every season.
 
 Source: montage-suitable Roman coin portraits of short-reigned 3rd-century 'Crisis' emperors (e.g. Aemilian, Balbinus, Pupienus). Commons search: https://commons.wikimedia.org/w/index.php?search=Crisis+of+the+Third+Century+coins&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century. Licence: numismatic photos, confirm per-file licence.
 
+**Sourced:** `pantheon-ep5-archival/B012a-aemilian-coin.jpg` — Wikimedia Commons, 'Aemilianus RIC IV 20 (obverse).jpg' - silver antoninianus of Aemilian, one of the short-reigned 3rd-century 'Crisis' emperors.
+
 **[B018]** Rome said yes. Let them cross. It was, on its own terms, not an unreasonable decision — Gothic warriors could fill the legions, Gothic farmers could work empty land.
 
 Source: reconstructed/archaeological photo of a Roman Danube frontier fort (limes), e.g. Carnuntum. Commons search: https://commons.wikimedia.org/w/index.php?search=Roman+Danube+limes+fort&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Danube%E2%80%93Iller%E2%80%93Rhine_Limes. Licence: modern photo, confirm on file page.
+
+**Sourced:** `pantheon-ep5-archival/B018a-carnuntum-heidentor.jpg` — Wikimedia Commons, 'Heidentor (3413019236).jpg' - surviving Roman triumphal arch ruin at Carnuntum, a Danube frontier site.
 
 **[B022]** The Roman emperor Valens marched out from Constantinople to put them down before his nephew's reinforcements could arrive and share the glory.
 
 Source: coin or portrait bust of Emperor Valens (r. 364-378 CE). Commons search: https://commons.wikimedia.org/w/index.php?search=Emperor+Valens&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Valens. Licence: numismatic/museum photo, confirm on file page.
 
+**Sourced:** `pantheon-ep5-archival/B022a-valens-coin.png` — Wikimedia Commons, gold solidus of Emperor Valens (r. 364-378 CE), transparent background.
+
 **[B026]** A Roman historian who wrote of that day called it the worst defeat since Hannibal. He understated it.
 
 Source: medieval or early-modern manuscript illumination depicting the Battle of Adrianople (378), or a page from Ammianus Marcellinus manuscript tradition. Commons search: https://commons.wikimedia.org/w/index.php?search=Battle+of+Adrianople+378+illustration&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Battle_of_Adrianople. Licence: PD-old reproduction of historical artwork, confirm on file page.
+
+**Sourced:** `pantheon-ep5-archival/B026a-adrianople-valens.jpg` — Wikimedia Commons, 'Death of Emperor Valens during the battle of Adrianople, 378.jpg' - 19th-c. German engraving (c.1872, from 'Allgemeine Weltgeschichte').
 
 **[B033]** What followed was three days of looting, not the annihilation later legend made of it — Alaric's own men were Christian, as was most of the city, and churches were spared by his order — but the shock was not in the violence. It was in the fact of it happening at all.
 
 Source: 19th-century history painting of the Sack of Rome, 410 CE (several exist, e.g. by J-N. Sylvestre or similar). Commons search: https://commons.wikimedia.org/w/index.php?search=Sack+of+Rome+410+painting&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Sack_of_Rome_(410). Licence: PD-old painting reproduction, confirm on file page.
 
+**Sourced:** `pantheon-ep5-archival/B033a-sack-of-rome-manuscript.jpg` — Wikimedia Commons, 'Sack of Rome by Alaric - sacred vessels are brought to a church for safety (2nd of 2).jpg' - 15th-c. illuminated manuscript by Maitre Francois, c.1475, from Augustine's 'La Cite de Dieu'. Depicts churches being spared, matching the narration's emphasis exactly; chosen over a more explicit 19th-c. academic nude painting of the same event for tone.
+
 **[B034]** A scholar far away in the Holy Land, hearing the news, wrote that his voice failed him and sobs cut short his words: the city that had taken the whole world captive was itself taken.
 
 Source: portrait of St. Jerome (in Bethlehem at the time of the sack; this is his documented reaction, Letter 127). Commons search: https://commons.wikimedia.org/w/index.php?search=Saint+Jerome+portrait&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Jerome. Licence: PD-old master painting reproduction, confirm on file page.
+
+**Sourced:** `pantheon-ep5-archival/B034a-st-jerome-ghirlandaio.jpg` — Wikimedia Commons, Domenico Ghirlandaio, 'San Girolamo' (1480 fresco, Ognissanti, Florence) - Saint Jerome at his writing desk.
 
 **[B037]** By the fourteen-forties, a Hunnic king named Attila ruled an empire of his own stretching from the Rhine to the steppes of Central Asia, and both Roman empires paid him tribute in gold simply to keep him from marching.
 
 Source: historical artwork depicting Attila the Hun (no contemporary portrait survives; use a well-documented later depiction, e.g. Eugene Delacroix's 'Attila' ceiling mural at the Palais Bourbon, or a Renaissance/medieval manuscript image). Commons search: https://commons.wikimedia.org/w/index.php?search=Attila+the+Hun+painting&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Attila. Licence: PD-old artwork reproduction, confirm on file page.
 
+**Sourced:** `pantheon-ep5-archival/B037a-attila-engraving.jpg` — Wikimedia Commons, 'Attila Hunnorum Rex Flagellum Dei Aquilejae Eversor Utini Instaurator.jpg' - 17th-c. engraving by Julio Strozza, a classic imagined portrait (no contemporary likeness survives).
+
 **[B042]** Attila was checked, not destroyed. He withdrew — and the following year invaded Italy instead, burning cities, until, by tradition, a meeting with the bishop of Rome persuaded him to turn back, his army already weakened by hunger and disease.
 
 Source: Raphael's fresco 'The Meeting of Leo the Great and Attila' (Vatican, Stanza di Eliodoro), a famous and well-documented depiction of this exact meeting. Commons search: https://commons.wikimedia.org/w/index.php?search=Raphael+Leo+Attila&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/The_Meeting_of_Leo_the_Great_and_Attila. Licence: PD-old master artwork, confirm on file page.
+
+**Sourced:** `pantheon-ep5-archival/B042a-raphael-leo-attila.jpg` — Wikimedia Commons, 'Leoattila-Raphael.jpg' - Raphael's 1514 fresco 'The Meeting of Leo the Great and Attila', Stanza di Eliodoro, Vatican.
 
 **[B048]** Rome's new bishop, Leo, rode out to meet him as he once had met Attila, and won one concession: no massacre, no burning.
 
 Source: artwork or icon depicting Pope Leo I (same figure as the Attila meeting, B042 — reuse that source image or a companion depiction). Commons search: https://commons.wikimedia.org/w/index.php?search=Pope+Leo+I&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Pope_Leo_I. Licence: PD-old artwork/icon reproduction, confirm on file page.
 
+**Sourced:** `pantheon-ep5-archival/B048a-pope-leo-i-portrait.png` — Wikimedia Commons, Herrera the Younger, 'San Leon Magno' (17th-c. oval portrait, Museo del Prado) - standalone portrait of Pope Leo I, visually distinct from the B042 Raphael fresco despite depicting the same figure.
+
 **[B057]** Odoacer did not crown himself emperor of the west. He did something stranger. He sent the imperial regalia east, to Constantinople, with a message: the west no longer needed an emperor of its own. One Roman emperor, ruling from the east, was enough.
 
 Source: surviving Late Roman imperial regalia / insignia artifacts (diadem, orb, or similar), or depiction of Constantinople's Great Palace. Commons search: https://commons.wikimedia.org/w/index.php?search=Late+Roman+imperial+regalia&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Odoacer. Licence: museum artifact photo, confirm per-file licence.
+
+**Sourced:** `pantheon-ep5-archival/B057a-missorium-theodosius-regalia.jpg` — Wikimedia Commons, 'Disco de Teodosio.jpg' - photo of a replica of the Missorium of Theodosius I (388 CE silver ceremonial dish, Museo Nacional de Arte Romano, Merida), showing the enthroned emperor in full imperial regalia.
 
 **[B062]** The eastern half of the empire did not fall in four hundred seventy-six. It called itself Rome for another thousand years, until a different army took Constantinople in fourteen fifty-three — and some of its own people, to the end, never stopped calling themselves Romans.
 
 Source: Hagia Sophia, Constantinople/Istanbul — the great Byzantine (Eastern Roman) cathedral. Commons search: https://commons.wikimedia.org/w/index.php?search=Hagia+Sophia&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Hagia_Sophia. Licence: modern photograph, confirm on file page.
 
+**Sourced:** `pantheon-ep5-archival/B062a-hagia-sophia.jpg` — Wikimedia Commons, modern exterior photograph of the Hagia Sophia, Istanbul - the great Byzantine (Eastern Roman) cathedral.
+
 **[B068]** I have watched kingdoms erase their predecessors with a chisel, cutting a name from stone so thoroughly that only the holes remembered the king had been there.
 
 Callback asset to Episode 4: an erased/chiseled-out royal cartouche on Egyptian stone (same visual motif as EP4-B004/B083, the Kushite king names cut from temple walls). Reuse source image from public/pantheon-ep4-archival/ if suitable, else: Commons search: https://commons.wikimedia.org/w/index.php?search=erased+cartouche+damnatio+memoriae&ns6=1 | Wikipedia: https://en.wikipedia.org/wiki/Damnatio_memoriae. Licence: confirm per-file licence on Commons.
+
+**Sourced:** `pantheon-ep5-archival/B068a-erased-relief-ep4-callback.jpg` — Reused from Episode 4 (public/pantheon-ep4-archival/B082a-hatshepsut-erased-cartouche-substitute.jpg) - a relief with a cartouche gouged out, hole in the shape of the erased king. Intentional callback to Episode 4's damnatio memoriae motif.
 
 ---
 
