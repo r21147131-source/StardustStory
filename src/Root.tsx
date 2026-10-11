@@ -43,6 +43,26 @@ import { EP4_B093_RomeKushTerms } from "./graphics/EP4_B093_RomeKushTerms";
 import { EP4_B102_KingListScroll } from "./graphics/EP4_B102_KingListScroll";
 import { EP4_B106_MeroiticScript } from "./graphics/EP4_B106_MeroiticScript";
 import { Ep4NameCard } from "./graphics/Ep4NameCard";
+import { EP5_B006_TitleCard } from "./graphics/EP5_B006_TitleCard";
+import { EP5_B009_MapRoadsRule } from "./graphics/EP5_B009_MapRoadsRule";
+import { EP5_B013_MapEmpireSplits } from "./graphics/EP5_B013_MapEmpireSplits";
+import { EP5_B014_MapEmpireSplitsLabels } from "./graphics/EP5_B014_MapEmpireSplitsLabels";
+import { EP5_B020_MapCrossingRiver } from "./graphics/EP5_B020_MapCrossingRiver";
+import { EP5_B021_MapArmyMasses } from "./graphics/EP5_B021_MapArmyMasses";
+import { EP5_B025_TollOfAdrianople } from "./graphics/EP5_B025_TollOfAdrianople";
+import { EP5_B027_MapThreeMarches } from "./graphics/EP5_B027_MapThreeMarches";
+import { EP5_B030_MapFourthMarch } from "./graphics/EP5_B030_MapFourthMarch";
+import { EP5_B045_HandCutOff } from "./graphics/EP5_B045_HandCutOff";
+import { EP5_B050_Vandalism } from "./graphics/EP5_B050_Vandalism";
+import { EP5_B052_NineEmperors } from "./graphics/EP5_B052_NineEmperors";
+import { EP5_B058_Map476Regalia } from "./graphics/EP5_B058_Map476Regalia";
+import { EP5_B059_Date476Card } from "./graphics/EP5_B059_Date476Card";
+import { EP5_B061_EndingContinues } from "./graphics/EP5_B061_EndingContinues";
+import { EP5_B063_MapSuccessorKingdoms } from "./graphics/EP5_B063_MapSuccessorKingdoms";
+import { EP5_B065_CrownShatters } from "./graphics/EP5_B065_CrownShatters";
+import { EP5_B066_CaesarShadow } from "./graphics/EP5_B066_CaesarShadow";
+import { EP5_B067_CaesarCaption } from "./graphics/EP5_B067_CaesarCaption";
+import { EP5_B069_ClosingThesis } from "./graphics/EP5_B069_ClosingThesis";
 
 // Duration in frames = ceil(final_dur_seconds * 30), taken from
 // production/pantheon-ep1-shot-list-final.json (voiceover-reconciled timing).
@@ -97,6 +117,31 @@ const COMPOSITIONS: { id: string; component: React.FC; durationInFrames: number 
   { id: "EP4-B093-RomeKushTerms", component: EP4_B093_RomeKushTerms, durationInFrames: 350 },
   { id: "EP4-B102-KingListScroll", component: EP4_B102_KingListScroll, durationInFrames: 210 },
   { id: "EP4-B106-MeroiticScript", component: EP4_B106_MeroiticScript, durationInFrames: 338 },
+
+  // Pantheon Ep.5 — The Last Roman. Frames are voiceover-reconciled (real VO
+  // 666.12s, scale 0.78962x applied to narration_words/150wpm estimates) —
+  // see production/pantheon-ep5-rome-shot-list-final.json and
+  // pantheon-ep5-allocate.py.
+  { id: "EP5-B006-TitleCard", component: EP5_B006_TitleCard, durationInFrames: 190 },
+  { id: "EP5-B009-MapRoadsRule", component: EP5_B009_MapRoadsRule, durationInFrames: 256 },
+  { id: "EP5-B013-MapEmpireSplits", component: EP5_B013_MapEmpireSplits, durationInFrames: 351 },
+  { id: "EP5-B014-MapEmpireSplitsLabels", component: EP5_B014_MapEmpireSplitsLabels, durationInFrames: 142 },
+  { id: "EP5-B020-MapCrossingRiver", component: EP5_B020_MapCrossingRiver, durationInFrames: 171 },
+  { id: "EP5-B021-MapArmyMasses", component: EP5_B021_MapArmyMasses, durationInFrames: 171 },
+  { id: "EP5-B025-TollOfAdrianople", component: EP5_B025_TollOfAdrianople, durationInFrames: 123 },
+  { id: "EP5-B027-MapThreeMarches", component: EP5_B027_MapThreeMarches, durationInFrames: 388 },
+  { id: "EP5-B030-MapFourthMarch", component: EP5_B030_MapFourthMarch, durationInFrames: 114 },
+  { id: "EP5-B045-HandCutOff", component: EP5_B045_HandCutOff, durationInFrames: 313 },
+  { id: "EP5-B050-Vandalism", component: EP5_B050_Vandalism, durationInFrames: 379 },
+  { id: "EP5-B052-NineEmperors", component: EP5_B052_NineEmperors, durationInFrames: 275 },
+  { id: "EP5-B058-Map476Regalia", component: EP5_B058_Map476Regalia, durationInFrames: 171 },
+  { id: "EP5-B059-Date476Card", component: EP5_B059_Date476Card, durationInFrames: 180 },
+  { id: "EP5-B061-EndingContinues", component: EP5_B061_EndingContinues, durationInFrames: 171 },
+  { id: "EP5-B063-MapSuccessorKingdoms", component: EP5_B063_MapSuccessorKingdoms, durationInFrames: 417 },
+  { id: "EP5-B065-CrownShatters", component: EP5_B065_CrownShatters, durationInFrames: 265 },
+  { id: "EP5-B066-CaesarShadow", component: EP5_B066_CaesarShadow, durationInFrames: 351 },
+  { id: "EP5-B067-CaesarCaption", component: EP5_B067_CaesarCaption, durationInFrames: 123 },
+  { id: "EP5-B069-ClosingThesis", component: EP5_B069_ClosingThesis, durationInFrames: 208 },
 ];
 
 export const RemotionRoot: React.FC = () => {
