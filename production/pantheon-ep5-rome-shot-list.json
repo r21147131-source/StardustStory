@@ -351,7 +351,9 @@
     "type": "ai",
     "narration": "The same pressure that had pushed the Goths across the Danube a lifetime earlier eventually arrived in person.",
     "narration_words": 18,
-    "veo_prompt": "A vast Hunnic encampment at dusk on the steppe, thousands of campfires stretching to the horizon, horses and gers, camera rises slowly to reveal the scale of the camp. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A vast Hunnic encampment at dusk on the steppe, thousands of campfires stretching to the horizon, horses and gers, camera rises slowly to reveal the scale of the camp. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B036a-hunnic-steppe-encampment.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: a vast Hunnic encampment at dusk/night on the steppe, thousands of campfires and gers stretching to the horizon, horses in the foreground, camera reveals the scale of the camp, matches the B036 prompt closely."
   },
   {
     "id": "B037",
@@ -369,7 +371,9 @@
     "type": "ai",
     "narration": "When he marched anyway, in four hundred fifty-one, he came west into Gaul — and there, Rome found one general still capable of meeting him.",
     "narration_words": 25,
-    "veo_prompt": "A massive Hunnic horde riding west across a Gaulish landscape, forests and farmland giving way beneath dust clouds, wide aerial-style tracking shot following the column's advance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A massive Hunnic horde riding west across a Gaulish landscape, forests and farmland giving way beneath dust clouds, wide aerial-style tracking shot following the column's advance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B038a-hunnic-horde-riding-west.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: a massive mounted Hunnic horde riding west along a dusty road through a Gaulish/Roman landscape, a ruined classical temple visible on the hillside, wide aerial-style tracking shot, matches the B038 prompt closely."
   },
   {
     "id": "B039",
@@ -377,7 +381,9 @@
     "type": "ai",
     "narration": "Flavius Aetius had spent his youth as a hostage among the Huns himself; he knew their tactics, and in some years he had even been their ally against Rome's other enemies.",
     "narration_words": 31,
-    "veo_prompt": "Portrait of Flavius Aetius, a Roman general in his fifties, scarred and weathered, wearing mixed Roman-Hunnic riding gear, standing at a war table lit by a single lamp, studying a map, camera slowly circles. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Portrait of Flavius Aetius, a Roman general in his fifties, scarred and weathered, wearing mixed Roman-Hunnic riding gear, standing at a war table lit by a single lamp, studying a map, camera slowly circles. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B039a-aetius-portrait-map.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: portrait of a scarred, weathered Roman general in ornate armor and a red cloak, standing at a lamplit table studying a map with scattered markers, matches the B039 Flavius Aetius prompt closely."
   },
   {
     "id": "B040",
@@ -385,7 +391,9 @@
     "type": "ai",
     "narration": "Now he built the only kind of army the dying western empire could still raise: Romans, yes, but beside them Visigoths, Franks, and other peoples the empire had once called barbarians, fighting under Roman command because Attila threatened them all alike.",
     "narration_words": 41,
-    "veo_prompt": "A dawn camp scene, Roman legionary standards planted beside Visigothic and Frankish war-banners, warriors of visibly different peoples arming together in silence, camera glides past the mixed ranks. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A dawn camp scene, Roman legionary standards planted beside Visigothic and Frankish war-banners, warriors of visibly different peoples arming together in silence, camera glides past the mixed ranks. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B040a-mixed-roman-barbarian-army.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: warriors arming together under a mix of standards - a Roman eagle standard, a crimson lion banner, and a tattered gold barbarian banner - visibly different peoples united in one camp, matches the B040 prompt closely."
   },
   {
     "id": "B041",
@@ -393,7 +401,9 @@
     "type": "ai",
     "narration": "On the Catalaunian Plains, that patchwork army met Attila's horde in what ancient writers called one of the bloodiest single-day battles the world had seen.",
     "narration_words": 25,
-    "veo_prompt": "Epic wide shot of two massive armies colliding on an open plain, dust and smoke rising, countless banners and spears, the scale overwhelming, camera pulls back and up to a God's-eye view of the chaos. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "Epic wide shot of two massive armies colliding on an open plain, dust and smoke rising, countless banners and spears, the scale overwhelming, camera pulls back and up to a God's-eye view of the chaos. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B041a-catalaunian-plains-collision.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: epic aerial/God's-eye wide shot of two massive armies colliding on an open plain, dust and smoke billowing at the point of impact, countless banners and spears visible on both sides, matches the B041 Catalaunian Plains prompt closely."
   },
   {
     "id": "B042",

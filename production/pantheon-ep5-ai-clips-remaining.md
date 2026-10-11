@@ -1,4 +1,4 @@
-# Pantheon Ep5 — Remaining AI Clip Prompts (20 beats)
+# Pantheon Ep5 — Remaining AI Clip Prompts (15 beats)
 
 Copy-paste ready. Sourced beats excluded. Grouped by part.
 
@@ -19,31 +19,6 @@ Wide shot of Gothic warriors pouring through an open city gate at night by torch
 
 
 ## 5. The Scourge and the General
-
-**[B036]** _The same pressure that had pushed the Goths across the Danube a lifetime earlier eventually arrived in person._
-
-A vast Hunnic encampment at dusk on the steppe, thousands of campfires stretching to the horizon, horses and gers, camera rises slowly to reveal the scale of the camp. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B038]** _When he marched anyway, in four hundred fifty-one, he came west into Gaul — and there, Rome found one general still capable of meeting him._
-
-A massive Hunnic horde riding west across a Gaulish landscape, forests and farmland giving way beneath dust clouds, wide aerial-style tracking shot following the column's advance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B039]** _Flavius Aetius had spent his youth as a hostage among the Huns himself; he knew their tactics, and in some years he had even been their ally against Rome's other enemies._
-
-Portrait of Flavius Aetius, a Roman general in his fifties, scarred and weathered, wearing mixed Roman-Hunnic riding gear, standing at a war table lit by a single lamp, studying a map, camera slowly circles. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B040]** _Now he built the only kind of army the dying western empire could still raise: Romans, yes, but beside them Visigoths, Franks, and other peoples the empire had once called barbarians, fighting under Roman command because Attila threatened them all alike._
-
-A dawn camp scene, Roman legionary standards planted beside Visigothic and Frankish war-banners, warriors of visibly different peoples arming together in silence, camera glides past the mixed ranks. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B041]** _On the Catalaunian Plains, that patchwork army met Attila's horde in what ancient writers called one of the bloodiest single-day battles the world had seen._
-
-Epic wide shot of two massive armies colliding on an open plain, dust and smoke rising, countless banners and spears, the scale overwhelming, camera pulls back and up to a God's-eye view of the chaos. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 
 **[B043]** _Attila died not long after, on his own wedding night, by a burst blood vessel, not a Roman sword._
 
