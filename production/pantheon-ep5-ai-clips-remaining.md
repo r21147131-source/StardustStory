@@ -1,32 +1,8 @@
-# Pantheon Ep5 — Remaining AI Clip Prompts (10 beats)
+# Pantheon Ep5 — Remaining AI Clip Prompts (6 beats)
 
 Copy-paste ready. Sourced beats excluded. Grouped by part.
 
 ---
-
-## 6. Fourteen Days
-
-**[B047]** _In four hundred fifty-five, a Vandal king named Gaiseric sailed from North Africa — a kingdom the Vandals had carved for themselves a generation earlier — and landed at the mouth of the Tiber._
-
-A fleet of Vandal ships approaching the Italian coastline at dawn, sails catching early light, the mouth of a river visible ahead, warriors visible on deck, camera glides low over the water alongside the lead ship. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B049]** _What Gaiseric's men took instead, over fourteen methodical days, was everything that could be carried — gold, silver, half the gilded bronze roof tiles of the Temple of Jupiter, imperial treasures, the emperor's own widow and daughters, taken as captives to Carthage._
-
-*B049A:* Vandal soldiers systematically stripping gilded bronze tiles from a temple roof in daylight, carts loaded with gold and silver vessels passing below, methodical rather than chaotic, camera tracks along the looting procession. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-*B049B:* A somber procession of captive imperial women being led down to waiting ships at the harbor, guarded by Vandal warriors, late afternoon light, camera holds a wide static shot as they board. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B051]** _After Gaiseric sailed home, the western throne became a title more than a power._
-
-An empty imperial throne room in late-afternoon light, dust motes drifting, the throne itself untouched but the hall otherwise bare and silent, camera slowly pushes in toward the empty seat. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B053]** _The empire of the west had not been conquered in one great battle. It had been cashed out, piece by piece, by men who found it was worth more as plunder and pension than as a government worth saving._
-
-A toppled and partially gilded Roman statue lying in weeds beside a crumbling colonnade, late golden light, no people, camera holds a slow static wide shot, melancholy and still. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 
 ## 7. The Boy Who Did Not Fight Back
 
