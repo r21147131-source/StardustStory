@@ -648,6 +648,8 @@
     "narration": "By four hundred seventy-five, the army defending Italy was itself made up mostly of soldiers from Germanic peoples — men who had fought for Rome for generations and wanted, in the end, the same thing Alaric had asked for seventy years before: land of their own, recognized and legal, inside the empire they served.",
     "narration_words": 54,
     "veo_prompt": "A Roman army camp at dusk, soldiers of clearly Germanic appearance around campfires in a mix of Roman and tribal dress, low tense conversation, camera moves slowly among the fires. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B054a-germanic-soldiers-campfire.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: Germanic-looking soldiers in a mix of Roman and tribal dress gathered around a campfire at dusk, a Roman eagle standard planted nearby, ruined colonnade in the background, low tense conversation, matches the B054 prompt closely.",
     "est_dur": 21.6,
     "final_dur": 17.06
   },
@@ -658,6 +660,8 @@
     "narration": "Rome's last functioning general refused them.",
     "narration_words": 6,
     "veo_prompt": "A Roman general in his command tent by lamplight, reading a petition and setting it down with a hard, final expression, a messenger waiting nervously nearby, camera close on the general's face. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B055a-general-reads-petition.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: a Roman general in ornate armor reading a document by lamplight inside his command tent, a junior officer watching nearby, hard and final expression, matches the B055 prompt closely.",
     "est_dur": 2.4,
     "final_dur": 1.9
   },
@@ -670,6 +674,14 @@
     "veo_prompt": [
       "A torchlit night ceremony, a weathered commander lifted aloft on a war-shield by cheering soldiers in a crowded camp, chaotic energy and firelight, camera low and handheld amid the crowd. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
       "A dim palace corridor at dawn, the deposed general's body being carried away by soldiers while a frightened teenage boy in imperial robes watches from a doorway, somber and quiet. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    ],
+    "src": [
+      "pantheon-ep5-clips/B056a-odoacer-raised-on-shield.mp4",
+      "pantheon-ep5-clips/B056b-body-carried-boy-watches.mp4"
+    ],
+    "src_status": [
+      "user-supplied Grok video, 6.04s - strong match: a weathered commander raised aloft on a war-shield by a crowd of cheering torch-bearing soldiers at night, chaotic energy, matches the B056A Odoacer prompt closely.",
+      "user-supplied Grok video, 6.04s - strong match: a dim marble palace corridor at dawn, soldiers carrying away a body while a frightened teenage boy in imperial robes watches from a doorway, somber and quiet, matches the B056B prompt closely."
     ],
     "est_dur": 22.0,
     "final_dur": 17.37
@@ -715,6 +727,8 @@
     "narration": "Romulus Augustulus lived on for decades in his villa on the coast, the last of his name, a pensioner of the kingdom that had replaced him, dying of old age in a world where Rome still stood, and no one who called himself its emperor lived in it anymore.",
     "narration_words": 49,
     "veo_prompt": "An older man in plain clothing walking alone through a sunlit coastal garden overlooking the Bay of Naples, peaceful and unremarkable, camera pulls back slowly to a wide, quiet, elegiac shot of the villa and sea. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B060a-romulus-augustulus-villa-garden.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: an older man in plain robes walking alone away down a path through a sunlit coastal garden overlooking the sea, a villa and cypress trees around him, peaceful and elegiac, matches the B060 prompt closely.",
     "est_dur": 19.6,
     "final_dur": 15.48
   },
