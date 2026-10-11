@@ -25,3 +25,13 @@ separately, then stitched into one final file.
 - `production/compose-segments.json` — the shot list split into 3
   sub-240s segments for `vidiq_compose`.
 - `public/voiceover.m4a` — the user-provided voiceover recording.
+
+## TMDB
+
+TMDB data is available two ways. Both read the token from the
+`TMDB_ACCESS_TOKEN` environment variable (copy `.env.example`; never commit
+the real token):
+
+- `.mcp.json` registers the `tmdb` MCP server for Claude Code.
+- `node scripts/tmdb.mjs search "Timberland"` / `node scripts/tmdb.mjs get /movie/603`
+  for direct API calls.

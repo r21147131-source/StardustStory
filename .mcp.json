@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tmdb": {
+      "command": "npx",
+      "args": ["-y", "tmdb-mcp-server"],
+      "env": {
+        "TMDB_ACCESS_TOKEN": "${TMDB_ACCESS_TOKEN}"
+      }
+    }
+  }
+}
