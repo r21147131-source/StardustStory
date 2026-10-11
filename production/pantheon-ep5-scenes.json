@@ -1,0 +1,701 @@
+[
+  {
+    "shot": "B000",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B000a-colosseum-forum-aerial.mp4",
+    "duration": 3.0,
+    "_native": 10.042
+  },
+  {
+    "shot": "B001",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B001a-officer-tells-boy-emperor.mp4",
+    "duration": 5.84,
+    "_native": 6.042
+  },
+  {
+    "shot": "B001",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B001a-officer-tells-boy-emperor.mp4",
+    "duration": 5.84,
+    "_native": 6.042
+  },
+  {
+    "shot": "B002",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B002a-romulus-augustulus-solidus.jpg",
+    "duration": 5.05
+  },
+  {
+    "shot": "B003",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B003a-rides-away-to-bay-of-naples.mp4",
+    "duration": 5.16,
+    "_native": 6.042
+  },
+  {
+    "shot": "B003",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B003a-rides-away-to-bay-of-naples.mp4",
+    "duration": 5.16,
+    "_native": 6.042
+  },
+  {
+    "shot": "B003",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B003a-rides-away-to-bay-of-naples.mp4",
+    "duration": 5.16,
+    "_native": 6.042
+  },
+  {
+    "shot": "B004",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B004a-roman-forum.jpg",
+    "duration": 6.95
+  },
+  {
+    "shot": "B005",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B005a-meroe-head-augustus-ep4-callback.jpg",
+    "duration": 15.16
+  },
+  {
+    "shot": "B006",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B006-TitleCard.mp4",
+    "duration": 6.32
+  },
+  {
+    "shot": "B007",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B007a-hourglass-gold-sand.mp4",
+    "duration": 3.16,
+    "_native": 6.042
+  },
+  {
+    "shot": "B008",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B008a-roman-forum-market.mp4",
+    "duration": 5.05,
+    "_native": 6.042
+  },
+  {
+    "shot": "B009",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B009-MapRoadsRule.mp4",
+    "duration": 8.53
+  },
+  {
+    "shot": "B010",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B010a-via-appia.jpg",
+    "duration": 6.0
+  },
+  {
+    "shot": "B011",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B011a-danube-frontier-wall.mp4",
+    "duration": 3.79,
+    "_native": 6.042
+  },
+  {
+    "shot": "B011",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B011a-danube-frontier-wall.mp4",
+    "duration": 3.79,
+    "_native": 6.042
+  },
+  {
+    "shot": "B012",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B012a-aemilian-coin.jpg",
+    "duration": 14.21
+  },
+  {
+    "shot": "B013",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B013-MapEmpireSplits.mp4",
+    "duration": 11.69
+  },
+  {
+    "shot": "B014",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B014-MapEmpireSplitsLabels.mp4",
+    "duration": 4.74
+  },
+  {
+    "shot": "B015",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B015a-refugee-camp-riverbank.mp4",
+    "duration": 5.84,
+    "_native": 6.042
+  },
+  {
+    "shot": "B015",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B015a-refugee-camp-riverbank.mp4",
+    "duration": 5.84,
+    "_native": 6.042
+  },
+  {
+    "shot": "B016",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B016a-gothic-family-by-fire.mp4",
+    "duration": 2.21,
+    "_native": 6.042
+  },
+  {
+    "shot": "B017",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B017a-hunnic-horse-archers.mp4",
+    "duration": 4.84,
+    "_native": 6.042
+  },
+  {
+    "shot": "B017",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B017a-hunnic-horse-archers.mp4",
+    "duration": 4.84,
+    "_native": 6.042
+  },
+  {
+    "shot": "B017",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B017a-hunnic-horse-archers.mp4",
+    "duration": 4.84,
+    "_native": 6.042
+  },
+  {
+    "shot": "B018",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B018a-carnuntum-heidentor.jpg",
+    "duration": 9.16
+  },
+  {
+    "shot": "B019",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B019a-food-for-gothic-refugees.mp4",
+    "duration": 4.89,
+    "_native": 6.042
+  },
+  {
+    "shot": "B019",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B019a-food-for-gothic-refugees.mp4",
+    "duration": 4.89,
+    "_native": 6.042
+  },
+  {
+    "shot": "B020",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B020-MapCrossingRiver.mp4",
+    "duration": 5.69
+  },
+  {
+    "shot": "B021",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B021-MapArmyMasses.mp4",
+    "duration": 5.69
+  },
+  {
+    "shot": "B022",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B022a-valens-coin.png",
+    "duration": 6.95
+  },
+  {
+    "shot": "B023",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B023a-roman-legion-formation.mp4",
+    "duration": 4.11,
+    "_native": 6.042
+  },
+  {
+    "shot": "B024",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B024a-roman-infantry-surrounded.mp4",
+    "duration": 9.95,
+    "_native": 10.042
+  },
+  {
+    "shot": "B024",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B024b-burning-farmhouse-valens.mp4",
+    "duration": 9.95,
+    "_native": 10.042
+  },
+  {
+    "shot": "B025",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B025-TollOfAdrianople.mp4",
+    "duration": 4.11
+  },
+  {
+    "shot": "B026",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B026a-adrianople-valens.jpg",
+    "duration": 5.69
+  },
+  {
+    "shot": "B027",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B027-MapThreeMarches.mp4",
+    "duration": 12.95
+  },
+  {
+    "shot": "B028",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B028a-alaric-portrait-campfire.mp4",
+    "duration": 4.58,
+    "_native": 6.042
+  },
+  {
+    "shot": "B028",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B028a-alaric-portrait-campfire.mp4",
+    "duration": 4.58,
+    "_native": 6.042
+  },
+  {
+    "shot": "B028",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B028a-alaric-portrait-campfire.mp4",
+    "duration": 4.58,
+    "_native": 6.042
+  },
+  {
+    "shot": "B028",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B028a-alaric-portrait-campfire.mp4",
+    "duration": 4.58,
+    "_native": 6.042
+  },
+  {
+    "shot": "B029",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B029a-gothic-army-mountain-pass.mp4",
+    "duration": 3.31,
+    "_native": 6.042
+  },
+  {
+    "shot": "B029",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B029a-gothic-army-mountain-pass.mp4",
+    "duration": 3.31,
+    "_native": 6.042
+  },
+  {
+    "shot": "B030",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B030-MapFourthMarch.mp4",
+    "duration": 3.79
+  },
+  {
+    "shot": "B031",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B031a-postern-gate-opens.mp4",
+    "duration": 5.37,
+    "_native": 6.042
+  },
+  {
+    "shot": "B031",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B031a-postern-gate-opens.mp4",
+    "duration": 5.37,
+    "_native": 6.042
+  },
+  {
+    "shot": "B032",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B032a-goths-pour-through-gate.mp4",
+    "duration": 3.48,
+    "_native": 6.042
+  },
+  {
+    "shot": "B032",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B032a-goths-pour-through-gate.mp4",
+    "duration": 3.48,
+    "_native": 6.042
+  },
+  {
+    "shot": "B033",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B033a-sack-of-rome-manuscript.jpg",
+    "duration": 16.74
+  },
+  {
+    "shot": "B034",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B034a-st-jerome-ghirlandaio.jpg",
+    "duration": 11.05
+  },
+  {
+    "shot": "B035",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B035a-alaric-river-burial.mp4",
+    "duration": 4.89,
+    "_native": 6.042
+  },
+  {
+    "shot": "B035",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B035a-alaric-river-burial.mp4",
+    "duration": 4.89,
+    "_native": 6.042
+  },
+  {
+    "shot": "B035",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B035a-alaric-river-burial.mp4",
+    "duration": 4.89,
+    "_native": 6.042
+  },
+  {
+    "shot": "B035",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B035a-alaric-river-burial.mp4",
+    "duration": 4.89,
+    "_native": 6.042
+  },
+  {
+    "shot": "B036",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B036a-hunnic-steppe-encampment.mp4",
+    "duration": 5.69,
+    "_native": 6.042
+  },
+  {
+    "shot": "B037",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B037a-attila-engraving.jpg",
+    "duration": 12.32
+  },
+  {
+    "shot": "B038",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B038a-hunnic-horde-riding-west.mp4",
+    "duration": 3.95,
+    "_native": 6.042
+  },
+  {
+    "shot": "B038",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B038a-hunnic-horde-riding-west.mp4",
+    "duration": 3.95,
+    "_native": 6.042
+  },
+  {
+    "shot": "B039",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B039a-aetius-portrait-map.mp4",
+    "duration": 4.89,
+    "_native": 6.042
+  },
+  {
+    "shot": "B039",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B039a-aetius-portrait-map.mp4",
+    "duration": 4.89,
+    "_native": 6.042
+  },
+  {
+    "shot": "B040",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B040a-mixed-roman-barbarian-army.mp4",
+    "duration": 4.32,
+    "_native": 6.042
+  },
+  {
+    "shot": "B040",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B040a-mixed-roman-barbarian-army.mp4",
+    "duration": 4.32,
+    "_native": 6.042
+  },
+  {
+    "shot": "B040",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B040a-mixed-roman-barbarian-army.mp4",
+    "duration": 4.32,
+    "_native": 6.042
+  },
+  {
+    "shot": "B041",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B041a-catalaunian-plains-collision.mp4",
+    "duration": 3.95,
+    "_native": 6.042
+  },
+  {
+    "shot": "B041",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B041a-catalaunian-plains-collision.mp4",
+    "duration": 3.95,
+    "_native": 6.042
+  },
+  {
+    "shot": "B042",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B042a-raphael-leo-attila.jpg",
+    "duration": 12.63
+  },
+  {
+    "shot": "B043",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B043a-attila-royal-tent.mp4",
+    "duration": 6.0,
+    "_native": 6.042
+  },
+  {
+    "shot": "B044",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B044a-emperor-kills-aetius.mp4",
+    "duration": 6.0,
+    "_native": 6.042
+  },
+  {
+    "shot": "B044",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B044a-emperor-kills-aetius.mp4",
+    "duration": 6.0,
+    "_native": 6.042
+  },
+  {
+    "shot": "B045",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B045-HandCutOff.mp4",
+    "duration": 10.42
+  },
+  {
+    "shot": "B046",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B046a-half-manned-garrison.mp4",
+    "duration": 4.74,
+    "_native": 6.042
+  },
+  {
+    "shot": "B047",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B047a-vandal-fleet-approaching.mp4",
+    "duration": 5.37,
+    "_native": 6.042
+  },
+  {
+    "shot": "B047",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B047a-vandal-fleet-approaching.mp4",
+    "duration": 5.37,
+    "_native": 6.042
+  },
+  {
+    "shot": "B048",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B048a-pope-leo-i-portrait.png",
+    "duration": 7.26
+  },
+  {
+    "shot": "B049",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B049a-stripping-temple-gold.mp4",
+    "duration": 6.63,
+    "_native": 6.042
+  },
+  {
+    "shot": "B049",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B049b-captive-women-to-ships.mp4",
+    "duration": 6.63,
+    "_native": 6.042
+  },
+  {
+    "shot": "B050",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B050-Vandalism.mp4",
+    "duration": 12.63
+  },
+  {
+    "shot": "B051",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B051a-empty-throne-room.mp4",
+    "duration": 4.42,
+    "_native": 6.042
+  },
+  {
+    "shot": "B052",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B052-NineEmperors.mp4",
+    "duration": 9.16
+  },
+  {
+    "shot": "B053",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B053a-toppled-gilded-statue.mp4",
+    "duration": 4.11,
+    "_native": 6.042
+  },
+  {
+    "shot": "B053",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B053a-toppled-gilded-statue.mp4",
+    "duration": 4.11,
+    "_native": 6.042
+  },
+  {
+    "shot": "B053",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B053a-toppled-gilded-statue.mp4",
+    "duration": 4.11,
+    "_native": 6.042
+  },
+  {
+    "shot": "B054",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B054a-germanic-soldiers-campfire.mp4",
+    "duration": 5.69,
+    "_native": 6.042
+  },
+  {
+    "shot": "B054",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B054a-germanic-soldiers-campfire.mp4",
+    "duration": 5.69,
+    "_native": 6.042
+  },
+  {
+    "shot": "B054",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B054a-germanic-soldiers-campfire.mp4",
+    "duration": 5.69,
+    "_native": 6.042
+  },
+  {
+    "shot": "B055",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B055a-general-reads-petition.mp4",
+    "duration": 1.9,
+    "_native": 6.042
+  },
+  {
+    "shot": "B056",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B056a-odoacer-raised-on-shield.mp4",
+    "duration": 8.69,
+    "_native": 6.042
+  },
+  {
+    "shot": "B056",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B056b-body-carried-boy-watches.mp4",
+    "duration": 8.69,
+    "_native": 6.042
+  },
+  {
+    "shot": "B057",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B057a-missorium-theodosius-regalia.jpg",
+    "duration": 13.58
+  },
+  {
+    "shot": "B058",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B058-Map476Regalia.mp4",
+    "duration": 5.69
+  },
+  {
+    "shot": "B059",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B059-Date476Card.mp4",
+    "duration": 6.0
+  },
+  {
+    "shot": "B060",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B060a-romulus-augustulus-villa-garden.mp4",
+    "duration": 5.16,
+    "_native": 6.042
+  },
+  {
+    "shot": "B060",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B060a-romulus-augustulus-villa-garden.mp4",
+    "duration": 5.16,
+    "_native": 6.042
+  },
+  {
+    "shot": "B060",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B060a-romulus-augustulus-villa-garden.mp4",
+    "duration": 5.16,
+    "_native": 6.042
+  },
+  {
+    "shot": "B061",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B061-EndingContinues.mp4",
+    "duration": 5.69
+  },
+  {
+    "shot": "B062",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B062a-hagia-sophia.jpg",
+    "duration": 14.21
+  },
+  {
+    "shot": "B063",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B063-MapSuccessorKingdoms.mp4",
+    "duration": 13.9
+  },
+  {
+    "shot": "B064",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B064a-banquet-assassination.mp4",
+    "duration": 5.68,
+    "_native": 6.042
+  },
+  {
+    "shot": "B064",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B064a-banquet-assassination.mp4",
+    "duration": 5.68,
+    "_native": 6.042
+  },
+  {
+    "shot": "B065",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B065-CrownShatters.mp4",
+    "duration": 8.84
+  },
+  {
+    "shot": "B066",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B066-CaesarShadow.mp4",
+    "duration": 11.69
+  },
+  {
+    "shot": "B067",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B067-CaesarCaption.mp4",
+    "duration": 4.11
+  },
+  {
+    "shot": "B068",
+    "type": "image",
+    "source": "pantheon-ep5-archival/B068a-erased-relief-ep4-callback.jpg",
+    "duration": 8.53
+  },
+  {
+    "shot": "B069",
+    "type": "video",
+    "source": "pantheon-ep5-motion-graphics/EP5-B069-ClosingThesis.mp4",
+    "duration": 6.95
+  },
+  {
+    "shot": "B070",
+    "type": "video",
+    "source": "pantheon-ep5-clips/B070a-forum-ruins-sunset.mp4",
+    "duration": 3.79,
+    "_native": 6.042
+  }
+]

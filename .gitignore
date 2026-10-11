@@ -35,3 +35,12 @@ output/pantheon-ep4-preview.mp4
 # production/pantheon-ep4-render-namecards.py) - intermediate, not a
 # deliverable, regenerate via that script.
 output/ep4-namecards/
+
+# Pantheon Ep.5 local-assembly intermediates (105 normalized per-shot
+# clips, concat list) - not final deliverables, not meant to be
+# committed. Full-quality final and compressed delivery follow the
+# same pattern as Ep.1/Ep.2/Ep.4.
+output/ep5-segments/
+output/pantheon-ep5-final.mp4
+output/pantheon-ep5-video-only.mp4
+output/pantheon-ep5-preview.mp4
