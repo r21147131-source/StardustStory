@@ -1,4 +1,4 @@
-# Pantheon Ep5 — Remaining AI Clip Prompts (25 beats)
+# Pantheon Ep5 — Remaining AI Clip Prompts (20 beats)
 
 Copy-paste ready. Sourced beats excluded. Grouped by part.
 
@@ -11,38 +11,11 @@ Copy-paste ready. Sourced beats excluded. Grouped by part.
 Wide aerial-style shot of a Roman frontier wall with timber watchtowers along a river at dusk, misty forest on the far bank, a lone sentry visible, camera rises slowly to reveal the wall's length vanishing into haze. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 
-## 3. A People Running from Something Worse
-
-**[B023]** _Near the city of Adrianople, he found the Goths drawn up and waiting._
-
-Dawn wide shot of a Roman legion arrayed in formation on an open plain, shields and standards catching the first light, a line of Gothic warriors visible in the distance across the field, tense stillness before battle. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
 ## 4. The Sack
-
-**[B028]** _Their leader for much of this was a man named Alaric — born on an island in the Danube delta, raised in a kingdom of Romans and Goths tangled together, a man who wanted not to destroy Rome but to be given an honored place inside it: land for his people, a Roman command worthy of his rank._
-
-Portrait of Alaric, a Gothic war-leader in his thirties, weathered face, mixed Roman and Gothic armor, standing at a campfire at night looking toward a distant lit city on the horizon, contemplative, camera slowly pushes in. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B029]** _Three times he marched on Italy to make his case. Three times Rome's generals bled him, bribed him, or outlasted him._
-
-A Gothic army marching through an Italian mountain pass in grey weather, banners drooping, a long weary column, camera tracks alongside at a distance, somber tone. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B031]** _On the night of August the twenty-fourth, enslaved people inside Rome itself — by one account, the very people the city depended on to run its households — opened the Salarian Gate from within._
-
-Night scene at a massive Roman city gate, a side postern door creaks open from within by shadowy figures, torchlight flickering beyond the wall, tense and quiet, camera close on the opening door. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 
 **[B032]** _For the first time in almost eight hundred years, an army that was not Rome's own stood inside the walls of Rome._
 
 Wide shot of Gothic warriors pouring through an open city gate at night by torchlight, silhouettes against the flames, the ancient walls towering above them, camera low and slow, awe and dread. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B035]** _Alaric did not live to see what came of it. He died of fever months later, marching south, and his men are said to have diverted a river to bury him in its bed with his treasures, then killed the enslaved laborers who had dug the grave, so that no living person could say where a conqueror of Rome lay at rest._
-
-Dusk scene beside a diverted riverbed, Gothic warriors lowering a shrouded body and treasure into a dug grave in the exposed riverbed, torches on the banks above, solemn and secretive, camera holds a high wide angle looking down. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 
 ## 5. The Scourge and the General
