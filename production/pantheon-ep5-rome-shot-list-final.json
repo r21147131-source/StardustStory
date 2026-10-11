@@ -6,6 +6,8 @@
     "narration": "On a late summer day in the year four hundred and seventy-six, a soldier walked into a palace in the Italian city of Ravenna and told a sixteen-year-old boy that he was no longer emperor of Rome.",
     "narration_words": 37,
     "veo_prompt": "A Roman military officer in plain armor strides into a marble palace hall in Ravenna, late-afternoon light through high windows, a teenage boy in purple imperial robes seated alone on a modest throne looks up, tense stillness, camera tracks low behind the officer's shoulder toward the boy. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B001a-officer-tells-boy-emperor.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: Roman military officer in red cloak and armor standing in a marble throne hall, addressing a teenage boy in purple-and-gold imperial robes seated on a golden throne, soft window light, matches the B001 prompt closely.",
     "est_dur": 14.8,
     "final_dur": 11.69
   },
@@ -28,6 +30,8 @@
     "narration": "He did not die. He was not even imprisoned. He was given an estate on the Bay of Naples and a yearly pension, and the empire that had ruled the Mediterranean world for five hundred years simply stopped having a man in Italy who could call himself its emperor.",
     "narration_words": 49,
     "veo_prompt": "A lone young man in plain traveling clothes rides away from a palace toward a sunlit coastal villa on the Bay of Naples, cliffs and sea beyond, wide shot, camera pulls back slowly as the figure grows small against the landscape. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B003a-rides-away-to-bay-of-naples.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: a lone rider on horseback departing a colonnaded temple/palace along a cliffside path toward a sunlit coastal villa complex on a rocky Bay of Naples-style coastline, matches the B003 prompt closely.",
     "est_dur": 19.6,
     "final_dur": 15.48
   },
@@ -73,6 +77,8 @@
     "narration": "Not in one day. In a hundred years of them.",
     "narration_words": 10,
     "veo_prompt": "Extreme slow-motion of a single grain of sand falling through an hourglass filled with gold dust instead of sand, dark background, dramatic single light source, camera holds static. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B007a-hourglass-gold-sand.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: close-up hourglass filled with gold sand against a dark background with a marble column and torch, matches the B007 prompt closely.",
     "est_dur": 4.0,
     "final_dur": 3.16
   },
@@ -83,6 +89,8 @@
     "narration": "For two centuries, Rome's power was so complete that its own citizens forgot it could end.",
     "narration_words": 16,
     "veo_prompt": "A bustling Roman forum market at midday, togas and merchants, colonnades, golden light, camera glides slowly through the crowd at head height, peaceful and prosperous. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B008a-roman-forum-market.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: bustling colonnaded Roman forum street market at midday, togas and market stalls, temple facades in the background, matches the B008 prompt closely.",
     "est_dur": 6.4,
     "final_dur": 5.05
   },

@@ -1,32 +1,10 @@
-# Pantheon Ep5 — Remaining AI Clip Prompts (33 beats, 35 clips)
+# Pantheon Ep5 — Remaining AI Clip Prompts (29 beats)
 
-Copy-paste ready. B024 already sourced and excluded. Grouped by part.
+Copy-paste ready. Sourced beats excluded. Grouped by part.
 
 ---
 
-## 1. Cold Open
-
-**[B001]** _On a late summer day in the year four hundred and seventy-six, a soldier walked into a palace in the Italian city of Ravenna and told a sixteen-year-old boy that he was no longer emperor of Rome._
-
-A Roman military officer in plain armor strides into a marble palace hall in Ravenna, late-afternoon light through high windows, a teenage boy in purple imperial robes seated alone on a modest throne looks up, tense stillness, camera tracks low behind the officer's shoulder toward the boy. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B003]** _He did not die. He was not even imprisoned. He was given an estate on the Bay of Naples and a yearly pension, and the empire that had ruled the Mediterranean world for five hundred years simply stopped having a man in Italy who could call himself its emperor._
-
-A lone young man in plain traveling clothes rides away from a palace toward a sunlit coastal villa on the Bay of Naples, cliffs and sea beyond, wide shot, camera pulls back slowly as the figure grows small against the landscape. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B007]** _Not in one day. In a hundred years of them._
-
-Extreme slow-motion of a single grain of sand falling through an hourglass filled with gold dust instead of sand, dark background, dramatic single light source, camera holds static. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
 ## 2. The Peace That Could Not Last
-
-**[B008]** _For two centuries, Rome's power was so complete that its own citizens forgot it could end._
-
-A bustling Roman forum market at midday, togas and merchants, colonnades, golden light, camera glides slowly through the crowd at head height, peaceful and prosperous. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 
 **[B011]** _But an empire that size has borders longer than any army can hold forever, and beyond those borders, the world was not standing still._
 
