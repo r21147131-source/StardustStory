@@ -1,5 +1,14 @@
 [
   {
+    "id": "B000",
+    "part": "1. Cold Open",
+    "type": "ai",
+    "narration": "",
+    "narration_words": 0,
+    "veo_prompt": "Sweeping aerial shot high above ancient Rome, the Colosseum's massive travertine oval dominating the foreground with its arched facade and awning rigging visible, camera slowly orbiting to reveal the Roman Forum's columns and temples beyond it, the Arch of Constantine visible near the amphitheater's base, Palatine Hill's imperial palaces rising in the distance, the Circus Maximus's long curved track visible further off, golden late-afternoon light, smoke haze from distant hearths softening the skyline, dense red-tiled rooftops filling the gaps between monuments, camera drifts slowly forward and descends slightly toward the Forum. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "final_dur": 3.0
+  },
+  {
     "id": "B001",
     "part": "1. Cold Open",
     "type": "ai",

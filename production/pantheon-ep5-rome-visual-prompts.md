@@ -1,7 +1,7 @@
 # Pantheon — Episode 5: The Last Roman
 ## Visual Generation Prompts & Production Reference
 
-**Stats:** 70 beats | 16 archival | 34 Veo beats | 37 Veo clips | 20 motion graphic beats | est. 14.1 min runtime
+**Stats:** 71 beats | 16 archival | 35 Veo beats | 38 Veo clips | 20 motion graphic beats | est. 14.1 min runtime
 
 Companion to `pantheon-ep5-rome-script.md` and `pantheon-ep5-rome-shot-list.json`. All 16 archival beats are sourced (see `public/pantheon-ep5-archival/`); AI-clip and motion-graphic sourcing is still in progress.
 
@@ -15,9 +15,13 @@ Every Veo prompt below already ends with this suffix (included verbatim in each 
 
 ---
 
-## Veo prompts, in beat order (37 clips across 34 Veo beats)
+## Veo prompts, in beat order (38 clips across 35 Veo beats)
 
 Ready to copy. Beats needing two clips are labelled A/B.
+
+**[B000]**
+
+Sweeping aerial shot high above ancient Rome, the Colosseum's massive travertine oval dominating the foreground with its arched facade and awning rigging visible, camera slowly orbiting to reveal the Roman Forum's columns and temples beyond it, the Arch of Constantine visible near the amphitheater's base, Palatine Hill's imperial palaces rising in the distance, the Circus Maximus's long curved track visible further off, golden late-afternoon light, smoke haze from distant hearths softening the skyline, dense red-tiled rooftops filling the gaps between monuments, camera drifts slowly forward and descends slightly toward the Forum. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 **[B001]**
 

@@ -4,12 +4,19 @@ SHOT_LIST = "/home/user/StardustStory/production/pantheon-ep5-rome-shot-list.jso
 REAL_VO_DUR = 666.120000  # ffprobe duration of the user-supplied voiceover mp3
 WPM = 150  # matches the provisional-duration convention already used for the motion graphics
 
+# Non-narrated beats (silent pre-roll, e.g. a cold-open establishing shot before
+# the voiceover starts) get a fixed duration instead of a word-count estimate,
+# and sit outside the VO-scaled pool entirely.
+FIXED_DURATIONS = {"B000": 3.0}
+
 shots = json.load(open(SHOT_LIST))
 
 for s in shots:
+    if s["id"] in FIXED_DURATIONS:
+        continue
     s["est_dur"] = round(s["narration_words"] / WPM * 60, 3)
 
-est_total = sum(s["est_dur"] for s in shots)
+est_total = sum(s["est_dur"] for s in shots if s["id"] not in FIXED_DURATIONS)
 scale = REAL_VO_DUR / est_total
 
 print(f"Beats: {len(shots)}")
@@ -24,6 +31,9 @@ flagged_long = []
 flagged_short = []
 
 for s in shots:
+    if s["id"] in FIXED_DURATIONS:
+        s["final_dur"] = FIXED_DURATIONS[s["id"]]
+        continue
     final = round(s["est_dur"] * scale, 2)
     if final > MAX_SHOT:
         flagged_long.append((s["id"], final))
@@ -32,8 +42,9 @@ for s in shots:
     s["final_dur"] = final
 
 total = sum(s["final_dur"] for s in shots)
-print(f"New total runtime: {total:.2f}s ({total/60:.2f} min)")
-print(f"vs real VO target: {REAL_VO_DUR:.2f}s")
+pre_roll = sum(FIXED_DURATIONS.values())
+print(f"New total runtime: {total:.2f}s ({total/60:.2f} min), including {pre_roll:.1f}s silent pre-roll")
+print(f"vs real VO target: {REAL_VO_DUR:.2f}s (VO starts after the {pre_roll:.1f}s pre-roll)")
 print()
 
 if flagged_long:
