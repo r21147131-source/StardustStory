@@ -1,41 +1,10 @@
-# Pantheon Ep5 — Remaining AI Clip Prompts (15 beats)
+# Pantheon Ep5 — Remaining AI Clip Prompts (10 beats)
 
 Copy-paste ready. Sourced beats excluded. Grouped by part.
 
 ---
 
-## 2. The Peace That Could Not Last
-
-**[B011]** _But an empire that size has borders longer than any army can hold forever, and beyond those borders, the world was not standing still._
-
-Wide aerial-style shot of a Roman frontier wall with timber watchtowers along a river at dusk, misty forest on the far bank, a lone sentry visible, camera rises slowly to reveal the wall's length vanishing into haze. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-## 4. The Sack
-
-**[B032]** _For the first time in almost eight hundred years, an army that was not Rome's own stood inside the walls of Rome._
-
-Wide shot of Gothic warriors pouring through an open city gate at night by torchlight, silhouettes against the flames, the ancient walls towering above them, camera low and slow, awe and dread. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-## 5. The Scourge and the General
-
-**[B043]** _Attila died not long after, on his own wedding night, by a burst blood vessel, not a Roman sword._
-
-A somber Hunnic royal tent at dawn, attendants standing in hushed shock outside the entrance, mist over the steppe camp beyond, camera holds still at a respectful distance. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
-**[B044]** _Aetius, the general who had held the line against him, did not outlive him by much. The reigning emperor, fearing a man more capable than himself, stabbed him to death with his own hand in four hundred fifty-four._
-
-A dim imperial audience chamber, the young emperor rising suddenly from his throne with a blade in hand as the unarmed general before him looks up in disbelief, the moment frozen just before the strike, dramatic single-source lighting. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
-
 ## 6. Fourteen Days
-
-**[B046]** _The empire that killed its last great general had little left to defend itself with._
-
-A half-manned Roman garrison fort at dusk, watchtowers thinly staffed, a few weary soldiers on the walls, gates standing open and unguarded, camera holds a slow static wide shot conveying depletion and exposure. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 
 **[B047]** _In four hundred fifty-five, a Vandal king named Gaiseric sailed from North Africa — a kingdom the Vandals had carved for themselves a generation earlier — and landed at the mouth of the Tiber._
 
