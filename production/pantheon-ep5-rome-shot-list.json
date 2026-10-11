@@ -646,7 +646,9 @@
     "type": "ai",
     "narration": "Odoacer himself ruled Italy for the Roman Senate's benefit, in Roman administrative forms, for seventeen more years, until a different Gothic king killed him at a banquet and took his place doing much the same thing.",
     "narration_words": 36,
-    "veo_prompt": "A lamplit banquet hall, a seated ruler struck down suddenly at the table by a guest rising with a blade, other diners frozen in shock, dramatic chiaroscuro lighting, camera close on the moment of the strike. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen."
+    "veo_prompt": "A lamplit banquet hall, a seated ruler struck down suddenly at the table by a guest rising with a blade, other diners frozen in shock, dramatic chiaroscuro lighting, camera close on the moment of the strike. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.",
+    "src": "pantheon-ep5-clips/B064a-banquet-assassination.mp4",
+    "src_status": "user-supplied Grok video, 6.04s - strong match: a lamplit banquet hall, a crowned ruler in gold robes struck down at the table by a guest rising with a dagger, other diners recoiling in shock, dramatic chiaroscuro lighting, camera close on the moment of the strike, matches the B064 prompt closely."
   },
   {
     "id": "B065",
