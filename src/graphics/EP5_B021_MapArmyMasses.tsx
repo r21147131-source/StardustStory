@@ -1,5 +1,6 @@
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { themeEp5 } from "../theme-ep5";
+import { Ep5MapBackground } from "./Ep5MapBackground";
 import { DANUBE_PATH } from "./ep5-map-data";
 
 // MG3 phase 3-4 (continuation of B020): the converted icons mass into a
@@ -7,18 +8,19 @@ import { DANUBE_PATH } from "./ep5-map-data";
 // it.
 export const EP5_B021_MapArmyMasses: React.FC = () => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const { width, height, fps } = useVideoConfig();
 
   const massT = interpolate(frame, [fps * 0.2, fps * 2], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const dateOpacity = interpolate(frame, [fps * 2.6, fps * 3.6], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
 
-  const massX = 850;
-  const massY = 470;
+  const massX = 1010;
+  const massY = 590;
 
   return (
     <AbsoluteFill style={{ backgroundColor: themeEp5.colors.bg }}>
-      <svg width={1920} height={1080} viewBox="550 300 650 350" style={{ position: "absolute", width: "100%", height: "100%" }}>
-        <path d={DANUBE_PATH} fill="none" stroke={themeEp5.colors.goldLight} strokeWidth={6} strokeLinecap="round" opacity={0.7} />
+      <Ep5MapBackground layer="full" />
+      <svg width={width} height={height} style={{ position: "absolute" }}>
+        <path d={DANUBE_PATH} fill="none" stroke={themeEp5.colors.goldLight} strokeWidth={5} strokeLinecap="round" opacity={0.7} />
 
         {/* army marker: a cluster of diamonds converging and settling */}
         {Array.from({ length: 7 }).map((_, i) => {
@@ -43,11 +45,10 @@ export const EP5_B021_MapArmyMasses: React.FC = () => {
       <div
         style={{
           position: "absolute",
-          left: "50%",
-          top: 640,
-          transform: "translateX(-10%)",
+          left: massX + 70,
+          top: massY - 20,
           fontFamily: themeEp5.font.display,
-          fontSize: 40,
+          fontSize: 36,
           letterSpacing: 6,
           color: themeEp5.colors.goldLight,
           opacity: dateOpacity,

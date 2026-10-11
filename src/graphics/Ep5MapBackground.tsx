@@ -1,44 +1,35 @@
-import { themeEp5 } from "../theme-ep5";
-import {
-  REGION_BRITANNIA,
-  REGION_GAUL_HISPANIA,
-  REGION_ITALIA,
-  REGION_SICILIA,
-  REGION_BALKANS_GREECE,
-  REGION_ASIA_MINOR,
-  REGION_SYRIA_LEVANT,
-  REGION_NORTH_AFRICA,
-} from "./ep5-map-data";
+import { Img, staticFile } from "remotion";
+import { MAP_BOX } from "./ep5-map-data";
 
-// Shared stylized "flat ink-and-gold" Mediterranean-world backdrop used
-// behind every map-style motion graphic in Ep.5. See ep5-map-data.ts.
-export const Ep5MapBackground: React.FC<{ fillOpacity?: number; strokeOpacity?: number }> = ({
-  fillOpacity = 0.14,
-  strokeOpacity = 0.5,
+const LAYER_FILES = {
+  full: "pantheon-ep5-assets/roman-empire-map.png",
+  west: "pantheon-ep5-assets/roman-empire-map-west.png",
+  east: "pantheon-ep5-assets/roman-empire-map-east.png",
+  sea: "pantheon-ep5-assets/roman-empire-map-sea.png",
+} as const;
+
+// Shared real-geography map backdrop (the actual 395 AD East/West Roman
+// Empire boundary map, recolored to the Pantheon Ep.5 palette) used behind
+// every map-style motion graphic in Ep.5. `layer` selects the full map or
+// an isolated west/east/sea cutout so beats can animate the empire split
+// independently. See ep5-map-data.ts for sourcing/calibration notes.
+export const Ep5MapBackground: React.FC<{ layer?: keyof typeof LAYER_FILES; opacity?: number }> = ({
+  layer = "full",
+  opacity = 1,
 }) => {
-  const regions = [
-    REGION_BRITANNIA,
-    REGION_GAUL_HISPANIA,
-    REGION_ITALIA,
-    REGION_SICILIA,
-    REGION_BALKANS_GREECE,
-    REGION_ASIA_MINOR,
-    REGION_SYRIA_LEVANT,
-    REGION_NORTH_AFRICA,
-  ];
   return (
-    <svg width={1920} height={1080} style={{ position: "absolute" }}>
-      {regions.map((d, i) => (
-        <path
-          key={i}
-          d={d}
-          fill={themeEp5.colors.bronze}
-          fillOpacity={fillOpacity}
-          stroke={themeEp5.colors.bronze}
-          strokeOpacity={strokeOpacity}
-          strokeWidth={2}
-        />
-      ))}
-    </svg>
+    <Img
+      src={staticFile(LAYER_FILES[layer])}
+      style={{
+        position: "absolute",
+        left: MAP_BOX.x,
+        top: MAP_BOX.y,
+        width: MAP_BOX.width,
+        height: MAP_BOX.height,
+        objectFit: "cover",
+        opacity,
+        filter: "drop-shadow(0 0 40px rgba(0,0,0,0.6))",
+      }}
+    />
   );
 };
