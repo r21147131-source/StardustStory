@@ -1,4 +1,4 @@
-# Pantheon Ep5 — Remaining AI Clip Prompts (26 beats)
+# Pantheon Ep5 — Remaining AI Clip Prompts (25 beats)
 
 Copy-paste ready. Sourced beats excluded. Grouped by part.
 
@@ -12,11 +12,6 @@ Wide aerial-style shot of a Roman frontier wall with timber watchtowers along a 
 
 
 ## 3. A People Running from Something Worse
-
-**[B015]** _In the year three hundred seventy-six, Roman officers on the Danube frontier watched a sight they had never seen: tens of thousands of Gothic people, whole families, wagons, elders, children, begging to be let inside the empire._
-
-Wide dusk shot of a riverbank crowded with refugee wagons, campfires, families and elders waiting at the water's edge, Roman soldiers watching from fortified towers on the far bank, mist rising off the river, camera slowly pans across the mass of people. Cinematic late-antique epic look, oil-painting realism in the tradition of 19th-century history painting, naturalistic torch and overcast daylight, weathered marble and tarnished bronze textures, muted crimson and iron-grey palette with faded imperial gold, dust and ash in the air, slow deliberate camera, no text, no modern objects, no video-game sheen.
-
 
 **[B023]** _Near the city of Adrianople, he found the Goths drawn up and waiting._
 
