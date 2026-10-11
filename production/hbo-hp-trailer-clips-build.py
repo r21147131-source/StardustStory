@@ -145,7 +145,8 @@ def main():
             # Near-centre windows exclude both the ET (bottom-left) and HBO Max
             # (top-right) corner logos.
             fc = (f"[0:v]{slow}crop=202:360:x='(iw-202)*{mode}+({d})*50*(t/{out:.3f}-0.5)':y=0,"
-                  f"scale={W}:{H}:flags=lanczos,unsharp=5:5:0.8,"
+                  f"hqdn3d=2:2:6:6,scale={W//2}:{H//2}:flags=bicubic,scale={W}:{H}:flags=lanczos,"
+                  f"cas=0.7,unsharp=5:5:0.5:3:3:0.3,"
                   f"eq=contrast=1.05,vignette=PI/6,fps={FPS},{fade}[v]")
         run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss}", "-t", f"{L:.3f}",
              "-i", SRC[src], "-filter_complex", fc, "-map", "[v]", "-an",
@@ -164,8 +165,8 @@ def main():
     run([
         "ffmpeg", "-v", "error", "-y", "-i", base, "-i", VO,
         "-vf", f"subtitles={ass}",
-        "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium",
-        "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+        "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "slow",
+        "-crf", "19", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
         "-af", "apad", "-t", f"{DUR:.2f}", "-movflags", "+faststart", OUT,
     ])
 
