@@ -53,21 +53,37 @@ for i, sc in enumerate(scenes):
         )
     else:
         native = sc.get("_native")
-        in_args = []
-        if native and native < dur:
-            # loop the source clip to fill the allotted duration
-            in_args = ["-stream_loop", str(int(dur // native) + 1)]
-        elif native and native > dur:
-            # trim from partway in (not always the literal start) so a
-            # repeated establishing beat doesn't always show the same frame
-            start_from = round(max(0.0, (native - dur) / 2), 2)
-            in_args = ["-ss", str(start_from)]
-        cmd = (
-            ["ffmpeg", "-y"] + in_args + ["-i", src_path] + SILENT_AUDIO +
-            ["-t", str(dur), "-vf", VF,
-             "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "veryfast",
-             "-c:a", "aac", "-shortest", out_path]
-        )
+        if native and native < dur - 0.05:
+            # Time-stretch (slow motion via setpts) instead of hard-looping:
+            # a repeated clip played an obvious identical cut a second time,
+            # which read as a visible mistake. Slowing the single playthrough
+            # to exactly fill the allotted duration shows only real, unique
+            # motion throughout, never a repeated frame.
+            stretch = dur / native
+            vf = f"setpts={stretch:.6f}*PTS,{VF}"
+            # No -shortest here: combined with setpts it was cutting the
+            # output off at roughly the clip's *original* (pre-stretch)
+            # length instead of the stretched target -- -t alone already
+            # pins the exact output duration against the infinite anullsrc.
+            cmd = (
+                ["ffmpeg", "-y", "-i", src_path] + SILENT_AUDIO +
+                ["-t", str(dur), "-vf", vf,
+                 "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "veryfast",
+                 "-c:a", "aac", out_path]
+            )
+        else:
+            in_args = []
+            if native and native > dur:
+                # trim from partway in (not always the literal start) so a
+                # repeated establishing beat doesn't always show the same frame
+                start_from = round(max(0.0, (native - dur) / 2), 2)
+                in_args = ["-ss", str(start_from)]
+            cmd = (
+                ["ffmpeg", "-y"] + in_args + ["-i", src_path] + SILENT_AUDIO +
+                ["-t", str(dur), "-vf", VF,
+                 "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "veryfast",
+                 "-c:a", "aac", "-shortest", out_path]
+            )
 
     print(f"[{i+1}/{len(scenes)}] {sc['shot']} ({sc['type']}, {dur}s) -> {out_path}")
     r = subprocess.run(cmd, capture_output=True, text=True)

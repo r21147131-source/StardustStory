@@ -1,4 +1,4 @@
-import json, math
+import json
 
 shots = json.load(open("/home/user/StardustStory/production/pantheon-ep5-rome-shot-list-final.json"))
 by_id = {s["id"]: s for s in shots}
@@ -43,7 +43,11 @@ for sid in order:
             scenes.append({"shot": sid, "type": "image", "source": src, "duration": round(final_dur, 2)})
         continue
 
-    # type == "ai" (includes B000, the silent pre-title beat)
+    # type == "ai" (includes B000, the silent pre-title beat). Each beat is
+    # always exactly one continuous scene now -- when the voiceover-
+    # allocated duration exceeds the clip's native length, render-segments.sh
+    # time-stretches (slow-motion via setpts) to fill it instead of hard-
+    # looping the clip, which played as an obvious repeated cut.
     if isinstance(src, list):
         each = final_dur / len(src)
         for p in src:
@@ -57,13 +61,7 @@ for sid in order:
         scenes.append({"shot": sid, "type": "video", "source": src, "duration": round(final_dur, 2)})
         continue
 
-    if final_dur <= src_dur + 0.05:
-        scenes.append({"shot": sid, "type": "video", "source": src, "duration": round(final_dur, 2), "_native": src_dur})
-    else:
-        n = math.ceil(final_dur / src_dur)
-        per = final_dur / n
-        for _ in range(n):
-            scenes.append({"shot": sid, "type": "video", "source": src, "duration": round(per, 2), "_native": src_dur})
+    scenes.append({"shot": sid, "type": "video", "source": src, "duration": round(final_dur, 2), "_native": src_dur})
 
 total = sum(sc["duration"] for sc in scenes)
 print(f"Total scenes: {len(scenes)}  Total duration: {total:.2f}s")

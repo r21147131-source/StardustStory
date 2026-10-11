@@ -63,6 +63,7 @@ import { EP5_B065_CrownShatters } from "./graphics/EP5_B065_CrownShatters";
 import { EP5_B066_CaesarShadow } from "./graphics/EP5_B066_CaesarShadow";
 import { EP5_B067_CaesarCaption } from "./graphics/EP5_B067_CaesarCaption";
 import { EP5_B069_ClosingThesis } from "./graphics/EP5_B069_ClosingThesis";
+import { Ep5OverlayCard } from "./graphics/Ep5OverlayCard";
 
 // Duration in frames = ceil(final_dur_seconds * 30), taken from
 // production/pantheon-ep1-shot-list-final.json (voiceover-reconciled timing).
@@ -169,6 +170,18 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
         defaultProps={{ name: "NAME", role: "role" }}
+      />
+      {/* Reusable overlay card for Ep.5 (name cards and year stamps),
+          overridden per-instance via --props at render time (see
+          production/pantheon-ep5-render-overlays.py). */}
+      <Composition
+        id="EP5-OverlayCard"
+        component={Ep5OverlayCard}
+        durationInFrames={110}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{ kind: "name", line1: "NAME", line2: "role" }}
       />
     </>
   );

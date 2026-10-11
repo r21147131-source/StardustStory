@@ -44,3 +44,8 @@ output/ep5-segments/
 output/pantheon-ep5-final.mp4
 output/pantheon-ep5-video-only.mp4
 output/pantheon-ep5-preview.mp4
+
+# Rendered overlay-card clips (name cards + year stamps, see
+# production/pantheon-ep5-render-overlays.py) - intermediate, not a
+# deliverable, regenerate via that script.
+output/ep5-overlays/
