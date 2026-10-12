@@ -1,0 +1,76 @@
+# NEVER-COVERED PROMPTS
+
+B002 | 0:02.98 | 4.6s
+  VO: On one side, Egypt, rich and ancient and sealed in by desert.
+  PROMPT: Vast golden dunes closing around a thin green ribbon of the Nile at dawn, tiny pyramids on the horizon, wind-carved sand, camera glides low over the ridges. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B003 | 0:07.53 | 5.2s
+  VO: On the other side, Mesopotamia, the land of rivers, cities, and kings.
+  PROMPT: Twin rivers glittering across a flat green plain, a stepped mud-brick ziggurat rising above reed boats and brick-built towns, dawn mist, camera rises slowly to reveal the city. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B018 | 1:25.75 | 4.0s
+  VO: It begins with a road, long before anyone gave it a name.
+  PROMPT: A pale caravan track winding through low coastal hills, worn deep into the earth by centuries of feet and hooves, early light, camera drifts slowly along the track. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B030b | 2:36.23 | 4.8s
+  VO: Cities burned, empires folded, and Egypt pulled back.
+  PROMPT: Egyptian standards withdrawing south along the road at dusk, an empty fortress gate behind them. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B039b | 3:25.85 | 13.2s
+  VO: Israel is already a people, but not yet a kingdom, and its first appearance in history is as a name that a pharaoh wanted to erase. Remember that pattern. It will return.
+  PROMPT: A hand brushing sand from freshly cut hieroglyphs on black stone, torchlight, slow macro. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B044 | 4:13.87 | 7.8s
+  VO: Once again, an enemy had written the name down. Whatever David was, he was real enough to be remembered by the people who fought him.
+  PROMPT: olive to brown skin, dark hair, Levantine features: an Aramean stonecutter raising an inscribed basalt slab on a hilltop after a battle, soldiers watching in the sunrise, long shadows. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B115 | 12:00.55 | 3.2s
+  VO: And they arrived in a country that was not empty.
+  PROMPT: olive to brown skin, dark hair, Levantine features: a small boat landing on the shore at Jaffa at dawn, local fishermen mending nets on the beach looking up at the new arrivals, both groups in the same frame. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B142 | 15:06.06 | 7.7s
+  VO: Historians still argue over how many left from fear, how many were expelled, and how many by order.
+  PROMPT: Archive boxes and yellowed maps under a green lamp, hands turning pages, two stacks of documents that do not quite match, slow push in. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B143b | 15:13.71 | 7.3s
+  VO: What is not argued is that they were not allowed to return, and that their descendants still count themselves as refugees.
+  PROMPT: Dense rows of low roofs in a camp at evening light, laundry lines and rooftops, camera rises slowly, no flags. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B149 | 15:53.51 | 8.3s
+  VO: And the two peoples who stayed inside it carried their memory through every conquest, and neither has been willing to let it go.
+  PROMPT: Two pairs of weathered hands in separate pools of lamplight on a dark table, one holding a small clay lamp, the other a handful of soil from an olive grove, each held with equal care, camera slowly pulls back. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B150 | 16:01.82 | 6.3s
+  VO: This was never a land that one people could hold alone, and no empire ever held it for long.
+  PROMPT: A single ridge at dusk where ruins from every era stand side by side in one frame: a Roman column, a crusader arch, a minaret, an Ottoman wall, all in the same last light, slow aerial pass. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+
+# REGENERATE (fixed wording)
+
+B060b | 5:50.70 | 4.4s
+  VO: A people who had lost their sanctuary found a way to carry it in a book.
+  PROMPT: olive to brown skin, dark hair, Levantine features: a long line of travelers on a dusty hill road at dusk, plain undyed wool cloaks and linen head cloths, one man in the foreground carrying a rolled scroll in a plain leather satchel on his shoulder, bundles and walking staffs, no turbans, no saris, no jewelry, camera tracks alongside at walking pace. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B061a | 5:55.07 | 7.7s
+  VO: Within fifty years, Babylon fell to the Persian king Cyrus, and Cyrus did something unusual. He let the conquered go home.
+  PROMPT: Persian soldiers in scale armor and soft fluted felt caps with wicker shields marching through a tall glazed blue-brick gate with gold animal reliefs at dawn, plain unmarked purple and gold cloth banners lifting in the wind, no inscriptions, no lettering of any kind on the gate or banners, no crested Greek helmets. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B061b | 5:55.07 | 7.7s
+  VO: Within fifty years, Babylon fell to the Persian king Cyrus, and Cyrus did something unusual. He let the conquered go home.
+  PROMPT: Cyrus the Great, king of Persia: dignified, rounded dark beard, tall fluted crown, purple-edged robe, standing on a low stone platform with one calm raised hand, facing a crowd of exiles (olive to brown skin, dark hair, Levantine features) in plain wool cloaks who begin to gather bundles and turn toward the road, soft morning light, no armor, no Roman or Greek helmets. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B074b | 7:25.44 | 9.1s
+  VO: In sixty-six C E, revolt broke out. For four years, Jewish rebels held out against the most disciplined army on earth.
+  PROMPT: olive to brown skin, dark hair, Levantine features: Judean fighters in plain wool tunics and head cloths holding a stone city wall at dawn with slings, spears and stones, smoke drifting, low sun behind them, no Roman armor, no crested helmets. (Replaces only the second half of B074; keep the torch-alley clip for the first 3s.) Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B095 | 9:37.81 | 3.2s
+  VO: And the corridor kept filling with new owners.
+  PROMPT: Time-lapse across one stone city gate: plain unmarked cloth banners in different solid colors (red, then white, then black, then green) hoisted one after another on the same tower, sunrise, noon, night, dust, no emblems, no symbols, no writing, no real flags. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B098a | 9:56.68 | 11.9s
+  VO: Then the Mamluks of Egypt took the corridor, and in twelve sixty, in the valley of Jezreel, they did what had seemed impossible. They stopped the Mongols.
+  PROMPT: Mamluk riders in lamellar armor and pointed helmets with plain unmarked cloth banners taking command of a hill-country citadel at sunrise, new plain-colored banners rising over the gate, no emblems or symbols on the cloth. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+
+B098b | 9:56.68 | 11.9s
+  VO: Then the Mamluks of Egypt took the corridor, and in twelve sixty, in the valley of Jezreel, they did what had seemed impossible. They stopped the Mongols.
+  PROMPT: Mamluk cavalry in lamellar armor charging across a green valley, Mongol horse archers in fur-trimmed caps and leather armor wheeling and turning in the distance to meet them, dust, plain unmarked pennants, dawn light, no emblems or symbols. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
