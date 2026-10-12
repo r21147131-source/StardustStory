@@ -61,7 +61,7 @@ B061b | 5:55.07 | 7.7s
 
 B074b | 7:25.44 | 9.1s
   VO: In sixty-six C E, revolt broke out. For four years, Jewish rebels held out against the most disciplined army on earth.
-  PROMPT: olive to brown skin, dark hair, Levantine features: Judean fighters in plain wool tunics and head cloths holding a stone city wall at dawn with slings, spears and stones, smoke drifting, low sun behind them, no Roman armor, no crested helmets. (Replaces only the second half of B074; keep the torch-alley clip for the first 3s.) Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
+  PROMPT: olive to brown skin, dark hair, Levantine features: Judean fighters in plain wool tunics and head cloths holding a stone city wall at dawn with slings, spears and stones, smoke drifting, low sun behind them, no Roman armor, no crested helmets. Cinematic illuminated-manuscript look, Caravaggio chiaroscuro, firelight on stone, deep black shadows, warm amber and ancient gold palette, hand-crafted painterly realism, slow deliberate camera, no text, no modern objects, no video-game sheen.
 
 B095 | 9:37.81 | 3.2s
   VO: And the corridor kept filling with new owners.
