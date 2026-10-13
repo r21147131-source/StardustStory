@@ -1,0 +1,12 @@
+# section,start_s,end_s,lower_third,files (| separated, relative to this folder; images in img/, clips in clips/, photos in photos/)
+# Times are ESTIMATES from narration pauses. Play the mp3 and adjust. Each section is split evenly across its files.
+hook,0,45,,img/cinema_hall.jpg|img/projector.jpg
+other_hollywood,45,121,,img/cinema_hall2.jpg|img/apartment_tv.jpg|img/stage.jpg
+tikhonov,121,190,Vyacheslav Tikhonov,clips/tikhonov_stirlitz.mp4|photos/tikhonov.jpg|clips/tikhonov_bolkonsky.mp4
+nikulin_leonov,190,265,Yuri Nikulin / Evgeny Leonov,clips/nikulin_diamond.mp4|photos/nikulin.jpg|clips/leonov_gentlemen.mp4|photos/leonov.jpg
+smoktunovsky,265,331,Innokenty Smoktunovsky,clips/smoktunovsky_hamlet.mp4|photos/smoktunovsky.jpg
+samoylova,331,402,Tatyana Samoylova,clips/samoylova_cranes.mp4|img/staircase.jpg|clips/samoylova_karenina.mp4|photos/samoylova.jpg
+mironov,402,459,Andrei Mironov,clips/mironov_diamond.mp4|photos/mironov.jpg|clips/mironov_figaro.mp4
+vysotsky,459,525,Vladimir Vysotsky,clips/vysotsky_zheglov.mp4|img/reel_to_reel.jpg|photos/vysotsky.jpg
+ranking,525,596,,img/stage.jpg|img/cinema_hall.jpg
+cta,596,600,,img/crowd_stairs.jpg
