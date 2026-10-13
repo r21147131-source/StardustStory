@@ -1,12 +1,12 @@
-tikhonov_stirlitz|8ftGvvUD1Nw|600
+tikhonov_stirlitz|8ftGvvUD1Nw|1500
 tikhonov_bolkonsky|V-SAh4jdssA|900
 samoylova_cranes|2OccZQmxKac|5100
 samoylova_karenina|Y5YutODgC0k|2400
-nikulin_diamond|M9cGHdVbNXI|1200
-mironov_diamond|M9cGHdVbNXI|2400
+nikulin_diamond|M9cGHdVbNXI|200
+mironov_diamond|M9cGHdVbNXI|540
 nikulin_kidnapping|0f1LxDfNpv0|1200
 leonov_gentlemen|8tJPKSz6Gaw|1500
 smoktunovsky_hamlet|iQ-CJO0JIU8|900
-vysotsky_zheglov|Z1ubDkZqVLk|1800
+vysotsky_zheglov|Z1ubDkZqVLk|150
 mironov_figaro|S7E73N71eFY|3000
 leonov_pooh|Jn4hHehjyhc|120

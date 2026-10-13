@@ -14,9 +14,11 @@ def run(cmd):
 def esc(t): return t.replace("\\", "\\\\").replace(":", "\\:").replace("'", "\u2019")
 
 def make_seg(path, dur, label, out, i):
+    off = 0.0
+    if path and "@" in path: path, o = path.rsplit("@", 1); off = float(o)
     base = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS}"
     if path and os.path.exists(path) and path.lower().endswith(VID):
-        src = ["-stream_loop", "-1", "-i", path]; vf = base
+        src = ["-ss", f"{off}", "-stream_loop", "-1", "-i", path]; vf = base
     elif path and os.path.exists(path):
         frames = int(dur * FPS) + 1
         z = "min(zoom+0.0006,1.15)" if i % 2 == 0 else "max(1.15-0.0006*on,1.0)"
@@ -40,7 +42,7 @@ def main():
         if a.limit and s >= a.limit: break
         if a.limit: e = min(e, a.limit)
         fl = [f for f in files.split("|") if f] or [None]
-        have = [f for f in fl if f and os.path.exists(f)] or [None]
+        have = [f for f in fl if f and os.path.exists(f.rsplit("@", 1)[0])] or [None]
         d = (e - s) / len(have)
         for f in have:
             out = os.path.join(tmp, f"s{n:03d}.mp4"); make_seg(f, d, label, out, n); segs.append(out); n += 1
