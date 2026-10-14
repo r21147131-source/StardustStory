@@ -83,6 +83,16 @@ def main():
         elif cur: words[cur] += len(line.split())
     wsum = sum(words.values())
     scene_dur = {s: total * w / wsum for s, w in words.items()}
+    # User-supplied footage: put files in public/riquelme-footage/S1..S8/ -- those replace stock for that scene.
+    foot = os.path.join(REPO, "public", "riquelme-footage")
+    for s in SCENES:
+        d = os.path.join(foot, s)
+        files = sorted(f for f in os.listdir(d) if f.lower().endswith((".mp4", ".mov", ".mkv", ".webm"))) if os.path.isdir(d) else []
+        if files:
+            keys = []
+            for f in files:
+                k = f"user_{s}_{f}"; local[k] = os.path.join(d, f); length[k] = dur(local[k]); keys.append(k)
+            SCENES[s] = keys
     segs, used = [], collections.Counter()
     for s, clips in SCENES.items():
         n = max(1, round(scene_dur[s] / SLOT)); slot = scene_dur[s] / n
