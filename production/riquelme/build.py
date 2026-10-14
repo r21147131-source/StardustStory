@@ -111,13 +111,13 @@ def main():
     lst = os.path.join(WORK, "list.txt")
     open(lst, "w").write("".join(f"file '{s}'\n" for s in segs))
     t1 = ("drawtext=fontfile=%s:text='THE BITTERSWEET LEGACY OF':fontsize=44:fontcolor=white@0.9:x=(w-tw)/2:y=h*0.40:enable='between(t,4,13)':alpha='min(1,(t-4)/1.5)',"
-          "drawtext=fontfile=%s:text='JUAN ROM\\u00c1N RIQUELME':fontsize=84:fontcolor=white:x=(w-tw)/2:y=h*0.47:enable='between(t,4,13)':alpha='min(1,(t-4)/1.5)'") % (FONT, FONT)
+          "drawtext=fontfile=%s:text='JUAN ROMÁN RIQUELME':fontsize=84:fontcolor=white:x=(w-tw)/2:y=h*0.47:enable='between(t,4,13)':alpha='min(1,(t-4)/1.5)'") % (FONT, FONT)
     e0 = total - 24
-    t2 = ("drawtext=fontfile=%s:text='JUAN ROM\\u00c1N RIQUELME':fontsize=84:fontcolor=white:x=(w-tw)/2:y=h*0.42:enable='gt(t,%.1f)':alpha='min(1,(t-%.1f)/2)',"
+    t2 = ("drawtext=fontfile=%s:text='JUAN ROMÁN RIQUELME':fontsize=84:fontcolor=white:x=(w-tw)/2:y=h*0.42:enable='gt(t,%.1f)':alpha='min(1,(t-%.1f)/2)',"
           "drawtext=fontfile=%s:text='Some geniuses are remembered for what they won. Others, for how they made us feel.':fontsize=30:fontcolor=white@0.85:x=(w-tw)/2:y=h*0.56:enable='gt(t,%.1f)':alpha='min(1,(t-%.1f)/2)'") % (FONT, e0, e0, FONT, e0+2, e0+2)
     final = os.path.join(OUT, "riquelme-bittersweet-legacy.mp4")
     run(["ffmpeg","-y","-hide_banner","-loglevel","error","-f","concat","-safe","0","-i",lst,"-i",VO,
-         "-vf",t1+","+t2+f",fade=t=out:st={total-2.5:.2f}:d=2.5","-af",f"afade=t=out:st={total-2.5:.2f}:d=2.5",
-         "-c:v","libx264","-preset","medium","-crf","22","-c:a","aac","-b:a","160k","-shortest",final])
+         "-vf","noise=alls=5:allf=t,"+t1+","+t2+f",fade=t=out:st={total-2.5:.2f}:d=2.5","-af",f"afade=t=out:st={total-2.5:.2f}:d=2.5",
+         "-c:v","libx264","-preset","medium","-crf","23","-maxrate","6M","-bufsize","12M","-c:a","aac","-b:a","160k","-shortest",final])
     print(final, f"{total:.1f}s", {s: round(d,1) for s, d in scene_dur.items()})
 main()
