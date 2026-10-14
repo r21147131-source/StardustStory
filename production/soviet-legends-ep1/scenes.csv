@@ -1,7 +1,7 @@
 # section,start_s,end_s,lower_third,files (| separated, relative to this folder; images in img/, clips in clips/, photos in photos/)
 # Times are ESTIMATES from narration pauses. Play the mp3 and adjust. Each section is split evenly across its files.
-hook,0,45,,img/cinema_hall.jpg|img/projector.jpg
-other_hollywood,45,121,,img/cinema_hall2.jpg|img/apartment_tv.jpg|img/stage.jpg
+hook,0,45,,img/cinema_hall.jpg|img/cinema_hall2.jpg
+other_hollywood,45,121,,img/stage.jpg|img/staircase.jpg
 tikhonov,121,190,Vyacheslav Tikhonov,clips/tikhonov_stirlitz.mp4|photos/tikhonov.jpg|clips/tikhonov_bolkonsky.mp4
 nikulin_leonov,190,265,Yuri Nikulin / Evgeny Leonov,clips/nikulin_diamond.mp4|photos/nikulin.jpg|clips/leonov_gentlemen.mp4|photos/leonov.jpg
 smoktunovsky,265,331,Innokenty Smoktunovsky,clips/smoktunovsky_hamlet.mp4|photos/smoktunovsky.jpg
