@@ -40,7 +40,7 @@ for s in cues["shots"]:
              "-vf",",".join(vf+vf_tail+[fade]),"-an","-c:v","libx264","-pix_fmt","yuv420p",str(seg)]
     elif a.suffix in (".jpg",".jpeg",".png"):
         z=f"zoompan=z='min(zoom+0.0006,1.15)':d={int(d*FPS)}:s={W}x{H}:fps={FPS}"
-        cmd=["ffmpeg","-y","-v","error","-i",str(a),"-vf",",".join([f"scale={W*2}:-2,{z}"]+vf_tail+[fade]),
+        cmd=["ffmpeg","-y","-v","error","-i",str(a),"-vf",",".join([f"scale={W*2}:{H*2}:force_original_aspect_ratio=increase,crop={W*2}:{H*2},{z}"]+vf_tail+[fade]),
              "-t",f"{d:.3f}","-an","-c:v","libx264","-pix_fmt","yuv420p",str(seg)]
     else:
         base=f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},setsar=1"
